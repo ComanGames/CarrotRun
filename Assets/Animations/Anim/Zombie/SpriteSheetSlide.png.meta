@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 61c02e0900ab0e54eaddad0720d04564
+timeCreated: 1451092222
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpriteSheetSlide_0
+    21300002: SpriteSheetSlide_1
+    21300004: SpriteSheetSlide_2
+    21300006: SpriteSheetSlide_3
+    21300008: SpriteSheetSlide_4
+    21300010: SpriteSheetSlide_5
+    21300012: SpriteSheetSlide_6
+    21300014: SpriteSheetSlide_7
+    21300016: SpriteSheetSlide_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 120
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: SpriteSheetSlide_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 202
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 112}
+        - {x: -37, y: 108}
+        - {x: -37, y: -104}
+        - {x: 95, y: -104}
+        - {x: 95, y: 86}
+        - {x: 29, y: 112}
+    - name: SpriteSheetSlide_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 448
+        width: 202
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 109}
+        - {x: -49, y: 103}
+        - {x: -49, y: 17}
+        - {x: -28, y: -102}
+        - {x: 49, y: -102}
+        - {x: 79, y: -86}
+        - {x: 79, y: 50}
+        - {x: 13, y: 109}
+    - name: SpriteSheetSlide_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 448
+        width: 202
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: -92}
+        - {x: 56, y: -102}
+        - {x: 64, y: -102}
+        - {x: 84, y: -96}
+        - {x: 85, y: -91}
+        - {x: 85, y: -73}
+        - {x: 70, y: 41}
+        - {x: 20, y: 80}
+        - {x: -68, y: 80}
+        - {x: -83, y: 68}
+        - {x: -83, y: 35}
+        - {x: -80, y: 22}
+        - {x: -11, y: -59}
+        - {x: 2, y: -66}
+        - {x: 15, y: -102}
+        - {x: 26, y: -102}
+        - {x: 28, y: -101}
+        - {x: 38, y: -95}
+        - {x: 47, y: -90}
+        - {x: 46, y: -90}
+    - name: SpriteSheetSlide_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 202
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -101, y: -30}
+        - {x: -52, y: -69}
+        - {x: 37, y: -111}
+        - {x: 99, y: -111}
+        - {x: 99, y: -59}
+        - {x: 29, y: 29}
+        - {x: -90, y: 29}
+        - {x: -96, y: 26}
+        - {x: -101, y: 13}
+    - name: SpriteSheetSlide_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 224
+        width: 202
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: -97}
+        - {x: 21, y: -112}
+        - {x: 101, y: -112}
+        - {x: 101, y: -47}
+        - {x: 60, y: 29}
+        - {x: -75, y: 29}
+        - {x: -101, y: 13}
+        - {x: -101, y: -51}
+    - name: SpriteSheetSlide_5
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 224
+        width: 202
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 28}
+        - {x: -18, y: 28}
+        - {x: -24, y: 21}
+        - {x: -24, y: 13}
+        - {x: -50, y: 24}
+        - {x: -74, y: 28}
+        - {x: -78, y: 28}
+        - {x: -101, y: 14}
+        - {x: -101, y: -55}
+        - {x: 43, y: -112}
+        - {x: 100, y: -112}
+        - {x: 100, y: -65}
+        - {x: -5, y: 26}
+    - name: SpriteSheetSlide_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 202
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 32}
+        - {x: 8, y: 34}
+        - {x: -33, y: 56}
+        - {x: -45, y: 59}
+        - {x: -73, y: 59}
+        - {x: -88, y: 49}
+        - {x: -93, y: 44}
+        - {x: -93, y: 9}
+        - {x: -90, y: -4}
+        - {x: -8, y: -75}
+        - {x: 32, y: -106}
+        - {x: 72, y: -106}
+        - {x: 85, y: -99}
+        - {x: 91, y: -90}
+        - {x: 91, y: -82}
+        - {x: 64, y: -48}
+    - name: SpriteSheetSlide_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 202
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 96}
+        - {x: -69, y: 32}
+        - {x: -8, y: -101}
+        - {x: 77, y: -101}
+        - {x: 79, y: -100}
+        - {x: 79, y: 32}
+        - {x: 13, y: 96}
+    - name: SpriteSheetSlide_8
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 202
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82, y: 27}
+        - {x: 84, y: 31}
+        - {x: 85, y: 35}
+        - {x: 85, y: 41}
+        - {x: 15, y: 111}
+        - {x: -35, y: 111}
+        - {x: -43, y: 107}
+        - {x: -45, y: 90}
+        - {x: -45, y: 55}
+        - {x: -26, y: -102}
+        - {x: 78, y: -102}
+        - {x: 48, y: 17}
+        - {x: 31, y: 29}
+        - {x: 26, y: 29}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

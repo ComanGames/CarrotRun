@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3ca217d50014743878c15f768e1462, type: 3}
+  m_Name: 1BakeZombie2
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 21300000, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300002, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300004, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300006, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300008, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300010, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300012, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300014, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300016, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300018, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300020, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300022, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300024, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300026, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300028, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300030, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300032, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300034, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300036, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300038, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300040, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300042, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300044, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300046, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300048, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300050, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300052, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300054, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300056, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}
+  - {fileID: 21300058, guid: a163af5b7c6399f48ba78b939cdbdbff, type: 3}

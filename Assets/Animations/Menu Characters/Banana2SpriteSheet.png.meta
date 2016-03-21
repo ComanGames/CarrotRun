@@ -1,0 +1,827 @@
+fileFormatVersion: 2
+guid: bb4b0b44e6be13544930723310b74611
+timeCreated: 1452354215
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Banana2SpriteSheet_0
+    21300002: Banana2SpriteSheet_1
+    21300004: Banana2SpriteSheet_2
+    21300006: Banana2SpriteSheet_3
+    21300008: Banana2SpriteSheet_4
+    21300010: Banana2SpriteSheet_5
+    21300012: Banana2SpriteSheet_6
+    21300014: Banana2SpriteSheet_7
+    21300016: Banana2SpriteSheet_8
+    21300018: Banana2SpriteSheet_9
+    21300020: Banana2SpriteSheet_10
+    21300022: Banana2SpriteSheet_11
+    21300024: Banana2SpriteSheet_12
+    21300026: Banana2SpriteSheet_13
+    21300028: Banana2SpriteSheet_14
+    21300030: Banana2SpriteSheet_15
+    21300032: Banana2SpriteSheet_16
+    21300034: Banana2SpriteSheet_17
+    21300036: Banana2SpriteSheet_18
+    21300038: Banana2SpriteSheet_19
+    21300040: Banana2SpriteSheet_20
+    21300042: Banana2SpriteSheet_21
+    21300044: Banana2SpriteSheet_22
+    21300046: Banana2SpriteSheet_23
+    21300048: Banana2SpriteSheet_24
+    21300050: Banana2SpriteSheet_25
+    21300052: Banana2SpriteSheet_26
+    21300054: Banana2SpriteSheet_27
+    21300056: Banana2SpriteSheet_28
+    21300058: Banana2SpriteSheet_29
+    21300060: Banana2SpriteSheet_30
+    21300062: Banana2SpriteSheet_31
+    21300064: Banana2SpriteSheet_32
+    21300066: Banana2SpriteSheet_33
+    21300068: Banana2SpriteSheet_34
+    21300070: Banana2SpriteSheet_35
+    21300072: Banana2SpriteSheet_36
+    21300074: Banana2SpriteSheet_37
+    21300076: Banana2SpriteSheet_38
+    21300078: Banana2SpriteSheet_39
+    21300080: Banana2SpriteSheet_40
+    21300082: Banana2SpriteSheet_41
+    21300084: Banana2SpriteSheet_42
+    21300086: Banana2SpriteSheet_43
+    21300088: Banana2SpriteSheet_44
+    21300090: Banana2SpriteSheet_45
+    21300092: Banana2SpriteSheet_46
+    21300094: Banana2SpriteSheet_47
+    21300096: Banana2SpriteSheet_48
+    21300098: Banana2SpriteSheet_49
+    21300100: Banana2SpriteSheet_50
+    21300102: Banana2SpriteSheet_51
+    21300104: Banana2SpriteSheet_52
+    21300106: Banana2SpriteSheet_53
+    21300108: Banana2SpriteSheet_54
+    21300110: Banana2SpriteSheet_55
+    21300112: Banana2SpriteSheet_56
+    21300114: Banana2SpriteSheet_57
+    21300116: Banana2SpriteSheet_58
+    21300118: Banana2SpriteSheet_59
+    21300120: Banana2SpriteSheet_60
+    21300122: Banana2SpriteSheet_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 75
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: WP8
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: Banana2SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 152}
+        - {x: -46, y: 111}
+        - {x: -46, y: 97}
+        - {x: -45, y: 96}
+        - {x: -40, y: 96}
+        - {x: -46, y: 50}
+        - {x: -46, y: 0}
+        - {x: 39, y: 0}
+        - {x: 44, y: 4}
+        - {x: 44, y: 152}
+    - name: Banana2SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 608
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 152}
+        - {x: -15, y: 152}
+        - {x: -24, y: 136}
+        - {x: -45, y: 118}
+        - {x: -45, y: 104}
+        - {x: -39, y: 92}
+        - {x: -45, y: 52}
+        - {x: -45, y: 19}
+        - {x: -44, y: 11}
+        - {x: -28, y: 0}
+        - {x: 30, y: 0}
+        - {x: 43, y: 6}
+        - {x: 43, y: 100}
+    - name: Banana2SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 608
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 0}
+        - {x: 39, y: 0}
+        - {x: 42, y: 1}
+        - {x: 42, y: 108}
+        - {x: 34, y: 152}
+        - {x: -22, y: 152}
+        - {x: -56, y: 116}
+    - name: Banana2SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 608
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 152}
+        - {x: -65, y: 113}
+        - {x: -65, y: 71}
+        - {x: -49, y: 0}
+        - {x: 43, y: 0}
+        - {x: 43, y: 113}
+        - {x: 26, y: 152}
+    - name: Banana2SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 608
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 152}
+        - {x: -39, y: 148}
+        - {x: -71, y: 108}
+        - {x: -71, y: 24}
+        - {x: -61, y: 1}
+        - {x: -59, y: 0}
+        - {x: 35, y: 0}
+        - {x: 41, y: 10}
+        - {x: 41, y: 86}
+        - {x: 5, y: 152}
+    - name: Banana2SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 608
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 148}
+        - {x: 12, y: 152}
+        - {x: -18, y: 152}
+        - {x: -48, y: 141}
+        - {x: -73, y: 96}
+        - {x: -73, y: 83}
+        - {x: -49, y: 82}
+        - {x: -47, y: 40}
+        - {x: -44, y: 3}
+        - {x: -28, y: 0}
+        - {x: 30, y: 0}
+        - {x: 42, y: 7}
+        - {x: 42, y: 32}
+        - {x: 39, y: 44}
+    - name: Banana2SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 608
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 98}
+        - {x: 8, y: 152}
+        - {x: -52, y: 152}
+        - {x: -73, y: 118}
+        - {x: -73, y: 26}
+        - {x: -56, y: 12}
+        - {x: -39, y: 0}
+        - {x: 32, y: 0}
+        - {x: 43, y: 6}
+        - {x: 43, y: 39}
+        - {x: 37, y: 56}
+    - name: Banana2SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 151}
+        - {x: -68, y: 145}
+        - {x: -54, y: 123}
+        - {x: -73, y: 90}
+        - {x: -73, y: 15}
+        - {x: -58, y: 0}
+        - {x: 42, y: 0}
+        - {x: 42, y: 151}
+    - name: Banana2SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 456
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 151}
+        - {x: -70, y: 130}
+        - {x: -70, y: 57}
+        - {x: -48, y: 69}
+        - {x: -61, y: 37}
+        - {x: -40, y: 0}
+        - {x: 45, y: 0}
+        - {x: 45, y: 130}
+        - {x: -1, y: 151}
+    - name: Banana2SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 456
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52, y: 71}
+        - {x: 52, y: 127}
+        - {x: 31, y: 150}
+        - {x: -10, y: 150}
+        - {x: -17, y: 146}
+        - {x: -18, y: 141}
+        - {x: -60, y: 124}
+        - {x: -64, y: 121}
+        - {x: -64, y: 120}
+        - {x: -59, y: 113}
+        - {x: -64, y: 85}
+        - {x: -64, y: 54}
+        - {x: -58, y: 0}
+        - {x: 34, y: 0}
+        - {x: 41, y: 10}
+        - {x: 41, y: 41}
+        - {x: 34, y: 48}
+    - name: Banana2SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 456
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: 140}
+        - {x: 30, y: 149}
+        - {x: -34, y: 149}
+        - {x: -62, y: 118}
+        - {x: -63, y: 116}
+        - {x: -63, y: 93}
+        - {x: -42, y: 0}
+        - {x: 33, y: 0}
+        - {x: 46, y: 11}
+        - {x: 47, y: 50}
+        - {x: 57, y: 77}
+      - - {x: -45, y: 103}
+        - {x: -56, y: 76}
+        - {x: -56, y: 59}
+        - {x: -52, y: 57}
+        - {x: -39, y: 57}
+        - {x: -32, y: 59}
+        - {x: -23, y: 78}
+        - {x: -23, y: 98}
+        - {x: -25, y: 103}
+    - name: Banana2SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 456
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 149}
+        - {x: -61, y: 111}
+        - {x: -61, y: 108}
+        - {x: -59, y: 104}
+        - {x: -55, y: 9}
+        - {x: -51, y: 0}
+        - {x: 60, y: 0}
+        - {x: 60, y: 129}
+        - {x: 14, y: 149}
+      - - {x: -32, y: 100}
+        - {x: -47, y: 100}
+        - {x: -47, y: 54}
+        - {x: -42, y: 53}
+        - {x: -29, y: 53}
+        - {x: -20, y: 61}
+        - {x: -20, y: 67}
+        - {x: -24, y: 93}
+    - name: Banana2SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 456
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 148}
+        - {x: -56, y: 118}
+        - {x: -56, y: 47}
+        - {x: -44, y: 12}
+        - {x: -37, y: 0}
+        - {x: 60, y: 0}
+        - {x: 60, y: 133}
+        - {x: 13, y: 148}
+    - name: Banana2SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 456
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 147}
+        - {x: -49, y: 102}
+        - {x: -49, y: 0}
+        - {x: 41, y: 0}
+        - {x: 58, y: 7}
+        - {x: 58, y: 133}
+        - {x: 18, y: 147}
+    - name: Banana2SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 147}
+        - {x: -21, y: 147}
+        - {x: -48, y: 121}
+        - {x: -48, y: 97}
+        - {x: -39, y: 92}
+        - {x: -30, y: 93}
+        - {x: -18, y: 99}
+        - {x: -18, y: 84}
+        - {x: -36, y: 92}
+        - {x: -48, y: 89}
+        - {x: -48, y: 0}
+        - {x: 37, y: 0}
+        - {x: 41, y: 7}
+        - {x: 51, y: 46}
+        - {x: 53, y: 59}
+    - name: Banana2SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 304
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 148}
+        - {x: -41, y: 99}
+        - {x: -31, y: 91}
+        - {x: -24, y: 88}
+        - {x: -45, y: 94}
+        - {x: -45, y: 0}
+        - {x: 47, y: 0}
+        - {x: 47, y: 148}
+    - name: Banana2SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 304
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 148}
+        - {x: -19, y: 92}
+        - {x: -16, y: 88}
+        - {x: -43, y: 86}
+        - {x: -43, y: 0}
+        - {x: 43, y: 0}
+        - {x: 43, y: 148}
+    - name: Banana2SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 304
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 148}
+        - {x: -19, y: 148}
+        - {x: -43, y: 69}
+        - {x: -43, y: 0}
+        - {x: 46, y: 0}
+        - {x: 53, y: 20}
+        - {x: 53, y: 90}
+        - {x: 29, y: 146}
+    - name: Banana2SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 304
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 148}
+        - {x: -6, y: 144}
+        - {x: -31, y: 70}
+        - {x: -24, y: 66}
+        - {x: -18, y: 65}
+        - {x: -43, y: 45}
+        - {x: -43, y: 9}
+        - {x: -41, y: 4}
+        - {x: -30, y: 0}
+        - {x: 31, y: 0}
+        - {x: 62, y: 17}
+        - {x: 62, y: 112}
+        - {x: 50, y: 148}
+    - name: Banana2SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 304
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 149}
+        - {x: -24, y: 68}
+        - {x: -21, y: 66}
+        - {x: -41, y: 43}
+        - {x: -42, y: 32}
+        - {x: -42, y: 2}
+        - {x: -41, y: 0}
+        - {x: 69, y: 0}
+        - {x: 69, y: 100}
+        - {x: 23, y: 149}
+    - name: Banana2SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 304
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 150}
+        - {x: -42, y: 61}
+        - {x: -42, y: 0}
+        - {x: 65, y: 0}
+        - {x: 73, y: 8}
+        - {x: 73, y: 101}
+        - {x: 23, y: 150}
+    - name: Banana2SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 151}
+        - {x: -32, y: 151}
+        - {x: -43, y: 135}
+        - {x: -43, y: 0}
+        - {x: 45, y: 0}
+        - {x: 66, y: 14}
+        - {x: 73, y: 25}
+        - {x: 73, y: 131}
+    - name: Banana2SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 152
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 151}
+        - {x: -41, y: 151}
+        - {x: -42, y: 150}
+        - {x: -42, y: 0}
+        - {x: 40, y: 0}
+        - {x: 44, y: 11}
+        - {x: 73, y: 36}
+        - {x: 73, y: 133}
+    - name: Banana2SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 152
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 97}
+        - {x: 65, y: 102}
+        - {x: 50, y: 102}
+        - {x: 69, y: 102}
+        - {x: 21, y: 151}
+        - {x: -8, y: 151}
+        - {x: -44, y: 147}
+        - {x: -44, y: 0}
+        - {x: 32, y: 0}
+        - {x: 55, y: 13}
+        - {x: 41, y: 47}
+        - {x: 70, y: 86}
+    - name: Banana2SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 152
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 152}
+        - {x: -51, y: 151}
+        - {x: -51, y: 0}
+        - {x: 59, y: 0}
+        - {x: 65, y: 22}
+        - {x: 65, y: 121}
+        - {x: 39, y: 152}
+    - name: Banana2SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 152
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 152}
+        - {x: -56, y: 148}
+        - {x: -56, y: 66}
+        - {x: -39, y: 0}
+        - {x: 57, y: 0}
+        - {x: 63, y: 23}
+        - {x: 63, y: 137}
+        - {x: 44, y: 152}
+      - - {x: 35, y: 111}
+        - {x: 27, y: 102}
+        - {x: 22, y: 92}
+        - {x: 22, y: 71}
+        - {x: 39, y: 71}
+        - {x: 56, y: 82}
+        - {x: 58, y: 91}
+        - {x: 58, y: 104}
+        - {x: 55, y: 111}
+    - name: Banana2SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 152
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 152}
+        - {x: -60, y: 139}
+        - {x: -60, y: 62}
+        - {x: -43, y: 0}
+        - {x: 61, y: 0}
+        - {x: 61, y: 152}
+      - - {x: 23, y: 73}
+        - {x: 47, y: 73}
+        - {x: 48, y: 74}
+        - {x: 48, y: 115}
+        - {x: 23, y: 115}
+    - name: Banana2SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 152
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 90}
+        - {x: 35, y: 114}
+        - {x: 55, y: 121}
+        - {x: 58, y: 124}
+        - {x: 58, y: 129}
+        - {x: 57, y: 133}
+        - {x: 16, y: 152}
+        - {x: -14, y: 152}
+        - {x: -39, y: 140}
+        - {x: -60, y: 122}
+        - {x: -60, y: 34}
+        - {x: -51, y: 11}
+        - {x: -44, y: 0}
+        - {x: 32, y: 0}
+        - {x: 56, y: 7}
+        - {x: 42, y: 42}
+        - {x: 32, y: 51}
+        - {x: 45, y: 74}
+    - name: Banana2SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 152}
+        - {x: -59, y: 125}
+        - {x: -59, y: 34}
+        - {x: -39, y: 0}
+        - {x: 51, y: 0}
+        - {x: 51, y: 142}
+        - {x: 33, y: 152}
+    - name: Banana2SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 77}
+        - {x: 48, y: 123}
+        - {x: 43, y: 146}
+        - {x: 13, y: 152}
+        - {x: -10, y: 152}
+        - {x: -20, y: 143}
+        - {x: -24, y: 132}
+        - {x: -51, y: 115}
+        - {x: -55, y: 109}
+        - {x: -55, y: 102}
+        - {x: -53, y: 101}
+        - {x: -46, y: 102}
+        - {x: -46, y: 11}
+        - {x: -36, y: 4}
+        - {x: -23, y: 7}
+        - {x: -17, y: 0}
+        - {x: 24, y: 0}
+        - {x: 39, y: 2}
+        - {x: 47, y: 19}
+        - {x: 38, y: 52}
+    - name: Banana2SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 146
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 152}
+        - {x: -17, y: 152}
+        - {x: -49, y: 135}
+        - {x: -49, y: 9}
+        - {x: -45, y: 0}
+        - {x: 46, y: 0}
+        - {x: 46, y: 126}
+        - {x: 31, y: 144}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

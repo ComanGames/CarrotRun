@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 0aef4b61393c3c5409dfe3215dbdabe0
+timeCreated: 1451091833
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SlideSpriteSheet_0
+    21300002: SlideSpriteSheet_1
+    21300004: SlideSpriteSheet_2
+    21300006: SlideSpriteSheet_3
+    21300008: SlideSpriteSheet_4
+    21300010: SlideSpriteSheet_5
+    21300012: SlideSpriteSheet_6
+    21300014: SlideSpriteSheet_7
+    21300016: SlideSpriteSheet_8
+    21300018: SlideSpriteSheet_9
+    21300020: SlideSpriteSheet_10
+    21300022: SlideSpriteSheet_11
+    21300024: SlideSpriteSheet_12
+    21300026: SlideSpriteSheet_13
+    21300028: SlideSpriteSheet_14
+    21300030: SlideSpriteSheet_15
+    21300032: SlideSpriteSheet_16
+    21300034: SlideSpriteSheet_17
+    21300036: SlideSpriteSheet_18
+    21300038: SlideSpriteSheet_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: SlideSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 61}
+        - {x: -47, y: 45}
+        - {x: -52, y: 26}
+        - {x: -52, y: -42}
+        - {x: -29, y: -56}
+        - {x: 6, y: -56}
+        - {x: 32, y: -43}
+        - {x: 32, y: 41}
+        - {x: 22, y: 61}
+    - name: SlideSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 600
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 37}
+        - {x: 17, y: 59}
+        - {x: -14, y: 59}
+        - {x: -41, y: 44}
+        - {x: -53, y: 21}
+        - {x: -53, y: -51}
+        - {x: -50, y: -56}
+        - {x: -6, y: -56}
+        - {x: -5, y: -55}
+        - {x: 25, y: -44}
+        - {x: 31, y: -35}
+    - name: SlideSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 600
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -36}
+        - {x: 27, y: 12}
+        - {x: 26, y: 26}
+        - {x: 21, y: 35}
+        - {x: 14, y: 41}
+        - {x: 4, y: 52}
+        - {x: -19, y: 52}
+        - {x: -48, y: 39}
+        - {x: -52, y: 6}
+        - {x: -52, y: -46}
+        - {x: -39, y: -55}
+        - {x: -8, y: -55}
+        - {x: -5, y: -46}
+        - {x: -8, y: -45}
+        - {x: 23, y: -41}
+    - name: SlideSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 600
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 41}
+        - {x: -52, y: 26}
+        - {x: -52, y: -12}
+        - {x: -46, y: -42}
+        - {x: -18, y: -54}
+        - {x: 12, y: -54}
+        - {x: 24, y: -48}
+        - {x: 24, y: 34}
+        - {x: -1, y: 41}
+    - name: SlideSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 30}
+        - {x: -59, y: 11}
+        - {x: -59, y: -24}
+        - {x: -41, y: -47}
+        - {x: -35, y: -45}
+        - {x: -12, y: -52}
+        - {x: 2, y: -52}
+        - {x: 5, y: -51}
+        - {x: 21, y: -36}
+        - {x: 21, y: -14}
+        - {x: 4, y: 30}
+    - name: SlideSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 450
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 21}
+        - {x: -52, y: 21}
+        - {x: -64, y: -1}
+        - {x: -64, y: -39}
+        - {x: -43, y: -55}
+        - {x: -7, y: -55}
+        - {x: 18, y: -47}
+        - {x: 20, y: -38}
+        - {x: 20, y: -8}
+    - name: SlideSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 450
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 14}
+        - {x: -66, y: -1}
+        - {x: -66, y: -44}
+        - {x: -63, y: -50}
+        - {x: -45, y: -63}
+        - {x: -16, y: -63}
+        - {x: 19, y: -51}
+        - {x: 19, y: -2}
+        - {x: -2, y: 14}
+    - name: SlideSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 450
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 13}
+        - {x: -67, y: -9}
+        - {x: -67, y: -63}
+        - {x: -49, y: -66}
+        - {x: 0, y: -66}
+        - {x: 20, y: -48}
+        - {x: 20, y: -3}
+        - {x: -11, y: 13}
+    - name: SlideSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 9}
+        - {x: -67, y: -18}
+        - {x: -67, y: -47}
+        - {x: -41, y: -66}
+        - {x: -4, y: -66}
+        - {x: 23, y: -53}
+        - {x: 23, y: -10}
+        - {x: -15, y: 9}
+    - name: SlideSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 300
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 2}
+        - {x: -64, y: -13}
+        - {x: -65, y: -15}
+        - {x: -65, y: -52}
+        - {x: -54, y: -72}
+        - {x: -11, y: -72}
+        - {x: 28, y: -45}
+        - {x: 28, y: -7}
+        - {x: 14, y: 2}
+    - name: SlideSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 300
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 2}
+        - {x: -62, y: -13}
+        - {x: -62, y: -34}
+        - {x: -55, y: -62}
+        - {x: -43, y: -73}
+        - {x: -10, y: -73}
+        - {x: 29, y: -31}
+        - {x: 29, y: 2}
+    - name: SlideSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 300
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 10}
+        - {x: -60, y: 6}
+        - {x: -60, y: -70}
+        - {x: -54, y: -73}
+        - {x: -2, y: -73}
+        - {x: 29, y: -30}
+        - {x: 29, y: 10}
+    - name: SlideSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 11}
+        - {x: -66, y: -11}
+        - {x: -66, y: -63}
+        - {x: -60, y: -71}
+        - {x: -3, y: -71}
+        - {x: 28, y: -27}
+        - {x: 28, y: -9}
+        - {x: 18, y: 11}
+    - name: SlideSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 150
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 10}
+        - {x: -66, y: -8}
+        - {x: -66, y: -54}
+        - {x: -64, y: -59}
+        - {x: -50, y: -71}
+        - {x: -11, y: -71}
+        - {x: 19, y: -61}
+        - {x: 23, y: -37}
+        - {x: 23, y: 10}
+    - name: SlideSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 150
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 3}
+        - {x: -63, y: -12}
+        - {x: -63, y: -71}
+        - {x: -58, y: -73}
+        - {x: -10, y: -73}
+        - {x: 14, y: -63}
+        - {x: 19, y: -38}
+        - {x: 19, y: 3}
+    - name: SlideSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 150
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -13}
+        - {x: 20, y: -4}
+        - {x: 24, y: 0}
+        - {x: 24, y: 6}
+        - {x: 17, y: 11}
+        - {x: -50, y: 11}
+        - {x: -55, y: 10}
+        - {x: -67, y: -18}
+        - {x: -67, y: -54}
+        - {x: -47, y: -68}
+        - {x: -12, y: -68}
+        - {x: 24, y: -36}
+        - {x: 24, y: -20}
+        - {x: 19, y: -16}
+    - name: SlideSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -11}
+        - {x: 24, y: 18}
+        - {x: -65, y: 18}
+        - {x: -65, y: -45}
+        - {x: -45, y: -58}
+        - {x: -14, y: -58}
+        - {x: 23, y: -38}
+        - {x: 17, y: -30}
+        - {x: 13, y: -27}
+    - name: SlideSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 35}
+        - {x: -46, y: 33}
+        - {x: -56, y: 18}
+        - {x: -56, y: -11}
+        - {x: -47, y: -48}
+        - {x: 12, y: -48}
+        - {x: 26, y: -33}
+        - {x: 26, y: 7}
+        - {x: 6, y: 35}
+    - name: SlideSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 42}
+        - {x: 14, y: 54}
+        - {x: -18, y: 54}
+        - {x: -51, y: 33}
+        - {x: -53, y: -8}
+        - {x: -53, y: -28}
+        - {x: -50, y: -31}
+        - {x: -46, y: -31}
+        - {x: -26, y: -52}
+        - {x: -17, y: -54}
+        - {x: -9, y: -54}
+        - {x: -7, y: -50}
+        - {x: 13, y: -54}
+        - {x: 28, y: -54}
+    - name: SlideSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 61}
+        - {x: -47, y: 45}
+        - {x: -52, y: 26}
+        - {x: -52, y: -42}
+        - {x: -29, y: -56}
+        - {x: 6, y: -56}
+        - {x: 32, y: -43}
+        - {x: 32, y: 41}
+        - {x: 22, y: 61}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

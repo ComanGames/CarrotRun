@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: a163af5b7c6399f48ba78b939cdbdbff
+timeCreated: 1452354343
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Zombie2SpriteSheet_0
+    21300002: Zombie2SpriteSheet_1
+    21300004: Zombie2SpriteSheet_2
+    21300006: Zombie2SpriteSheet_3
+    21300008: Zombie2SpriteSheet_4
+    21300010: Zombie2SpriteSheet_5
+    21300012: Zombie2SpriteSheet_6
+    21300014: Zombie2SpriteSheet_7
+    21300016: Zombie2SpriteSheet_8
+    21300018: Zombie2SpriteSheet_9
+    21300020: Zombie2SpriteSheet_10
+    21300022: Zombie2SpriteSheet_11
+    21300024: Zombie2SpriteSheet_12
+    21300026: Zombie2SpriteSheet_13
+    21300028: Zombie2SpriteSheet_14
+    21300030: Zombie2SpriteSheet_15
+    21300032: Zombie2SpriteSheet_16
+    21300034: Zombie2SpriteSheet_17
+    21300036: Zombie2SpriteSheet_18
+    21300038: Zombie2SpriteSheet_19
+    21300040: Zombie2SpriteSheet_20
+    21300042: Zombie2SpriteSheet_21
+    21300044: Zombie2SpriteSheet_22
+    21300046: Zombie2SpriteSheet_23
+    21300048: Zombie2SpriteSheet_24
+    21300050: Zombie2SpriteSheet_25
+    21300052: Zombie2SpriteSheet_26
+    21300054: Zombie2SpriteSheet_27
+    21300056: Zombie2SpriteSheet_28
+    21300058: Zombie2SpriteSheet_29
+    21300060: Zombie2SpriteSheet_30
+    21300062: Zombie2SpriteSheet_31
+    21300064: Zombie2SpriteSheet_32
+    21300066: Zombie2SpriteSheet_33
+    21300068: Zombie2SpriteSheet_34
+    21300070: Zombie2SpriteSheet_35
+    21300072: Zombie2SpriteSheet_36
+    21300074: Zombie2SpriteSheet_37
+    21300076: Zombie2SpriteSheet_38
+    21300078: Zombie2SpriteSheet_39
+    21300080: Zombie2SpriteSheet_40
+    21300082: Zombie2SpriteSheet_41
+    21300084: Zombie2SpriteSheet_42
+    21300086: Zombie2SpriteSheet_43
+    21300088: Zombie2SpriteSheet_44
+    21300090: Zombie2SpriteSheet_45
+    21300092: Zombie2SpriteSheet_46
+    21300094: Zombie2SpriteSheet_47
+    21300096: Zombie2SpriteSheet_48
+    21300098: Zombie2SpriteSheet_49
+    21300100: Zombie2SpriteSheet_50
+    21300102: Zombie2SpriteSheet_51
+    21300104: Zombie2SpriteSheet_52
+    21300106: Zombie2SpriteSheet_53
+    21300108: Zombie2SpriteSheet_54
+    21300110: Zombie2SpriteSheet_55
+    21300112: Zombie2SpriteSheet_56
+    21300114: Zombie2SpriteSheet_57
+    21300116: Zombie2SpriteSheet_58
+    21300118: Zombie2SpriteSheet_59
+    21300120: Zombie2SpriteSheet_60
+    21300122: Zombie2SpriteSheet_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 75
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  - buildTarget: WP8
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: Zombie2SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 748
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 183}
+        - {x: -53, y: 131}
+        - {x: -53, y: 113}
+        - {x: -52, y: 110}
+        - {x: -45, y: 112}
+        - {x: -34, y: 117}
+        - {x: -44, y: 38}
+        - {x: -40, y: 5}
+        - {x: -29, y: 0}
+        - {x: 27, y: 0}
+        - {x: 45, y: 11}
+        - {x: 52, y: 78}
+        - {x: 52, y: 183}
+    - name: Zombie2SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 748
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 117}
+        - {x: -41, y: 104}
+        - {x: -31, y: 107}
+        - {x: -41, y: 83}
+        - {x: -41, y: 0}
+        - {x: 41, y: 0}
+        - {x: 41, y: 187}
+        - {x: -9, y: 187}
+        - {x: -12, y: 186}
+    - name: Zombie2SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 748
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 187}
+        - {x: -41, y: 11}
+        - {x: -31, y: 0}
+        - {x: 32, y: 0}
+        - {x: 41, y: 5}
+        - {x: 41, y: 186}
+        - {x: 39, y: 187}
+    - name: Zombie2SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 748
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 187}
+        - {x: -16, y: 149}
+        - {x: -14, y: 93}
+        - {x: -41, y: 42}
+        - {x: -41, y: 5}
+        - {x: -40, y: 0}
+        - {x: 41, y: 0}
+        - {x: 41, y: 163}
+        - {x: 14, y: 187}
+    - name: Zombie2SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 748
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 187}
+        - {x: -30, y: 187}
+        - {x: -40, y: 140}
+        - {x: -40, y: 0}
+        - {x: 28, y: 0}
+        - {x: 40, y: 3}
+        - {x: 40, y: 73}
+        - {x: 20, y: 181}
+    - name: Zombie2SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 748
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 186}
+        - {x: -41, y: 186}
+        - {x: -41, y: 2}
+        - {x: -32, y: 0}
+        - {x: 41, y: 0}
+        - {x: 41, y: 150}
+        - {x: 4, y: 178}
+    - name: Zombie2SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 561
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 183}
+        - {x: -54, y: 183}
+        - {x: -54, y: 0}
+        - {x: 54, y: 0}
+        - {x: 54, y: 152}
+        - {x: -1, y: 178}
+    - name: Zombie2SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 561
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66, y: 179}
+        - {x: -67, y: 177}
+        - {x: -67, y: 114}
+        - {x: -50, y: 5}
+        - {x: -48, y: 0}
+        - {x: 66, y: 0}
+        - {x: 66, y: 153}
+        - {x: 2, y: 179}
+    - name: Zombie2SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 561
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 174}
+        - {x: -77, y: 174}
+        - {x: -77, y: 159}
+        - {x: -70, y: 155}
+        - {x: -57, y: 11}
+        - {x: -34, y: 0}
+        - {x: 49, y: 0}
+        - {x: 68, y: 8}
+        - {x: 77, y: 109}
+        - {x: 77, y: 167}
+    - name: Zombie2SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 561
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84, y: 173}
+        - {x: -84, y: 0}
+        - {x: 65, y: 0}
+        - {x: 84, y: 60}
+        - {x: 84, y: 173}
+    - name: Zombie2SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 561
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: 0}
+        - {x: 66, y: 0}
+        - {x: 85, y: 18}
+        - {x: 85, y: 158}
+        - {x: 32, y: 173}
+        - {x: -33, y: 173}
+        - {x: -85, y: 163}
+        - {x: -85, y: 104}
+    - name: Zombie2SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 561
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85, y: 173}
+        - {x: -85, y: 18}
+        - {x: -84, y: 0}
+        - {x: 60, y: 0}
+        - {x: 85, y: 56}
+        - {x: 85, y: 173}
+    - name: Zombie2SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84, y: 24}
+        - {x: -50, y: 0}
+        - {x: 62, y: 0}
+        - {x: 85, y: 87}
+        - {x: 85, y: 173}
+        - {x: -32, y: 173}
+        - {x: -84, y: 166}
+    - name: Zombie2SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 374
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 173}
+        - {x: -78, y: 146}
+        - {x: -78, y: 48}
+        - {x: -46, y: 0}
+        - {x: 52, y: 0}
+        - {x: 78, y: 75}
+        - {x: 78, y: 173}
+    - name: Zombie2SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 374
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 178}
+        - {x: 49, y: 176}
+        - {x: 16, y: 178}
+        - {x: 3, y: 178}
+        - {x: -68, y: 132}
+        - {x: -68, y: 101}
+        - {x: -50, y: 7}
+        - {x: -41, y: 0}
+        - {x: 56, y: 0}
+        - {x: 69, y: 103}
+        - {x: 69, y: 178}
+    - name: Zombie2SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 374
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 182}
+        - {x: -2, y: 175}
+        - {x: -56, y: 130}
+        - {x: -56, y: 28}
+        - {x: -49, y: 0}
+        - {x: 56, y: 0}
+        - {x: 56, y: 182}
+    - name: Zombie2SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 374
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 142}
+        - {x: -41, y: 0}
+        - {x: 42, y: 0}
+        - {x: 42, y: 186}
+        - {x: 14, y: 186}
+        - {x: -13, y: 177}
+    - name: Zombie2SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 374
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 49}
+        - {x: 29, y: 187}
+        - {x: -26, y: 187}
+        - {x: -41, y: 157}
+        - {x: -41, y: 0}
+        - {x: 29, y: 0}
+        - {x: 41, y: 10}
+        - {x: 41, y: 40}
+    - name: Zombie2SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 187}
+        - {x: -24, y: 187}
+        - {x: -41, y: 73}
+        - {x: -41, y: 15}
+        - {x: -38, y: 4}
+        - {x: -33, y: 0}
+        - {x: 31, y: 0}
+        - {x: 36, y: 3}
+        - {x: 41, y: 11}
+        - {x: 41, y: 140}
+    - name: Zombie2SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 187
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 45}
+        - {x: 18, y: 140}
+        - {x: 6, y: 171}
+        - {x: -7, y: 187}
+        - {x: -18, y: 187}
+        - {x: -40, y: 70}
+        - {x: -40, y: 0}
+        - {x: 38, y: 0}
+        - {x: 40, y: 7}
+        - {x: 40, y: 44}
+        - {x: 34, y: 45}
+    - name: Zombie2SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 187
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 187}
+        - {x: -35, y: 187}
+        - {x: -37, y: 176}
+        - {x: -40, y: 139}
+        - {x: -40, y: 0}
+        - {x: 40, y: 0}
+        - {x: 40, y: 142}
+        - {x: 8, y: 182}
+    - name: Zombie2SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 187
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 50}
+        - {x: 51, y: 104}
+        - {x: 51, y: 121}
+        - {x: 46, y: 132}
+        - {x: -3, y: 180}
+        - {x: -16, y: 184}
+        - {x: -50, y: 184}
+        - {x: -50, y: 17}
+        - {x: -44, y: 0}
+        - {x: 38, y: 0}
+        - {x: 40, y: 2}
+        - {x: 42, y: 14}
+        - {x: 41, y: 34}
+        - {x: 32, y: 48}
+    - name: Zombie2SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 187
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 180}
+        - {x: -63, y: 166}
+        - {x: -57, y: 163}
+        - {x: -50, y: 160}
+        - {x: -50, y: 40}
+        - {x: -37, y: 0}
+        - {x: 64, y: 0}
+        - {x: 64, y: 174}
+        - {x: 28, y: 180}
+    - name: Zombie2SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 187
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75, y: 120}
+        - {x: 75, y: 136}
+        - {x: 9, y: 175}
+        - {x: -74, y: 175}
+        - {x: -74, y: 99}
+        - {x: -41, y: 0}
+        - {x: 37, y: 0}
+        - {x: 52, y: 38}
+        - {x: 74, y: 118}
+    - name: Zombie2SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82, y: 173}
+        - {x: -82, y: 0}
+        - {x: 40, y: 0}
+        - {x: 78, y: 10}
+        - {x: 82, y: 66}
+        - {x: 82, y: 144}
+        - {x: 14, y: 173}
+    - name: Zombie2SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 173}
+        - {x: -85, y: 169}
+        - {x: -85, y: 114}
+        - {x: -40, y: 0}
+        - {x: 44, y: 0}
+        - {x: 85, y: 128}
+        - {x: 85, y: 151}
+        - {x: 18, y: 173}
+    - name: Zombie2SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85, y: 133}
+        - {x: 85, y: 162}
+        - {x: 34, y: 173}
+        - {x: -33, y: 173}
+        - {x: -85, y: 156}
+        - {x: -85, y: 140}
+        - {x: -82, y: 139}
+        - {x: -69, y: 137}
+        - {x: -49, y: 37}
+        - {x: -40, y: 0}
+        - {x: 31, y: 0}
+        - {x: 41, y: 14}
+        - {x: 46, y: 36}
+    - name: Zombie2SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 173}
+        - {x: -74, y: 156}
+        - {x: -85, y: 145}
+        - {x: -85, y: 98}
+        - {x: -37, y: 0}
+        - {x: 63, y: 0}
+        - {x: 85, y: 110}
+        - {x: 85, y: 168}
+        - {x: 61, y: 173}
+    - name: Zombie2SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 173}
+        - {x: -80, y: 147}
+        - {x: -80, y: 122}
+        - {x: -79, y: 122}
+        - {x: -57, y: 0}
+        - {x: 54, y: 0}
+        - {x: 80, y: 67}
+        - {x: 80, y: 173}
+    - name: Zombie2SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 170
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 177}
+        - {x: -71, y: 161}
+        - {x: -71, y: 58}
+        - {x: -41, y: 11}
+        - {x: -33, y: 5}
+        - {x: -29, y: 5}
+        - {x: -16, y: 0}
+        - {x: 54, y: 0}
+        - {x: 71, y: 119}
+        - {x: 71, y: 177}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

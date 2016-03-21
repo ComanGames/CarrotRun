@@ -1,0 +1,1340 @@
+fileFormatVersion: 2
+guid: 51ec16cbf6897ee4bacf830c20d536df
+timeCreated: 1454279397
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GiftSpriteSheet 1_0
+    21300002: GiftSpriteSheet 1_1
+    21300004: GiftSpriteSheet 1_2
+    21300006: GiftSpriteSheet 1_3
+    21300008: GiftSpriteSheet 1_4
+    21300010: GiftSpriteSheet 1_5
+    21300012: GiftSpriteSheet 1_6
+    21300014: GiftSpriteSheet 1_7
+    21300016: GiftSpriteSheet 1_8
+    21300018: GiftSpriteSheet 1_9
+    21300020: GiftSpriteSheet 1_10
+    21300022: GiftSpriteSheet 1_11
+    21300024: GiftSpriteSheet 1_12
+    21300026: GiftSpriteSheet 1_13
+    21300028: GiftSpriteSheet 1_14
+    21300030: GiftSpriteSheet 1_15
+    21300032: GiftSpriteSheet 1_16
+    21300034: GiftSpriteSheet 1_17
+    21300036: GiftSpriteSheet 1_18
+    21300038: GiftSpriteSheet 1_19
+    21300040: GiftSpriteSheet 1_20
+    21300042: GiftSpriteSheet 1_21
+    21300044: GiftSpriteSheet 1_22
+    21300046: GiftSpriteSheet 1_23
+    21300048: GiftSpriteSheet 1_24
+    21300050: GiftSpriteSheet 1_25
+    21300052: GiftSpriteSheet 1_26
+    21300054: GiftSpriteSheet 1_27
+    21300056: GiftSpriteSheet 1_28
+    21300058: GiftSpriteSheet 1_29
+    21300060: GiftSpriteSheet 1_30
+    21300062: GiftSpriteSheet 1_31
+    21300064: GiftSpriteSheet 1_32
+    21300066: GiftSpriteSheet 1_33
+    21300068: GiftSpriteSheet 1_34
+    21300070: GiftSpriteSheet 1_35
+    21300072: GiftSpriteSheet 1_36
+    21300074: GiftSpriteSheet 1_37
+    21300076: GiftSpriteSheet 1_38
+    21300078: GiftSpriteSheet 1_39
+    21300080: GiftSpriteSheet 1_40
+    21300082: GiftSpriteSheet 1_41
+    21300084: GiftSpriteSheet 1_42
+    21300086: GiftSpriteSheet 1_43
+    21300088: GiftSpriteSheet 1_44
+    21300090: GiftSpriteSheet 1_45
+    21300092: GiftSpriteSheet 1_46
+    21300094: GiftSpriteSheet 1_47
+    21300096: GiftSpriteSheet 1_48
+    21300098: GiftSpriteSheet 1_49
+    21300100: GiftSpriteSheet 1_50
+    21300102: GiftSpriteSheet 1_51
+    21300104: GiftSpriteSheet 1_52
+    21300106: GiftSpriteSheet 1_53
+    21300108: GiftSpriteSheet 1_54
+    21300110: GiftSpriteSheet 1_55
+    21300112: GiftSpriteSheet 1_56
+    21300114: GiftSpriteSheet 1_57
+    21300116: GiftSpriteSheet 1_58
+    21300118: GiftSpriteSheet 1_59
+    21300120: GiftSpriteSheet 1_60
+    21300122: GiftSpriteSheet 1_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: GiftSpriteSheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1448
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 181}
+        - {x: -68.5, y: 158}
+        - {x: -68.5, y: 0}
+        - {x: 39.5, y: 0}
+        - {x: 68.5, y: 13}
+        - {x: 68.5, y: 167}
+        - {x: 30.5, y: 181}
+    - name: GiftSpriteSheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1448
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 181}
+        - {x: -68.5, y: 164}
+        - {x: -68.5, y: 43}
+        - {x: -64.5, y: 0}
+        - {x: 68.5, y: 0}
+        - {x: 68.5, y: 175}
+        - {x: 60.5, y: 181}
+    - name: GiftSpriteSheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1448
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 181}
+        - {x: -68.5, y: 151}
+        - {x: -68.5, y: 0}
+        - {x: 64.5, y: 0}
+        - {x: 68.5, y: 2}
+        - {x: 68.5, y: 162}
+        - {x: 29.5, y: 181}
+    - name: GiftSpriteSheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1448
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 181}
+        - {x: -45.5, y: 181}
+        - {x: -68.5, y: 153}
+        - {x: -68.5, y: 40}
+        - {x: -66.5, y: 13}
+        - {x: -41.5, y: 0}
+        - {x: 38.5, y: 0}
+        - {x: 68.5, y: 17}
+        - {x: 68.5, y: 177}
+    - name: GiftSpriteSheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1448
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: 181}
+        - {x: -40.5, y: 181}
+        - {x: -65.5, y: 169}
+        - {x: -65.5, y: 16}
+        - {x: -48.5, y: 0}
+        - {x: 51.5, y: 0}
+        - {x: 66.5, y: 12}
+        - {x: 66.5, y: 160}
+    - name: GiftSpriteSheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1448
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 181}
+        - {x: -63.5, y: 159}
+        - {x: -63.5, y: 0}
+        - {x: 56.5, y: 0}
+        - {x: 64.5, y: 16}
+        - {x: 64.5, y: 167}
+        - {x: 38.5, y: 181}
+    - name: GiftSpriteSheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1448
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 181}
+        - {x: -40.5, y: 181}
+        - {x: -63.5, y: 171}
+        - {x: -63.5, y: 0}
+        - {x: 63.5, y: 0}
+        - {x: 63.5, y: 96}
+        - {x: 59.5, y: 167}
+    - name: GiftSpriteSheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1267
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: 181}
+        - {x: -57.5, y: 181}
+        - {x: -62.5, y: 179}
+        - {x: -62.5, y: 0}
+        - {x: 62.5, y: 0}
+        - {x: 63.5, y: 3}
+        - {x: 63.5, y: 113}
+        - {x: 57.5, y: 177}
+    - name: GiftSpriteSheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1267
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: 181}
+        - {x: -61.5, y: 131}
+        - {x: -61.5, y: 11}
+        - {x: -35.5, y: 0}
+        - {x: 30.5, y: 0}
+        - {x: 61.5, y: 5}
+        - {x: 61.5, y: 147}
+        - {x: 59.5, y: 181}
+    - name: GiftSpriteSheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1267
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.5, y: 181}
+        - {x: -61.5, y: 12}
+        - {x: -46.5, y: 4}
+        - {x: -16.5, y: 0}
+        - {x: 61.5, y: 0}
+        - {x: 61.5, y: 181}
+    - name: GiftSpriteSheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1267
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 181}
+        - {x: -63.5, y: 180}
+        - {x: -63.5, y: 0}
+        - {x: 63.5, y: 0}
+        - {x: 63.5, y: 171}
+        - {x: 34.5, y: 181}
+    - name: GiftSpriteSheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1267
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 181}
+        - {x: -56.5, y: 181}
+        - {x: -63.5, y: 180}
+        - {x: -63.5, y: 0}
+        - {x: 64.5, y: 0}
+        - {x: 64.5, y: 162}
+        - {x: 61.5, y: 169}
+    - name: GiftSpriteSheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1267
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: 181}
+        - {x: -28.5, y: 181}
+        - {x: -66.5, y: 163}
+        - {x: -66.5, y: 30}
+        - {x: -58.5, y: 0}
+        - {x: 41.5, y: 0}
+        - {x: 64.5, y: 16}
+        - {x: 66.5, y: 47}
+        - {x: 66.5, y: 150}
+    - name: GiftSpriteSheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1267
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.5, y: 181}
+        - {x: -68.5, y: 177}
+        - {x: -68.5, y: 25}
+        - {x: -65.5, y: 15}
+        - {x: -46.5, y: 0}
+        - {x: 57.5, y: 0}
+        - {x: 68.5, y: 25}
+        - {x: 68.5, y: 165}
+        - {x: 37.5, y: 181}
+    - name: GiftSpriteSheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1086
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 181}
+        - {x: -23.5, y: 181}
+        - {x: -68.5, y: 165}
+        - {x: -68.5, y: 32}
+        - {x: -67.5, y: 17}
+        - {x: -46.5, y: 0}
+        - {x: 52.5, y: 0}
+        - {x: 68.5, y: 7}
+        - {x: 68.5, y: 152}
+        - {x: 47.5, y: 170}
+    - name: GiftSpriteSheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1086
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 181}
+        - {x: -35.5, y: 181}
+        - {x: -68.5, y: 171}
+        - {x: -68.5, y: 48}
+        - {x: -61.5, y: 11}
+        - {x: -36.5, y: 0}
+        - {x: 52.5, y: 0}
+        - {x: 67.5, y: 23}
+        - {x: 68.5, y: 49}
+        - {x: 68.5, y: 155}
+    - name: GiftSpriteSheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1086
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.5, y: 168}
+        - {x: 34.5, y: 181}
+        - {x: -24.5, y: 181}
+        - {x: -47.5, y: 175}
+        - {x: -68.5, y: 163}
+        - {x: -68.5, y: 3}
+        - {x: -54.5, y: 0}
+        - {x: 68.5, y: 0}
+    - name: GiftSpriteSheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1086
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 181}
+        - {x: -68.5, y: 162}
+        - {x: -68.5, y: 19}
+        - {x: -59.5, y: 0}
+        - {x: 60.5, y: 0}
+        - {x: 68.5, y: 15}
+        - {x: 68.5, y: 163}
+        - {x: 40.5, y: 181}
+    - name: GiftSpriteSheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1086
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 181}
+        - {x: -68.5, y: 150}
+        - {x: -68.5, y: 6}
+        - {x: -53.5, y: 0}
+        - {x: 37.5, y: 0}
+        - {x: 68.5, y: 8}
+        - {x: 68.5, y: 169}
+        - {x: 27.5, y: 181}
+    - name: GiftSpriteSheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1086
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 181}
+        - {x: -66.5, y: 149}
+        - {x: -66.5, y: 4}
+        - {x: -58.5, y: 0}
+        - {x: 47.5, y: 0}
+        - {x: 64.5, y: 6}
+        - {x: 66.5, y: 54}
+        - {x: 66.5, y: 164}
+        - {x: 39.5, y: 181}
+    - name: GiftSpriteSheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1086
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 181}
+        - {x: -63.5, y: 152}
+        - {x: -63.5, y: 26}
+        - {x: -57.5, y: 14}
+        - {x: -56.5, y: 0}
+        - {x: 64.5, y: 0}
+        - {x: 64.5, y: 181}
+    - name: GiftSpriteSheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 905
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 181}
+        - {x: -63.5, y: 150}
+        - {x: -63.5, y: 0}
+        - {x: 36.5, y: 0}
+        - {x: 63.5, y: 8}
+        - {x: 63.5, y: 169}
+        - {x: 34.5, y: 181}
+    - name: GiftSpriteSheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 905
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 181}
+        - {x: -63.5, y: 167}
+        - {x: -63.5, y: 0}
+        - {x: 38.5, y: 0}
+        - {x: 64.5, y: 16}
+        - {x: 64.5, y: 175}
+        - {x: 57.5, y: 181}
+    - name: GiftSpriteSheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 905
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.5, y: 60}
+        - {x: 57.5, y: 173}
+        - {x: 37.5, y: 181}
+        - {x: -55.5, y: 181}
+        - {x: -63.5, y: 140}
+        - {x: -63.5, y: 17}
+        - {x: -56.5, y: 0}
+        - {x: 36.5, y: 0}
+        - {x: 39.5, y: 5}
+        - {x: 61.5, y: 16}
+        - {x: 63.5, y: 19}
+    - name: GiftSpriteSheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 905
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 181}
+        - {x: -57.5, y: 171}
+        - {x: -63.5, y: 94}
+        - {x: -63.5, y: 13}
+        - {x: -48.5, y: 0}
+        - {x: 58.5, y: 0}
+        - {x: 63.5, y: 6}
+        - {x: 63.5, y: 162}
+        - {x: 53.5, y: 181}
+    - name: GiftSpriteSheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 905
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 181}
+        - {x: -22.5, y: 177}
+        - {x: -58.5, y: 171}
+        - {x: -63.5, y: 132}
+        - {x: -63.5, y: 7}
+        - {x: -56.5, y: 0}
+        - {x: 45.5, y: 0}
+        - {x: 64.5, y: 16}
+        - {x: 64.5, y: 139}
+        - {x: 44.5, y: 181}
+    - name: GiftSpriteSheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 905
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 181}
+        - {x: -27.5, y: 181}
+        - {x: -63.5, y: 167}
+        - {x: -63.5, y: 13}
+        - {x: -52.5, y: 0}
+        - {x: 60.5, y: 0}
+        - {x: 64.5, y: 6}
+        - {x: 64.5, y: 151}
+        - {x: 62.5, y: 176}
+    - name: GiftSpriteSheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 905
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 181}
+        - {x: -65.5, y: 176}
+        - {x: -65.5, y: 28}
+        - {x: -58.5, y: 2}
+        - {x: -33.5, y: 0}
+        - {x: 60.5, y: 0}
+        - {x: 65.5, y: 11}
+        - {x: 65.5, y: 181}
+    - name: GiftSpriteSheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 181}
+        - {x: -35.5, y: 181}
+        - {x: -67.5, y: 172}
+        - {x: -67.5, y: 15}
+        - {x: -52.5, y: 2}
+        - {x: -26.5, y: 0}
+        - {x: 31.5, y: 0}
+        - {x: 62.5, y: 6}
+        - {x: 68.5, y: 62}
+        - {x: 68.5, y: 159}
+    - name: GiftSpriteSheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 724
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 181}
+        - {x: -68.5, y: 172}
+        - {x: -68.5, y: 29}
+        - {x: -66.5, y: 14}
+        - {x: -42.5, y: 1}
+        - {x: -30.5, y: 0}
+        - {x: 57.5, y: 0}
+        - {x: 68.5, y: 24}
+        - {x: 68.5, y: 158}
+        - {x: 47.5, y: 181}
+    - name: GiftSpriteSheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 724
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.5, y: 167}
+        - {x: 33.5, y: 181}
+        - {x: -54.5, y: 181}
+        - {x: -68.5, y: 173}
+        - {x: -68.5, y: 0}
+        - {x: 57.5, y: 0}
+        - {x: 62.5, y: 16}
+        - {x: 66.5, y: 50}
+        - {x: 68.5, y: 62}
+    - name: GiftSpriteSheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 724
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 181}
+        - {x: -68.5, y: 170}
+        - {x: -68.5, y: 14}
+        - {x: -52.5, y: 0}
+        - {x: 33.5, y: 0}
+        - {x: 68.5, y: 18}
+        - {x: 68.5, y: 157}
+        - {x: 47.5, y: 181}
+    - name: GiftSpriteSheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 724
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 181}
+        - {x: -25.5, y: 181}
+        - {x: -49.5, y: 173}
+        - {x: -68.5, y: 149}
+        - {x: -68.5, y: 61}
+        - {x: -65.5, y: 14}
+        - {x: -41.5, y: 0}
+        - {x: 36.5, y: 0}
+        - {x: 65.5, y: 10}
+        - {x: 68.5, y: 48}
+        - {x: 68.5, y: 162}
+    - name: GiftSpriteSheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 724
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: 181}
+        - {x: -47.5, y: 181}
+        - {x: -56.5, y: 179}
+        - {x: -68.5, y: 150}
+        - {x: -68.5, y: 15}
+        - {x: -40.5, y: 0}
+        - {x: 45.5, y: 0}
+        - {x: 65.5, y: 10}
+        - {x: 68.5, y: 48}
+        - {x: 68.5, y: 167}
+    - name: GiftSpriteSheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 724
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.5, y: 165}
+        - {x: 27.5, y: 180}
+        - {x: 25.5, y: 181}
+        - {x: -22.5, y: 181}
+        - {x: -49.5, y: 173}
+        - {x: -67.5, y: 144}
+        - {x: -67.5, y: 102}
+        - {x: -62.5, y: 19}
+        - {x: -45.5, y: 0}
+        - {x: 54.5, y: 0}
+        - {x: 66.5, y: 19}
+        - {x: 67.5, y: 40}
+        - {x: 67.5, y: 159}
+    - name: GiftSpriteSheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 181}
+        - {x: -64.5, y: 148}
+        - {x: -64.5, y: 16}
+        - {x: -36.5, y: 0}
+        - {x: 54.5, y: 0}
+        - {x: 64.5, y: 8}
+        - {x: 64.5, y: 176}
+        - {x: 45.5, y: 181}
+    - name: GiftSpriteSheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 543
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: 181}
+        - {x: -63.5, y: 174}
+        - {x: -63.5, y: 4}
+        - {x: -62.5, y: 0}
+        - {x: 48.5, y: 0}
+        - {x: 64.5, y: 16}
+        - {x: 64.5, y: 181}
+    - name: GiftSpriteSheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 543
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: 158}
+        - {x: -63.5, y: 73}
+        - {x: -63.5, y: 18}
+        - {x: -55.5, y: 11}
+        - {x: -48.5, y: 0}
+        - {x: 53.5, y: 0}
+        - {x: 63.5, y: 4}
+        - {x: 63.5, y: 159}
+        - {x: 60.5, y: 169}
+        - {x: 38.5, y: 181}
+        - {x: -28.5, y: 181}
+        - {x: -40.5, y: 179}
+    - name: GiftSpriteSheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 543
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 181}
+        - {x: -54.5, y: 173}
+        - {x: -62.5, y: 60}
+        - {x: -62.5, y: 5}
+        - {x: -61.5, y: 0}
+        - {x: 62.5, y: 0}
+        - {x: 62.5, y: 173}
+        - {x: 47.5, y: 181}
+    - name: GiftSpriteSheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 543
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.5, y: 181}
+        - {x: -60.5, y: 166}
+        - {x: -60.5, y: 0}
+        - {x: 32.5, y: 0}
+        - {x: 42.5, y: 2}
+        - {x: 60.5, y: 8}
+        - {x: 60.5, y: 181}
+    - name: GiftSpriteSheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 543
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 178}
+        - {x: 18.5, y: 181}
+        - {x: -28.5, y: 181}
+        - {x: -62.5, y: 172}
+        - {x: -62.5, y: 3}
+        - {x: -38.5, y: 0}
+        - {x: 35.5, y: 0}
+        - {x: 62.5, y: 12}
+        - {x: 62.5, y: 104}
+        - {x: 58.5, y: 151}
+    - name: GiftSpriteSheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 543
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.5, y: 181}
+        - {x: -27.5, y: 181}
+        - {x: -63.5, y: 167}
+        - {x: -63.5, y: 17}
+        - {x: -42.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 55.5, y: 9}
+        - {x: 63.5, y: 16}
+        - {x: 63.5, y: 151}
+    - name: GiftSpriteSheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 181}
+        - {x: -64.5, y: 176}
+        - {x: -64.5, y: 14}
+        - {x: -47.5, y: 0}
+        - {x: 47.5, y: 0}
+        - {x: 65.5, y: 19}
+        - {x: 65.5, y: 146}
+        - {x: 45.5, y: 181}
+    - name: GiftSpriteSheet 1_43
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 362
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 181}
+        - {x: -67.5, y: 164}
+        - {x: -67.5, y: 30}
+        - {x: -54.5, y: 0}
+        - {x: 46.5, y: 0}
+        - {x: 67.5, y: 8}
+        - {x: 67.5, y: 162}
+        - {x: 40.5, y: 181}
+    - name: GiftSpriteSheet 1_44
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 362
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 181}
+        - {x: -68.5, y: 164}
+        - {x: -68.5, y: 17}
+        - {x: -48.5, y: 0}
+        - {x: 49.5, y: 0}
+        - {x: 68.5, y: 11}
+        - {x: 68.5, y: 161}
+        - {x: 37.5, y: 181}
+    - name: GiftSpriteSheet 1_45
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 362
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: 181}
+        - {x: -53.5, y: 181}
+        - {x: -68.5, y: 178}
+        - {x: -68.5, y: 51}
+        - {x: -62.5, y: 12}
+        - {x: -38.5, y: 0}
+        - {x: 53.5, y: 0}
+        - {x: 67.5, y: 21}
+        - {x: 68.5, y: 45}
+        - {x: 68.5, y: 157}
+    - name: GiftSpriteSheet 1_46
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 362
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 181}
+        - {x: -68.5, y: 167}
+        - {x: -68.5, y: 18}
+        - {x: -46.5, y: 0}
+        - {x: 49.5, y: 0}
+        - {x: 68.5, y: 20}
+        - {x: 68.5, y: 155}
+        - {x: 42.5, y: 181}
+    - name: GiftSpriteSheet 1_47
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 362
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 181}
+        - {x: -68.5, y: 164}
+        - {x: -68.5, y: 17}
+        - {x: -43.5, y: 0}
+        - {x: 33.5, y: 0}
+        - {x: 60.5, y: 7}
+        - {x: 68.5, y: 47}
+        - {x: 68.5, y: 163}
+        - {x: 40.5, y: 181}
+    - name: GiftSpriteSheet 1_48
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 362
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 181}
+        - {x: -68.5, y: 156}
+        - {x: -68.5, y: 38}
+        - {x: -66.5, y: 17}
+        - {x: -59.5, y: 0}
+        - {x: 68.5, y: 0}
+        - {x: 68.5, y: 159}
+        - {x: 37.5, y: 181}
+    - name: GiftSpriteSheet 1_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 181}
+        - {x: -67.5, y: 154}
+        - {x: -67.5, y: 44}
+        - {x: -65.5, y: 14}
+        - {x: -40.5, y: 0}
+        - {x: 60.5, y: 0}
+        - {x: 67.5, y: 21}
+        - {x: 67.5, y: 169}
+        - {x: 29.5, y: 181}
+    - name: GiftSpriteSheet 1_50
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 181
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 180}
+        - {x: 58.5, y: 181}
+        - {x: -49.5, y: 181}
+        - {x: -65.5, y: 155}
+        - {x: -65.5, y: 23}
+        - {x: -64.5, y: 11}
+        - {x: -50.5, y: 1}
+        - {x: -23.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 19.5, y: 1}
+        - {x: 46.5, y: 5}
+        - {x: 65.5, y: 14}
+    - name: GiftSpriteSheet 1_51
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 181
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.5, y: 181}
+        - {x: -63.5, y: 153}
+        - {x: -63.5, y: 16}
+        - {x: -46.5, y: 0}
+        - {x: 63.5, y: 0}
+        - {x: 63.5, y: 181}
+    - name: GiftSpriteSheet 1_52
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 181
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.5, y: 142}
+        - {x: 61.5, y: 169}
+        - {x: 50.5, y: 181}
+        - {x: -48.5, y: 181}
+        - {x: -63.5, y: 174}
+        - {x: -63.5, y: 12}
+        - {x: -59.5, y: 0}
+        - {x: 29.5, y: 0}
+        - {x: 31.5, y: 3}
+        - {x: 57.5, y: 11}
+        - {x: 64.5, y: 15}
+    - name: GiftSpriteSheet 1_53
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 181
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 181}
+        - {x: -55.5, y: 181}
+        - {x: -63.5, y: 114}
+        - {x: -63.5, y: 6}
+        - {x: -59.5, y: 0}
+        - {x: 36.5, y: 0}
+        - {x: 60.5, y: 14}
+        - {x: 64.5, y: 17}
+        - {x: 64.5, y: 111}
+        - {x: 57.5, y: 171}
+    - name: GiftSpriteSheet 1_54
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 181
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 181}
+        - {x: -55.5, y: 177}
+        - {x: -63.5, y: 138}
+        - {x: -63.5, y: 0}
+        - {x: 57.5, y: 0}
+        - {x: 63.5, y: 10}
+        - {x: 63.5, y: 107}
+        - {x: 55.5, y: 181}
+    - name: GiftSpriteSheet 1_55
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 181
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.5, y: 181}
+        - {x: -63.5, y: 178}
+        - {x: -63.5, y: 0}
+        - {x: 57.5, y: 0}
+        - {x: 63.5, y: 10}
+        - {x: 63.5, y: 164}
+        - {x: 36.5, y: 181}
+    - name: GiftSpriteSheet 1_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 181}
+        - {x: -63.5, y: 167}
+        - {x: -63.5, y: 19}
+        - {x: -58.5, y: 13}
+        - {x: -35.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 48.5, y: 2}
+        - {x: 64.5, y: 17}
+        - {x: 64.5, y: 148}
+        - {x: 48.5, y: 181}
+    - name: GiftSpriteSheet 1_57
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 181}
+        - {x: -64.5, y: 171}
+        - {x: -64.5, y: 19}
+        - {x: -49.5, y: 0}
+        - {x: 54.5, y: 0}
+        - {x: 64.5, y: 4}
+        - {x: 64.5, y: 153}
+        - {x: 35.5, y: 181}
+    - name: GiftSpriteSheet 1_58
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.5, y: 181}
+        - {x: -38.5, y: 181}
+        - {x: -66.5, y: 175}
+        - {x: -66.5, y: 11}
+        - {x: -59.5, y: 0}
+        - {x: 50.5, y: 0}
+        - {x: 63.5, y: 9}
+        - {x: 66.5, y: 56}
+        - {x: 66.5, y: 150}
+    - name: GiftSpriteSheet 1_59
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 0
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.5, y: 163}
+        - {x: 43.5, y: 181}
+        - {x: -50.5, y: 181}
+        - {x: -68.5, y: 168}
+        - {x: -68.5, y: 7}
+        - {x: -38.5, y: 0}
+        - {x: 38.5, y: 0}
+        - {x: 64.5, y: 13}
+        - {x: 66.5, y: 59}
+        - {x: 68.5, y: 66}
+    - name: GiftSpriteSheet 1_60
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 181}
+        - {x: -47.5, y: 181}
+        - {x: -68.5, y: 167}
+        - {x: -68.5, y: 19}
+        - {x: -67.5, y: 8}
+        - {x: -29.5, y: 0}
+        - {x: 38.5, y: 0}
+        - {x: 67.5, y: 16}
+        - {x: 68.5, y: 27}
+        - {x: 68.5, y: 165}
+    - name: GiftSpriteSheet 1_61
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 0
+        width: 137
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 181}
+        - {x: -68.5, y: 158}
+        - {x: -68.5, y: 0}
+        - {x: 39.5, y: 0}
+        - {x: 68.5, y: 13}
+        - {x: 68.5, y: 167}
+        - {x: 30.5, y: 181}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 0ab31b98776261749a36fb69ed80bf4f
+timeCreated: 1451092126
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpriteSheetJump_0
+    21300002: SpriteSheetJump_1
+    21300004: SpriteSheetJump_2
+    21300006: SpriteSheetJump_3
+    21300008: SpriteSheetJump_4
+    21300010: SpriteSheetJump_5
+    21300012: SpriteSheetJump_6
+    21300014: SpriteSheetJump_7
+    21300016: SpriteSheetJump_8
+    21300018: SpriteSheetJump_9
+    21300020: SpriteSheetJump_10
+    21300022: SpriteSheetJump_11
+    21300024: SpriteSheetJump_12
+    21300026: SpriteSheetJump_13
+    21300028: SpriteSheetJump_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 120
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: SpriteSheetJump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78, y: 3}
+        - {x: 73, y: 7}
+        - {x: 59, y: 24}
+        - {x: 38, y: 45}
+        - {x: 10, y: 84}
+        - {x: -3, y: 84}
+        - {x: -8, y: 82}
+        - {x: -51, y: 45}
+        - {x: -51, y: 15}
+        - {x: -35, y: -40}
+        - {x: -13, y: -71}
+        - {x: -2, y: -82}
+        - {x: 21, y: -82}
+        - {x: 29, y: -80}
+        - {x: 25, y: -70}
+        - {x: 22, y: -69}
+        - {x: 78, y: -18}
+    - name: SpriteSheetJump_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 564
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 64}
+        - {x: 19, y: 68}
+        - {x: 4, y: 69}
+        - {x: 2, y: 65}
+        - {x: 0, y: 80}
+        - {x: -3, y: 83}
+        - {x: -13, y: 83}
+        - {x: -52, y: 44}
+        - {x: -52, y: 11}
+        - {x: -34, y: -40}
+        - {x: -27, y: -40}
+        - {x: -24, y: -38}
+        - {x: -13, y: -64}
+        - {x: -3, y: -80}
+        - {x: 7, y: -83}
+        - {x: 30, y: -83}
+        - {x: 32, y: -82}
+        - {x: 78, y: -38}
+        - {x: 78, y: 14}
+    - name: SpriteSheetJump_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 564
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 82}
+        - {x: -55, y: 66}
+        - {x: -55, y: -13}
+        - {x: -25, y: -83}
+        - {x: 32, y: -83}
+        - {x: 78, y: -13}
+        - {x: 78, y: 43}
+        - {x: 36, y: 82}
+    - name: SpriteSheetJump_3
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 564
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 73}
+        - {x: -4, y: 73}
+        - {x: -5, y: 70}
+        - {x: -16, y: 79}
+        - {x: -20, y: 80}
+        - {x: -29, y: 80}
+        - {x: -49, y: 54}
+        - {x: -56, y: 36}
+        - {x: -56, y: 0}
+        - {x: -33, y: -51}
+        - {x: -7, y: -82}
+        - {x: 23, y: -82}
+        - {x: 29, y: -78}
+        - {x: 33, y: -60}
+        - {x: 76, y: -13}
+        - {x: 76, y: 33}
+    - name: SpriteSheetJump_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66, y: -42}
+        - {x: 66, y: 66}
+        - {x: 30, y: 82}
+        - {x: -19, y: 82}
+        - {x: -57, y: 48}
+        - {x: -57, y: 0}
+        - {x: -42, y: -47}
+        - {x: -15, y: -80}
+        - {x: 2, y: -80}
+        - {x: 5, y: -77}
+        - {x: 4, y: -71}
+        - {x: 25, y: -80}
+        - {x: 55, y: -80}
+    - name: SpriteSheetJump_5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 376
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 80}
+        - {x: 6, y: 80}
+        - {x: -58, y: 73}
+        - {x: -58, y: -33}
+        - {x: -27, y: -81}
+        - {x: 26, y: -81}
+        - {x: 48, y: -5}
+        - {x: 48, y: 31}
+        - {x: 34, y: 78}
+    - name: SpriteSheetJump_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 376
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 73}
+        - {x: -64, y: 43}
+        - {x: -64, y: -60}
+        - {x: -26, y: -84}
+        - {x: -21, y: -84}
+        - {x: -16, y: -60}
+        - {x: -16, y: -56}
+        - {x: -18, y: -51}
+        - {x: -2, y: -81}
+        - {x: 3, y: -84}
+        - {x: 8, y: -84}
+        - {x: 21, y: -72}
+        - {x: 60, y: 27}
+        - {x: 60, y: 73}
+    - name: SpriteSheetJump_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 376
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 74}
+        - {x: -53, y: 64}
+        - {x: -53, y: -11}
+        - {x: -47, y: -14}
+        - {x: -43, y: -13}
+        - {x: -39, y: -10}
+        - {x: -29, y: -16}
+        - {x: -47, y: -15}
+        - {x: -53, y: -18}
+        - {x: -53, y: -21}
+        - {x: -22, y: -82}
+        - {x: 28, y: -82}
+        - {x: 60, y: 5}
+        - {x: 60, y: 69}
+        - {x: 49, y: 74}
+    - name: SpriteSheetJump_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: -6}
+        - {x: 54, y: 45}
+        - {x: 11, y: 77}
+        - {x: -21, y: 77}
+        - {x: -78, y: 26}
+        - {x: -78, y: -45}
+        - {x: -60, y: -76}
+        - {x: -11, y: -76}
+        - {x: -6, y: -70}
+        - {x: -9, y: -64}
+        - {x: 30, y: -58}
+    - name: SpriteSheetJump_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 188
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -64}
+        - {x: 46, y: -2}
+        - {x: 46, y: 50}
+        - {x: 23, y: 80}
+        - {x: -12, y: 80}
+        - {x: -49, y: 59}
+        - {x: -59, y: 37}
+        - {x: -59, y: -11}
+        - {x: -25, y: -66}
+        - {x: -23, y: -68}
+        - {x: -14, y: -68}
+        - {x: -12, y: -66}
+        - {x: -12, y: -58}
+        - {x: -3, y: -62}
+    - name: SpriteSheetJump_10
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 188
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 78}
+        - {x: -20, y: 78}
+        - {x: -62, y: 58}
+        - {x: -62, y: -1}
+        - {x: -22, y: -64}
+        - {x: -7, y: -65}
+        - {x: 2, y: -59}
+        - {x: 15, y: -66}
+        - {x: 44, y: -66}
+        - {x: 62, y: -27}
+        - {x: 62, y: 35}
+        - {x: 57, y: 47}
+    - name: SpriteSheetJump_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 188
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 49}
+        - {x: 37, y: 51}
+        - {x: 19, y: 79}
+        - {x: -14, y: 79}
+        - {x: -50, y: 54}
+        - {x: -50, y: 7}
+        - {x: -12, y: -62}
+        - {x: -6, y: -68}
+        - {x: 44, y: -68}
+        - {x: 58, y: -50}
+        - {x: 58, y: 24}
+        - {x: 46, y: 47}
+    - name: SpriteSheetJump_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 82}
+        - {x: -56, y: 41}
+        - {x: -56, y: -1}
+        - {x: -35, y: -46}
+        - {x: -4, y: -82}
+        - {x: 30, y: -82}
+        - {x: 66, y: -40}
+        - {x: 66, y: 16}
+        - {x: 18, y: 82}
+    - name: SpriteSheetJump_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 73}
+        - {x: -4, y: 73}
+        - {x: -5, y: 70}
+        - {x: -16, y: 79}
+        - {x: -20, y: 80}
+        - {x: -29, y: 80}
+        - {x: -49, y: 54}
+        - {x: -56, y: 36}
+        - {x: -56, y: 0}
+        - {x: -33, y: -51}
+        - {x: -7, y: -82}
+        - {x: 23, y: -82}
+        - {x: 29, y: -78}
+        - {x: 33, y: -60}
+        - {x: 76, y: -13}
+        - {x: 76, y: 33}
+    - name: SpriteSheetJump_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74, y: 6}
+        - {x: 31, y: 82}
+        - {x: -22, y: 82}
+        - {x: -55, y: 39}
+        - {x: -55, y: 18}
+        - {x: -54, y: 17}
+        - {x: -41, y: -49}
+        - {x: -3, y: -82}
+        - {x: 29, y: -82}
+        - {x: 76, y: -11}
+        - {x: 78, y: -4}
+        - {x: 78, y: 5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

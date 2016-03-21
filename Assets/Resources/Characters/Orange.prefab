@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &152874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 442158}
+  - 212: {fileID: 21238888}
+  - 114: {fileID: 11458566}
+  - 60: {fileID: 6050202}
+  - 60: {fileID: 6013258}
+  m_Layer: 0
+  m_Name: Orange
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &442158
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152874}
+  m_LocalRotation: {x: 0, y: 0, z: 0.08715575, w: 0.9961947}
+  m_LocalPosition: {x: -0.14, y: 0.6, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.9013394}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!60 &6013258
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152874}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.17962354, y: -0.5878291}
+      - {x: 0.17385128, y: -0.28335}
+      - {x: 0.21928738, y: 0.35346803}
+      - {x: -0.29974, y: 0.51941276}
+      - {x: -0.6161467, y: 0.35684752}
+      - {x: -0.6518143, y: -0.16260692}
+--- !u!60 &6050202
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152874}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.18376867, y: -0.5876342}
+      - {x: 0.22962724, y: -0.2285894}
+      - {x: -0.65642023, y: -0.15255491}
+--- !u!114 &11458566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86857544cf71394f88786d14491326b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fps: 8
+  UseTimeScale: 1
+  AutoStart: 0
+  PreLoad: 1
+  DeffaultAnimation: 
+  AnimationAddresses:
+  - Name: Run
+    IsCircle: 1
+    Container: {fileID: 11400000, guid: 2ad07bc5f2f1a6240b792dc6f14c6e30, type: 2}
+  - Name: SlideDown
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: 22bece7c007aba24380383c9849ed23f, type: 2}
+  - Name: SlideUp
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: f14216ce205c7d54498e0bb26d673762, type: 2}
+  - Name: Slide
+    IsCircle: 1
+    Container: {fileID: 11400000, guid: ce68a9461354dec45a8c5d609310b5cd, type: 2}
+  - Name: JumpUp
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: 371a0bf91616ffc48b042b79cf353881, type: 2}
+  - Name: JumpDown
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: e0623972b1d40204fa8f4c66b7892f31, type: 2}
+  - Name: Jump
+    IsCircle: 1
+    Container: {fileID: 11400000, guid: bd219d5bfbaf23c489e5e43e88acc140, type: 2}
+  SpriteSheets:
+  - {fileID: 2800000, guid: 0e7a7c433eb611b4a87558145412ee64, type: 3}
+  - {fileID: 2800000, guid: 35693027cf18c6246839118a9aa9e160, type: 3}
+  - {fileID: 2800000, guid: 9d2127bef4d697548b18b60ee618590d, type: 3}
+  - {fileID: 2800000, guid: 80d7eb23a44d7f54c966cdded6ab62c8, type: 3}
+  Character: 6
+--- !u!212 &21238888
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152874}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -786259311
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 0e7a7c433eb611b4a87558145412ee64, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: SpriteSheets.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SpriteSheets.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: 80d7eb23a44d7f54c966cdded6ab62c8, type: 3}
+    - target: {fileID: 0}
+      propertyPath: Character
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 152874}
+  m_IsPrefabParent: 1

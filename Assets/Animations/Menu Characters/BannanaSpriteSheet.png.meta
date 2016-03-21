@@ -1,0 +1,856 @@
+fileFormatVersion: 2
+guid: 723c6202ca0e45b43b9b4081d41b4929
+timeCreated: 1452354224
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BannanaSpriteSheet_0
+    21300002: BannanaSpriteSheet_1
+    21300004: BannanaSpriteSheet_2
+    21300006: BannanaSpriteSheet_3
+    21300008: BannanaSpriteSheet_4
+    21300010: BannanaSpriteSheet_5
+    21300012: BannanaSpriteSheet_6
+    21300014: BannanaSpriteSheet_7
+    21300016: BannanaSpriteSheet_8
+    21300018: BannanaSpriteSheet_9
+    21300020: BannanaSpriteSheet_10
+    21300022: BannanaSpriteSheet_11
+    21300024: BannanaSpriteSheet_12
+    21300026: BannanaSpriteSheet_13
+    21300028: BannanaSpriteSheet_14
+    21300030: BannanaSpriteSheet_15
+    21300032: BannanaSpriteSheet_16
+    21300034: BannanaSpriteSheet_17
+    21300036: BannanaSpriteSheet_18
+    21300038: BannanaSpriteSheet_19
+    21300040: BannanaSpriteSheet_20
+    21300042: BannanaSpriteSheet_21
+    21300044: BannanaSpriteSheet_22
+    21300046: BannanaSpriteSheet_23
+    21300048: BannanaSpriteSheet_24
+    21300050: BannanaSpriteSheet_25
+    21300052: BannanaSpriteSheet_26
+    21300054: BannanaSpriteSheet_27
+    21300056: BannanaSpriteSheet_28
+    21300058: BannanaSpriteSheet_29
+    21300060: BannanaSpriteSheet_30
+    21300062: BannanaSpriteSheet_31
+    21300064: BannanaSpriteSheet_32
+    21300066: BannanaSpriteSheet_33
+    21300068: BannanaSpriteSheet_34
+    21300070: BannanaSpriteSheet_35
+    21300072: BannanaSpriteSheet_36
+    21300074: BannanaSpriteSheet_37
+    21300076: BannanaSpriteSheet_38
+    21300078: BannanaSpriteSheet_39
+    21300080: BannanaSpriteSheet_40
+    21300082: BannanaSpriteSheet_41
+    21300084: BannanaSpriteSheet_42
+    21300086: BannanaSpriteSheet_43
+    21300088: BannanaSpriteSheet_44
+    21300090: BannanaSpriteSheet_45
+    21300092: BannanaSpriteSheet_46
+    21300094: BannanaSpriteSheet_47
+    21300096: BannanaSpriteSheet_48
+    21300098: BannanaSpriteSheet_49
+    21300100: BannanaSpriteSheet_50
+    21300102: BannanaSpriteSheet_51
+    21300104: BannanaSpriteSheet_52
+    21300106: BannanaSpriteSheet_53
+    21300108: BannanaSpriteSheet_54
+    21300110: BannanaSpriteSheet_55
+    21300112: BannanaSpriteSheet_56
+    21300114: BannanaSpriteSheet_57
+    21300116: BannanaSpriteSheet_58
+    21300118: BannanaSpriteSheet_59
+    21300120: BannanaSpriteSheet_60
+    21300122: BannanaSpriteSheet_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 75
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: WP8
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: BannanaSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 173}
+        - {x: -5, y: 173}
+        - {x: -46, y: 106}
+        - {x: -46, y: 99}
+        - {x: -40, y: 96}
+        - {x: -33, y: 101}
+        - {x: -46, y: 38}
+        - {x: -40, y: 5}
+        - {x: -33, y: 0}
+        - {x: 40, y: 0}
+        - {x: 61, y: 88}
+        - {x: 61, y: 123}
+        - {x: 38, y: 172}
+    - name: BannanaSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 720
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56, y: 64}
+        - {x: 56, y: 174}
+        - {x: 3, y: 174}
+        - {x: -42, y: 122}
+        - {x: -42, y: 97}
+        - {x: -33, y: 94}
+        - {x: -30, y: 94}
+        - {x: -42, y: 51}
+        - {x: -42, y: 5}
+        - {x: -34, y: 0}
+        - {x: 26, y: 0}
+        - {x: 42, y: 4}
+        - {x: 43, y: 35}
+        - {x: 30, y: 47}
+    - name: BannanaSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 720
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 51}
+        - {x: 48, y: 175}
+        - {x: -7, y: 175}
+        - {x: -48, y: 143}
+        - {x: -48, y: 0}
+        - {x: 42, y: 0}
+        - {x: 48, y: 32}
+        - {x: 48, y: 37}
+        - {x: 39, y: 41}
+    - name: BannanaSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 720
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 175}
+        - {x: -58, y: 0}
+        - {x: 30, y: 0}
+        - {x: 42, y: 12}
+        - {x: 42, y: 139}
+        - {x: 24, y: 175}
+    - name: BannanaSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 720
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 177}
+        - {x: -42, y: 160}
+        - {x: -66, y: 120}
+        - {x: -66, y: 60}
+        - {x: -36, y: 0}
+        - {x: 38, y: 0}
+        - {x: 40, y: 1}
+        - {x: 40, y: 146}
+        - {x: 34, y: 177}
+    - name: BannanaSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 720
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 179}
+        - {x: -42, y: 145}
+        - {x: -38, y: 138}
+        - {x: -72, y: 109}
+        - {x: -72, y: 60}
+        - {x: -54, y: 0}
+        - {x: 41, y: 0}
+        - {x: 41, y: 179}
+    - name: BannanaSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 720
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 55}
+        - {x: 42, y: 86}
+        - {x: 42, y: 97}
+        - {x: 26, y: 175}
+        - {x: 22, y: 180}
+        - {x: -4, y: 180}
+        - {x: -63, y: 129}
+        - {x: -73, y: 112}
+        - {x: -73, y: 54}
+        - {x: -37, y: 0}
+        - {x: 42, y: 0}
+        - {x: 42, y: 34}
+    - name: BannanaSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 50}
+        - {x: 42, y: 71}
+        - {x: 42, y: 129}
+        - {x: 24, y: 178}
+        - {x: 20, y: 180}
+        - {x: -33, y: 180}
+        - {x: -73, y: 124}
+        - {x: -73, y: 83}
+        - {x: -53, y: 80}
+        - {x: -54, y: 0}
+        - {x: 32, y: 0}
+        - {x: 42, y: 8}
+        - {x: 42, y: 32}
+        - {x: 40, y: 41}
+    - name: BannanaSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 540
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 180}
+        - {x: -73, y: 150}
+        - {x: -73, y: 82}
+        - {x: -70, y: 79}
+        - {x: -67, y: 77}
+        - {x: -60, y: 77}
+        - {x: -52, y: 79}
+        - {x: -50, y: 15}
+        - {x: -44, y: 0}
+        - {x: 51, y: 0}
+        - {x: 51, y: 168}
+        - {x: 41, y: 180}
+    - name: BannanaSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 540
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56, y: 102}
+        - {x: 57, y: 106}
+        - {x: 57, y: 112}
+        - {x: 53, y: 113}
+        - {x: 21, y: 180}
+        - {x: -37, y: 180}
+        - {x: -71, y: 123}
+        - {x: -71, y: 68}
+        - {x: -62, y: 68}
+        - {x: -44, y: 75}
+        - {x: -42, y: 41}
+        - {x: -41, y: 10}
+        - {x: -33, y: 3}
+        - {x: -19, y: 1}
+        - {x: -16, y: 0}
+        - {x: 25, y: 0}
+        - {x: 41, y: 7}
+        - {x: 41, y: 39}
+        - {x: 33, y: 47}
+    - name: BannanaSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 540
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 180}
+        - {x: -17, y: 145}
+        - {x: -64, y: 126}
+        - {x: -64, y: 67}
+        - {x: -41, y: 59}
+        - {x: -45, y: 39}
+        - {x: -38, y: 7}
+        - {x: -31, y: 0}
+        - {x: 50, y: 0}
+        - {x: 63, y: 22}
+        - {x: 63, y: 165}
+        - {x: 32, y: 180}
+    - name: BannanaSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 540
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 180}
+        - {x: -26, y: 180}
+        - {x: -64, y: 123}
+        - {x: -64, y: 76}
+        - {x: -45, y: 58}
+        - {x: -25, y: 68}
+        - {x: -43, y: 33}
+        - {x: -44, y: 15}
+        - {x: -29, y: 0}
+        - {x: 48, y: 0}
+        - {x: 62, y: 15}
+        - {x: 64, y: 24}
+        - {x: 64, y: 152}
+    - name: BannanaSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 540
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 180}
+        - {x: -66, y: 114}
+        - {x: -66, y: 73}
+        - {x: -33, y: 54}
+        - {x: -21, y: 60}
+        - {x: -17, y: 72}
+        - {x: -19, y: 50}
+        - {x: -28, y: 49}
+        - {x: -41, y: 36}
+        - {x: -41, y: 12}
+        - {x: -30, y: 0}
+        - {x: 56, y: 0}
+        - {x: 64, y: 18}
+        - {x: 64, y: 174}
+        - {x: 36, y: 180}
+    - name: BannanaSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 540
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 180}
+        - {x: -51, y: 107}
+        - {x: -49, y: 100}
+        - {x: -37, y: 101}
+        - {x: -11, y: 77}
+        - {x: -55, y: 103}
+        - {x: -68, y: 117}
+        - {x: -68, y: 31}
+        - {x: -64, y: 0}
+        - {x: 56, y: 0}
+        - {x: 61, y: 12}
+        - {x: 61, y: 158}
+        - {x: 8, y: 180}
+    - name: BannanaSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56, y: 120}
+        - {x: 56, y: 141}
+        - {x: 2, y: 180}
+        - {x: -19, y: 180}
+        - {x: -25, y: 178}
+        - {x: -44, y: 99}
+        - {x: -40, y: 95}
+        - {x: -66, y: 101}
+        - {x: -67, y: 98}
+        - {x: -67, y: 76}
+        - {x: -47, y: 7}
+        - {x: -29, y: 0}
+        - {x: 34, y: 0}
+        - {x: 46, y: 19}
+        - {x: 40, y: 38}
+        - {x: 32, y: 45}
+    - name: BannanaSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 360
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 180}
+        - {x: -25, y: 177}
+        - {x: -38, y: 94}
+        - {x: -25, y: 94}
+        - {x: -50, y: 93}
+        - {x: -63, y: 90}
+        - {x: -63, y: 77}
+        - {x: -39, y: 8}
+        - {x: -34, y: 0}
+        - {x: 35, y: 0}
+        - {x: 48, y: 4}
+        - {x: 48, y: 152}
+        - {x: 3, y: 180}
+    - name: BannanaSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 360
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 179}
+        - {x: -58, y: 90}
+        - {x: -58, y: 75}
+        - {x: -45, y: 0}
+        - {x: 42, y: 0}
+        - {x: 42, y: 167}
+        - {x: 17, y: 179}
+    - name: BannanaSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 360
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 178}
+        - {x: -42, y: 172}
+        - {x: -50, y: 112}
+        - {x: -50, y: 0}
+        - {x: 44, y: 0}
+        - {x: 44, y: 177}
+        - {x: 35, y: 178}
+    - name: BannanaSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 360
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 177}
+        - {x: -42, y: 124}
+        - {x: -42, y: 69}
+        - {x: -41, y: 67}
+        - {x: -42, y: 58}
+        - {x: -42, y: 0}
+        - {x: 55, y: 0}
+        - {x: 55, y: 88}
+        - {x: 33, y: 177}
+    - name: BannanaSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 360
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 175}
+        - {x: -41, y: 0}
+        - {x: 37, y: 0}
+        - {x: 64, y: 27}
+        - {x: 64, y: 114}
+        - {x: 11, y: 175}
+    - name: BannanaSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 360
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 175}
+        - {x: -31, y: 175}
+        - {x: -41, y: 161}
+        - {x: -41, y: 0}
+        - {x: 39, y: 0}
+        - {x: 42, y: 11}
+        - {x: 70, y: 30}
+        - {x: 70, y: 144}
+    - name: BannanaSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66, y: 174}
+        - {x: -37, y: 174}
+        - {x: -42, y: 146}
+        - {x: -42, y: 0}
+        - {x: 30, y: 0}
+        - {x: 37, y: 8}
+        - {x: 73, y: 43}
+        - {x: 73, y: 159}
+    - name: BannanaSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 180
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 173}
+        - {x: -34, y: 164}
+        - {x: -41, y: 147}
+        - {x: -41, y: 0}
+        - {x: 55, y: 0}
+        - {x: 73, y: 31}
+        - {x: 73, y: 134}
+        - {x: 8, y: 173}
+    - name: BannanaSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 180
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: 79}
+        - {x: 58, y: 130}
+        - {x: 3, y: 173}
+        - {x: -31, y: 173}
+        - {x: -49, y: 162}
+        - {x: -49, y: 33}
+        - {x: -42, y: 1}
+        - {x: -36, y: 0}
+        - {x: 32, y: 0}
+        - {x: 44, y: 15}
+        - {x: 40, y: 45}
+      - - {x: 55, y: 104}
+        - {x: 19, y: 82}
+        - {x: 18, y: 80}
+        - {x: 18, y: 66}
+        - {x: 41, y: 66}
+        - {x: 73, y: 88}
+        - {x: 73, y: 104}
+    - name: BannanaSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 180
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 172}
+        - {x: -57, y: 141}
+        - {x: -57, y: 4}
+        - {x: -31, y: 0}
+        - {x: 61, y: 0}
+        - {x: 61, y: 164}
+        - {x: 42, y: 172}
+      - - {x: 49, y: 109}
+        - {x: 44, y: 104}
+        - {x: 29, y: 82}
+        - {x: 28, y: 79}
+        - {x: 28, y: 73}
+        - {x: 33, y: 69}
+        - {x: 52, y: 69}
+        - {x: 72, y: 92}
+        - {x: 72, y: 109}
+    - name: BannanaSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 180
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 171}
+        - {x: -62, y: 143}
+        - {x: -62, y: 18}
+        - {x: -48, y: 0}
+        - {x: 63, y: 0}
+        - {x: 63, y: 138}
+        - {x: 7, y: 171}
+      - - {x: 48, y: 114}
+        - {x: 39, y: 111}
+        - {x: 35, y: 93}
+        - {x: 35, y: 76}
+        - {x: 38, y: 72}
+        - {x: 51, y: 72}
+        - {x: 60, y: 79}
+        - {x: 66, y: 102}
+        - {x: 66, y: 112}
+        - {x: 63, y: 114}
+    - name: BannanaSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 180
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 171}
+        - {x: -64, y: 160}
+        - {x: -64, y: 8}
+        - {x: -61, y: 0}
+        - {x: 61, y: 0}
+        - {x: 61, y: 163}
+        - {x: 27, y: 171}
+      - - {x: 55, y: 119}
+        - {x: 36, y: 119}
+        - {x: 31, y: 115}
+        - {x: 31, y: 93}
+        - {x: 42, y: 77}
+        - {x: 62, y: 77}
+        - {x: 63, y: 81}
+        - {x: 63, y: 104}
+        - {x: 59, y: 116}
+    - name: BannanaSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 180
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 171}
+        - {x: -64, y: 140}
+        - {x: -64, y: 43}
+        - {x: -43, y: 0}
+        - {x: 58, y: 0}
+        - {x: 58, y: 162}
+        - {x: 44, y: 171}
+      - - {x: 25, y: 122}
+        - {x: 21, y: 115}
+        - {x: 21, y: 109}
+        - {x: 28, y: 100}
+        - {x: 47, y: 82}
+        - {x: 65, y: 82}
+        - {x: 65, y: 95}
+        - {x: 59, y: 112}
+        - {x: 43, y: 122}
+    - name: BannanaSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: 98}
+        - {x: 34, y: 126}
+        - {x: 29, y: 124}
+        - {x: 16, y: 124}
+        - {x: 17, y: 124}
+        - {x: 23, y: 125}
+        - {x: 50, y: 129}
+        - {x: 68, y: 128}
+        - {x: 29, y: 171}
+        - {x: -20, y: 171}
+        - {x: -63, y: 118}
+        - {x: -63, y: 107}
+        - {x: -55, y: 108}
+        - {x: -48, y: 13}
+        - {x: -27, y: 0}
+        - {x: 33, y: 0}
+        - {x: 57, y: 11}
+        - {x: 39, y: 46}
+        - {x: 68, y: 85}
+    - name: BannanaSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 172}
+        - {x: -38, y: 147}
+        - {x: -58, y: 113}
+        - {x: -58, y: 0}
+        - {x: 67, y: 0}
+        - {x: 67, y: 136}
+        - {x: 32, y: 172}
+    - name: BannanaSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 146
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 173}
+        - {x: -7, y: 173}
+        - {x: -51, y: 116}
+        - {x: -51, y: 90}
+        - {x: -39, y: 8}
+        - {x: -29, y: 1}
+        - {x: -17, y: 0}
+        - {x: 23, y: 0}
+        - {x: 45, y: 9}
+        - {x: 64, y: 51}
+        - {x: 64, y: 146}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

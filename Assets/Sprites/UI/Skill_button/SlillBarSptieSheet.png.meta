@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 42982e279af2c934f809e86fc707899e
+timeCreated: 1452312049
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SlillBarSptieSheet_0
+    21300002: SlillBarSptieSheet_1
+    21300004: SlillBarSptieSheet_2
+    21300006: SlillBarSptieSheet_3
+    21300008: SlillBarSptieSheet_4
+    21300010: SlillBarSptieSheet_5
+    21300012: SlillBarSptieSheet_6
+    21300014: SlillBarSptieSheet_7
+    21300016: SlillBarSptieSheet_8
+    21300018: SlillBarSptieSheet_9
+    21300020: SlillBarSptieSheet_10
+    21300022: SlillBarSptieSheet_11
+    21300024: SlillBarSptieSheet_12
+    21300026: SlillBarSptieSheet_13
+    21300028: SlillBarSptieSheet_14
+    21300030: SlillBarSptieSheet_15
+    21300032: SlillBarSptieSheet_16
+    21300034: SlillBarSptieSheet_17
+    21300036: SlillBarSptieSheet_18
+    21300038: SlillBarSptieSheet_19
+    21300040: SlillBarSptieSheet_20
+    21300042: SlillBarSptieSheet_21
+    21300044: SlillBarSptieSheet_22
+    21300046: SlillBarSptieSheet_23
+    21300048: SlillBarSptieSheet_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: SlillBarSptieSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 54.5}
+        - {x: -125, y: 54.5}
+        - {x: -125, y: -25.5}
+        - {x: -120, y: -46.5}
+        - {x: -92, y: -54.5}
+        - {x: 5, y: -54.5}
+        - {x: 125, y: -33.5}
+        - {x: 126, y: -30.5}
+        - {x: 126, y: 27.5}
+    - name: SlillBarSptieSheet_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 690
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 54.5}
+        - {x: -125, y: 54.5}
+        - {x: -125, y: -25.5}
+        - {x: -120, y: -46.5}
+        - {x: -92, y: -54.5}
+        - {x: 5, y: -54.5}
+        - {x: 125, y: -33.5}
+        - {x: 126, y: -30.5}
+        - {x: 126, y: 27.5}
+    - name: SlillBarSptieSheet_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 690
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 33.5}
+        - {x: -15, y: 54.5}
+        - {x: -89, y: 54.5}
+        - {x: -107, y: 50.5}
+        - {x: -125, y: 26.5}
+        - {x: -125, y: -23.5}
+        - {x: -120, y: -46.5}
+        - {x: -92, y: -54.5}
+        - {x: 5, y: -54.5}
+        - {x: 125, y: -33.5}
+        - {x: 126, y: -8.5}
+        - {x: 126, y: 18.5}
+    - name: SlillBarSptieSheet_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 690
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 33.5}
+        - {x: -15, y: 54.5}
+        - {x: -89, y: 54.5}
+        - {x: -107, y: 50.5}
+        - {x: -125, y: 26.5}
+        - {x: -125, y: -23.5}
+        - {x: -120, y: -46.5}
+        - {x: -92, y: -54.5}
+        - {x: 5, y: -54.5}
+        - {x: 125, y: -33.5}
+        - {x: 126, y: -8.5}
+        - {x: 126, y: 18.5}
+    - name: SlillBarSptieSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 33.5}
+        - {x: -15, y: 54.5}
+        - {x: -89, y: 54.5}
+        - {x: -107, y: 50.5}
+        - {x: -125, y: 26.5}
+        - {x: -125, y: -23.5}
+        - {x: -120, y: -46.5}
+        - {x: -92, y: -54.5}
+        - {x: 5, y: -54.5}
+        - {x: 125, y: -33.5}
+        - {x: 126, y: -8.5}
+        - {x: 126, y: 18.5}
+    - name: SlillBarSptieSheet_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 575
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 33.5}
+        - {x: -15, y: 54.5}
+        - {x: -89, y: 54.5}
+        - {x: -107, y: 50.5}
+        - {x: -125, y: 26.5}
+        - {x: -125, y: -23.5}
+        - {x: -120, y: -46.5}
+        - {x: -92, y: -54.5}
+        - {x: 5, y: -54.5}
+        - {x: 125, y: -33.5}
+        - {x: 126, y: -8.5}
+        - {x: 126, y: 18.5}
+    - name: SlillBarSptieSheet_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 575
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 33.5}
+        - {x: -15, y: 54.5}
+        - {x: -89, y: 54.5}
+        - {x: -107, y: 50.5}
+        - {x: -125, y: 26.5}
+        - {x: -125, y: -23.5}
+        - {x: -120, y: -46.5}
+        - {x: -92, y: -54.5}
+        - {x: 5, y: -54.5}
+        - {x: 125, y: -33.5}
+        - {x: 126, y: -8.5}
+        - {x: 126, y: 18.5}
+    - name: SlillBarSptieSheet_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 575
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 33.5}
+        - {x: -15, y: 54.5}
+        - {x: -89, y: 54.5}
+        - {x: -107, y: 50.5}
+        - {x: -125, y: 26.5}
+        - {x: -125, y: -23.5}
+        - {x: -120, y: -46.5}
+        - {x: -92, y: -54.5}
+        - {x: 5, y: -54.5}
+        - {x: 125, y: -33.5}
+        - {x: 126, y: -8.5}
+        - {x: 126, y: 18.5}
+    - name: SlillBarSptieSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 33.5}
+        - {x: -15, y: 54.5}
+        - {x: -89, y: 54.5}
+        - {x: -107, y: 50.5}
+        - {x: -125, y: 26.5}
+        - {x: -125, y: -23.5}
+        - {x: -120, y: -46.5}
+        - {x: -92, y: -54.5}
+        - {x: 5, y: -54.5}
+        - {x: 125, y: -33.5}
+        - {x: 126, y: -8.5}
+        - {x: 126, y: 18.5}
+    - name: SlillBarSptieSheet_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 460
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 460
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 460
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 345
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 345
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 345
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 230
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 230
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 230
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 115
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 55.5}
+        - {x: -125, y: 41.5}
+        - {x: -125, y: -35.5}
+        - {x: -113, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -25, y: -50.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 40.5}
+        - {x: -21, y: 55.5}
+    - name: SlillBarSptieSheet_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 115
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106, y: 55.5}
+        - {x: -125, y: 42.5}
+        - {x: -125, y: -34.5}
+        - {x: -109, y: -54.5}
+        - {x: 106, y: -54.5}
+        - {x: 120, y: -51.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 32.5}
+        - {x: 25, y: 55.5}
+    - name: SlillBarSptieSheet_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 115
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106, y: 55.5}
+        - {x: -125, y: 42.5}
+        - {x: -125, y: -34.5}
+        - {x: -109, y: -54.5}
+        - {x: 106, y: -54.5}
+        - {x: 120, y: -51.5}
+        - {x: 126, y: -33.5}
+        - {x: 126, y: 32.5}
+        - {x: 25, y: 55.5}
+    - name: SlillBarSptieSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -21.5}
+        - {x: 111, y: -32.5}
+        - {x: 128, y: -24.5}
+        - {x: 128, y: 51.5}
+        - {x: 72, y: 57.5}
+        - {x: -128, y: 57.5}
+        - {x: -128, y: -31.5}
+        - {x: -103, y: -57.5}
+        - {x: -52, y: -57.5}
+        - {x: -44, y: -55.5}
+        - {x: -28, y: -46.5}
+        - {x: -22, y: -39.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

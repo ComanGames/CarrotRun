@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: e5173aa4b601802419eb88432755e749
+timeCreated: 1453760724
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AppleSkillSpriteSheet_0
+    21300002: AppleSkillSpriteSheet_1
+    21300004: AppleSkillSpriteSheet_2
+    21300006: AppleSkillSpriteSheet_3
+    21300008: AppleSkillSpriteSheet_4
+    21300010: AppleSkillSpriteSheet_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: AppleSkillSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 512
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -245, y: 68}
+        - {x: -255, y: 68}
+        - {x: -256, y: 65}
+        - {x: -256, y: 59}
+        - {x: -240, y: 54}
+        - {x: 224, y: -83}
+        - {x: 229, y: -83}
+        - {x: 231, y: -82}
+        - {x: 231, y: -74}
+        - {x: 229, y: -68}
+      - - {x: -219, y: 84}
+        - {x: -227, y: 84}
+        - {x: -231, y: 82}
+        - {x: -231, y: 73}
+        - {x: -230, y: 70}
+        - {x: 242, y: -68}
+        - {x: 252, y: -68}
+        - {x: 256, y: -66}
+        - {x: 256, y: -59}
+        - {x: 250, y: -55}
+    - name: AppleSkillSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 512
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -254, y: 69}
+        - {x: -256, y: 64}
+        - {x: -256, y: 58}
+        - {x: -254, y: 57}
+        - {x: 215, y: -84}
+        - {x: 230, y: -84}
+        - {x: 232, y: -83}
+        - {x: 232, y: -72}
+        - {x: 229, y: -67}
+        - {x: -243, y: 68}
+        - {x: -245, y: 69}
+      - - {x: 253, y: -55}
+        - {x: -213, y: 82}
+        - {x: -221, y: 84}
+        - {x: -231, y: 84}
+        - {x: -232, y: 79}
+        - {x: -232, y: 73}
+        - {x: -229, y: 70}
+        - {x: 242, y: -68}
+        - {x: 248, y: -69}
+        - {x: 253, y: -69}
+        - {x: 256, y: -65}
+        - {x: 256, y: -59}
+    - name: AppleSkillSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 512
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -239, y: 71}
+        - {x: -252, y: 71}
+        - {x: -256, y: 69}
+        - {x: -256, y: 56}
+        - {x: -255, y: 55}
+        - {x: 220, y: -85}
+        - {x: 232, y: -85}
+        - {x: 233, y: -84}
+        - {x: 233, y: -71}
+        - {x: 229, y: -63}
+      - - {x: -229, y: 85}
+        - {x: -232, y: 80}
+        - {x: -233, y: 76}
+        - {x: -233, y: 73}
+        - {x: -227, y: 68}
+        - {x: 239, y: -70}
+        - {x: 256, y: -70}
+        - {x: 256, y: -53}
+        - {x: -219, y: 85}
+    - name: AppleSkillSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 512
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -235, y: 70}
+        - {x: -245, y: 72}
+        - {x: -254, y: 72}
+        - {x: -256, y: 70}
+        - {x: -256, y: 54}
+        - {x: -255, y: 51}
+        - {x: 218, y: -85}
+        - {x: 231, y: -85}
+        - {x: 234, y: -81}
+        - {x: 234, y: -73}
+        - {x: 231, y: -67}
+      - - {x: -233, y: 85}
+        - {x: -233, y: 68}
+        - {x: 183, y: -72}
+        - {x: 256, y: -72}
+        - {x: 256, y: 5}
+        - {x: -162, y: 85}
+    - name: AppleSkillSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 512
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 244, y: -76}
+        - {x: 256, y: -73}
+        - {x: 256, y: -52}
+        - {x: 255, y: -49}
+        - {x: -174, y: 85}
+        - {x: -245, y: 85}
+        - {x: -252, y: 83}
+        - {x: -256, y: 74}
+        - {x: -256, y: 47}
+        - {x: 194, y: -85}
+        - {x: 233, y: -85}
+        - {x: 241, y: -81}
+        - {x: 234, y: -71}
+        - {x: 230, y: -67}
+        - {x: 232, y: -68}
+    - name: AppleSkillSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -193, y: 85}
+        - {x: -248, y: 85}
+        - {x: -256, y: 84}
+        - {x: -256, y: 51}
+        - {x: 176, y: -77}
+        - {x: 212, y: -85}
+        - {x: 240, y: -85}
+        - {x: 255, y: -79}
+        - {x: 256, y: -76}
+        - {x: 256, y: -51}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

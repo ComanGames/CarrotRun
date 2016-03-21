@@ -1,0 +1,801 @@
+fileFormatVersion: 2
+guid: 2501b8f40f361a740b3c7cd33ead48fa
+timeCreated: 1452354333
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: StrawberrySpriteSheet_0
+    21300002: StrawberrySpriteSheet_1
+    21300004: StrawberrySpriteSheet_2
+    21300006: StrawberrySpriteSheet_3
+    21300008: StrawberrySpriteSheet_4
+    21300010: StrawberrySpriteSheet_5
+    21300012: StrawberrySpriteSheet_6
+    21300014: StrawberrySpriteSheet_7
+    21300016: StrawberrySpriteSheet_8
+    21300018: StrawberrySpriteSheet_9
+    21300020: StrawberrySpriteSheet_10
+    21300022: StrawberrySpriteSheet_11
+    21300024: StrawberrySpriteSheet_12
+    21300026: StrawberrySpriteSheet_13
+    21300028: StrawberrySpriteSheet_14
+    21300030: StrawberrySpriteSheet_15
+    21300032: StrawberrySpriteSheet_16
+    21300034: StrawberrySpriteSheet_17
+    21300036: StrawberrySpriteSheet_18
+    21300038: StrawberrySpriteSheet_19
+    21300040: StrawberrySpriteSheet_20
+    21300042: StrawberrySpriteSheet_21
+    21300044: StrawberrySpriteSheet_22
+    21300046: StrawberrySpriteSheet_23
+    21300048: StrawberrySpriteSheet_24
+    21300050: StrawberrySpriteSheet_25
+    21300052: StrawberrySpriteSheet_26
+    21300054: StrawberrySpriteSheet_27
+    21300056: StrawberrySpriteSheet_28
+    21300058: StrawberrySpriteSheet_29
+    21300060: StrawberrySpriteSheet_30
+    21300062: StrawberrySpriteSheet_31
+    21300064: StrawberrySpriteSheet_32
+    21300066: StrawberrySpriteSheet_33
+    21300068: StrawberrySpriteSheet_34
+    21300070: StrawberrySpriteSheet_35
+    21300072: StrawberrySpriteSheet_36
+    21300074: StrawberrySpriteSheet_37
+    21300076: StrawberrySpriteSheet_38
+    21300078: StrawberrySpriteSheet_39
+    21300080: StrawberrySpriteSheet_40
+    21300082: StrawberrySpriteSheet_41
+    21300084: StrawberrySpriteSheet_42
+    21300086: StrawberrySpriteSheet_43
+    21300088: StrawberrySpriteSheet_44
+    21300090: StrawberrySpriteSheet_45
+    21300092: StrawberrySpriteSheet_46
+    21300094: StrawberrySpriteSheet_47
+    21300096: StrawberrySpriteSheet_48
+    21300098: StrawberrySpriteSheet_49
+    21300100: StrawberrySpriteSheet_50
+    21300102: StrawberrySpriteSheet_51
+    21300104: StrawberrySpriteSheet_52
+    21300106: StrawberrySpriteSheet_53
+    21300108: StrawberrySpriteSheet_54
+    21300110: StrawberrySpriteSheet_55
+    21300112: StrawberrySpriteSheet_56
+    21300114: StrawberrySpriteSheet_57
+    21300116: StrawberrySpriteSheet_58
+    21300118: StrawberrySpriteSheet_59
+    21300120: StrawberrySpriteSheet_60
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 75
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: WP8
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: StrawberrySpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 185}
+        - {x: -57, y: 178}
+        - {x: -57, y: 96}
+        - {x: -56, y: 92}
+        - {x: -50, y: 79}
+        - {x: -45, y: 81}
+        - {x: -27, y: 71}
+        - {x: -24, y: 73}
+        - {x: -21, y: 76}
+        - {x: -37, y: 58}
+        - {x: -49, y: 61}
+        - {x: -57, y: 56}
+        - {x: -57, y: 18}
+        - {x: -55, y: 3}
+        - {x: -36, y: 0}
+        - {x: 56, y: 0}
+        - {x: 56, y: 183}
+        - {x: 54, y: 185}
+    - name: StrawberrySpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 740
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 183}
+        - {x: -57, y: 150}
+        - {x: -57, y: 129}
+        - {x: -45, y: 71}
+        - {x: -27, y: 70}
+        - {x: -25, y: 70}
+        - {x: -23, y: 72}
+        - {x: -21, y: 79}
+        - {x: -23, y: 70}
+        - {x: -38, y: 69}
+        - {x: -57, y: 56}
+        - {x: -57, y: 12}
+        - {x: -38, y: 0}
+        - {x: 56, y: 0}
+        - {x: 57, y: 2}
+        - {x: 57, y: 133}
+        - {x: 33, y: 183}
+    - name: StrawberrySpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 740
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 181}
+        - {x: -57, y: 0}
+        - {x: 44, y: 0}
+        - {x: 56, y: 3}
+        - {x: 56, y: 171}
+        - {x: 29, y: 181}
+    - name: StrawberrySpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 740
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 59}
+        - {x: 50, y: 113}
+        - {x: 45, y: 167}
+        - {x: 28, y: 180}
+        - {x: -29, y: 180}
+        - {x: -52, y: 176}
+        - {x: -57, y: 124}
+        - {x: -57, y: 120}
+        - {x: -49, y: 115}
+        - {x: -44, y: 112}
+        - {x: -30, y: 69}
+        - {x: -26, y: 66}
+        - {x: -23, y: 64}
+        - {x: -20, y: 75}
+        - {x: -19, y: 61}
+        - {x: -30, y: 68}
+        - {x: -45, y: 69}
+        - {x: -57, y: 54}
+        - {x: -57, y: 2}
+        - {x: -54, y: 0}
+        - {x: 45, y: 0}
+        - {x: 57, y: 10}
+        - {x: 57, y: 53}
+        - {x: 50, y: 60}
+    - name: StrawberrySpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 740
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 181}
+        - {x: -56, y: 181}
+        - {x: -56, y: 0}
+        - {x: 55, y: 0}
+        - {x: 55, y: 150}
+        - {x: 33, y: 175}
+    - name: StrawberrySpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 740
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 181}
+        - {x: -58, y: 154}
+        - {x: -56, y: 134}
+        - {x: -52, y: 110}
+        - {x: -58, y: 78}
+        - {x: -58, y: 2}
+        - {x: -29, y: 0}
+        - {x: 56, y: 0}
+        - {x: 56, y: 181}
+    - name: StrawberrySpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 555
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 182}
+        - {x: -59, y: 169}
+        - {x: -59, y: 17}
+        - {x: -37, y: 1}
+        - {x: -33, y: 0}
+        - {x: 40, y: 0}
+        - {x: 57, y: 2}
+        - {x: 57, y: 156}
+        - {x: 22, y: 182}
+    - name: StrawberrySpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 555
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 136}
+        - {x: 13, y: 183}
+        - {x: 3, y: 183}
+        - {x: -14, y: 179}
+        - {x: -68, y: 155}
+        - {x: -68, y: 63}
+        - {x: -56, y: 11}
+        - {x: -45, y: 0}
+        - {x: 39, y: 0}
+        - {x: 67, y: 10}
+        - {x: 67, y: 97}
+        - {x: 59, y: 102}
+    - name: StrawberrySpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 555
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 183}
+        - {x: -29, y: 183}
+        - {x: -77, y: 151}
+        - {x: -77, y: 7}
+        - {x: -58, y: 0}
+        - {x: 59, y: 0}
+        - {x: 68, y: 21}
+        - {x: 77, y: 53}
+        - {x: 77, y: 139}
+    - name: StrawberrySpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 555
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 160}
+        - {x: 75, y: 181}
+        - {x: 61, y: 184}
+        - {x: -26, y: 184}
+        - {x: -84, y: 147}
+        - {x: -84, y: 71}
+        - {x: -68, y: 8}
+        - {x: -48, y: 0}
+        - {x: 31, y: 0}
+        - {x: 41, y: 3}
+        - {x: 54, y: 13}
+        - {x: 57, y: 54}
+        - {x: 83, y: 64}
+    - name: StrawberrySpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 555
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 67}
+        - {x: 33, y: 66}
+        - {x: 85, y: 105}
+        - {x: 85, y: 133}
+        - {x: 36, y: 185}
+        - {x: -43, y: 185}
+        - {x: -85, y: 147}
+        - {x: -85, y: 114}
+        - {x: -72, y: 113}
+        - {x: -57, y: 26}
+        - {x: -52, y: 11}
+        - {x: -41, y: 0}
+        - {x: 26, y: 0}
+        - {x: 48, y: 8}
+        - {x: 61, y: 16}
+        - {x: 56, y: 62}
+    - name: StrawberrySpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 555
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 185}
+        - {x: -85, y: 122}
+        - {x: -85, y: 102}
+        - {x: -70, y: 53}
+        - {x: -50, y: 0}
+        - {x: 58, y: 0}
+        - {x: 85, y: 49}
+        - {x: 85, y: 175}
+        - {x: 47, y: 185}
+    - name: StrawberrySpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 182}
+        - {x: 2, y: 184}
+        - {x: -28, y: 184}
+        - {x: -85, y: 133}
+        - {x: -85, y: 68}
+        - {x: -68, y: 1}
+        - {x: -66, y: 0}
+        - {x: 58, y: 0}
+        - {x: 72, y: 11}
+        - {x: 84, y: 62}
+        - {x: 84, y: 148}
+    - name: StrawberrySpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 370
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 153}
+        - {x: 13, y: 184}
+        - {x: -31, y: 184}
+        - {x: -78, y: 110}
+        - {x: -78, y: 53}
+        - {x: -66, y: 18}
+        - {x: -36, y: 0}
+        - {x: 51, y: 0}
+        - {x: 73, y: 54}
+        - {x: 78, y: 85}
+        - {x: 78, y: 138}
+    - name: StrawberrySpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 370
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 66}
+        - {x: 69, y: 121}
+        - {x: 69, y: 163}
+        - {x: 51, y: 183}
+        - {x: -31, y: 183}
+        - {x: -69, y: 167}
+        - {x: -69, y: 6}
+        - {x: -24, y: 0}
+        - {x: 27, y: 0}
+        - {x: 54, y: 6}
+        - {x: 56, y: 27}
+        - {x: 59, y: 55}
+    - name: StrawberrySpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 370
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 182}
+        - {x: -57, y: 182}
+        - {x: -57, y: 0}
+        - {x: 26, y: 0}
+        - {x: 42, y: 5}
+        - {x: 56, y: 15}
+        - {x: 56, y: 161}
+    - name: StrawberrySpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 370
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 182}
+        - {x: -18, y: 180}
+        - {x: -15, y: 175}
+        - {x: -11, y: 168}
+        - {x: -28, y: 161}
+        - {x: -41, y: 153}
+        - {x: -57, y: 133}
+        - {x: -57, y: 0}
+        - {x: 57, y: 0}
+        - {x: 57, y: 177}
+        - {x: 19, y: 182}
+    - name: StrawberrySpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 370
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 69}
+        - {x: 15, y: 71}
+        - {x: 25, y: 70}
+        - {x: 27, y: 70}
+        - {x: 30, y: 71}
+        - {x: 52, y: 110}
+        - {x: 56, y: 120}
+        - {x: 56, y: 133}
+        - {x: 45, y: 163}
+        - {x: 3, y: 181}
+        - {x: -21, y: 181}
+        - {x: -53, y: 136}
+        - {x: -57, y: 120}
+        - {x: -57, y: 1}
+        - {x: -55, y: 0}
+        - {x: 52, y: 0}
+        - {x: 56, y: 4}
+        - {x: 56, y: 58}
+        - {x: 37, y: 71}
+    - name: StrawberrySpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 70}
+        - {x: 10, y: 72}
+        - {x: 17, y: 79}
+        - {x: 23, y: 71}
+        - {x: 30, y: 74}
+        - {x: 37, y: 102}
+        - {x: 38, y: 107}
+        - {x: 57, y: 117}
+        - {x: 57, y: 169}
+        - {x: 51, y: 181}
+        - {x: -50, y: 181}
+        - {x: -57, y: 168}
+        - {x: -57, y: 8}
+        - {x: -55, y: 7}
+        - {x: -29, y: 0}
+        - {x: 49, y: 0}
+        - {x: 57, y: 18}
+        - {x: 57, y: 59}
+        - {x: 41, y: 66}
+    - name: StrawberrySpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 185
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 180}
+        - {x: -50, y: 161}
+        - {x: -56, y: 103}
+        - {x: -56, y: 6}
+        - {x: -49, y: 0}
+        - {x: 56, y: 0}
+        - {x: 56, y: 168}
+        - {x: 45, y: 180}
+    - name: StrawberrySpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 185
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 180}
+        - {x: -56, y: 2}
+        - {x: -49, y: 0}
+        - {x: 49, y: 0}
+        - {x: 57, y: 6}
+        - {x: 57, y: 178}
+        - {x: 55, y: 180}
+    - name: StrawberrySpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 185
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 179}
+        - {x: -57, y: 163}
+        - {x: -57, y: 0}
+        - {x: 58, y: 0}
+        - {x: 58, y: 179}
+    - name: StrawberrySpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 185
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 11}
+        - {x: -49, y: 0}
+        - {x: 64, y: 0}
+        - {x: 64, y: 179}
+        - {x: -24, y: 179}
+        - {x: -64, y: 157}
+    - name: StrawberrySpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 185
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 179}
+        - {x: -75, y: 157}
+        - {x: -75, y: 72}
+        - {x: -70, y: 52}
+        - {x: -57, y: 12}
+        - {x: -42, y: 0}
+        - {x: 75, y: 0}
+        - {x: 75, y: 179}
+    - name: StrawberrySpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 179}
+        - {x: -82, y: 140}
+        - {x: -82, y: 101}
+        - {x: -62, y: 0}
+        - {x: 54, y: 0}
+        - {x: 82, y: 85}
+        - {x: 82, y: 126}
+        - {x: 53, y: 179}
+    - name: StrawberrySpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 181}
+        - {x: -85, y: 142}
+        - {x: -85, y: 116}
+        - {x: -63, y: 113}
+        - {x: -62, y: 55}
+        - {x: -56, y: 10}
+        - {x: -36, y: 0}
+        - {x: 60, y: 0}
+        - {x: 85, y: 44}
+        - {x: 85, y: 163}
+        - {x: 75, y: 181}
+    - name: StrawberrySpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 184}
+        - {x: 21, y: 180}
+        - {x: -1, y: 184}
+        - {x: -7, y: 184}
+        - {x: -85, y: 141}
+        - {x: -85, y: 73}
+        - {x: -59, y: 0}
+        - {x: 57, y: 0}
+        - {x: 85, y: 7}
+        - {x: 85, y: 133}
+        - {x: 35, y: 184}
+    - name: StrawberrySpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 185}
+        - {x: -62, y: 170}
+        - {x: -85, y: 119}
+        - {x: -85, y: 53}
+        - {x: -63, y: 0}
+        - {x: 83, y: 0}
+        - {x: 85, y: 5}
+        - {x: 85, y: 159}
+        - {x: 43, y: 185}
+    - name: StrawberrySpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 185}
+        - {x: -65, y: 163}
+        - {x: -80, y: 109}
+        - {x: -80, y: 60}
+        - {x: -58, y: 2}
+        - {x: -46, y: 0}
+        - {x: 56, y: 0}
+        - {x: 80, y: 11}
+        - {x: 80, y: 148}
+        - {x: 22, y: 185}
+    - name: StrawberrySpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 170
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 185}
+        - {x: -72, y: 130}
+        - {x: -72, y: 30}
+        - {x: -51, y: 0}
+        - {x: 71, y: 0}
+        - {x: 71, y: 173}
+        - {x: 41, y: 185}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

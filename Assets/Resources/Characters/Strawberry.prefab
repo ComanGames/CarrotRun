@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &116790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 494294}
+  - 212: {fileID: 21243500}
+  - 114: {fileID: 11425666}
+  - 60: {fileID: 6023092}
+  - 60: {fileID: 6012778}
+  m_Layer: 0
+  m_Name: Strawberry
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &494294
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116790}
+  m_LocalRotation: {x: 0, y: 0, z: 0.08715575, w: 0.9961947}
+  m_LocalPosition: {x: -0.32, y: 0.43, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.9013394}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!60 &6012778
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116790}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: 0.020543616, y: -0.558426}
+      - {x: 0.32650012, y: -0.27861577}
+      - {x: 0.41955206, y: 0.25340378}
+      - {x: 0.055492878, y: 0.5754881}
+      - {x: -0.25943464, y: 0.27163994}
+      - {x: -0.33528996, y: -0.17731814}
+--- !u!60 &6023092
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116790}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: 0.020107498, y: -0.5569354}
+      - {x: 0.32677358, y: -0.27728957}
+      - {x: -0.32812995, y: -0.1797463}
+--- !u!114 &11425666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86857544cf71394f88786d14491326b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fps: 8
+  UseTimeScale: 1
+  AutoStart: 0
+  PreLoad: 1
+  DeffaultAnimation: 
+  AnimationAddresses:
+  - Name: Run
+    IsCircle: 1
+    Container: {fileID: 11400000, guid: d7a05b60c97fb8f4e888dd30f781edae, type: 2}
+  - Name: SlideDown
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: 11be833d06514dc48b920d8b35762ee5, type: 2}
+  - Name: SlideUp
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: b20ca8b5a50448b4db9a0e24beeebfbd, type: 2}
+  - Name: Slide
+    IsCircle: 1
+    Container: {fileID: 11400000, guid: 1cc48e06fe93566478523efd1c907104, type: 2}
+  - Name: JumpUp
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: fc2390380a3529d478ae842ab8ca42dd, type: 2}
+  - Name: JumpDown
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: f4b9d5f47b2e1d9489b4b75fce4549d5, type: 2}
+  - Name: Jump
+    IsCircle: 1
+    Container: {fileID: 11400000, guid: 9180d0ff7f81b3c4d81dedc7bb2dd6d9, type: 2}
+  SpriteSheets:
+  - {fileID: 2800000, guid: 514b9dd23d3657d48accd1985c767c68, type: 3}
+  - {fileID: 2800000, guid: fa20eda38c5d136428f45c466c783c50, type: 3}
+  - {fileID: 2800000, guid: 0ab31b98776261749a36fb69ed80bf4f, type: 3}
+  - {fileID: 2800000, guid: 5a0c619e71d38a94094fed56d5c853b7, type: 3}
+  Character: 8
+--- !u!212 &21243500
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116790}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -786259311
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 0ab31b98776261749a36fb69ed80bf4f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: SpriteSheets.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SpriteSheets.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: 5a0c619e71d38a94094fed56d5c853b7, type: 3}
+    - target: {fileID: 0}
+      propertyPath: Character
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 116790}
+  m_IsPrefabParent: 1

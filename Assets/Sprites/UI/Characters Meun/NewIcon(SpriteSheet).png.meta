@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: 77006b782045d3244a35d765adc67bd6
+timeCreated: 1452822227
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NewIcon(SpriteSheet)_0
+    21300002: NewIcon(SpriteSheet)_1
+    21300004: NewIcon(SpriteSheet)_2
+    21300006: NewIcon(SpriteSheet)_3
+    21300008: NewIcon(SpriteSheet)_4
+    21300010: NewIcon(SpriteSheet)_5
+    21300012: NewIcon(SpriteSheet)_6
+    21300014: NewIcon(SpriteSheet)_7
+    21300016: NewIcon(SpriteSheet)_8
+    21300018: NewIcon(SpriteSheet)_9
+    21300020: NewIcon(SpriteSheet)_10
+    21300022: NewIcon(SpriteSheet)_11
+    21300024: NewIcon(SpriteSheet)_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: NewIcon(SpriteSheet)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 71}
+        - {x: -71, y: 44}
+        - {x: -71, y: -61}
+        - {x: -49, y: -71}
+        - {x: 62, y: -71}
+        - {x: 71, y: -53}
+        - {x: 71, y: 44}
+        - {x: 45, y: 71}
+    - name: NewIcon(SpriteSheet)_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 426
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 71}
+        - {x: -71, y: 34}
+        - {x: -71, y: -43}
+        - {x: -40, y: -71}
+        - {x: 35, y: -71}
+        - {x: 71, y: -59}
+        - {x: 71, y: 46}
+        - {x: 31, y: 71}
+    - name: NewIcon(SpriteSheet)_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 426
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 71}
+        - {x: -71, y: 34}
+        - {x: -71, y: -43}
+        - {x: -40, y: -71}
+        - {x: 35, y: -71}
+        - {x: 71, y: -59}
+        - {x: 71, y: 46}
+        - {x: 31, y: 71}
+    - name: NewIcon(SpriteSheet)_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 426
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 71}
+        - {x: -71, y: 34}
+        - {x: -71, y: -43}
+        - {x: -40, y: -71}
+        - {x: 35, y: -71}
+        - {x: 71, y: -59}
+        - {x: 71, y: 46}
+        - {x: 31, y: 71}
+    - name: NewIcon(SpriteSheet)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 71}
+        - {x: -71, y: 34}
+        - {x: -71, y: -43}
+        - {x: -40, y: -71}
+        - {x: 35, y: -71}
+        - {x: 71, y: -59}
+        - {x: 71, y: 46}
+        - {x: 31, y: 71}
+    - name: NewIcon(SpriteSheet)_5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 284
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 71}
+        - {x: -71, y: 34}
+        - {x: -71, y: -43}
+        - {x: -40, y: -71}
+        - {x: 35, y: -71}
+        - {x: 71, y: -59}
+        - {x: 71, y: 46}
+        - {x: 31, y: 71}
+    - name: NewIcon(SpriteSheet)_6
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 284
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 71}
+        - {x: -71, y: 34}
+        - {x: -71, y: -43}
+        - {x: -40, y: -71}
+        - {x: 35, y: -71}
+        - {x: 71, y: -59}
+        - {x: 71, y: 46}
+        - {x: 31, y: 71}
+    - name: NewIcon(SpriteSheet)_7
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 284
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 71}
+        - {x: -71, y: 34}
+        - {x: -71, y: -43}
+        - {x: -40, y: -71}
+        - {x: 35, y: -71}
+        - {x: 71, y: -59}
+        - {x: 71, y: 46}
+        - {x: 31, y: 71}
+    - name: NewIcon(SpriteSheet)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 71}
+        - {x: -71, y: 30}
+        - {x: -71, y: -27}
+        - {x: -45, y: -70}
+        - {x: -40, y: -71}
+        - {x: 47, y: -71}
+        - {x: 71, y: -39}
+        - {x: 71, y: 31}
+        - {x: 47, y: 71}
+    - name: NewIcon(SpriteSheet)_9
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 142
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 71}
+        - {x: -71, y: 44}
+        - {x: -71, y: -66}
+        - {x: -67, y: -71}
+        - {x: 55, y: -71}
+        - {x: 71, y: -65}
+        - {x: 71, y: 52}
+        - {x: 40, y: 71}
+    - name: NewIcon(SpriteSheet)_10
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 142
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 71}
+        - {x: -71, y: 64}
+        - {x: -71, y: -47}
+        - {x: -39, y: -71}
+        - {x: 50, y: -71}
+        - {x: 71, y: -46}
+        - {x: 71, y: 30}
+        - {x: 50, y: 71}
+    - name: NewIcon(SpriteSheet)_11
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 142
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 71}
+        - {x: -71, y: 69}
+        - {x: -71, y: -39}
+        - {x: -38, y: -71}
+        - {x: 33, y: -71}
+        - {x: 71, y: -32}
+        - {x: 71, y: 39}
+        - {x: 59, y: 71}
+    - name: NewIcon(SpriteSheet)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 71}
+        - {x: -67, y: 71}
+        - {x: -71, y: 70}
+        - {x: -71, y: -57}
+        - {x: -37, y: -71}
+        - {x: 45, y: -71}
+        - {x: 64, y: -53}
+        - {x: 71, y: -27}
+        - {x: 71, y: 52}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

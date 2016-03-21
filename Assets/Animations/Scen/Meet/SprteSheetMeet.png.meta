@@ -1,0 +1,581 @@
+fileFormatVersion: 2
+guid: 40252a269faae274398590209fde5921
+timeCreated: 1452304780
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SprteSheetMeet_0
+    21300002: SprteSheetMeet_1
+    21300004: SprteSheetMeet_2
+    21300006: SprteSheetMeet_3
+    21300008: SprteSheetMeet_4
+    21300010: SprteSheetMeet_5
+    21300012: SprteSheetMeet_6
+    21300014: SprteSheetMeet_7
+    21300016: SprteSheetMeet_8
+    21300018: SprteSheetMeet_9
+    21300020: SprteSheetMeet_10
+    21300022: SprteSheetMeet_11
+    21300024: SprteSheetMeet_12
+    21300026: SprteSheetMeet_13
+    21300028: SprteSheetMeet_14
+    21300030: SprteSheetMeet_15
+    21300032: SprteSheetMeet_16
+    21300034: SprteSheetMeet_17
+    21300036: SprteSheetMeet_18
+    21300038: SprteSheetMeet_19
+    21300040: SprteSheetMeet_20
+    21300042: SprteSheetMeet_21
+    21300044: SprteSheetMeet_22
+    21300046: SprteSheetMeet_23
+    21300048: SprteSheetMeet_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 100
+    allowsAlphaSplitting: 1
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  spriteSheet:
+    sprites:
+    - name: SprteSheetMeet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 45}
+        - {x: -35.5, y: 40}
+        - {x: -35.5, y: -10}
+        - {x: -17.5, y: -45}
+        - {x: 26.5, y: -45}
+        - {x: 35.5, y: -23}
+        - {x: 35.5, y: 30}
+        - {x: 15.5, y: 45}
+    - name: SprteSheetMeet_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 270
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: -15}
+        - {x: -26.5, y: -38}
+        - {x: -21.5, y: -45}
+        - {x: 17.5, y: -45}
+        - {x: 35.5, y: -34}
+        - {x: 35.5, y: 35}
+        - {x: 31.5, y: 45}
+        - {x: -22.5, y: 45}
+        - {x: -35.5, y: 39}
+    - name: SprteSheetMeet_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 270
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 45}
+        - {x: -36.5, y: 31}
+        - {x: -36.5, y: 6}
+        - {x: -18.5, y: -45}
+        - {x: 14.5, y: -45}
+        - {x: 36.5, y: -19}
+        - {x: 36.5, y: 21}
+        - {x: 21.5, y: 45}
+    - name: SprteSheetMeet_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 270
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: -16}
+        - {x: -18.5, y: -45}
+        - {x: 29.5, y: -45}
+        - {x: 36.5, y: -42}
+        - {x: 36.5, y: 45}
+        - {x: -30.5, y: 45}
+        - {x: -36.5, y: 32}
+    - name: SprteSheetMeet_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 270
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 45}
+        - {x: -23.5, y: 45}
+        - {x: -36.5, y: 31}
+        - {x: -36.5, y: 0}
+        - {x: -22.5, y: -31}
+        - {x: -15.5, y: -45}
+        - {x: 13.5, y: -45}
+        - {x: 36.5, y: -27}
+        - {x: 36.5, y: 26}
+        - {x: 23.5, y: 42}
+    - name: SprteSheetMeet_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 270
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 45}
+        - {x: -36.5, y: 28}
+        - {x: -36.5, y: -18}
+        - {x: -23.5, y: -45}
+        - {x: 24.5, y: -45}
+        - {x: 35.5, y: -42}
+        - {x: 36.5, y: -32}
+        - {x: 36.5, y: 32}
+        - {x: 24.5, y: 45}
+    - name: SprteSheetMeet_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 270
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 45}
+        - {x: -36.5, y: 33}
+        - {x: -36.5, y: -22}
+        - {x: -24.5, y: -45}
+        - {x: 20.5, y: -45}
+        - {x: 36.5, y: -14}
+        - {x: 36.5, y: 43}
+        - {x: 34.5, y: 45}
+    - name: SprteSheetMeet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 45}
+        - {x: -29.5, y: 33}
+        - {x: -29.5, y: -21}
+        - {x: -24.5, y: -44}
+        - {x: -22.5, y: -45}
+        - {x: 18.5, y: -45}
+        - {x: 29.5, y: -16}
+        - {x: 29.5, y: 45}
+    - name: SprteSheetMeet_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 180
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 38}
+        - {x: 14.5, y: 45}
+        - {x: -5.5, y: 45}
+        - {x: -8.5, y: 42}
+        - {x: -18.5, y: 26}
+        - {x: -18.5, y: -19}
+        - {x: -11.5, y: -44}
+        - {x: -10.5, y: -45}
+        - {x: 6.5, y: -45}
+        - {x: 11.5, y: -34}
+        - {x: 15.5, y: -23}
+        - {x: 18.5, y: 2}
+    - name: SprteSheetMeet_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 180
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 45}
+        - {x: -11.5, y: 34}
+        - {x: -11.5, y: -27}
+        - {x: -8.5, y: -45}
+        - {x: 9.5, y: -45}
+        - {x: 11.5, y: -15}
+        - {x: 11.5, y: 28}
+        - {x: 7.5, y: 45}
+    - name: SprteSheetMeet_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 180
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 45}
+        - {x: -20.5, y: -21}
+        - {x: -10.5, y: -45}
+        - {x: 20.5, y: -45}
+        - {x: 20.5, y: 35}
+        - {x: 10.5, y: 45}
+    - name: SprteSheetMeet_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 180
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 45}
+        - {x: -28.5, y: 45}
+        - {x: -29.5, y: 38}
+        - {x: -29.5, y: -14}
+        - {x: -21.5, y: -39}
+        - {x: -9.5, y: -45}
+        - {x: 23.5, y: -45}
+        - {x: 25.5, y: -43}
+        - {x: 29.5, y: -15}
+        - {x: 29.5, y: 27}
+    - name: SprteSheetMeet_12
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 180
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 45}
+        - {x: -30.5, y: 45}
+        - {x: -34.5, y: 42}
+        - {x: -34.5, y: -20}
+        - {x: -11.5, y: -45}
+        - {x: 11.5, y: -45}
+        - {x: 13.5, y: -44}
+        - {x: 35.5, y: -23}
+        - {x: 35.5, y: 22}
+    - name: SprteSheetMeet_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 180
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 45}
+        - {x: -36.5, y: -38}
+        - {x: -16.5, y: -45}
+        - {x: 19.5, y: -45}
+        - {x: 36.5, y: -18}
+        - {x: 36.5, y: 35}
+        - {x: 33.5, y: 45}
+    - name: SprteSheetMeet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 45}
+        - {x: -36.5, y: 39}
+        - {x: -36.5, y: -26}
+        - {x: -29.5, y: -45}
+        - {x: 22.5, y: -45}
+        - {x: 36.5, y: -21}
+        - {x: 36.5, y: 34}
+        - {x: 21.5, y: 45}
+    - name: SprteSheetMeet_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 90
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 44}
+        - {x: 23.5, y: 45}
+        - {x: -20.5, y: 45}
+        - {x: -36.5, y: 31}
+        - {x: -36.5, y: -18}
+        - {x: -16.5, y: -45}
+        - {x: 15.5, y: -45}
+        - {x: 25.5, y: -37}
+        - {x: 36.5, y: 3}
+        - {x: 36.5, y: 32}
+    - name: SprteSheetMeet_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 90
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 45}
+        - {x: -35.5, y: 26}
+        - {x: -35.5, y: -26}
+        - {x: -34.5, y: -28}
+        - {x: -17.5, y: -45}
+        - {x: 35.5, y: -45}
+        - {x: 35.5, y: 45}
+    - name: SprteSheetMeet_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 90
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 45}
+        - {x: -27.5, y: 45}
+        - {x: -27.5, y: -45}
+        - {x: 11.5, y: -45}
+        - {x: 23.5, y: -26}
+        - {x: 27.5, y: 4}
+        - {x: 27.5, y: 39}
+    - name: SprteSheetMeet_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 90
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 45}
+        - {x: -17.5, y: 25}
+        - {x: -17.5, y: -39}
+        - {x: -13.5, y: -45}
+        - {x: 11.5, y: -45}
+        - {x: 14.5, y: -35}
+        - {x: 17.5, y: -2}
+        - {x: 17.5, y: 45}
+    - name: SprteSheetMeet_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 90
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 45}
+        - {x: -11.5, y: 36}
+        - {x: -11.5, y: -29}
+        - {x: -10.5, y: -45}
+        - {x: 10.5, y: -45}
+        - {x: 11.5, y: -44}
+        - {x: 11.5, y: 45}
+    - name: SprteSheetMeet_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 90
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 45}
+        - {x: -18.5, y: 42}
+        - {x: -18.5, y: -5}
+        - {x: -15.5, y: -37}
+        - {x: -7.5, y: -45}
+        - {x: 18.5, y: -45}
+        - {x: 18.5, y: 38}
+        - {x: 9.5, y: 45}
+    - name: SprteSheetMeet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 45}
+        - {x: -25.5, y: 42}
+        - {x: -25.5, y: -24}
+        - {x: -20.5, y: -45}
+        - {x: 22.5, y: -45}
+        - {x: 25.5, y: -35}
+        - {x: 25.5, y: 33}
+        - {x: 13.5, y: 45}
+    - name: SprteSheetMeet_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 33}
+        - {x: 27.5, y: 45}
+        - {x: -25.5, y: 45}
+        - {x: -30.5, y: 37}
+        - {x: -30.5, y: -16}
+        - {x: -20.5, y: -42}
+        - {x: -11.5, y: -45}
+        - {x: 10.5, y: -45}
+        - {x: 15.5, y: -41}
+        - {x: 24.5, y: -31}
+        - {x: 30.5, y: -28}
+    - name: SprteSheetMeet_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 45}
+        - {x: -21.5, y: 45}
+        - {x: -33.5, y: 33}
+        - {x: -33.5, y: 8}
+        - {x: -13.5, y: -45}
+        - {x: 16.5, y: -45}
+        - {x: 22.5, y: -44}
+        - {x: 33.5, y: -27}
+        - {x: 33.5, y: 18}
+        - {x: 28.5, y: 38}
+    - name: SprteSheetMeet_24
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 45}
+        - {x: -28.5, y: 44}
+        - {x: -34.5, y: 30}
+        - {x: -34.5, y: -2}
+        - {x: -20.5, y: -34}
+        - {x: -12.5, y: -45}
+        - {x: 15.5, y: -45}
+        - {x: 22.5, y: -43}
+        - {x: 34.5, y: -24}
+        - {x: 34.5, y: 17}
+        - {x: 25.5, y: 45}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

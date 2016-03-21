@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &105846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 436556}
+  - 212: {fileID: 21254372}
+  - 114: {fileID: 11433422}
+  - 60: {fileID: 6075732}
+  - 60: {fileID: 6003336}
+  - 114: {fileID: 11456830}
+  m_Layer: 0
+  m_Name: Banana
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &436556
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105846}
+  m_LocalRotation: {x: 0, y: 0, z: 0.08715575, w: 0.9961947}
+  m_LocalPosition: {x: -22.32, y: 4.55, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.9013394}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!60 &6003336
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105846}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.2310131, y: -0.4860047}
+      - {x: -0.050027058, y: -0.21090105}
+      - {x: -0.08916025, y: 0.593917}
+      - {x: -0.4006124, y: 0.6710331}
+      - {x: -0.31132835, y: -0.1646274}
+--- !u!60 &6075732
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105846}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.231915, y: -0.4853568}
+      - {x: -0.051774934, y: -0.21524853}
+      - {x: -0.31020173, y: -0.16720103}
+--- !u!114 &11433422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86857544cf71394f88786d14491326b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fps: 8
+  UseTimeScale: 1
+  AutoStart: 0
+  PreLoad: 1
+  DeffaultAnimation: 
+  AnimationAddresses:
+  - Name: Run
+    IsCircle: 1
+    Container: {fileID: 11400000, guid: af8096f885dcd504b8135d01ce0780e0, type: 2}
+  - Name: SlideDown
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: 835c0ddd59ec9b94887c88575cf43a5a, type: 2}
+  - Name: SlideUp
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: b881c311c7c52d946bb544febe222245, type: 2}
+  - Name: Slide
+    IsCircle: 1
+    Container: {fileID: 11400000, guid: 5c9670fd7dd98e74f92d679fa58f5e2f, type: 2}
+  - Name: JumpUp
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: 35ec55021836b7d42a743d42f5ac6d39, type: 2}
+  - Name: JumpDown
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: 301f75d786cc45b41949ebc0cfd31535, type: 2}
+  - Name: Jump
+    IsCircle: 1
+    Container: {fileID: 11400000, guid: bbaf467746d23ba44b10350413ab9a2d, type: 2}
+  - Name: SkillStart
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: 426ec896801b3894eac0afc91106ffec, type: 2}
+  - Name: SkillOver
+    IsCircle: 0
+    Container: {fileID: 11400000, guid: 390518d4a97ffaf4b81bb0d35a46b443, type: 2}
+  - Name: Skill
+    IsCircle: 1
+    Container: {fileID: 11400000, guid: 88a6d27f65cf5724d8bf3f52ff085088, type: 2}
+  SpriteSheets:
+  - {fileID: 2800000, guid: a1182da032426694896cbcc20d273947, type: 3}
+  - {fileID: 2800000, guid: 169ce4d0a7e0e9d46999712980bc5950, type: 3}
+  - {fileID: 2800000, guid: 7d02fbf114581864887e99fe14fa7bd7, type: 3}
+  - {fileID: 2800000, guid: 5a0c619e71d38a94094fed56d5c853b7, type: 3}
+  Character: 2
+--- !u!114 &11456830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2764cfdca197f8438b70e9e920f0987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rainbow: {fileID: 126280, guid: 5c7cf4e3c586e4e4dad19893b9217ed5, type: 2}
+  BgImage: {fileID: 21300000, guid: 0ffcab862de4f8741b660a00325cc9d5, type: 3}
+  TimeAnimation: 4
+  IsShaking: 0
+  DeffaultPostion: {x: -5, y: -3, z: 0}
+--- !u!212 &21254372
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105846}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -786259311
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a1182da032426694896cbcc20d273947, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: SpriteSheets.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: AnimationAddresses.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SpriteSheets.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: 5a0c619e71d38a94094fed56d5c853b7, type: 3}
+    - target: {fileID: 0}
+      propertyPath: Character
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: AnimationAddresses.Array.data[7].Name
+      value: SkillStart
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: AnimationAddresses.Array.data[7].IsCircle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: AnimationAddresses.Array.data[7].Container
+      value: 
+      objectReference: {fileID: 11400000, guid: 426ec896801b3894eac0afc91106ffec,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: AnimationAddresses.Array.data[8].IsCircle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: AnimationAddresses.Array.data[8].Name
+      value: SkillOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: AnimationAddresses.Array.data[8].Container
+      value: 
+      objectReference: {fileID: 11400000, guid: 390518d4a97ffaf4b81bb0d35a46b443,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: AnimationAddresses.Array.data[9].Container
+      value: 
+      objectReference: {fileID: 11400000, guid: 88a6d27f65cf5724d8bf3f52ff085088,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: AnimationAddresses.Array.data[9].Name
+      value: Skill
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TimeToMove
+      value: 1e+9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PostionToMove.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BGImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0ffcab862de4f8741b660a00325cc9d5,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: BgImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0ffcab862de4f8741b660a00325cc9d5,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: TimeAnimation
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IsShaking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: DeffaultPostion.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: DeffaultPostion.y
+      value: -3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 105846}
+  m_IsPrefabParent: 1

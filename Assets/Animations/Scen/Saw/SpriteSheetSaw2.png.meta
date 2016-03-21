@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: 2dd98be81fcad694fa7954fd5c17214c
+timeCreated: 1452304617
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpriteSheetSaw2_0
+    21300002: SpriteSheetSaw2_1
+    21300004: SpriteSheetSaw2_2
+    21300006: SpriteSheetSaw2_3
+    21300008: SpriteSheetSaw2_4
+    21300010: SpriteSheetSaw2_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 100
+    allowsAlphaSplitting: 1
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  spriteSheet:
+    sprites:
+    - name: SpriteSheetSaw2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 170
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83, y: 95}
+        - {x: -83, y: -25}
+        - {x: -54, y: -61}
+        - {x: -52, y: -63}
+        - {x: -50, y: -63}
+        - {x: -23, y: -36}
+        - {x: -15, y: -39}
+        - {x: -11, y: -96}
+        - {x: 82, y: -96}
+        - {x: 84, y: -92}
+        - {x: 84, y: 47}
+        - {x: 41, y: 95}
+    - name: SpriteSheetSaw2_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 194
+        width: 170
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85, y: 96}
+        - {x: -85, y: -82}
+        - {x: -51, y: -97}
+        - {x: 76, y: -97}
+        - {x: 85, y: -77}
+        - {x: 85, y: 72}
+        - {x: 72, y: 96}
+    - name: SpriteSheetSaw2_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 194
+        width: 170
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 72}
+        - {x: 13, y: 97}
+        - {x: -79, y: 97}
+        - {x: -85, y: 93}
+        - {x: -85, y: 13}
+        - {x: -81, y: 12}
+        - {x: -70, y: 9}
+        - {x: -69, y: -46}
+        - {x: -64, y: -47}
+        - {x: -50, y: -39}
+        - {x: -28, y: -87}
+        - {x: -17, y: -90}
+        - {x: -4, y: -97}
+        - {x: 71, y: -97}
+        - {x: 74, y: -93}
+        - {x: 85, y: -41}
+        - {x: 85, y: 18}
+    - name: SpriteSheetSaw2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: -71}
+        - {x: 85, y: -32}
+        - {x: 85, y: -24}
+        - {x: 84, y: -23}
+        - {x: 64, y: -15}
+        - {x: 85, y: 39}
+        - {x: 85, y: 44}
+        - {x: 29, y: 97}
+        - {x: -27, y: 97}
+        - {x: -26, y: 85}
+        - {x: -73, y: 97}
+        - {x: -85, y: 97}
+        - {x: -85, y: -63}
+        - {x: -66, y: -97}
+        - {x: 28, y: -97}
+        - {x: 27, y: -84}
+        - {x: 64, y: -80}
+        - {x: 72, y: -78}
+    - name: SpriteSheetSaw2_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85, y: -55}
+        - {x: 85, y: 22}
+        - {x: 52, y: 97}
+        - {x: -19, y: 97}
+        - {x: -19, y: 82}
+        - {x: -58, y: 97}
+        - {x: -85, y: 97}
+        - {x: -85, y: -61}
+        - {x: -40, y: -86}
+        - {x: 9, y: -97}
+        - {x: 19, y: -97}
+        - {x: 19, y: -81}
+        - {x: 63, y: -87}
+        - {x: 70, y: -78}
+    - name: SpriteSheetSaw2_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 68}
+        - {x: 42, y: 70}
+        - {x: 34, y: 61}
+        - {x: -2, y: 96}
+        - {x: -3, y: 97}
+        - {x: -85, y: 97}
+        - {x: -85, y: -61}
+        - {x: -39, y: -97}
+        - {x: 77, y: -97}
+        - {x: 85, y: -84}
+        - {x: 85, y: 5}
+        - {x: 81, y: 19}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

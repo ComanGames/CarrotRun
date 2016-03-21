@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cedb31aa42cec7141b565630b1b987d2, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  CharactersInfo:
+  - Charcter: 0
+    IsLocked: 1
+    Image: {fileID: 21300000, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 250
+    SceneNumber: 4
+  - Charcter: 1
+    IsLocked: 1
+    Image: {fileID: 21300002, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 1000
+    SceneNumber: 4
+  - Charcter: 2
+    IsLocked: 1
+    Image: {fileID: 21300006, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 250
+    SceneNumber: 5
+  - Charcter: 3
+    IsLocked: 1
+    Image: {fileID: 21300004, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 1000
+    SceneNumber: 5
+  - Charcter: 4
+    IsLocked: 1
+    Image: {fileID: 21300008, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 100
+    SceneNumber: 6
+  - Charcter: 5
+    IsLocked: 1
+    Image: {fileID: 21300010, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 750
+    SceneNumber: 6
+  - Charcter: 6
+    IsLocked: 1
+    Image: {fileID: 21300012, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 350
+    SceneNumber: 7
+  - Charcter: 7
+    IsLocked: 1
+    Image: {fileID: 21300014, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 1250
+    SceneNumber: 7
+  - Charcter: 8
+    IsLocked: 1
+    Image: {fileID: 21300016, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 500
+    SceneNumber: 8
+  - Charcter: 9
+    IsLocked: 1
+    Image: {fileID: 21300018, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 1500
+    SceneNumber: 8
+  - Charcter: 10
+    IsLocked: 1
+    Image: {fileID: 21300020, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 500
+    SceneNumber: 9
+  - Charcter: 11
+    IsLocked: 1
+    Image: {fileID: 21300022, guid: 77006b782045d3244a35d765adc67bd6, type: 3}
+    Price: 1500
+    SceneNumber: 9

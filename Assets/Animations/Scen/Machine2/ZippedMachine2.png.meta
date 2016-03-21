@@ -1,0 +1,1188 @@
+fileFormatVersion: 2
+guid: e6f75407e84db9c4d91123abffce1d59
+timeCreated: 1452360409
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ZippedMachine2_0
+    21300002: ZippedMachine2_1
+    21300004: ZippedMachine2_2
+    21300006: ZippedMachine2_3
+    21300008: ZippedMachine2_4
+    21300010: ZippedMachine2_5
+    21300012: ZippedMachine2_6
+    21300014: ZippedMachine2_7
+    21300016: ZippedMachine2_8
+    21300018: ZippedMachine2_9
+    21300020: ZippedMachine2_10
+    21300022: ZippedMachine2_11
+    21300024: ZippedMachine2_12
+    21300026: ZippedMachine2_13
+    21300028: ZippedMachine2_14
+    21300030: ZippedMachine2_15
+    21300032: ZippedMachine2_16
+    21300034: ZippedMachine2_17
+    21300036: ZippedMachine2_18
+    21300038: ZippedMachine2_19
+    21300040: ZippedMachine2_20
+    21300042: ZippedMachine2_21
+    21300044: ZippedMachine2_22
+    21300046: ZippedMachine2_23
+    21300048: ZippedMachine2_24
+    21300050: ZippedMachine2_25
+    21300052: ZippedMachine2_26
+    21300054: ZippedMachine2_27
+    21300056: ZippedMachine2_28
+    21300058: ZippedMachine2_29
+    21300060: ZippedMachine2_30
+    21300062: ZippedMachine2_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: ZippedMachine2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1140
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -47}
+        - {x: -35, y: -94}
+        - {x: -30, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -22}
+        - {x: 90, y: 92}
+        - {x: 54, y: 95}
+        - {x: -11, y: 95}
+        - {x: -58, y: 24}
+    - name: ZippedMachine2_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1140
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -47}
+        - {x: -49, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -25}
+        - {x: 103, y: 47}
+        - {x: 68, y: 95}
+    - name: ZippedMachine2_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1140
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -119, y: 35}
+        - {x: -128, y: -27}
+        - {x: -128, y: -48}
+        - {x: -34, y: -84}
+        - {x: 57, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -24}
+        - {x: 71, y: 95}
+    - name: ZippedMachine2_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1140
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -119, y: 35}
+        - {x: -128, y: -28}
+        - {x: -128, y: -51}
+        - {x: -112, y: -74}
+        - {x: 29, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -38}
+        - {x: 72, y: 95}
+    - name: ZippedMachine2_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1140
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89, y: 93}
+        - {x: 60, y: 95}
+        - {x: -11, y: 95}
+        - {x: -43, y: 47}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -119, y: 35}
+        - {x: -128, y: 5}
+        - {x: -128, y: -58}
+        - {x: 19, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -79}
+        - {x: 116, y: -55}
+    - name: ZippedMachine2_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1140
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -119, y: 35}
+        - {x: -128, y: -28}
+        - {x: -128, y: -48}
+        - {x: -107, y: -57}
+        - {x: 65, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -48}
+        - {x: 96, y: 53}
+        - {x: 69, y: 95}
+    - name: ZippedMachine2_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1140
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -119, y: 35}
+        - {x: -128, y: -28}
+        - {x: -128, y: -48}
+        - {x: -107, y: -57}
+        - {x: 65, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -48}
+        - {x: 96, y: 53}
+        - {x: 69, y: 95}
+    - name: ZippedMachine2_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1140
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 97, y: 95}
+        - {x: -5, y: 95}
+        - {x: -11, y: 81}
+        - {x: -43, y: 47}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -46}
+        - {x: -107, y: -53}
+        - {x: 79, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -79}
+        - {x: 116, y: -55}
+    - name: ZippedMachine2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -46}
+        - {x: -33, y: -81}
+        - {x: 62, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -42}
+        - {x: 97, y: 95}
+        - {x: -15, y: 95}
+        - {x: -58, y: 24}
+    - name: ZippedMachine2_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 760
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -47}
+        - {x: -49, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -20}
+        - {x: 90, y: 94}
+        - {x: 72, y: 95}
+        - {x: -11, y: 95}
+        - {x: -43, y: 47}
+    - name: ZippedMachine2_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 760
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -46}
+        - {x: -107, y: -52}
+        - {x: 36, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -4}
+        - {x: 103, y: 47}
+        - {x: 68, y: 95}
+    - name: ZippedMachine2_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 760
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 95}
+        - {x: -43, y: 47}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -46}
+        - {x: -33, y: -81}
+        - {x: 61, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -61}
+        - {x: 80, y: 84}
+        - {x: 61, y: 94}
+        - {x: 52, y: 95}
+    - name: ZippedMachine2_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 760
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 95, y: 40}
+        - {x: 70, y: 86}
+        - {x: 26, y: 95}
+        - {x: -15, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -46}
+        - {x: -33, y: -81}
+        - {x: 61, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -80}
+        - {x: 112, y: -60}
+    - name: ZippedMachine2_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 760
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -119, y: 35}
+        - {x: -128, y: -28}
+        - {x: -128, y: -49}
+        - {x: -108, y: -60}
+        - {x: 73, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -43}
+        - {x: 92, y: 95}
+        - {x: -14, y: 95}
+        - {x: -59, y: 25}
+    - name: ZippedMachine2_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 760
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 95}
+        - {x: -59, y: 25}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -46}
+        - {x: -107, y: -52}
+        - {x: -30, y: -70}
+        - {x: 50, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -68}
+        - {x: 126, y: -51}
+        - {x: 72, y: 95}
+    - name: ZippedMachine2_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 760
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 95}
+        - {x: -59, y: 25}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -46}
+        - {x: -107, y: -52}
+        - {x: -30, y: -70}
+        - {x: 50, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -68}
+        - {x: 126, y: -51}
+        - {x: 72, y: 95}
+    - name: ZippedMachine2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -46}
+        - {x: -33, y: -88}
+        - {x: 8, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -22}
+        - {x: 93, y: 95}
+        - {x: -13, y: 95}
+        - {x: -59, y: 25}
+    - name: ZippedMachine2_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 380
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 86}
+        - {x: 26, y: 95}
+        - {x: -15, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -47}
+        - {x: -35, y: -94}
+        - {x: -27, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -41}
+        - {x: 94, y: 40}
+    - name: ZippedMachine2_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 380
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 95}
+        - {x: -58, y: 25}
+        - {x: -60, y: 18}
+        - {x: -59, y: 15}
+        - {x: -57, y: 13}
+        - {x: -59, y: -7}
+        - {x: -57, y: -8}
+        - {x: -50, y: -14}
+        - {x: -48, y: -14}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -60, y: 35}
+        - {x: -71, y: 56}
+        - {x: -126, y: 38}
+        - {x: -128, y: -4}
+        - {x: -128, y: -47}
+        - {x: -49, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -18}
+        - {x: 80, y: 95}
+    - name: ZippedMachine2_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 380
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 10}
+        - {x: -44, y: 5}
+        - {x: -42, y: 5}
+        - {x: -50, y: 5}
+        - {x: -58, y: 1}
+        - {x: -60, y: -5}
+        - {x: -58, y: -11}
+        - {x: -55, y: -12}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -47}
+        - {x: -49, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -30}
+        - {x: 82, y: 95}
+        - {x: -31, y: 95}
+        - {x: -59, y: 23}
+    - name: ZippedMachine2_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 380
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 95}
+        - {x: -59, y: 16}
+        - {x: -56, y: 10}
+        - {x: -59, y: -5}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -47}
+        - {x: -49, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: 95}
+    - name: ZippedMachine2_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 380
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -46}
+        - {x: -107, y: -52}
+        - {x: -30, y: -70}
+        - {x: 49, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: 33}
+        - {x: 116, y: 95}
+        - {x: -20, y: 95}
+        - {x: -58, y: 24}
+    - name: ZippedMachine2_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 380
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 95}
+        - {x: -46, y: 44}
+        - {x: -59, y: 18}
+        - {x: -60, y: 15}
+        - {x: -60, y: 35}
+        - {x: -71, y: 56}
+        - {x: -126, y: 38}
+        - {x: -128, y: -4}
+        - {x: -128, y: -47}
+        - {x: -49, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -27}
+        - {x: 76, y: 95}
+    - name: ZippedMachine2_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 380
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: -5}
+        - {x: -56, y: -11}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -47}
+        - {x: -35, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -10}
+        - {x: 97, y: 95}
+        - {x: -20, y: 95}
+        - {x: -59, y: 18}
+    - name: ZippedMachine2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 94}
+        - {x: 51, y: 95}
+        - {x: -9, y: 95}
+        - {x: -59, y: 26}
+        - {x: -60, y: 15}
+        - {x: -52, y: 8}
+        - {x: -56, y: 4}
+        - {x: -59, y: -3}
+        - {x: -60, y: -6}
+        - {x: -55, y: -12}
+        - {x: -52, y: -13}
+        - {x: -48, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -60, y: 35}
+        - {x: -71, y: 56}
+        - {x: -126, y: 38}
+        - {x: -128, y: -4}
+        - {x: -128, y: -46}
+        - {x: -107, y: -52}
+        - {x: -30, y: -70}
+        - {x: 50, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -63}
+        - {x: 81, y: 85}
+    - name: ZippedMachine2_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 95}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 45}
+        - {x: -100, y: 46}
+        - {x: -117, y: 34}
+        - {x: -128, y: -29}
+        - {x: -128, y: -47}
+        - {x: -49, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: 86}
+        - {x: 104, y: 95}
+    - name: ZippedMachine2_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 48}
+        - {x: -114, y: 43}
+        - {x: -125, y: 2}
+        - {x: -125, y: -55}
+        - {x: -107, y: -81}
+        - {x: -8, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: 75}
+        - {x: 75, y: 95}
+    - name: ZippedMachine2_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91, y: 59}
+        - {x: 70, y: 95}
+        - {x: -8, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -72, y: 55}
+        - {x: -125, y: 40}
+        - {x: -125, y: -73}
+        - {x: -63, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -77}
+        - {x: 122, y: -55}
+    - name: ZippedMachine2_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -72, y: 55}
+        - {x: -125, y: 40}
+        - {x: -125, y: -51}
+        - {x: -92, y: -82}
+        - {x: -5, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: 95}
+        - {x: -21, y: 95}
+        - {x: -58, y: 24}
+    - name: ZippedMachine2_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -72, y: 55}
+        - {x: -125, y: 40}
+        - {x: -125, y: -73}
+        - {x: -63, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -60}
+        - {x: 85, y: 88}
+        - {x: 61, y: 94}
+        - {x: 53, y: 95}
+    - name: ZippedMachine2_30
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 95}
+        - {x: -58, y: 24}
+        - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -72, y: 55}
+        - {x: -125, y: 40}
+        - {x: -125, y: -73}
+        - {x: -63, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -60}
+        - {x: 85, y: 88}
+        - {x: 61, y: 94}
+        - {x: 53, y: 95}
+    - name: ZippedMachine2_31
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 512
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 14}
+        - {x: -58, y: 12}
+        - {x: -50, y: 6}
+        - {x: -54, y: 4}
+        - {x: -57, y: 3}
+        - {x: -60, y: -7}
+        - {x: -51, y: -14}
+        - {x: -46, y: -13}
+        - {x: -49, y: -16}
+        - {x: -60, y: -16}
+        - {x: -59, y: 32}
+        - {x: -65, y: 40}
+        - {x: -74, y: 48}
+        - {x: -116, y: 45}
+        - {x: -116, y: -77}
+        - {x: -70, y: -95}
+        - {x: 128, y: -95}
+        - {x: 128, y: -36}
+        - {x: 90, y: 92}
+        - {x: 54, y: 95}
+        - {x: -11, y: 95}
+        - {x: -58, y: 24}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

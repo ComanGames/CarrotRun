@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: 8b0f022c400d9ad43a7ce367adb03047
+timeCreated: 1453056864
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SkillSpriteSheet_0
+    21300002: SkillSpriteSheet_1
+    21300004: SkillSpriteSheet_2
+    21300006: SkillSpriteSheet_3
+    21300008: SkillSpriteSheet_4
+    21300010: SkillSpriteSheet_5
+    21300012: SkillSpriteSheet_6
+    21300014: SkillSpriteSheet_7
+    21300016: SkillSpriteSheet_8
+    21300018: SkillSpriteSheet_9
+    21300020: SkillSpriteSheet_10
+    21300022: SkillSpriteSheet_11
+    21300024: SkillSpriteSheet_12
+    21300026: SkillSpriteSheet_13
+    21300028: SkillSpriteSheet_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: SkillSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 71.5}
+        - {x: -51, y: 34.5}
+        - {x: -51, y: -71.5}
+        - {x: 36, y: -71.5}
+        - {x: 38, y: -66.5}
+        - {x: 38, y: 23.5}
+        - {x: 12, y: 71.5}
+      - - {x: 48, y: 11.5}
+        - {x: 50, y: 9.5}
+        - {x: 51, y: 9.5}
+        - {x: 51, y: 14.5}
+        - {x: 49, y: 14.5}
+    - name: SkillSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 286
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 71.5}
+        - {x: -51, y: 71.5}
+        - {x: -51, y: -71.5}
+        - {x: -30, y: -71.5}
+        - {x: -29, y: -65.5}
+        - {x: 15, y: -70.5}
+        - {x: 40, y: -67.5}
+      - - {x: 48, y: 8.5}
+        - {x: 50, y: 6.5}
+        - {x: 51, y: 6.5}
+        - {x: 51, y: 16.5}
+        - {x: 48, y: 15.5}
+    - name: SkillSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 286
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 71.5}
+        - {x: -49, y: 51.5}
+        - {x: -51, y: 43.5}
+        - {x: -51, y: -55.5}
+        - {x: -46, y: -70.5}
+        - {x: 3, y: -70.5}
+        - {x: 27, y: -62.5}
+        - {x: 42, y: -48.5}
+        - {x: 42, y: 64.5}
+        - {x: 40, y: 71.5}
+    - name: SkillSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 286
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -60.5}
+        - {x: 15, y: -59.5}
+        - {x: 25, y: -49.5}
+        - {x: 42, y: -31.5}
+        - {x: 45, y: -24.5}
+        - {x: 45, y: 8.5}
+        - {x: 22, y: 70.5}
+        - {x: -8, y: 70.5}
+        - {x: -51, y: 29.5}
+        - {x: -51, y: -54.5}
+        - {x: -42, y: -65.5}
+        - {x: -28, y: -65.5}
+        - {x: -8, y: -46.5}
+        - {x: -5, y: -40.5}
+        - {x: -4, y: -52.5}
+    - name: SkillSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 286
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 65.5}
+        - {x: -10, y: 65.5}
+        - {x: -51, y: 27.5}
+        - {x: -51, y: -59.5}
+        - {x: 19, y: -59.5}
+        - {x: 48, y: -36.5}
+        - {x: 48, y: 18.5}
+        - {x: 27, y: 57.5}
+    - name: SkillSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -1.5}
+        - {x: 23, y: 51.5}
+        - {x: 11, y: 62.5}
+        - {x: -8, y: 62.5}
+        - {x: -51, y: 26.5}
+        - {x: -51, y: -56.5}
+        - {x: -39, y: -56.5}
+        - {x: -10, y: -45.5}
+        - {x: -6, y: -41.5}
+        - {x: -5, y: -37.5}
+        - {x: -3, y: -48.5}
+        - {x: 6, y: -56.5}
+        - {x: 14, y: -56.5}
+        - {x: 19, y: -53.5}
+        - {x: 45, y: -30.5}
+        - {x: 50, y: -22.5}
+        - {x: 50, y: -14.5}
+    - name: SkillSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 143
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 58.5}
+        - {x: -51, y: 20.5}
+        - {x: -51, y: -6.5}
+        - {x: -49, y: -17.5}
+        - {x: -41, y: -12.5}
+        - {x: -38, y: -6.5}
+        - {x: -37, y: 5.5}
+        - {x: -37, y: 9.5}
+        - {x: -37, y: -12.5}
+        - {x: -51, y: -25.5}
+        - {x: -51, y: -50.5}
+        - {x: -50, y: -56.5}
+        - {x: 41, y: -56.5}
+        - {x: 51, y: -52.5}
+        - {x: 51, y: 58.5}
+    - name: SkillSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 143
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -56.5}
+        - {x: 29, y: -56.5}
+        - {x: 51, y: -43.5}
+        - {x: 51, y: 8.5}
+        - {x: 21, y: 57.5}
+        - {x: -5, y: 57.5}
+        - {x: -51, y: 28.5}
+        - {x: -51, y: -48.5}
+    - name: SkillSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 143
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 57.5}
+        - {x: -3, y: 57.5}
+        - {x: -25, y: 39.5}
+        - {x: -40, y: 19.5}
+        - {x: -51, y: 1.5}
+        - {x: -51, y: -8.5}
+        - {x: -48, y: -12.5}
+        - {x: -44, y: -10.5}
+        - {x: -41, y: -7.5}
+        - {x: -51, y: -26.5}
+        - {x: -51, y: -46.5}
+        - {x: -41, y: -58.5}
+        - {x: 21, y: -58.5}
+        - {x: 49, y: -37.5}
+        - {x: 51, y: -33.5}
+        - {x: 51, y: -4.5}
+      - - {x: -51, y: -25.5}
+        - {x: -48, y: -24.5}
+        - {x: -48, y: -20.5}
+        - {x: -50, y: -18.5}
+        - {x: -51, y: -18.5}
+    - name: SkillSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 143
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 60.5}
+        - {x: -8, y: 60.5}
+        - {x: -51, y: 10.5}
+        - {x: -51, y: -60.5}
+        - {x: 39, y: -60.5}
+        - {x: 51, y: -55.5}
+        - {x: 51, y: 16.5}
+        - {x: 50, y: 21.5}
+    - name: SkillSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 63.5}
+        - {x: -51, y: 15.5}
+        - {x: -51, y: -57.5}
+        - {x: -46, y: -63.5}
+        - {x: 45, y: -63.5}
+        - {x: 51, y: -58.5}
+        - {x: 51, y: -1.5}
+        - {x: 15, y: 63.5}
+      - - {x: 48, y: -5.5}
+        - {x: 50, y: -7.5}
+        - {x: 51, y: -7.5}
+        - {x: 51, y: -0.5}
+        - {x: 48, y: -1.5}
+    - name: SkillSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 65.5}
+        - {x: -51, y: 0.5}
+        - {x: -51, y: -20.5}
+        - {x: -36, y: -63.5}
+        - {x: -29, y: -65.5}
+        - {x: 46, y: -65.5}
+        - {x: 46, y: 23.5}
+        - {x: 23, y: 65.5}
+      - - {x: -51, y: -40.5}
+        - {x: -48, y: -39.5}
+        - {x: -48, y: -35.5}
+        - {x: -50, y: -33.5}
+        - {x: -51, y: -33.5}
+      - - {x: 48, y: -5.5}
+        - {x: 50, y: -7.5}
+        - {x: 51, y: -7.5}
+        - {x: 51, y: 0.5}
+        - {x: 48, y: -0.5}
+    - name: SkillSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 66.5}
+        - {x: -11, y: 66.5}
+        - {x: -51, y: 25.5}
+        - {x: -51, y: -52.5}
+        - {x: -19, y: -67.5}
+        - {x: 34, y: -67.5}
+        - {x: 40, y: -62.5}
+        - {x: 40, y: -29.5}
+        - {x: 19, y: 60.5}
+      - - {x: 48, y: -4.5}
+        - {x: 50, y: -6.5}
+        - {x: 51, y: -6.5}
+        - {x: 51, y: -0.5}
+        - {x: 48, y: -1.5}
+    - name: SkillSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 66.5}
+        - {x: -51, y: 10.5}
+        - {x: -51, y: -9.5}
+        - {x: -47, y: -7.5}
+        - {x: -51, y: -40.5}
+        - {x: -51, y: -50.5}
+        - {x: -21, y: -71.5}
+        - {x: 37, y: -71.5}
+        - {x: 37, y: 47.5}
+        - {x: 12, y: 66.5}
+    - name: SkillSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 54.5}
+        - {x: 14, y: 64.5}
+        - {x: 9, y: 66.5}
+        - {x: -4, y: 66.5}
+        - {x: -20, y: 50.5}
+        - {x: -28, y: 35.5}
+        - {x: -51, y: 1.5}
+        - {x: -51, y: -6.5}
+        - {x: -50, y: -7.5}
+        - {x: -47, y: -7.5}
+        - {x: -49, y: -44.5}
+        - {x: -44, y: -62.5}
+        - {x: 2, y: -71.5}
+        - {x: 37, y: -71.5}
+        - {x: 37, y: -36.5}
+        - {x: 29, y: 6.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 2aeeccfe257b4594bad9b5d3824a5f85
+timeCreated: 1452354268
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Orange2SpriteSheet_0
+    21300002: Orange2SpriteSheet_1
+    21300004: Orange2SpriteSheet_2
+    21300006: Orange2SpriteSheet_3
+    21300008: Orange2SpriteSheet_4
+    21300010: Orange2SpriteSheet_5
+    21300012: Orange2SpriteSheet_6
+    21300014: Orange2SpriteSheet_7
+    21300016: Orange2SpriteSheet_8
+    21300018: Orange2SpriteSheet_9
+    21300020: Orange2SpriteSheet_10
+    21300022: Orange2SpriteSheet_11
+    21300024: Orange2SpriteSheet_12
+    21300026: Orange2SpriteSheet_13
+    21300028: Orange2SpriteSheet_14
+    21300030: Orange2SpriteSheet_15
+    21300032: Orange2SpriteSheet_16
+    21300034: Orange2SpriteSheet_17
+    21300036: Orange2SpriteSheet_18
+    21300038: Orange2SpriteSheet_19
+    21300040: Orange2SpriteSheet_20
+    21300042: Orange2SpriteSheet_21
+    21300044: Orange2SpriteSheet_22
+    21300046: Orange2SpriteSheet_23
+    21300048: Orange2SpriteSheet_24
+    21300050: Orange2SpriteSheet_25
+    21300052: Orange2SpriteSheet_26
+    21300054: Orange2SpriteSheet_27
+    21300056: Orange2SpriteSheet_28
+    21300058: Orange2SpriteSheet_29
+    21300060: Orange2SpriteSheet_30
+    21300062: Orange2SpriteSheet_31
+    21300064: Orange2SpriteSheet_32
+    21300066: Orange2SpriteSheet_33
+    21300068: Orange2SpriteSheet_34
+    21300070: Orange2SpriteSheet_35
+    21300072: Orange2SpriteSheet_36
+    21300074: Orange2SpriteSheet_37
+    21300076: Orange2SpriteSheet_38
+    21300078: Orange2SpriteSheet_39
+    21300080: Orange2SpriteSheet_40
+    21300082: Orange2SpriteSheet_41
+    21300084: Orange2SpriteSheet_42
+    21300086: Orange2SpriteSheet_43
+    21300088: Orange2SpriteSheet_44
+    21300090: Orange2SpriteSheet_45
+    21300092: Orange2SpriteSheet_46
+    21300094: Orange2SpriteSheet_47
+    21300096: Orange2SpriteSheet_48
+    21300098: Orange2SpriteSheet_49
+    21300100: Orange2SpriteSheet_50
+    21300102: Orange2SpriteSheet_51
+    21300104: Orange2SpriteSheet_52
+    21300106: Orange2SpriteSheet_53
+    21300108: Orange2SpriteSheet_54
+    21300110: Orange2SpriteSheet_55
+    21300112: Orange2SpriteSheet_56
+    21300114: Orange2SpriteSheet_57
+    21300116: Orange2SpriteSheet_58
+    21300118: Orange2SpriteSheet_59
+    21300120: Orange2SpriteSheet_60
+    21300122: Orange2SpriteSheet_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 75
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: WP8
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: Orange2SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 171}
+        - {x: -64, y: 151}
+        - {x: -64, y: 0}
+        - {x: 41, y: 0}
+        - {x: 47, y: 12}
+        - {x: 47, y: 138}
+        - {x: -31, y: 171}
+    - name: Orange2SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 700
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 50}
+        - {x: 17, y: 49}
+        - {x: 41, y: 76}
+        - {x: 41, y: 121}
+        - {x: 30, y: 142}
+        - {x: -3, y: 151}
+        - {x: -25, y: 153}
+        - {x: -34, y: 164}
+        - {x: -40, y: 167}
+        - {x: -57, y: 167}
+        - {x: -69, y: 161}
+        - {x: -69, y: 0}
+        - {x: 36, y: 0}
+        - {x: 41, y: 3}
+        - {x: 41, y: 44}
+        - {x: 38, y: 52}
+    - name: Orange2SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 700
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: 163}
+        - {x: -71, y: 138}
+        - {x: -71, y: 68}
+        - {x: -37, y: 63}
+        - {x: -51, y: 39}
+        - {x: -39, y: 0}
+        - {x: 41, y: 0}
+        - {x: 41, y: 121}
+        - {x: 12, y: 163}
+    - name: Orange2SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 700
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67, y: 159}
+        - {x: -70, y: 152}
+        - {x: -70, y: 14}
+        - {x: -47, y: 0}
+        - {x: 41, y: 0}
+        - {x: 41, y: 145}
+        - {x: 11, y: 159}
+    - name: Orange2SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 700
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 154}
+        - {x: -73, y: 132}
+        - {x: -73, y: 60}
+        - {x: -65, y: 56}
+        - {x: -32, y: 59}
+        - {x: -41, y: 41}
+        - {x: -50, y: 6}
+        - {x: -45, y: 0}
+        - {x: 39, y: 0}
+        - {x: 40, y: 1}
+        - {x: 40, y: 143}
+        - {x: 3, y: 154}
+    - name: Orange2SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 700
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 150}
+        - {x: -72, y: 63}
+        - {x: -46, y: 0}
+        - {x: 36, y: 0}
+        - {x: 41, y: 1}
+        - {x: 41, y: 150}
+    - name: Orange2SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 525
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67, y: 149}
+        - {x: -69, y: 134}
+        - {x: -69, y: 27}
+        - {x: -56, y: 8}
+        - {x: -39, y: 0}
+        - {x: 45, y: 0}
+        - {x: 45, y: 141}
+        - {x: 31, y: 149}
+    - name: Orange2SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 525
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: 110}
+        - {x: 25, y: 150}
+        - {x: -42, y: 150}
+        - {x: -70, y: 140}
+        - {x: -70, y: 118}
+        - {x: -68, y: 117}
+        - {x: -63, y: 52}
+        - {x: -39, y: 42}
+        - {x: -34, y: 44}
+        - {x: -21, y: 51}
+        - {x: -27, y: 47}
+        - {x: -29, y: 45}
+        - {x: -42, y: 36}
+        - {x: -44, y: 5}
+        - {x: -30, y: 0}
+        - {x: 29, y: 0}
+        - {x: 47, y: 10}
+        - {x: 58, y: 44}
+    - name: Orange2SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 525
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 150}
+        - {x: -79, y: 122}
+        - {x: -79, y: 114}
+        - {x: -57, y: 5}
+        - {x: -46, y: 0}
+        - {x: 53, y: 0}
+        - {x: 68, y: 26}
+        - {x: 68, y: 130}
+        - {x: 36, y: 150}
+    - name: Orange2SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 525
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 152}
+        - {x: -85, y: 131}
+        - {x: -85, y: 79}
+        - {x: -44, y: 8}
+        - {x: -28, y: 0}
+        - {x: 31, y: 0}
+        - {x: 46, y: 3}
+        - {x: 76, y: 82}
+        - {x: 76, y: 100}
+        - {x: 51, y: 152}
+    - name: Orange2SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 525
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 154}
+        - {x: -85, y: 129}
+        - {x: -85, y: 78}
+        - {x: -41, y: 5}
+        - {x: -35, y: 0}
+        - {x: 25, y: 0}
+        - {x: 37, y: 1}
+        - {x: 81, y: 89}
+        - {x: 81, y: 110}
+        - {x: 61, y: 154}
+    - name: Orange2SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 525
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 156}
+        - {x: -85, y: 124}
+        - {x: -85, y: 79}
+        - {x: -44, y: 0}
+        - {x: 50, y: 0}
+        - {x: 82, y: 46}
+        - {x: 82, y: 128}
+        - {x: 64, y: 156}
+    - name: Orange2SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 159}
+        - {x: -4, y: 159}
+        - {x: -82, y: 113}
+        - {x: -82, y: 84}
+        - {x: -79, y: 83}
+        - {x: -72, y: 83}
+        - {x: -37, y: 65}
+        - {x: -31, y: 63}
+        - {x: -40, y: 40}
+        - {x: -43, y: 11}
+        - {x: -35, y: 0}
+        - {x: 39, y: 0}
+        - {x: 48, y: 10}
+        - {x: 81, y: 87}
+        - {x: 81, y: 133}
+    - name: Orange2SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 350
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 42}
+        - {x: 27, y: 40}
+        - {x: 36, y: 43}
+        - {x: 50, y: 31}
+        - {x: 76, y: 63}
+        - {x: 76, y: 145}
+        - {x: 62, y: 161}
+        - {x: -7, y: 161}
+        - {x: -51, y: 120}
+        - {x: -74, y: 88}
+        - {x: -74, y: 58}
+        - {x: -38, y: 1}
+        - {x: -35, y: 0}
+        - {x: 32, y: 0}
+        - {x: 48, y: 14}
+        - {x: 41, y: 35}
+        - {x: 37, y: 42}
+    - name: Orange2SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 350
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 164}
+        - {x: -63, y: 156}
+        - {x: -63, y: 0}
+        - {x: 57, y: 0}
+        - {x: 68, y: 39}
+        - {x: 68, y: 149}
+        - {x: 50, y: 164}
+    - name: Orange2SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 350
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 48}
+        - {x: 43, y: 43}
+        - {x: 56, y: 33}
+        - {x: 63, y: 53}
+        - {x: 63, y: 164}
+        - {x: 59, y: 167}
+        - {x: -4, y: 167}
+        - {x: -50, y: 126}
+        - {x: -50, y: 0}
+        - {x: 37, y: 0}
+        - {x: 47, y: 32}
+        - {x: 35, y: 44}
+        - {x: 27, y: 47}
+    - name: Orange2SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 350
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55, y: 47}
+        - {x: 69, y: 52}
+        - {x: 69, y: 116}
+        - {x: 63, y: 148}
+        - {x: 32, y: 169}
+        - {x: 15, y: 169}
+        - {x: 11, y: 168}
+        - {x: -41, y: 129}
+        - {x: -41, y: 0}
+        - {x: 26, y: 0}
+        - {x: 41, y: 4}
+        - {x: 45, y: 35}
+        - {x: 25, y: 52}
+        - {x: 34, y: 48}
+    - name: Orange2SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 350
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 148}
+        - {x: 40, y: 144}
+        - {x: 29, y: 171}
+        - {x: 12, y: 171}
+        - {x: -41, y: 128}
+        - {x: -41, y: 79}
+        - {x: -31, y: 64}
+        - {x: -15, y: 58}
+        - {x: -41, y: 40}
+        - {x: -41, y: 9}
+        - {x: -38, y: 0}
+        - {x: 53, y: 0}
+        - {x: 60, y: 1}
+        - {x: 70, y: 42}
+        - {x: 71, y: 53}
+        - {x: 71, y: 123}
+    - name: Orange2SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 61}
+        - {x: 70, y: 124}
+        - {x: 62, y: 148}
+        - {x: 50, y: 154}
+        - {x: 42, y: 148}
+        - {x: 24, y: 172}
+        - {x: 23, y: 173}
+        - {x: 10, y: 173}
+        - {x: -37, y: 130}
+        - {x: -41, y: 112}
+        - {x: -41, y: 5}
+        - {x: -38, y: 0}
+        - {x: 39, y: 0}
+        - {x: 45, y: 14}
+        - {x: 39, y: 45}
+        - {x: 68, y: 56}
+    - name: Orange2SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 175
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 174}
+        - {x: -40, y: 159}
+        - {x: -40, y: 0}
+        - {x: 73, y: 0}
+        - {x: 73, y: 163}
+        - {x: 69, y: 174}
+    - name: Orange2SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 175
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 174}
+        - {x: -40, y: 164}
+        - {x: -40, y: 0}
+        - {x: 55, y: 0}
+        - {x: 73, y: 15}
+        - {x: 73, y: 148}
+        - {x: 61, y: 174}
+    - name: Orange2SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 175
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 173}
+        - {x: 38, y: 174}
+        - {x: -19, y: 174}
+        - {x: -41, y: 154}
+        - {x: -41, y: 6}
+        - {x: -37, y: 1}
+        - {x: -33, y: 0}
+        - {x: 61, y: 0}
+        - {x: 71, y: 23}
+        - {x: 71, y: 128}
+        - {x: 59, y: 161}
+    - name: Orange2SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 175
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 165}
+        - {x: 30, y: 144}
+        - {x: 32, y: 141}
+        - {x: -8, y: 173}
+        - {x: -13, y: 173}
+        - {x: -15, y: 171}
+        - {x: -14, y: 161}
+        - {x: -11, y: 144}
+        - {x: -54, y: 132}
+        - {x: -54, y: 62}
+        - {x: -48, y: 2}
+        - {x: -44, y: 0}
+        - {x: 61, y: 0}
+        - {x: 68, y: 12}
+        - {x: 68, y: 134}
+        - {x: 48, y: 171}
+    - name: Orange2SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 175
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 172}
+        - {x: -32, y: 172}
+        - {x: -66, y: 138}
+        - {x: -66, y: 58}
+        - {x: -45, y: 0}
+        - {x: 34, y: 0}
+        - {x: 59, y: 9}
+        - {x: 78, y: 42}
+        - {x: 78, y: 99}
+    - name: Orange2SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 174}
+        - {x: -71, y: 174}
+        - {x: -74, y: 157}
+        - {x: -74, y: 0}
+        - {x: 48, y: 0}
+        - {x: 81, y: 75}
+        - {x: 84, y: 83}
+        - {x: 84, y: 108}
+    - name: Orange2SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52, y: 152}
+        - {x: 32, y: 175}
+        - {x: -29, y: 175}
+        - {x: -30, y: 174}
+        - {x: -31, y: 166}
+        - {x: -29, y: 156}
+        - {x: -78, y: 114}
+        - {x: -80, y: 110}
+        - {x: -80, y: 101}
+        - {x: -43, y: 6}
+        - {x: -35, y: 0}
+        - {x: 39, y: 0}
+        - {x: 46, y: 10}
+        - {x: 85, y: 77}
+        - {x: 85, y: 103}
+    - name: Orange2SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 175}
+        - {x: 0, y: 175}
+        - {x: -4, y: 166}
+        - {x: -31, y: 167}
+        - {x: -33, y: 163}
+        - {x: -33, y: 160}
+        - {x: -31, y: 155}
+        - {x: -82, y: 110}
+        - {x: -82, y: 100}
+        - {x: -40, y: 0}
+        - {x: 39, y: 0}
+        - {x: 55, y: 39}
+        - {x: 85, y: 92}
+        - {x: 85, y: 134}
+    - name: Orange2SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74, y: 0}
+        - {x: 50, y: 0}
+        - {x: 84, y: 33}
+        - {x: 84, y: 159}
+        - {x: 61, y: 175}
+        - {x: -81, y: 175}
+        - {x: -81, y: 18}
+    - name: Orange2SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 175}
+        - {x: -20, y: 175}
+        - {x: -45, y: 164}
+        - {x: -77, y: 96}
+        - {x: -77, y: 72}
+        - {x: -35, y: 0}
+        - {x: 33, y: 0}
+        - {x: 54, y: 13}
+        - {x: 77, y: 98}
+        - {x: 77, y: 129}
+    - name: Orange2SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 170
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 175}
+        - {x: -40, y: 175}
+        - {x: -70, y: 116}
+        - {x: -70, y: 58}
+        - {x: -41, y: 0}
+        - {x: 56, y: 0}
+        - {x: 67, y: 109}
+        - {x: 67, y: 128}
+        - {x: 58, y: 130}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

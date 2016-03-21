@@ -1,0 +1,1219 @@
+fileFormatVersion: 2
+guid: e194b575eeb208c439a404b3f583baa4
+timeCreated: 1452826796
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CarrotSpriteSheet_0
+    21300002: CarrotSpriteSheet_1
+    21300004: CarrotSpriteSheet_2
+    21300006: CarrotSpriteSheet_3
+    21300008: CarrotSpriteSheet_4
+    21300010: CarrotSpriteSheet_5
+    21300012: CarrotSpriteSheet_6
+    21300014: CarrotSpriteSheet_7
+    21300016: CarrotSpriteSheet_8
+    21300018: CarrotSpriteSheet_9
+    21300020: CarrotSpriteSheet_10
+    21300022: CarrotSpriteSheet_11
+    21300024: CarrotSpriteSheet_12
+    21300026: CarrotSpriteSheet_13
+    21300028: CarrotSpriteSheet_14
+    21300030: CarrotSpriteSheet_15
+    21300032: CarrotSpriteSheet_16
+    21300034: CarrotSpriteSheet_17
+    21300036: CarrotSpriteSheet_18
+    21300038: CarrotSpriteSheet_19
+    21300040: CarrotSpriteSheet_20
+    21300042: CarrotSpriteSheet_21
+    21300044: CarrotSpriteSheet_22
+    21300046: CarrotSpriteSheet_23
+    21300048: CarrotSpriteSheet_24
+    21300050: CarrotSpriteSheet_25
+    21300052: CarrotSpriteSheet_26
+    21300054: CarrotSpriteSheet_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: CarrotSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 137}
+        - {x: -213, y: 132}
+        - {x: -192, y: 129}
+        - {x: -157, y: 129}
+        - {x: -149, y: 143}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1728
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 15, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -211, y: 144}
+        - {x: -211, y: 138}
+        - {x: -187, y: 128}
+        - {x: -166, y: 128}
+        - {x: -148, y: 137}
+        - {x: -145, y: 143}
+        - {x: -145, y: 144}
+    - name: CarrotSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1728
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -64, y: 144}
+        - {x: -131, y: 144}
+        - {x: -134, y: 141}
+        - {x: -134, y: 119}
+        - {x: -100, y: 109}
+        - {x: -85, y: 109}
+        - {x: -62, y: 125}
+        - {x: -62, y: 133}
+    - name: CarrotSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1728
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -111, y: 144}
+        - {x: -111, y: 112}
+        - {x: -78, y: 103}
+        - {x: -62, y: 103}
+        - {x: -40, y: 117}
+        - {x: -40, y: 139}
+        - {x: -41, y: 144}
+    - name: CarrotSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 15, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -116, y: 116}
+        - {x: -115, y: 115}
+        - {x: -75, y: 100}
+        - {x: -52, y: 100}
+        - {x: -29, y: 113}
+        - {x: -29, y: 125}
+        - {x: -38, y: 144}
+        - {x: -106, y: 144}
+        - {x: -116, y: 129}
+    - name: CarrotSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 15, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -39, y: 144}
+        - {x: -105, y: 144}
+        - {x: -120, y: 126}
+        - {x: -120, y: 116}
+        - {x: -112, y: 76}
+        - {x: -29, y: 76}
+        - {x: -25, y: 91}
+        - {x: -25, y: 124}
+        - {x: -26, y: 125}
+    - name: CarrotSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: -32, y: 144}
+        - {x: -126, y: 144}
+        - {x: -178, y: 51}
+        - {x: -238, y: -58}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+    - name: CarrotSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: -31, y: 144}
+        - {x: -105, y: 144}
+        - {x: -127, y: 127}
+        - {x: -161, y: 33}
+        - {x: -238, y: -59}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+    - name: CarrotSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: -43, y: 83}
+        - {x: -83, y: 83}
+        - {x: -159, y: 57}
+        - {x: -238, y: -58}
+        - {x: -238, y: -80}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -105, y: 144}
+        - {x: -106, y: 143}
+        - {x: -109, y: 127}
+        - {x: -109, y: 114}
+        - {x: -83, y: 102}
+        - {x: -52, y: 102}
+        - {x: -35, y: 119}
+        - {x: -35, y: 137}
+        - {x: -40, y: 144}
+    - name: CarrotSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -77, y: 144}
+        - {x: -148, y: 144}
+        - {x: -149, y: 136}
+        - {x: -149, y: 124}
+        - {x: -130, y: 117}
+        - {x: -109, y: 112}
+        - {x: -104, y: 112}
+        - {x: -90, y: 121}
+        - {x: -77, y: 130}
+    - name: CarrotSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -195, y: 144}
+        - {x: -195, y: 133}
+        - {x: -166, y: 124}
+        - {x: -145, y: 124}
+        - {x: -123, y: 141}
+        - {x: -123, y: 144}
+    - name: CarrotSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 205, y: 1}
+        - {x: 196, y: 5}
+        - {x: 164, y: -14}
+        - {x: 93, y: 56}
+        - {x: 81, y: 60}
+        - {x: 47, y: 72}
+        - {x: -1, y: 47}
+        - {x: -6, y: 55}
+        - {x: -85, y: 76}
+        - {x: -90, y: 76}
+        - {x: -143, y: 46}
+        - {x: -148, y: 36}
+        - {x: -133, y: 4}
+        - {x: -238, y: -60}
+        - {x: -238, y: -72}
+        - {x: -175, y: -96}
+        - {x: -105, y: -112}
+        - {x: -41, y: -133}
+        - {x: 23, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -21}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 205, y: 1}
+        - {x: 196, y: 5}
+        - {x: 165, y: -16}
+        - {x: 100, y: 12}
+        - {x: 104, y: 37}
+        - {x: 97, y: 65}
+        - {x: 60, y: 76}
+        - {x: 45, y: 76}
+        - {x: -1, y: 47}
+        - {x: -6, y: 55}
+        - {x: -85, y: 76}
+        - {x: -90, y: 76}
+        - {x: -143, y: 46}
+        - {x: -148, y: 36}
+        - {x: -133, y: 4}
+        - {x: -238, y: -60}
+        - {x: -238, y: -72}
+        - {x: -175, y: -96}
+        - {x: -41, y: -133}
+        - {x: 23, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -21}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 864
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 164, y: -2}
+        - {x: 103, y: 17}
+        - {x: 105, y: 52}
+        - {x: 95, y: 72}
+        - {x: 64, y: 76}
+        - {x: 34, y: 76}
+        - {x: -6, y: 55}
+        - {x: -67, y: 76}
+        - {x: -90, y: 76}
+        - {x: -145, y: 49}
+        - {x: -146, y: 40}
+        - {x: -146, y: 37}
+        - {x: -133, y: 21}
+        - {x: -133, y: 4}
+        - {x: -238, y: -60}
+        - {x: -238, y: -72}
+        - {x: -175, y: -96}
+        - {x: -41, y: -133}
+        - {x: 23, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 864
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 205, y: 1}
+        - {x: 196, y: 5}
+        - {x: 165, y: -16}
+        - {x: 113, y: 13}
+        - {x: 94, y: 75}
+        - {x: 88, y: 76}
+        - {x: 50, y: 76}
+        - {x: -1, y: 48}
+        - {x: -6, y: 55}
+        - {x: -85, y: 76}
+        - {x: -90, y: 76}
+        - {x: -143, y: 46}
+        - {x: -148, y: 36}
+        - {x: -133, y: 4}
+        - {x: -238, y: -60}
+        - {x: -238, y: -72}
+        - {x: -175, y: -96}
+        - {x: -105, y: -112}
+        - {x: -41, y: -133}
+        - {x: 23, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -21}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 864
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 196, y: 11}
+        - {x: 164, y: -12}
+        - {x: 112, y: 42}
+        - {x: 79, y: 67}
+        - {x: 56, y: 74}
+        - {x: 38, y: 67}
+        - {x: -1, y: 47}
+        - {x: -6, y: 55}
+        - {x: -85, y: 76}
+        - {x: -90, y: 76}
+        - {x: -143, y: 46}
+        - {x: -148, y: 36}
+        - {x: -133, y: 4}
+        - {x: -238, y: -60}
+        - {x: -238, y: -72}
+        - {x: -175, y: -96}
+        - {x: -105, y: -112}
+        - {x: -41, y: -133}
+        - {x: 23, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -37}
+        - {x: 220, y: -14}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 205, y: 1}
+        - {x: 196, y: 5}
+        - {x: 165, y: -16}
+        - {x: 106, y: 38}
+        - {x: 83, y: 67}
+        - {x: 49, y: 70}
+        - {x: 37, y: 65}
+        - {x: -6, y: 55}
+        - {x: -85, y: 76}
+        - {x: -90, y: 76}
+        - {x: -143, y: 46}
+        - {x: -148, y: 36}
+        - {x: -133, y: 4}
+        - {x: -238, y: -60}
+        - {x: -238, y: -72}
+        - {x: -175, y: -96}
+        - {x: -105, y: -112}
+        - {x: -41, y: -133}
+        - {x: 23, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -21}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 205, y: 1}
+        - {x: 196, y: 5}
+        - {x: 165, y: -16}
+        - {x: 88, y: 59}
+        - {x: 67, y: 76}
+        - {x: 52, y: 76}
+        - {x: -8, y: 36}
+        - {x: -1, y: 47}
+        - {x: -6, y: 55}
+        - {x: -85, y: 76}
+        - {x: -90, y: 76}
+        - {x: -143, y: 46}
+        - {x: -148, y: 36}
+        - {x: -133, y: 4}
+        - {x: -238, y: -60}
+        - {x: -238, y: -72}
+        - {x: -175, y: -96}
+        - {x: -105, y: -112}
+        - {x: -41, y: -133}
+        - {x: 23, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -21}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 576
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 205, y: 1}
+        - {x: 196, y: 5}
+        - {x: 165, y: -16}
+        - {x: 106, y: 8}
+        - {x: 107, y: 38}
+        - {x: 85, y: 69}
+        - {x: 41, y: 71}
+        - {x: -6, y: 55}
+        - {x: -85, y: 76}
+        - {x: -90, y: 76}
+        - {x: -143, y: 46}
+        - {x: -148, y: 36}
+        - {x: -133, y: 4}
+        - {x: -238, y: -60}
+        - {x: -238, y: -72}
+        - {x: -175, y: -96}
+        - {x: -105, y: -112}
+        - {x: -41, y: -133}
+        - {x: 23, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -21}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 576
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    - name: CarrotSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 213, y: 12}
+        - {x: 95, y: 66}
+        - {x: 59, y: 63}
+        - {x: 55, y: 64}
+        - {x: 56, y: 63}
+        - {x: 54, y: 67}
+        - {x: 53, y: 70}
+        - {x: 46, y: 67}
+        - {x: 45, y: 61}
+        - {x: 45, y: 57}
+        - {x: 44, y: 62}
+        - {x: 43, y: 65}
+        - {x: 37, y: 63}
+        - {x: 6, y: 76}
+        - {x: -141, y: 76}
+        - {x: -238, y: -8}
+        - {x: -238, y: -76}
+        - {x: -42, y: -138}
+        - {x: 11, y: -144}
+        - {x: 47, y: -144}
+        - {x: 217, y: -41}
+        - {x: 220, y: -35}
+        - {x: 220, y: -12}
+      - - {x: -214, y: 144}
+        - {x: -214, y: 139}
+        - {x: -185, y: 129}
+        - {x: -162, y: 129}
+        - {x: -149, y: 142}
+        - {x: -149, y: 144}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+guid: 166a1e79cb6aee54ea77411e4511356c
+timeCreated: 1452354189
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AppleSpriteSheet_0
+    21300002: AppleSpriteSheet_1
+    21300004: AppleSpriteSheet_2
+    21300006: AppleSpriteSheet_3
+    21300008: AppleSpriteSheet_4
+    21300010: AppleSpriteSheet_5
+    21300012: AppleSpriteSheet_6
+    21300014: AppleSpriteSheet_7
+    21300016: AppleSpriteSheet_8
+    21300018: AppleSpriteSheet_9
+    21300020: AppleSpriteSheet_10
+    21300022: AppleSpriteSheet_11
+    21300024: AppleSpriteSheet_12
+    21300026: AppleSpriteSheet_13
+    21300028: AppleSpriteSheet_14
+    21300030: AppleSpriteSheet_15
+    21300032: AppleSpriteSheet_16
+    21300034: AppleSpriteSheet_17
+    21300036: AppleSpriteSheet_18
+    21300038: AppleSpriteSheet_19
+    21300040: AppleSpriteSheet_20
+    21300042: AppleSpriteSheet_21
+    21300044: AppleSpriteSheet_22
+    21300046: AppleSpriteSheet_23
+    21300048: AppleSpriteSheet_24
+    21300050: AppleSpriteSheet_25
+    21300052: AppleSpriteSheet_26
+    21300054: AppleSpriteSheet_27
+    21300056: AppleSpriteSheet_28
+    21300058: AppleSpriteSheet_29
+    21300060: AppleSpriteSheet_30
+    21300062: AppleSpriteSheet_31
+    21300064: AppleSpriteSheet_32
+    21300066: AppleSpriteSheet_33
+    21300068: AppleSpriteSheet_34
+    21300070: AppleSpriteSheet_35
+    21300072: AppleSpriteSheet_36
+    21300074: AppleSpriteSheet_37
+    21300076: AppleSpriteSheet_38
+    21300078: AppleSpriteSheet_39
+    21300080: AppleSpriteSheet_40
+    21300082: AppleSpriteSheet_41
+    21300084: AppleSpriteSheet_42
+    21300086: AppleSpriteSheet_43
+    21300088: AppleSpriteSheet_44
+    21300090: AppleSpriteSheet_45
+    21300092: AppleSpriteSheet_46
+    21300094: AppleSpriteSheet_47
+    21300096: AppleSpriteSheet_48
+    21300098: AppleSpriteSheet_49
+    21300100: AppleSpriteSheet_50
+    21300102: AppleSpriteSheet_51
+    21300104: AppleSpriteSheet_52
+    21300106: AppleSpriteSheet_53
+    21300108: AppleSpriteSheet_54
+    21300110: AppleSpriteSheet_55
+    21300112: AppleSpriteSheet_56
+    21300114: AppleSpriteSheet_57
+    21300116: AppleSpriteSheet_58
+    21300118: AppleSpriteSheet_59
+    21300120: AppleSpriteSheet_60
+    21300122: AppleSpriteSheet_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 75
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  spriteSheet:
+    sprites:
+    - name: AppleSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 58}
+        - {x: 23, y: 56}
+        - {x: 35, y: 91}
+        - {x: 52, y: 135}
+        - {x: 52, y: 155}
+        - {x: 22, y: 168}
+        - {x: -16, y: 168}
+        - {x: -46, y: 136}
+        - {x: -52, y: 114}
+        - {x: -52, y: 0}
+        - {x: 46, y: 0}
+        - {x: 52, y: 7}
+        - {x: 52, y: 32}
+        - {x: 48, y: 54}
+    - name: AppleSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 840
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 168}
+        - {x: -50, y: 168}
+        - {x: -50, y: 3}
+        - {x: -47, y: 0}
+        - {x: 37, y: 0}
+        - {x: 49, y: 6}
+        - {x: 49, y: 133}
+        - {x: 46, y: 155}
+    - name: AppleSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 840
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 168}
+        - {x: -49, y: 145}
+        - {x: -49, y: 0}
+        - {x: 49, y: 0}
+        - {x: 49, y: 160}
+        - {x: 35, y: 168}
+    - name: AppleSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 840
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 168}
+        - {x: -35, y: 168}
+        - {x: -50, y: 138}
+        - {x: -50, y: 2}
+        - {x: -47, y: 0}
+        - {x: 38, y: 0}
+        - {x: 49, y: 10}
+        - {x: 49, y: 81}
+        - {x: 40, y: 148}
+    - name: AppleSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 840
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 54}
+        - {x: 42, y: 132}
+        - {x: 32, y: 154}
+        - {x: 4, y: 168}
+        - {x: -12, y: 168}
+        - {x: -22, y: 160}
+        - {x: -43, y: 135}
+        - {x: -47, y: 107}
+        - {x: -47, y: 0}
+        - {x: 44, y: 0}
+        - {x: 47, y: 2}
+        - {x: 47, y: 47}
+        - {x: 38, y: 54}
+    - name: AppleSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 840
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 168}
+        - {x: -49, y: 167}
+        - {x: -49, y: 0}
+        - {x: 44, y: 0}
+        - {x: 48, y: 4}
+        - {x: 48, y: 131}
+        - {x: 22, y: 168}
+    - name: AppleSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 166}
+        - {x: 29, y: 168}
+        - {x: -29, y: 168}
+        - {x: -54, y: 152}
+        - {x: -54, y: 14}
+        - {x: -30, y: 0}
+        - {x: 33, y: 0}
+        - {x: 50, y: 3}
+        - {x: 53, y: 13}
+        - {x: 53, y: 131}
+    - name: AppleSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 672
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 89}
+        - {x: 67, y: 106}
+        - {x: 64, y: 118}
+        - {x: 27, y: 168}
+        - {x: -45, y: 168}
+        - {x: -67, y: 150}
+        - {x: -67, y: 1}
+        - {x: -62, y: 0}
+        - {x: 45, y: 0}
+        - {x: 55, y: 12}
+        - {x: 48, y: 50}
+        - {x: 29, y: 58}
+    - name: AppleSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 672
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 168}
+        - {x: -77, y: 147}
+        - {x: -77, y: 98}
+        - {x: -46, y: 4}
+        - {x: -39, y: 0}
+        - {x: 59, y: 0}
+        - {x: 76, y: 66}
+        - {x: 76, y: 136}
+        - {x: 27, y: 168}
+    - name: AppleSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 672
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 109}
+        - {x: 79, y: 112}
+        - {x: 42, y: 150}
+        - {x: 13, y: 168}
+        - {x: -40, y: 168}
+        - {x: -83, y: 141}
+        - {x: -83, y: 106}
+        - {x: -65, y: 3}
+        - {x: -56, y: 0}
+        - {x: 24, y: 0}
+        - {x: 48, y: 8}
+        - {x: 49, y: 46}
+        - {x: 38, y: 55}
+        - {x: 83, y: 102}
+    - name: AppleSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 672
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 168}
+        - {x: -45, y: 168}
+        - {x: -85, y: 126}
+        - {x: -85, y: 116}
+        - {x: -82, y: 115}
+        - {x: -56, y: 2}
+        - {x: -47, y: 0}
+        - {x: 48, y: 0}
+        - {x: 65, y: 8}
+        - {x: 85, y: 54}
+        - {x: 85, y: 142}
+    - name: AppleSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 672
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 159}
+        - {x: 22, y: 168}
+        - {x: -26, y: 168}
+        - {x: -85, y: 130}
+        - {x: -85, y: 108}
+        - {x: -82, y: 107}
+        - {x: -63, y: 11}
+        - {x: -38, y: 0}
+        - {x: 44, y: 0}
+        - {x: 82, y: 43}
+        - {x: 85, y: 64}
+        - {x: 85, y: 139}
+    - name: AppleSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 132}
+        - {x: 78, y: 133}
+        - {x: 76, y: 133}
+        - {x: 57, y: 131}
+        - {x: 35, y: 162}
+        - {x: 26, y: 162}
+        - {x: 20, y: 155}
+        - {x: 1, y: 168}
+        - {x: -30, y: 168}
+        - {x: -84, y: 127}
+        - {x: -84, y: 48}
+        - {x: -47, y: 0}
+        - {x: 51, y: 0}
+        - {x: 62, y: 8}
+        - {x: 84, y: 115}
+        - {x: 84, y: 130}
+    - name: AppleSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 504
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 47}
+        - {x: 24, y: 58}
+        - {x: 38, y: 108}
+        - {x: 72, y: 126}
+        - {x: 77, y: 129}
+        - {x: 77, y: 153}
+        - {x: 41, y: 168}
+        - {x: -49, y: 168}
+        - {x: -77, y: 151}
+        - {x: -77, y: 6}
+        - {x: -68, y: 0}
+        - {x: 46, y: 0}
+        - {x: 56, y: 44}
+        - {x: 44, y: 50}
+        - {x: 39, y: 50}
+    - name: AppleSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 504
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 168}
+        - {x: -11, y: 168}
+        - {x: -34, y: 151}
+        - {x: -68, y: 118}
+        - {x: -68, y: 20}
+        - {x: -45, y: 0}
+        - {x: 55, y: 0}
+        - {x: 56, y: 2}
+        - {x: 68, y: 76}
+        - {x: 68, y: 153}
+    - name: AppleSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 504
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 168}
+        - {x: -57, y: 161}
+        - {x: -57, y: 0}
+        - {x: 56, y: 0}
+        - {x: 56, y: 161}
+        - {x: 43, y: 168}
+    - name: AppleSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 504
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 168}
+        - {x: -43, y: 162}
+        - {x: -50, y: 117}
+        - {x: -50, y: 2}
+        - {x: -47, y: 0}
+        - {x: 40, y: 0}
+        - {x: 49, y: 11}
+        - {x: 49, y: 158}
+        - {x: 24, y: 168}
+    - name: AppleSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 504
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 168}
+        - {x: -49, y: 168}
+        - {x: -49, y: 2}
+        - {x: -39, y: 0}
+        - {x: 48, y: 0}
+    - name: AppleSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 168}
+        - {x: -36, y: 168}
+        - {x: -50, y: 141}
+        - {x: -50, y: 0}
+        - {x: 38, y: 0}
+        - {x: 49, y: 6}
+        - {x: 49, y: 98}
+        - {x: 40, y: 145}
+    - name: AppleSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 336
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 168}
+        - {x: -43, y: 144}
+        - {x: -48, y: 125}
+        - {x: -48, y: 0}
+        - {x: 48, y: 0}
+        - {x: 48, y: 152}
+        - {x: 32, y: 168}
+    - name: AppleSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 336
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 168}
+        - {x: -44, y: 157}
+        - {x: -38, y: 98}
+        - {x: -30, y: 80}
+        - {x: -48, y: 50}
+        - {x: -48, y: 16}
+        - {x: -47, y: 8}
+        - {x: -31, y: 0}
+        - {x: 48, y: 0}
+        - {x: 48, y: 158}
+        - {x: 24, y: 168}
+    - name: AppleSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 336
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 168}
+        - {x: -51, y: 8}
+        - {x: -42, y: 0}
+        - {x: 39, y: 0}
+        - {x: 50, y: 2}
+        - {x: 51, y: 7}
+        - {x: 51, y: 139}
+        - {x: 14, y: 168}
+    - name: AppleSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 336
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 78}
+        - {x: 63, y: 117}
+        - {x: 58, y: 157}
+        - {x: 27, y: 168}
+        - {x: -53, y: 168}
+        - {x: -63, y: 149}
+        - {x: -63, y: 1}
+        - {x: -58, y: 0}
+        - {x: 44, y: 0}
+        - {x: 48, y: 10}
+        - {x: 50, y: 45}
+        - {x: 47, y: 47}
+    - name: AppleSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 336
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 168}
+        - {x: -61, y: 168}
+        - {x: -75, y: 158}
+        - {x: -75, y: 5}
+        - {x: -57, y: 0}
+        - {x: 63, y: 0}
+        - {x: 74, y: 8}
+        - {x: 74, y: 123}
+        - {x: 41, y: 161}
+    - name: AppleSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 55}
+        - {x: 82, y: 96}
+        - {x: 82, y: 119}
+        - {x: 19, y: 168}
+        - {x: -44, y: 168}
+        - {x: -82, y: 151}
+        - {x: -82, y: 86}
+        - {x: -51, y: 13}
+        - {x: -36, y: 1}
+        - {x: -26, y: 0}
+        - {x: 19, y: 0}
+        - {x: 33, y: 3}
+        - {x: 46, y: 8}
+        - {x: 51, y: 45}
+    - name: AppleSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 168
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 168}
+        - {x: -85, y: 151}
+        - {x: -85, y: 103}
+        - {x: -63, y: 23}
+        - {x: -49, y: 0}
+        - {x: 51, y: 0}
+        - {x: 65, y: 3}
+        - {x: 85, y: 96}
+        - {x: 85, y: 121}
+        - {x: 31, y: 168}
+    - name: AppleSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 168
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 168}
+        - {x: -41, y: 166}
+        - {x: -85, y: 149}
+        - {x: -85, y: 69}
+        - {x: -58, y: 0}
+        - {x: 77, y: 0}
+        - {x: 85, y: 21}
+        - {x: 85, y: 162}
+        - {x: 65, y: 168}
+    - name: AppleSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 168
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 168}
+        - {x: -42, y: 165}
+        - {x: -85, y: 116}
+        - {x: -85, y: 79}
+        - {x: -47, y: 10}
+        - {x: -40, y: 0}
+        - {x: 53, y: 0}
+        - {x: 69, y: 4}
+        - {x: 85, y: 53}
+        - {x: 85, y: 139}
+        - {x: 49, y: 168}
+    - name: AppleSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 168
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 168}
+        - {x: -80, y: 128}
+        - {x: -80, y: 24}
+        - {x: -75, y: 7}
+        - {x: -66, y: 0}
+        - {x: 69, y: 0}
+        - {x: 80, y: 23}
+        - {x: 80, y: 168}
+    - name: AppleSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 168
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 168}
+        - {x: -33, y: 147}
+        - {x: -71, y: 134}
+        - {x: -71, y: 0}
+        - {x: 62, y: 0}
+        - {x: 70, y: 21}
+        - {x: 70, y: 168}
+    - name: AppleSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 168}
+        - {x: -59, y: 137}
+        - {x: -59, y: 23}
+        - {x: -45, y: 0}
+        - {x: 57, y: 0}
+        - {x: 59, y: 33}
+        - {x: 59, y: 166}
+        - {x: 56, y: 168}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
