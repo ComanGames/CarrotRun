@@ -6,9 +6,9 @@ using Assets.Script.ObjectPool;
 using UnityEngine;
 using UnityStandardAssets.ImageEffects;
 
-//Just comments
 namespace Assets.Script.GamePlay
 {
+    //Test of git merging tool
 	[Serializable]
 	public class Level
 	{
