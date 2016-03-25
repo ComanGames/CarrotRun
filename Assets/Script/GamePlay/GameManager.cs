@@ -9,7 +9,7 @@ using UnityStandardAssets.ImageEffects;
 namespace Assets.Script.GamePlay
 {
     //Test of git merging tool
-    // Changes made from aother account to check out team work in git 
+    //Hello Zheka
 	[Serializable]
 	public class Level
 	{
