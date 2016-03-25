@@ -11,6 +11,7 @@ namespace Assets.Script.GamePlay
 	{
 		public AudioClip CoinSound;
 		public AudioClip JumpSound;
+		public AudioClip RunSound;
 	}
 	public class Hero : MonoBehaviour
 	{
@@ -34,6 +35,7 @@ namespace Assets.Script.GamePlay
 		public Rigidbody2D Body;
 		private bool _isFrozen = true;
 		private AudioSource _audioSource;
+		private AudioSource _audioSourceRun;
 		private bool _isGrounded = true;
 		private bool _isSlide;
 		private bool _isMove;
@@ -52,6 +54,9 @@ namespace Assets.Script.GamePlay
 			SettControllerActions();
 			_isFrozen = false;
 			_audioSource = GetComponents<AudioSource>()[0];
+			_audioSourceRun = GetComponents<AudioSource>()[1];
+		    _audioSourceRun.clip = HeroSoundsCollection.RunSound;
+		    _audioSourceRun.loop = true;
 			Body = GetComponent<Rigidbody2D>();
 			var polygons = MyAnimator.gameObject.GetComponents<PolygonCollider2D>();
 			if (polygons[0] == null || polygons[1] == null)
@@ -251,7 +256,8 @@ namespace Assets.Script.GamePlay
 
 		public void Froze()
 		{
-			if (Body != null)
+            _audioSourceRun.Stop();
+            if (Body != null)
 			{
 				_lastBodyVelocity = Body.velocity;
 				_isFrozen = true;
@@ -264,6 +270,8 @@ namespace Assets.Script.GamePlay
 
 		public void UnForze()
 		{
+
+            _audioSourceRun.Play();
 			if (Body != null)
 			{
 				Body.constraints = RigidbodyConstraints2D.FreezeRotation;
