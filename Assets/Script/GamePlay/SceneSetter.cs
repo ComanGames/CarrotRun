@@ -2,7 +2,6 @@
 using Assets.Script.GamePlay.Data_Containers;
 using Assets.Script.GamePlay.Participators;
 using Assets.Script.GamePlay.Skills;
-using Assets.Script.Menu.DataManagment;
 using Assets.Script.SAnimation;
 using Assets.Script.SAnimation.Bakers;
 using UnityEngine;
@@ -18,25 +17,14 @@ namespace Assets.Script.GamePlay
 		public SAnimation.SAnimation FactoryAnimation;
 		public CharacterSceneSetting[] CharacterScene;
 
-		public void Awake()
-		{
-			Characters character = GameData.Instance.CurrentGameinfo.CurrentCharacter;
-			CharacterSceneSetting currentCharacterScene = CharacterScene[0];
-			foreach (CharacterSceneSetting t in CharacterScene)
-				if (t.Name == character)
-					currentCharacterScene = t;
-			SetScane(currentCharacterScene);
-			Destroy(this);
-		}
 
-		private void SetScane(CharacterSceneSetting currentCharacterScene)
+	    public void SetScane(CharacterSceneSetting currentCharacterScene)
 		{
 			JuiceImage.color= JuiceImage2.color = currentCharacterScene.JucieColor;
 			GameObject newSprite = GetCharacter(currentCharacterScene.Name.ToString());
 			SetSkillToCharacter(newSprite,currentCharacterScene.Name);
 			HeroCharacter.MyAnimator = newSprite.GetComponent<SHeroAnimator>();
 			HeroCharacter.MyAnimator.Starter();
-			HeroCharacter.SetHero();
 			FactoryAnimation.Container = GetFactoryContainer(currentCharacterScene.FactoryName);
 			FactoryAnimation.LoadContainers();
 		}

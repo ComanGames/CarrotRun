@@ -19,7 +19,9 @@ namespace Assets.Standard_Assets.Cameras.Scripts
 
         // to have no constraints on an axis, set the rotationRange greater than 360.
 
+#pragma warning disable 649
         [SerializeField] private Vector2 _mRotationRange;
+#pragma warning restore 649
         [SerializeField] private float _mFollowSpeed = 1;
 
         private Vector3 _mFollowAngles;

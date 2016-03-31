@@ -10,24 +10,21 @@ using UnityStandardAssets.ImageEffects;
 
 namespace Assets.Script.GamePlay
 {
-    //Test of git merging tool
-    //Hello Zheka
-    //Now I am from Account of commanGames
-
     public class GameManager : MonoBehaviour
     {
         #region  Variables
 
-        public BlocksManager ManagerBlocks;
-        public UserInterfaceManager ManagerUserInterface;
         public SpeedSettingContainer SpeedSetting;
+        public SceneBuilder Builder;
         public static GameManager Instance;
         public static bool IsSkillActive;
         public float Skill;
-        public Hero Character;
         public bool Over;
         public StartAnimation StartAnimationGame;
         private BlurOptimized _blur;
+        private BlocksManager _managerBlocks;
+        private UserInterfaceManager _managerUserInterface;
+        private Hero _character;
 
         #endregion
 
@@ -37,6 +34,10 @@ namespace Assets.Script.GamePlay
         {
             if (Instance == null || Instance != this)
                 Instance = this;
+            Builder.Build();
+            _character = Builder.BuildHero();
+            _managerUserInterface = Builder.BuildUi();
+            _managerBlocks = Builder.BuildBlockManager();
         }
 
         public void Start()
@@ -61,40 +62,36 @@ namespace Assets.Script.GamePlay
             StartAnimationGame.AnimationDone += RePauseGame;
             if(SoundController.Instance!=null)
                 StartAnimationGame.AnimationDone += SoundController.Instance.RePauseSound;
-            _playerStartPosition = Character.transform.position;
             StartSettings();
-            ManagerBlocks.Creator();
-            ManagerUserInterface.Creator();
-            _created = true;
             StartCoroutine(SpeedingUp());
             _isPaused = false;
             ResumeGameEffects();
             float speed = GetBlockManagerSpeed();
-            ManagerBlocks.UpdateSpeed(speed);
+            _managerBlocks.UpdateSpeed(speed);
         }
 
         public void Update()
         {
-            if (_created && !Over && !_isPaused)
+            if (_managerBlocks!=null&& !Over && !_isPaused)
             {
-                ManagerBlocks.BlocksUpdate();
+                _managerBlocks.BlocksUpdate();
                 UpdateScore();
             }
         }
 
         public void TurnOffProblems()
         {
-            ManagerBlocks.Stop();
+            _managerBlocks.Stop();
         }
 
         public void TurnOnProblems()
         {
-            ManagerBlocks.Reset();
+            _managerBlocks.Reset();
         }
 
         public void DestroyAllProblems()
         {
-            ManagerBlocks.RemoveMovebleProblems();
+            _managerBlocks.RemoveMovebleProblems();
         }
 
         public void UpdateSpeed()
@@ -107,7 +104,7 @@ namespace Assets.Script.GamePlay
             if (skillValue < 0 || skillValue > 100)
                 return;
             Skill = skillValue;
-            ManagerUserInterface.UpdateSkill((byte) Skill);
+            _managerUserInterface.UpdateSkill((byte) Skill);
         }
 
         private void UpdateScore()
@@ -119,16 +116,16 @@ namespace Assets.Script.GamePlay
                 float skillValue = Skill + Time.timeScale/20;
                 UpdateSkillValue(skillValue);
             }
-            ManagerUserInterface.UpdateScore((int) _realScore);
+            _managerUserInterface.UpdateScore((int) _realScore);
         }
 
         public void AddCoin(GameObject item)
         {
             _coins++;
-            ManagerUserInterface.UpdateCoins(_coins);
+            _managerUserInterface.UpdateCoins(_coins);
             item.Recycle();
-            Character.CoinSound();
-            ManagerBlocks.RemoveCoin(item);
+            _character.CoinSound();
+            _managerBlocks.RemoveCoin(item);
         }
 
         public void GameOver()
@@ -136,9 +133,8 @@ namespace Assets.Script.GamePlay
             Over = true;
             OverGame();
             SaveScore();
-            Character.transform.position = _playerStartPosition;
-            Character.Stop();
-            ManagerUserInterface.EnableGameOver();
+            Builder.Stop();
+            _managerUserInterface.EnableGameOver();
         }
 
         public void RePauseGame()
@@ -160,18 +156,15 @@ namespace Assets.Script.GamePlay
 
         public void ResetLevel()
         {
-            Character.Reset();
-            ManagerUserInterface.Reset();
+            Builder.Reset();
             UnFrozeGame();
             ResumeGameEffects();
             StartSettings();
-            ManagerBlocks.Reset();
             RunStartAnimation();
         }
 
         private void OverGame()
         {
-            ManagerBlocks.Stop();
             StopAllCoroutines();
             FrozeAnimations();
             StopGameEffects();
@@ -183,7 +176,6 @@ namespace Assets.Script.GamePlay
             Time.timeScale = SpeedSetting.StartSpeed;
             Over = false;
             _isPaused = false;
-            _created = true;
             _score = 0;
             _coins = 0;
             _realScore = 0;
@@ -196,32 +188,32 @@ namespace Assets.Script.GamePlay
         private void FrozeGame()
         {
             _isPaused = true;
-            Character.Froze();
+            _character.Froze();
             _lastTimeScale = Time.timeScale;
-            ManagerBlocks.Pause();
+            _managerBlocks.Pause();
             StopAllCoroutines();
         }
 
         private void UnFrozeGame()
         {
             _isPaused = false;
-            Character.UnForze();
+            _character.UnForze();
             Time.timeScale = _lastTimeScale;
-            ManagerBlocks.UnPause();
+            _managerBlocks.UnPause();
             StartCoroutine(SpeedingUp());
         }
 
         private void UnFrozeAnations()
         {
-            Character.MyAnimator.StartAnimation();
-            ManagerUserInterface.ResumeAllAnimations();
-            ManagerBlocks.ResumeAllAnimations();
+            _character.MyAnimator.StartAnimation();
+            _managerUserInterface.ResumeAllAnimations();
+            _managerBlocks.ResumeAllAnimations();
         }
 
         private void FrozeAnimations()
         {
-            ManagerUserInterface.StopAllAnimations();
-            ManagerBlocks.StopAllAnimations();
+            _managerUserInterface.StopAllAnimations();
+            _managerBlocks.StopAllAnimations();
         }
 
         private void SpeedUp()
@@ -229,8 +221,8 @@ namespace Assets.Script.GamePlay
             if (Time.timeScale + SpeedSetting.Acceleration < SpeedSetting.MaxTimeScale)
             {
                 float speed = GetBlockManagerSpeed();
-                ManagerBlocks.UpdateSpeed(speed);
-                ManagerBlocks.AddNewProblem();
+                _managerBlocks.UpdateSpeed(speed);
+                _managerBlocks.AddNewProblem();
             }
         }
 
@@ -275,15 +267,11 @@ namespace Assets.Script.GamePlay
 
         #endregion
 
-        private bool _created;
-
         private ulong _score;
 
         private int _coins;
 
         private ulong _realScore;
-
-        private Vector2 _playerStartPosition;
 
         private float _lastTimeScale;
 

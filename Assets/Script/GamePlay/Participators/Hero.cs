@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using Assets.Script.GamePlay.Controller;
 using Assets.Script.GamePlay.Skills;
 using Assets.Script.SAnimation;
 using UnityEngine;
@@ -17,7 +18,6 @@ namespace Assets.Script.GamePlay.Participators
 	{
 		#region  Variables
 		//Public Variables 
-		public Controller.GameController HeroController;
 		//Jump Parameters
 		public float JumpPower;
 		public float JumpDistance = 1.0f;
@@ -51,7 +51,6 @@ namespace Assets.Script.GamePlay.Participators
 
 		public void SetHero()
 		{
-			SettControllerActions();
 			_isFrozen = false;
 			_audioSource = GetComponents<AudioSource>()[0];
 			_audioSourceRun = GetComponents<AudioSource>()[1];
@@ -65,15 +64,14 @@ namespace Assets.Script.GamePlay.Participators
 			_standCollide = polygons[1];
 			_slideCollide = polygons[0];
 			MadeStandColider();
-			Skill.SetSkill();
 		}
 
-		private void SettControllerActions()
+		public void SettControllerActions(GameController heroController)
 		{
-			HeroController.TapEvent += TapPressed;
-			HeroController.SwipeUpEvent += SwipeUp;
-			HeroController.SwipeDownEvent += SwipeDown;
-			HeroController.SwipeRightEvent += ActivateSkill;
+			heroController.TapEvent += TapPressed;
+			heroController.SwipeUpEvent += SwipeUp;
+			heroController.SwipeDownEvent += SwipeDown;
+			heroController.SwipeRightEvent += ActivateSkill;
 		}
 
 		private void ActivateSkill()
