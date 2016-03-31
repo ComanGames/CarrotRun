@@ -1,4 +1,6 @@
-﻿using System; // require keep for Windows Universal App
+﻿using System;
+using Assets.Script.GamePlay;
+// require keep for Windows Universal App
 using UnityEngine;
 
 namespace UniRx.Triggers
@@ -133,49 +135,49 @@ namespace UniRx.Triggers
         #region ObservableMouseTrigger
 
         /// <summary>OnMouseDown is called when the user has pressed the mouse button while over the GUIElement or Collider.</summary>
-        public static IObservable<Unit> OnMouseDownAsObservable(this Hero gameObject)
+        public static IObservable<Unit> OnMouseDownAsObservable(this GameObject gameObject)
         {
             if (gameObject == null) return Observable.Empty<Unit>();
             return GetOrAddComponent<ObservableMouseTrigger>(gameObject).OnMouseDownAsObservable();
         }
 
         /// <summary>OnMouseDrag is called when the user has clicked on a GUIElement or Collider and is still holding down the mouse.</summary>
-        public static IObservable<Unit> OnMouseDragAsObservable(this Hero gameObject)
+        public static IObservable<Unit> OnMouseDragAsObservable(this GameObject gameObject)
         {
             if (gameObject == null) return Observable.Empty<Unit>();
             return GetOrAddComponent<ObservableMouseTrigger>(gameObject).OnMouseDragAsObservable();
         }
 
         /// <summary>OnMouseEnter is called when the mouse entered the GUIElement or Collider.</summary>
-        public static IObservable<Unit> OnMouseEnterAsObservable(this Hero gameObject)
+        public static IObservable<Unit> OnMouseEnterAsObservable(this GameObject gameObject)
         {
             if (gameObject == null) return Observable.Empty<Unit>();
             return GetOrAddComponent<ObservableMouseTrigger>(gameObject).OnMouseEnterAsObservable();
         }
 
         /// <summary>OnMouseExit is called when the mouse is not any longer over the GUIElement or Collider.</summary>
-        public static IObservable<Unit> OnMouseExitAsObservable(this Hero gameObject)
+        public static IObservable<Unit> OnMouseExitAsObservable(this GameObject gameObject)
         {
             if (gameObject == null) return Observable.Empty<Unit>();
             return GetOrAddComponent<ObservableMouseTrigger>(gameObject).OnMouseExitAsObservable();
         }
 
         /// <summary>OnMouseOver is called every frame while the mouse is over the GUIElement or Collider.</summary>
-        public static IObservable<Unit> OnMouseOverAsObservable(this Hero gameObject)
+        public static IObservable<Unit> OnMouseOverAsObservable(this GameObject gameObject)
         {
             if (gameObject == null) return Observable.Empty<Unit>();
             return GetOrAddComponent<ObservableMouseTrigger>(gameObject).OnMouseOverAsObservable();
         }
 
         /// <summary>OnMouseUp is called when the user has released the mouse button.</summary>
-        public static IObservable<Unit> OnMouseUpAsObservable(this Hero gameObject)
+        public static IObservable<Unit> OnMouseUpAsObservable(this GameObject gameObject)
         {
             if (gameObject == null) return Observable.Empty<Unit>();
             return GetOrAddComponent<ObservableMouseTrigger>(gameObject).OnMouseUpAsObservable();
         }
 
         /// <summary>OnMouseUpAsButton is only called when the mouse is released over the same GUIElement or Collider as it was pressed.</summary>
-        public static IObservable<Unit> OnMouseUpAsButtonAsObservable(this Hero gameObject)
+        public static IObservable<Unit> OnMouseUpAsButtonAsObservable(this GameObject gameObject)
         {
             if (gameObject == null) return Observable.Empty<Unit>();
             return GetOrAddComponent<ObservableMouseTrigger>(gameObject).OnMouseUpAsButtonAsObservable();
