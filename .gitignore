@@ -29,7 +29,6 @@ sysinfo.txt
 *.unitypackage
 /Library/*
 /Temp/*
-/CSharp60Support/*
 ClickeClickedd# User-specific files
 *.suo
 *.user
