@@ -1,7 +1,7 @@
 ﻿using Assets.Script.Menu.DataManagment;
 using UnityEngine;
 
-namespace Assets.Script.GamePlay
+namespace Assets.Script.GamePlay.VisualEffects
 {
 	public class GamePlayPause : MonoBehaviour
 	{

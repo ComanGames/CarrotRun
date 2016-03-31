@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Assets.Script.DataManagment;
 using Assets.Script.GamePlay;
+using Assets.Script.GamePlay.Data_Containers;
 using UnityEngine;
 using CharacterInfo = Assets.Script.DataManagment.CharacterInfo;
 

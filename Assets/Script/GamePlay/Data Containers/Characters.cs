@@ -1,4 +1,4 @@
-﻿namespace Assets.Script.GamePlay
+﻿namespace Assets.Script.GamePlay.Data_Containers
 {
     public enum Characters:byte
     {

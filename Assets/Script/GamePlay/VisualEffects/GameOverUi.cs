@@ -4,7 +4,7 @@ using Assets.Script.ScoreMenu;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Script.GamePlay
+namespace Assets.Script.GamePlay.VisualEffects
 {
 	public class GameOverUi : MonoBehaviour
 	{

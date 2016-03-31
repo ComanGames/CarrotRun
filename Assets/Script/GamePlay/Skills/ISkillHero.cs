@@ -1,3 +1,4 @@
+using Assets.Script.GamePlay.Participators;
 using Assets.Script.SAnimation;
 
 namespace Assets.Script.GamePlay.Skills

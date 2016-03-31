@@ -1,9 +1,7 @@
-﻿
-
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Script.GamePlay
+namespace Assets.Script.GamePlay.VisualEffects
 {
 	public class SkillBg : MonoBehaviour
 	{

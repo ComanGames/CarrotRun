@@ -4,7 +4,7 @@ using Assets.Script.GamePlay.Skills;
 using Assets.Script.SAnimation;
 using UnityEngine;
 
-namespace Assets.Script.GamePlay
+namespace Assets.Script.GamePlay.Participators
 {
 	[Serializable]
 	public class HeroSounds

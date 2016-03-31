@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Script.GamePlay
+namespace Assets.Script.GamePlay.VisualEffects
 {
 	[RequireComponent(typeof(Text))]
 	[RequireComponent(typeof(Animation))]
@@ -47,12 +47,12 @@ namespace Assets.Script.GamePlay
 			AnimationDone?.Invoke();
 		}
 
-		private IEnumerator WaitForAnimation(Animation animation)
+		private IEnumerator WaitForAnimation(Animation animationToWait)
 		{
 			do
 			{
 				yield return null;
-			} while (animation.isPlaying);
+			} while (animationToWait.isPlaying);
 		}
 
 		private void SetTextAndStartAnimation(string text)

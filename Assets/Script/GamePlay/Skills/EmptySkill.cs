@@ -1,8 +1,8 @@
-using Assets.Script.GamePlay.Skills;
+using Assets.Script.GamePlay.Participators;
 using Assets.Script.SAnimation;
 using UnityEngine;
 
-namespace Assets.Script.GamePlay
+namespace Assets.Script.GamePlay.Skills
 {
 	internal class EmptySkill : ISkillHero
 	{

@@ -5,6 +5,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading;
 using Assets.Script.DataManagment;
 using Assets.Script.GamePlay;
+using Assets.Script.GamePlay.Data_Containers;
 using UniRx;
 using UnityEngine;
 

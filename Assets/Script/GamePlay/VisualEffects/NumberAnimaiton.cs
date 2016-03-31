@@ -4,7 +4,7 @@ using Assets.Script.iTween;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Script.GamePlay
+namespace Assets.Script.GamePlay.VisualEffects
 {
 	[RequireComponent(typeof(Text))]
 	public class NumberAnimaiton : MonoBehaviour

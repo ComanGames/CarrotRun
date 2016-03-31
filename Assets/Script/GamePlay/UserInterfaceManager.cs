@@ -1,4 +1,5 @@
 ﻿using Assets.Script.DataManagment;
+using Assets.Script.GamePlay.VisualEffects;
 using Assets.Script.Menu.DataManagment;
 using Assets.Script.SAnimation.Bases;
 using UnityEngine;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Script.GamePlay
+namespace Assets.Script.GamePlay.Participators
 {
 	public class Problem : MonoBehaviour
 	{

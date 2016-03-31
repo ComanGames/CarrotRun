@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Assets.Script.GamePlay.Participators;
 using Assets.Script.SAnimation;
 using UnityEngine;
 
