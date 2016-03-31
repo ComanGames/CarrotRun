@@ -17,7 +17,7 @@ namespace Assets.Script.GamePlay
 	{
 		#region  Variables
 		//Public Variables 
-		public Controller HeroController;
+		public Controller.GameController HeroController;
 		//Jump Parameters
 		public float JumpPower;
 		public float JumpDistance = 1.0f;

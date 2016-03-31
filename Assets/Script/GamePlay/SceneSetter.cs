@@ -1,5 +1,4 @@
 ﻿using System;
-using Assets.Script.DataManagment;
 using Assets.Script.GamePlay.Skills;
 using Assets.Script.Menu.DataManagment;
 using Assets.Script.SAnimation;

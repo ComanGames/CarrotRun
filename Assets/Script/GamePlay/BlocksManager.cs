@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Assets.Script.GamePlay.Data_Containers;
 using Assets.Script.ObjectPool;
 using UnityEngine;
 using Random = System.Random;
@@ -111,7 +112,7 @@ namespace Assets.Script.GamePlay
 			_movableProblems.Add(problem);
 		}
 
-		private void UpdateMovableBlocks()
+		public void UpdateMovableBlocks()
 		{
 			var toRemove = new List<GameObject>();
 			foreach (var o in _movableProblems)

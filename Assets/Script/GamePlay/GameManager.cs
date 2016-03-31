@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using Assets.Script.DataManagment;
+using Assets.Script.GamePlay.Data_Containers;
 using Assets.Script.Menu.DataManagment;
 using Assets.Script.ObjectPool;
 using UnityEngine;
@@ -11,36 +11,6 @@ namespace Assets.Script.GamePlay
     //Test of git merging tool
     //Hello Zheka
     //Now I am from Account of commanGames
-	[Serializable]
-	public class Level
-	{
-		#region  Variables
-
-		public GameObject[] Items;
-
-		#endregion
-
-		#region Proporties
-
-		public int Count
-		{
-			// ReSharper disable once ConvertPropertyToExpressionBody
-			get
-			{
-				if (Items == null)
-					return 0;
-				return Items.Length;
-			}
-		}
-
-		#endregion
-
-		public GameObject this[int index]
-		{
-			get { return Items[index]; }
-			set { Items[index] = value; }
-		}
-	}
 
     public class GameManager : MonoBehaviour
     {
@@ -319,19 +289,4 @@ namespace Assets.Script.GamePlay
 
         #endregion
     }
-
-    [Serializable]
-	public class SpeedSettingContainer
-	{
-		#region  Variables
-
-		public float StartSpeed;
-		public float MaxTimeScale = 30;
-		public float SpeedScale;
-		public int SpeedingUpCount;
-		public float SpeedTimeOut;
-		public float Acceleration;
-
-		#endregion
-	}
 }
