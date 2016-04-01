@@ -6,14 +6,13 @@ using Assets.Script.GamePlay.VisualEffects;
 using Assets.Script.Menu.DataManagment;
 using Assets.Script.ObjectPool;
 using UnityEngine;
-using UnityStandardAssets.ImageEffects;
 
 namespace Assets.Script.GamePlay
 {
     public class GameManager : MonoBehaviour
     {
         #region  Variables
-
+        //067 99 20 296 Irina from Taras 
         public SpeedSettingContainer SpeedSetting;
         public SceneBuilder Builder;
         public static GameManager Instance;
@@ -21,7 +20,6 @@ namespace Assets.Script.GamePlay
         public float Skill;
         public bool Over;
         public StartAnimation StartAnimationGame;
-        private BlurOptimized _blur;
         private BlocksManager _managerBlocks;
         private UserInterfaceManager _managerUserInterface;
         private Hero _character;
@@ -38,6 +36,7 @@ namespace Assets.Script.GamePlay
             _character = Builder.BuildHero();
             _managerUserInterface = Builder.BuildUi();
             _managerBlocks = Builder.BuildBlockManager();
+            
         }
 
         public void Start()
@@ -57,8 +56,6 @@ namespace Assets.Script.GamePlay
 
         private void LaunchingGame()
         {
-            _blur = GetComponent<BlurOptimized>();
-            _blur.enabled = false;
             StartAnimationGame.AnimationDone += RePauseGame;
             if(SoundController.Instance!=null)
                 StartAnimationGame.AnimationDone += SoundController.Instance.RePauseSound;
@@ -139,7 +136,6 @@ namespace Assets.Script.GamePlay
 
         public void RePauseGame()
         {
-            _blur.enabled = false;
             UnFrozeGame();
             UnFrozeAnations();
             ResumeGameEffects();
@@ -148,7 +144,6 @@ namespace Assets.Script.GamePlay
 
         public void PauseGame()
         {
-            _blur.enabled = true;
             FrozeGame();
             FrozeAnimations();
             StopGameEffects();
@@ -187,6 +182,7 @@ namespace Assets.Script.GamePlay
 
         private void FrozeGame()
         {
+            _managerUserInterface.Blur.enabled = true;
             _isPaused = true;
             _character.Froze();
             _lastTimeScale = Time.timeScale;
@@ -196,6 +192,7 @@ namespace Assets.Script.GamePlay
 
         private void UnFrozeGame()
         {
+            _managerUserInterface.Blur.enabled = false;
             _isPaused = false;
             _character.UnForze();
             Time.timeScale = _lastTimeScale;

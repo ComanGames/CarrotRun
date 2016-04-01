@@ -1,9 +1,9 @@
-﻿using Assets.Script.DataManagment;
-using Assets.Script.GamePlay.VisualEffects;
+﻿using Assets.Script.GamePlay.VisualEffects;
 using Assets.Script.Menu.DataManagment;
 using Assets.Script.SAnimation.Bases;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.ImageEffects;
 
 namespace Assets.Script.GamePlay
 {
@@ -11,7 +11,6 @@ namespace Assets.Script.GamePlay
 	public class UserInterfaceManager : MonoBehaviour
 	{
 		#region Variables
-
 		public GameOverUi GameOverConvas;
 		public GameObject ChangeNameConvas;
 		public InputField NewPalyerName;
@@ -23,29 +22,39 @@ namespace Assets.Script.GamePlay
 		public SpriteAnimationUi JuiceAnimation;
 		public AudioSource JuiceSound;
 		public SAnimation.SAnimation[] Animations;
-
+	    public BlurOptimized Blur;
 		#endregion
 
 		#region Methods
-		public void ButtonPlayAgain()
+
+	    public void Creator()
+	    {
+	        DisableGameOver();
+	        Blur.enabled = false;
+	    }
+
+	    public void ButtonPlayAgain()
 		{
 			GameManager.Instance.ResetLevel();
 			DisableGameOver();
 		}
-		public void ButtonScoreTable()
+
+	    public void ButtonScoreTable()
 		{
 			SceneManager.LoadRecords();
 		}
-		public void ButtonX2Score() { }
-		public void ButtonX2Coins() { }
 
-		public void ButtonChangeName()
+	    public void ButtonX2Score() { }
+
+	    public void ButtonX2Coins() { }
+
+	    public void ButtonChangeName()
 		{
 			NewPalyerName.text = GameData.Instance.CurrentGameinfo.CurrentName;
 			ChangeNameConvas.SetActive(true);
 		}
 
-		public void ButtonChangeNameAccept()
+	    public void ButtonChangeNameAccept()
 		{
 			string newName = NewPalyerName.text;
 			GameData.Instance.CurrentGameinfo.CurrentName = newName;
@@ -54,22 +63,18 @@ namespace Assets.Script.GamePlay
 			ButtonChangeNameBack();
 		}
 
-		public void ButtonChangeNameBack()
+	    public void ButtonChangeNameBack()
 		{
 			ChangeNameConvas.SetActive(false);
 		}
-		public void ButtonGoToMenu()
+
+	    public void ButtonGoToMenu()
 		{
 			SoundController.Instance?.RePauseSound();
 			SceneManager.LoadMenu();
 		}
 
-		public void Creator()
-		{
-			DisableGameOver();
-		}
-
-		public void UpdateScore(int score)
+	    public void UpdateScore(int score)
 		{
 			ScoreCanvas.text = score.ToString();//Set score
 		}
@@ -113,11 +118,7 @@ namespace Assets.Script.GamePlay
 			GameOverConvas.EnableGameOver();
 			JuiceSound.Stop();
 		}
-
-
-
-
-
+        
 		public void DisableGameOver()
 		{
 			GameOverVideo.SetActive(false);

@@ -307,6 +307,8 @@ GameObject:
   - 114: {fileID: 94487022}
   - 114: {fileID: 94487017}
   - 114: {fileID: 94487023}
+  - 114: {fileID: 94487025}
+  - 114: {fileID: 94487024}
   m_Layer: 0
   m_Name: Camer Game Manager
   m_TagString: GameController
@@ -409,8 +411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a717f35046fda447ab8667ff6dc5465, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ManagerBlocks: {fileID: 318643330}
-  ManagerUserInterface: {fileID: 1093606619}
   SpeedSetting:
     StartSpeed: 2.5
     MaxTimeScale: 5
@@ -418,8 +418,8 @@ MonoBehaviour:
     SpeedingUpCount: 1
     SpeedTimeOut: 25
     Acceleration: 0.2
+  Builder: {fileID: 94487025}
   Skill: 0
-  Character: {fileID: 2008276202}
   Over: 0
   StartAnimationGame: {fileID: 150900430}
 --- !u!114 &94487023
@@ -438,6 +438,33 @@ MonoBehaviour:
   blurIterations: 2
   blurType: 0
   blurShader: {fileID: 4800000, guid: f9d5fa183cd6b45eeb1491f74863cd91, type: 3}
+--- !u!114 &94487024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 94487016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c783ac0bde211404bb50df53e6222d2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &94487025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 94487016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 934badb7c6e7bfd46b137b4d8466762b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneSetterComponent: {fileID: 882007940}
+  Controller: {fileID: 94487024}
+  ManagerBlocks: {fileID: 318643330}
+  ManagerUserInterface: {fileID: 1093606619}
+  Character: {fileID: 2008276202}
 --- !u!1 &96679961
 GameObject:
   m_ObjectHideFlags: 0
@@ -5178,6 +5205,7 @@ MonoBehaviour:
   - {fileID: 514212880}
   - {fileID: 1395597045}
   - {fileID: 443623077}
+  Blur: {fileID: 0}
 --- !u!114 &1093606620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8463,7 +8491,6 @@ GameObject:
   - 81: {fileID: 2008276204}
   - 82: {fileID: 2008276205}
   - 82: {fileID: 2008276207}
-  - 114: {fileID: 2008276206}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Player
@@ -8482,7 +8509,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 673636da838c5f8488e384b8d0eea604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeroController: {fileID: 2008276206}
   JumpPower: 9
   JumpDistance: 2.5
   HighestPoint: -1.5
@@ -8595,17 +8621,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &2008276206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2008276201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c783ac0bde211404bb50df53e6222d2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &2008276207
 AudioSource:
   m_ObjectHideFlags: 0
