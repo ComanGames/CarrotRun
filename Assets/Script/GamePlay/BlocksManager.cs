@@ -11,6 +11,7 @@ namespace Assets.Script.GamePlay
 	public class BlocksManager : MonoBehaviour
 	{
 		#region Variables
+	    public GameObject[] GroundBlocks;
 		private LinkedList<GameObject> _movableBlocks;
 		private List<GameObject> _movableProblems;
 		private readonly Random _randome = new Random();
@@ -54,7 +55,7 @@ namespace Assets.Script.GamePlay
 			_movableBlocks = new LinkedList<GameObject>();
 			_movableProblems = new List<GameObject>();
 			SettingStartVeriables();
-		    CreateGroundPrefabs();
+		    ResortGroundPrefabs();
 			StartCoroutine(ProblemCreator());
 			_isPause = false;
 		}
@@ -64,13 +65,13 @@ namespace Assets.Script.GamePlay
 			UpdateSpeed(GameManager.Instance.SpeedSetting.StartSpeed);
 		}
 
-		private void CreateGroundPrefabs()
+		private void ResortGroundPrefabs()
 		{
-			var planks = new GameObject[Gp.CountOfGround];
+			GameObject[] planks = GroundBlocks;
 			for (var i = 0; i < planks.Length; i++)
 			{
 				var position = ((DistanceBetweenBlocks) * (i + 1)) + EndPosition.position;
-				var plank = Instantiate(Gp.GroundPrefab, position, Quaternion.identity) as GameObject;
+				var plank = planks[i];
 				if (plank != null)
 				{
 					plank.transform.position = position;
@@ -95,9 +96,11 @@ namespace Assets.Script.GamePlay
 			// ReSharper disable once MergeSequentialChecks
 			while (true)
 			{
-				if (Gp.Blocks == null || Gp.Blocks[Gp.N] == null || Gp.Blocks[Gp.N].Count == 0)
-					yield return new WaitForFixedUpdate();
-				float time = (_randome.Next(MinRandomNextProblme, MaxRandomNextProblem) / (Time.deltaTime * 100) / Speed);
+			    while (Gp.Blocks == null || Gp.Blocks[Gp.N] == null || Gp.Blocks[Gp.N].Count == 0 || Speed < 0.1)
+			    {
+			        yield return null;
+			    }
+			    float time = (_randome.Next(MinRandomNextProblme, MaxRandomNextProblem) / (Time.deltaTime * 100) / Speed);
 				yield return new WaitForSeconds(time);
 				if (!_isPause)
 					CreateProblem();
@@ -115,7 +118,7 @@ namespace Assets.Script.GamePlay
 		public void UpdateMovableBlocks()
 		{
 			var toRemove = new List<GameObject>();
-			foreach (var o in _movableProblems)
+			foreach (GameObject o in _movableProblems)
 			{
 				o.transform.Translate(_nextPosition * Time.deltaTime);
 				if (o.transform.position.x < EndPosition.position.x)
@@ -181,9 +184,7 @@ namespace Assets.Script.GamePlay
 		{
 			if (MoveGround)
 				UpdateGroundBlocks();
-
-
-//                UpdateMovableBlocks();
+                UpdateMovableBlocks();
 		}
 
 		public void RemoveCoin(GameObject item)
