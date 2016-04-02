@@ -54,7 +54,7 @@ namespace Assets.Script.GamePlay
 			_movableBlocks = new LinkedList<GameObject>();
 			_movableProblems = new List<GameObject>();
 			SettingStartVeriables();
-			CreateGroundPrefabs();
+		    CreateGroundPrefabs();
 			StartCoroutine(ProblemCreator());
 			_isPause = false;
 		}

@@ -2,7 +2,6 @@
 using Assets.Script.DataManagment;
 using Assets.Script.GamePlay.Data_Containers;
 using Assets.Script.GamePlay.Participators;
-using Assets.Script.GamePlay.VisualEffects;
 using Assets.Script.Menu.DataManagment;
 using Assets.Script.ObjectPool;
 using UnityEngine;
@@ -19,7 +18,6 @@ namespace Assets.Script.GamePlay
         public static bool IsSkillActive;
         public float Skill;
         public bool Over;
-        public StartAnimation StartAnimationGame;
         private BlocksManager _managerBlocks;
         private UserInterfaceManager _managerUserInterface;
         private Hero _character;
@@ -33,8 +31,8 @@ namespace Assets.Script.GamePlay
             if (Instance == null || Instance != this)
                 Instance = this;
             Builder.Build();
-            _character = Builder.BuildHero();
             _managerUserInterface = Builder.BuildUi();
+            _character = Builder.BuildHero();
             _managerBlocks = Builder.BuildBlockManager();
             
         }
@@ -48,7 +46,7 @@ namespace Assets.Script.GamePlay
         private void RunStartAnimation()
         {
             Invoke("PauseGame", 0.1f);
-            StartAnimationGame.RunAnimation();
+            _managerUserInterface.RunAnimation();
             if (SoundController.Instance != null)
                 SoundController.Instance.PauseSound();
         }
@@ -56,9 +54,7 @@ namespace Assets.Script.GamePlay
 
         private void LaunchingGame()
         {
-            StartAnimationGame.AnimationDone += RePauseGame;
-            if(SoundController.Instance!=null)
-                StartAnimationGame.AnimationDone += SoundController.Instance.RePauseSound;
+         
             StartSettings();
             StartCoroutine(SpeedingUp());
             _isPaused = false;

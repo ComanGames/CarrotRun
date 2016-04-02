@@ -5205,7 +5205,7 @@ MonoBehaviour:
   - {fileID: 514212880}
   - {fileID: 1395597045}
   - {fileID: 443623077}
-  Blur: {fileID: 0}
+  Blur: {fileID: 94487023}
 --- !u!114 &1093606620
 MonoBehaviour:
   m_ObjectHideFlags: 0

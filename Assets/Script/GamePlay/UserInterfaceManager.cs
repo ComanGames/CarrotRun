@@ -22,16 +22,23 @@ namespace Assets.Script.GamePlay
 		public SpriteAnimationUi JuiceAnimation;
 		public AudioSource JuiceSound;
 		public SAnimation.SAnimation[] Animations;
+	    public SkillBg SkillBG;
 	    public BlurOptimized Blur;
+        public StartAnimation StartAnimationGame;
 		#endregion
 
 		#region Methods
 
 	    public void Creator()
 	    {
+            SkillBG.Create();
 	        DisableGameOver();
 	        Blur.enabled = false;
-	    }
+           StartAnimationGame.AnimationDone += GameManager.Instance.RePauseGame;
+            if(SoundController.Instance!=null)
+                StartAnimationGame.AnimationDone += SoundController.Instance.RePauseSound;
+
+        }
 
 	    public void ButtonPlayAgain()
 		{
@@ -154,6 +161,11 @@ namespace Assets.Script.GamePlay
 		}
 
 		#endregion
+
+	    public  void RunAnimation()
+	    {
+            StartAnimationGame.RunAnimation();
+	    }
 	}
 
 }
