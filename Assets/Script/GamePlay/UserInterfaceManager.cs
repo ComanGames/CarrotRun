@@ -17,6 +17,7 @@ namespace Assets.Script.GamePlay
 		public Image SkillPanel;
 		public Text ScoreCanvas;
 		public Text CoinsCanvas;
+		public Text TopScoreCanvas;
 		public Sprite[] SkillSprites;
 		public GameObject GameOverVideo;
 		public SpriteAnimationUi JuiceAnimation;
@@ -25,6 +26,7 @@ namespace Assets.Script.GamePlay
 	    public SkillBg SkillBG;
 	    public BlurOptimized Blur;
         public StartAnimation StartAnimationGame;
+	    public Sprite JuiceLastSprite;
 		#endregion
 
 		#region Methods
@@ -34,6 +36,7 @@ namespace Assets.Script.GamePlay
             SkillBG.Create();
 	        DisableGameOver();
 	        Blur.enabled = false;
+	        TopScoreCanvas.text = GameData.GetTopGameInfo().Score.ToString();
            StartAnimationGame.AnimationDone += GameManager.Instance.RePauseGame;
             if(SoundController.Instance!=null)
                 StartAnimationGame.AnimationDone += SoundController.Instance.RePauseSound;
@@ -44,6 +47,10 @@ namespace Assets.Script.GamePlay
 		{
 			GameManager.Instance.ResetLevel();
 			DisableGameOver();
+		}
+	    public void ButtonCharacterSelector()
+		{
+            SceneManager.LoadCharactersSelector();
 		}
 
 	    public void ButtonScoreTable()
@@ -84,9 +91,12 @@ namespace Assets.Script.GamePlay
 	    public void UpdateScore(int score)
 		{
 			ScoreCanvas.text = score.ToString();//Set score
-		}
+            if(score>(int) GameData.GetTopGameInfo().Score)
+            TopScoreCanvas.text = score.ToString();
 
-		public void UpdateSkill(byte skill)
+        }
+
+        public void UpdateSkill(byte skill)
 		{
 			SetSkillUi(skill);//set Skill 
 		}
@@ -103,9 +113,10 @@ namespace Assets.Script.GamePlay
 		public void UpdateCoins(int coins)
 		{
 			CoinsCanvas.text = coins.ToString();
-		}
 
-		public void EnableGameOver()
+        }
+
+        public void EnableGameOver()
 		{
 
 			EnableGameOverVideo();
@@ -124,6 +135,7 @@ namespace Assets.Script.GamePlay
 		{
 			GameOverConvas.EnableGameOver();
 			JuiceSound.Stop();
+		    JuiceAnimation.StopAnimation();
 		}
         
 		public void DisableGameOver()
@@ -138,7 +150,8 @@ namespace Assets.Script.GamePlay
 			UpdateCoins(0);
 			UpdateScore(0);
 			UpdateSkill(0);
-			ResetAllAnimations();
+            TopScoreCanvas.text = GameData.GetTopGameInfo().Score.ToString();
+            ResetAllAnimations();
 		}
 
 		public void ResetAllAnimations()

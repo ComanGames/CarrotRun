@@ -17,7 +17,6 @@ namespace Assets.Script.GamePlay.Skills
 
 		public void SetSkill()
 		{
-			Debug.Log("We set the skill");
 		}
 
 		public void Froze()

@@ -171,7 +171,7 @@ namespace Assets.Script.Menu.DataManagment
 		public static ScoreInfo GetTopGameInfo()
 		{
 			if (Instance.PlayerRecords.Count < 1)
-				return new ScoreInfo(Instance.LastScoreInfo.PlayerName,Instance.LastScoreInfo.Score);
+				return new ScoreInfo("",0);
 			return Instance.PlayerRecords.Max();
 		}
 	}
