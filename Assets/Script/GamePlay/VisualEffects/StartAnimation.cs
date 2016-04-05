@@ -14,8 +14,8 @@ namespace Assets.Script.GamePlay.VisualEffects
 		#region Variables
 
 		public event Action AnimationDone;
-	    public float UpTime =3;
-	    public float DownTime = 1;
+        public float TimeOut;
+	    public float Scale=1.3f;
 		private Text _animationText;
 		private Queue<string> _animationQueue ;
 	    private RectTransform _thisRectTransform;
@@ -49,15 +49,6 @@ namespace Assets.Script.GamePlay.VisualEffects
 			AnimationDone?.Invoke();
 		}
 
-
-		private IEnumerator WaitForAnimation(Animation animationToWait)
-		{
-			do
-			{
-				yield return null;
-			} while (animationToWait.isPlaying);
-		}
-
 		private void SetTextAndStartAnimation(string text)
 		{
 		    _isAnimationDone = false;
@@ -68,34 +59,22 @@ namespace Assets.Script.GamePlay.VisualEffects
 	    public void AnimationUpStarter()
 	    {
 	        Hashtable ht = new Hashtable();
-	        ht.Add("from", -Screen.height/4);
-	        ht.Add("to", Screen.height/2);
-	        ht.Add("time",UpTime);
-	        ht.Add("onupdate", "AnimationMove");
+	        ht.Add("from", 1);
+	        ht.Add("to", Scale);
+	        ht.Add("time",TimeOut);
+	        ht.Add("onupdate", "AnimationScale");
             ht.Add("easetype", ITween.EaseType.easeOutSine);
-            ht.Add("oncomplete", "AnimationDownStarter");
+            ht.Add("oncomplete", "AnimationUpStarter");
 	        ITween.ValueTo(gameObject, ht);
 	    }
-
-	    public void AnimationDownStarter()
-	    {
-            Hashtable ht = new Hashtable();
-            ht.Add("from", Screen.height/2);
-            ht.Add("to", -Screen.height/4);
-            ht.Add("time", DownTime);
-            ht.Add("easetype", ITween.EaseType.easeInExpo);
-            ht.Add("onupdate", "AnimationMove");
-            ht.Add("oncomplete", "AnimationEnd");
-            ITween.ValueTo(gameObject, ht);
-        }
 
 	    public void AnimationEnd()
 	    {
 	        _isAnimationDone = true;
 	    }
-        public void AnimationMove(float newValue)
+        public void AnimationScale(float newValue)
 	    {
-	        _thisRectTransform.position = new Vector3(_thisRectTransform.position.x,newValue);
+            _thisRectTransform.localScale = Vector3.one*newValue;
 	    }
 	}
 }

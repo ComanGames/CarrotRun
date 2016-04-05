@@ -12,12 +12,13 @@ namespace Assets.Script.GamePlay
 	{
 		#region Variables
 		public GameOverUi GameOverConvas;
-		public GameObject ChangeNameConvas;
-		public InputField NewPalyerName;
 		public Image SkillPanel;
 		public Text ScoreCanvas;
+	    public Text ScoreCanvas2;
 		public Text CoinsCanvas;
+		public Text CoinsCanvas2;
 		public Text TopScoreCanvas;
+		public Text TopScoreCanvas2;
 		public Sprite[] SkillSprites;
 		public GameObject GameOverVideo;
 		public SpriteAnimationUi JuiceAnimation;
@@ -26,7 +27,6 @@ namespace Assets.Script.GamePlay
 	    public SkillBg SkillBG;
 	    public BlurOptimized Blur;
         public StartAnimation StartAnimationGame;
-	    public Sprite JuiceLastSprite;
 		#endregion
 
 		#region Methods
@@ -36,11 +36,10 @@ namespace Assets.Script.GamePlay
             SkillBG.Create();
 	        DisableGameOver();
 	        Blur.enabled = false;
-	        TopScoreCanvas.text = GameData.GetTopGameInfo().Score.ToString();
-           StartAnimationGame.AnimationDone += GameManager.Instance.RePauseGame;
+            SetTopScore((int)GameData.GetTopGameInfo().Score);
+            StartAnimationGame.AnimationDone += GameManager.Instance.RePauseGame;
             if(SoundController.Instance!=null)
                 StartAnimationGame.AnimationDone += SoundController.Instance.RePauseSound;
-
         }
 
 	    public void ButtonPlayAgain()
@@ -48,6 +47,7 @@ namespace Assets.Script.GamePlay
 			GameManager.Instance.ResetLevel();
 			DisableGameOver();
 		}
+
 	    public void ButtonCharacterSelector()
 		{
             SceneManager.LoadCharactersSelector();
@@ -62,25 +62,6 @@ namespace Assets.Script.GamePlay
 
 	    public void ButtonX2Coins() { }
 
-	    public void ButtonChangeName()
-		{
-			NewPalyerName.text = GameData.Instance.CurrentGameinfo.CurrentName;
-			ChangeNameConvas.SetActive(true);
-		}
-
-	    public void ButtonChangeNameAccept()
-		{
-			string newName = NewPalyerName.text;
-			GameData.Instance.CurrentGameinfo.CurrentName = newName;
-			GameData.Instance.LastScoreInfo.PlayerName = newName;
-			GameOverConvas.SetCurrentScore();
-			ButtonChangeNameBack();
-		}
-
-	    public void ButtonChangeNameBack()
-		{
-			ChangeNameConvas.SetActive(false);
-		}
 
 	    public void ButtonGoToMenu()
 		{
@@ -91,12 +72,18 @@ namespace Assets.Script.GamePlay
 	    public void UpdateScore(int score)
 		{
 			ScoreCanvas.text = score.ToString();//Set score
-            if(score>(int) GameData.GetTopGameInfo().Score)
-            TopScoreCanvas.text = score.ToString();
+			ScoreCanvas2.text = score.ToString();//Set score
+	        if (score > (int) GameData.GetTopGameInfo().Score)
+                SetTopScore(score);
+		}
 
-        }
+	    private void SetTopScore(int count)
+	    {
+	        TopScoreCanvas.text = "TOP: "+count;
+	        TopScoreCanvas2.text = "TOP: "+count;
+	    }
 
-        public void UpdateSkill(byte skill)
+	    public void UpdateSkill(byte skill)
 		{
 			SetSkillUi(skill);//set Skill 
 		}
@@ -113,6 +100,7 @@ namespace Assets.Script.GamePlay
 		public void UpdateCoins(int coins)
 		{
 			CoinsCanvas.text = coins.ToString();
+			CoinsCanvas2.text = coins.ToString();
 
         }
 
@@ -150,7 +138,7 @@ namespace Assets.Script.GamePlay
 			UpdateCoins(0);
 			UpdateScore(0);
 			UpdateSkill(0);
-            TopScoreCanvas.text = GameData.GetTopGameInfo().Score.ToString();
+            SetTopScore((int)GameData.GetTopGameInfo().Score);
             ResetAllAnimations();
 		}
 

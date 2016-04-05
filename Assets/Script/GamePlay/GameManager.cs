@@ -21,6 +21,7 @@ namespace Assets.Script.GamePlay
         private BlocksManager _managerBlocks;
         private UserInterfaceManager _managerUserInterface;
         private Hero _character;
+        private bool _first = true;
 
         #endregion
 
@@ -45,7 +46,11 @@ namespace Assets.Script.GamePlay
 
         private void RunStartAnimation()
         {
-            Invoke("PauseGame", 0.1f);
+            if (_first)
+            {
+                PauseGame();
+                _first = false;
+            }
             _managerUserInterface.RunAnimation();
             if (SoundController.Instance != null)
                 SoundController.Instance.PauseSound();
@@ -65,7 +70,7 @@ namespace Assets.Script.GamePlay
 
         public void Update()
         {
-            if (_managerBlocks!=null&& !Over && !_isPaused)
+            if (_managerBlocks != null && !Over && !_isPaused)
             {
                 _managerBlocks.BlocksUpdate();
                 UpdateScore();
@@ -109,7 +114,7 @@ namespace Assets.Script.GamePlay
                 float skillValue = Skill + Time.timeScale/20;
                 UpdateSkillValue(skillValue);
             }
-            _managerUserInterface.UpdateScore((int) _realScore);
+            _managerUserInterface.UpdateScore((int)_realScore);
         }
 
         public void AddCoin(GameObject item)
@@ -147,12 +152,14 @@ namespace Assets.Script.GamePlay
 
         public void ResetLevel()
         {
-            Builder.Reset();
             UnFrozeGame();
             ResumeGameEffects();
             StartSettings();
+            Builder.Reset();
+            PauseGame();
             RunStartAnimation();
         }
+
 
         private void OverGame()
         {
@@ -178,8 +185,8 @@ namespace Assets.Script.GamePlay
 
         private void FrozeGame()
         {
-            _managerUserInterface.Blur.enabled = true;
             _isPaused = true;
+            _managerUserInterface.Blur.enabled = true;
             _character.Froze();
             _lastTimeScale = Time.timeScale;
             _managerBlocks.Pause();

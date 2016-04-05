@@ -1,16 +1,25 @@
-﻿using UnityEngine;
+﻿using Assets.Script.SAnimation;
+using UnityEngine;
+using UnityEngine.UI;
 
 namespace Assets.Script.GamePlay.VisualEffects
 {
 	public class GameOverUi : MonoBehaviour
 	{
 		#region Variables
-		#endregion
 
+	    public Text MeetCanvas;
+	    public SAnimationUi Gift;
+	    public SAnimationUi Meet; 
+		#endregion
 		public void EnableGameOver()
 		{
-			gameObject.SetActive(true);
-			SetCurrentScore();
+		    gameObject.SetActive(true);
+            Gift.StopAnimation();
+            Meet.StopAnimation();
+		    Gift.StartAnimation();
+		    Meet.StartAnimation();
+		    SetCurrentScore();
 			SetHighScore();
 		}
 
