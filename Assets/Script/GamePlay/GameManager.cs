@@ -41,16 +41,12 @@ namespace Assets.Script.GamePlay
         public void Start()
         {
             LaunchingGame();
-            Invoke("RunStartAnimation",0.1f);
+            RunStartAnimation();
+            Invoke("PauseGame",0.1f);
         }
 
         private void RunStartAnimation()
         {
-            if (_first)
-            {
-                PauseGame();
-                _first = false;
-            }
             _managerUserInterface.RunAnimation();
             if (SoundController.Instance != null)
                 SoundController.Instance.PauseSound();
