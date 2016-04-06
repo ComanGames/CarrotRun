@@ -38,9 +38,9 @@ namespace Assets.Script.GamePlay.VisualEffects
         {
             StartSettings();
             Invoke("StartAnimationGiftButton", FirstAnimationTimeOut);
-            Invoke(" StartAnimationDoubleButton", SecondAnimationTimeOut);
-            Invoke(" StartAnimationInfoPanel", ThirdAnimationTimeOut);
-            Invoke(" StartAnimationButtonPanel", FirstAnimationTimeOut);
+            Invoke("StartAnimationDoubleButton", SecondAnimationTimeOut);
+            Invoke("StartAnimationInfoPanel", ThirdAnimationTimeOut);
+            Invoke("StartAnimationButtonPanel", FirstAnimationTimeOut);
         }
 
         private void StartSettings()
@@ -62,7 +62,7 @@ namespace Assets.Script.GamePlay.VisualEffects
             ButtonPanel.localPosition = new Vector3(ButtonPanel.localPosition.x, ButtonPanel.localPosition.y-ButtonPanel.rect.height);
         }
 
-        private void StartAnimationInfoPanel()
+        public void StartAnimationInfoPanel()
         {
             Hashtable ht = new Hashtable();
             ht.Add("from", InfoPanel.localPosition.y);
@@ -78,7 +78,7 @@ namespace Assets.Script.GamePlay.VisualEffects
         {
             InfoPanel.localPosition = new Vector3(InfoPanel.localPosition.x, newPosition);
         }
-        private void StartAnimationButtonPanel()
+        public void StartAnimationButtonPanel()
         {
             Hashtable ht = new Hashtable();
             ht.Add("from", ButtonPanel.localPosition.y);
@@ -94,7 +94,7 @@ namespace Assets.Script.GamePlay.VisualEffects
         {
             ButtonPanel.localPosition = new Vector3(ButtonPanel.localPosition.x, newPosition);
         }
-        private void StartAnimationGiftButton()
+        public void StartAnimationGiftButton()
         {
             Hashtable ht = new Hashtable();
             ht.Add("from", GiftButton.localPosition.x);
@@ -110,7 +110,7 @@ namespace Assets.Script.GamePlay.VisualEffects
         {
             GiftButton.localPosition = new Vector3(newPosition, GiftButton.localPosition.x);
         }
-        private void StartAnimationDoubleButton()
+        public void StartAnimationDoubleButton()
         {
             Hashtable ht = new Hashtable();
             ht.Add("from", DoubleButton.localPosition.x);
