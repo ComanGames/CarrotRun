@@ -27,6 +27,7 @@ namespace Assets.Script.GamePlay
 	    public SkillBg SkillBG;
 	    public BlurOptimized Blur;
         public StartAnimation StartAnimationGame;
+	    public EndAnimation EndAnimationGame;
 		#endregion
 
 		#region Methods
@@ -123,6 +124,7 @@ namespace Assets.Script.GamePlay
 			GameOverConvas.EnableGameOver();
 			JuiceSound.Stop();
 		    JuiceAnimation.StopAnimation();
+            EndAnimationGame.RunAnimation();
 		}
         
 		public void DisableGameOver()

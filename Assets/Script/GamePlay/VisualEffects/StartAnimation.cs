@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 namespace Assets.Script.GamePlay.VisualEffects
 {
-	public class StartAnimation : MonoBehaviour
-	{
+    public class StartAnimation : MonoBehaviour, IUiAnimation
+    {
 
 		#region Variables
 		public event Action AnimationDone;
