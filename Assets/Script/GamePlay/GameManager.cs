@@ -42,7 +42,7 @@ namespace Assets.Script.GamePlay
         {
             LaunchingGame();
             RunStartAnimation();
-            Invoke("PauseGame",0.1f);
+            Invoke("PauseGame", Time.deltaTime);
         }
 
         private void RunStartAnimation()
@@ -59,7 +59,6 @@ namespace Assets.Script.GamePlay
             StartSettings();
             StartCoroutine(SpeedingUp());
             _isPaused = false;
-            ResumeGameEffects();
             float speed = GetBlockManagerSpeed();
             _managerBlocks.UpdateSpeed(speed);
         }

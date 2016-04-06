@@ -35,7 +35,6 @@ namespace Assets.Script.GamePlay
 	    {
             SkillBG.Create();
 	        DisableGameOver();
-	        Blur.enabled = false;
             SetTopScore((int)GameData.GetTopGameInfo().Score);
             StartAnimationGame.AnimationDone += GameManager.Instance.RePauseGame;
             if(SoundController.Instance!=null)

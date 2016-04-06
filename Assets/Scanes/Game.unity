@@ -5501,12 +5501,12 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 0
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.847}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.828}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -5587,8 +5587,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.92544305, y: 0.791}
   m_AnchorMax: {x: 1, y: 0.791}
-  m_AnchoredPosition: {x: 4.0000305, y: -0.0000076293945}
-  m_SizeDelta: {x: -1, y: 0}
+  m_AnchoredPosition: {x: 3.3, y: -0.0000076293945}
+  m_SizeDelta: {x: -10.5, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1357678085
 GameObject:
@@ -5838,7 +5838,7 @@ MonoBehaviour:
   Scale: 1.4
   SkillAnimationTime: 1
   InfoPanelAnimationTime: 1
-  ButtonAnimationTime: 1
+  ButtonAnimationTime: 0.5
   TapToText: {fileID: 150900426}
   RunText: {fileID: 217598596}
   SkillPanel: {fileID: 323226564}

@@ -25,17 +25,20 @@ namespace Assets.Script.GamePlay.VisualEffects
 	    private int _aniamationsDone;
 	    private Vector3 _skillPosition;
 	    private Vector3 _infoPanelPosition;
+	    private bool _start;
 
 	    #endregion
 
 		public void RunAnimation()
 		{
-		    StartSettings();
+		    _start = true;
+            StartSettings();
 		    AnimationStarter();
 		}
 
 	    private void StartSettings()
 	    {
+	        EnableText();
 	        _aniamationsDone = 0;
 	        _skillPosition = SkillPanel.localPosition;
 	        SkillPanel.localPosition = new Vector3(SkillPanel.localPosition.x - SkillPanel.rect.width, SkillPanel.localPosition.y);
@@ -45,7 +48,11 @@ namespace Assets.Script.GamePlay.VisualEffects
 	    }
 
 	    public void ScreenWasTaped()
-        {
+	    {
+	        if (!_start)
+	            return;
+	        else
+	            _start = false;
             TurnOffText();
             StartAnimationSkill();
             StartAnimationInfoPanel();
@@ -63,12 +70,14 @@ namespace Assets.Script.GamePlay.VisualEffects
             ht.Add("oncomplete", "AnimationEnd");
             ITween.ValueTo(gameObject, ht);
         }
-        public void ButtonAnimation(float newValue)
+
+	    public void ButtonAnimation(float newValue)
         {
             PauseButton.color = new Color(1,1,1,newValue);
 
         }
-        private void StartAnimationInfoPanel()
+
+	    private void StartAnimationInfoPanel()
 	    {
             Hashtable ht = new Hashtable();
             ht.Add("from", InfoPanel.localPosition.y);
@@ -79,14 +88,24 @@ namespace Assets.Script.GamePlay.VisualEffects
             ht.Add("oncomplete", "AnimationEnd");
             ITween.ValueTo(gameObject, ht);
         }
-        public void InfoPanelMover(float newPosition)
+
+	    public void InfoPanelMover(float newPosition)
         {
             InfoPanel.localPosition = new Vector3(InfoPanel.localPosition.x, newPosition);
         }
-        private void TurnOffText()
+
+	    private void TurnOffText()
 	    {
+            ITween.Stop(gameObject);
+            ITween.Stop(gameObject);
             RunText.gameObject.SetActive(false);
             TapToText.SetActive(false);
+	    }
+
+	    private void EnableText()
+	    {
+	        RunText.gameObject.SetActive(true);
+	        TapToText.SetActive(true);
 	    }
 
 	    private void StartAnimationSkill()
@@ -100,7 +119,8 @@ namespace Assets.Script.GamePlay.VisualEffects
             ht.Add("oncomplete", "AnimationEnd");
             ITween.ValueTo(gameObject, ht);
         }
-        public void SkillMover(float newPosition)
+
+	    public void SkillMover(float newPosition)
         {
             SkillPanel.localPosition = new Vector3(newPosition,SkillPanel.localPosition.y);
         }
