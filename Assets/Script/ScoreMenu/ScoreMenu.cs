@@ -1,5 +1,4 @@
 ﻿using System;
-using Assets.Script.DataManagment;
 using Assets.Script.Menu.DataManagment;
 using UnityEngine;
 
@@ -32,7 +31,6 @@ namespace Assets.Script.ScoreMenu
 					GameData.Instance.PlayerRecords[i].Score.ToString(),
 					GameData.GetCharacterIcon(GameData.Instance.PlayerRecords[i].Character)
 					);
-				//some text
 			}
 		}
 

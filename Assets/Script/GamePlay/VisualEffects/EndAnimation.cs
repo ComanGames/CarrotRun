@@ -40,7 +40,7 @@ namespace Assets.Script.GamePlay.VisualEffects
             Invoke("StartAnimationGiftButton", FirstAnimationTimeOut);
             Invoke("StartAnimationDoubleButton", SecondAnimationTimeOut);
             Invoke("StartAnimationInfoPanel", ThirdAnimationTimeOut);
-            Invoke("StartAnimationButtonPanel", FirstAnimationTimeOut);
+            Invoke("StartAnimationButtonPanel", FourthAnimationTimeOut);
         }
 
         private void StartSettings()
@@ -108,7 +108,7 @@ namespace Assets.Script.GamePlay.VisualEffects
 
         public void GiftButtonMover(float newPosition)
         {
-            GiftButton.localPosition = new Vector3(newPosition, GiftButton.localPosition.x);
+            GiftButton.localPosition = new Vector3(newPosition, GiftButton.localPosition.y);
         }
         public void StartAnimationDoubleButton()
         {
@@ -124,7 +124,7 @@ namespace Assets.Script.GamePlay.VisualEffects
 
         public void DoubleButtonMover(float newPosition)
         {
-            DoubleButton.localPosition = new Vector3(newPosition, DoubleButton.localPosition.x);
+            DoubleButton.localPosition = new Vector3(newPosition, DoubleButton.localPosition.y);
         }
 
         public void AnimationEnd()
