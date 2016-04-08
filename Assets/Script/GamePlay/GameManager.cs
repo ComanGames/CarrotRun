@@ -3,7 +3,6 @@ using Assets.Script.DataManagment;
 using Assets.Script.GamePlay.Data_Containers;
 using Assets.Script.GamePlay.Participators;
 using Assets.Script.Menu.DataManagment;
-using Assets.Script.ObjectPool;
 using UnityEngine;
 
 namespace Assets.Script.GamePlay
@@ -115,7 +114,6 @@ namespace Assets.Script.GamePlay
         {
             _coins++;
             _managerUserInterface.UpdateCoins(_coins);
-            item.Recycle();
             _character.CoinSound();
             _managerBlocks.RemoveCoin(item);
         }

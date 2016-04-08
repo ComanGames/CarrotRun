@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using Assets.Script.GamePlay.Data_Containers;
 using Assets.Script.ObjectPool;
@@ -11,11 +10,13 @@ namespace Assets.Script.GamePlay
 	public class BlocksManager : MonoBehaviour
 	{
 		#region Variables
+	    public int CountOfPromelems=10;
+	    public float DistanceProblems;
 	    public GameObject[] GroundBlocks;
-		private LinkedList<GameObject> _movableBlocks;
-		private List<GameObject> _movableProblems;
-		private readonly Random _randome = new Random();
-		public bool MoveGround = true;
+	    private LinkedList<ProblemContainer> _movableProblems;
+	    private LinkedList<GameObject> _movableBlocks;
+	    private readonly Random _randome = new Random();
+	    public bool MoveGround = true;
 		public float GroundMovingScale = 0.5f;
 		public Transform StartPosition;
 		public Transform EndPosition;
@@ -24,8 +25,6 @@ namespace Assets.Script.GamePlay
 		public Vector3 MovingDirection;
 		private Vector3 _nextPosition = Vector3.zero;
 		public BlockPrefabs Gp; //Prefabs Collection
-		public int MinRandomNextProblme;
-		public int MaxRandomNextProblem;
 		private int _orderOfPlank;
 		public int MaxOrderValue = 10000;
 		public float Speed;
@@ -52,15 +51,28 @@ namespace Assets.Script.GamePlay
 		}
 		public void Creator()
 		{
-			_movableBlocks = new LinkedList<GameObject>();
-			_movableProblems = new List<GameObject>();
-			SettingStartVeriables();
-		    ResortGroundPrefabs();
-			StartCoroutine(ProblemCreator());
-			_isPause = false;
+			CreateGround();
+		    CreateProblems();
+		    SettingStartVeriables();
 		}
 
-		private void SettingStartVeriables()
+	    private void CreateProblems()
+	    {
+	        _movableProblems = new LinkedList<ProblemContainer>();
+	        ProblemContainer firstProblemContainer = GetRandomProblem();
+	        firstProblemContainer.transform.position = new Vector3(StartPosition.position.x, StartPosition.position.y, 0);
+	        _movableProblems.AddFirst(firstProblemContainer);
+	        for (int i = 0; i < CountOfPromelems; i++)
+                CreateProblem();
+	    }
+
+	    private void CreateGround()
+	    {
+	        _movableBlocks = new LinkedList<GameObject>();
+	        ResortGroundPrefabs();
+	    }
+
+	    private void SettingStartVeriables()
 		{
 			UpdateSpeed(GameManager.Instance.SpeedSetting.StartSpeed);
 		}
@@ -90,35 +102,24 @@ namespace Assets.Script.GamePlay
 				Gp.N++; //Making over problems harder	
 		}
 
-		private IEnumerator ProblemCreator()
-		{
-			CreateProblem();
-			// ReSharper disable once MergeSequentialChecks
-			while (true)
-			{
-			    while (Gp.Blocks == null || Gp.Blocks[Gp.N] == null || Gp.Blocks[Gp.N].Count == 0 || Speed < 0.1)
-			    {
-			        yield return null;
-			    }
-			    float time = (_randome.Next(MinRandomNextProblme, MaxRandomNextProblem) / (Time.deltaTime * 100) / Speed);
-				yield return new WaitForSeconds(time);
-				if (!_isPause)
-					CreateProblem();
-			}
-			// ReSharper disable once FunctionNeverReturns
-		}
 
 		private void CreateProblem()
 		{
-			var problem = Gp.Blocks[Gp.N][_randome.Next(0, Gp.Blocks[Gp.N].Count)].Spawn();
-			problem.transform.position = StartPosition.position;
-			_movableProblems.Add(problem);
+			ProblemContainer problem = GetRandomProblem();
+		    float newLastPosition = _movableProblems.Last.Value.GetLastPosition() + DistanceProblems;
+			problem.transform.position = new Vector3(newLastPosition,StartPosition.position.y,0);
+			_movableProblems.AddLast(problem);
 		}
 
-		public void UpdateMovableBlocks()
+	    private ProblemContainer GetRandomProblem()
+	    {
+	        return Gp.Blocks[Gp.N][_randome.Next(0, Gp.Blocks[Gp.N].Count)].Spawn();
+	    }
+
+	    public void UpdateMovableBlocks()
 		{
-			var toRemove = new List<GameObject>();
-			foreach (GameObject o in _movableProblems)
+			var toRemove = new List<ProblemContainer>();
+			foreach (ProblemContainer o in _movableProblems)
 			{
 				o.transform.Translate(_nextPosition * Time.deltaTime);
 				if (o.transform.position.x < EndPosition.position.x)
@@ -127,11 +128,15 @@ namespace Assets.Script.GamePlay
 					toRemove.Add(o);
 				}
 			}
+		    int toRemoveCount = toRemove.Count;
 			foreach (var o in toRemove)
-				_movableProblems.Remove(o);
-		}
+			    _movableProblems.Remove(o);
+		    for (int i = 0; i < toRemoveCount; i++)
+                CreateProblem();
 
-		private void UpdateGroundBlocks()
+        }
+
+        private void UpdateGroundBlocks()
 		{
 			if (_movableBlocks == null || _movableBlocks.Count < 1)
 				return;
@@ -174,7 +179,7 @@ namespace Assets.Script.GamePlay
 			}
 		}
 
-		public void ReSpawnBorder(GameObject item)
+		public void ReSpawnBorder(ProblemContainer item)
 		{
 			item.Recycle();
 			_movableProblems.Remove(item);
@@ -189,7 +194,7 @@ namespace Assets.Script.GamePlay
 
 		public void RemoveCoin(GameObject item)
 		{
-			_movableProblems.Remove(item);
+			item.SetActive(false);
 		}
 
 		public void Reset()
@@ -197,15 +202,14 @@ namespace Assets.Script.GamePlay
 			SettingStartVeriables();
 			StopAllCoroutines();
 			ResortGround();
-			StartCoroutine(ProblemCreator());
 			ResumeMobebleBlocksAnimations();
 		}
 
 		public void RemoveMovebleProblems()
 		{
-			foreach (GameObject movableProblem in _movableProblems)
+			foreach (ProblemContainer movableProblem in _movableProblems)
 				movableProblem.Recycle();
-			_movableProblems = new List<GameObject>();
+			_movableProblems = new LinkedList<ProblemContainer>();
 		}
 
 		public void StopAllAnimations()
@@ -217,7 +221,7 @@ namespace Assets.Script.GamePlay
 					SAnimation.SAnimation componentInChildren = movableBlock.GetComponentInChildren<SAnimation.SAnimation>();
 					componentInChildren?.StopAnimation();
 				}
-				foreach (GameObject movableProblem in _movableProblems)
+				foreach (ProblemContainer movableProblem in _movableProblems)
 				{
 					SAnimation.SAnimation componentInChildren = movableProblem.GetComponentInChildren<SAnimation.SAnimation>();
 					componentInChildren?.StopAnimation();
@@ -230,7 +234,7 @@ namespace Assets.Script.GamePlay
 			if (_movableBlocks != null && _movableProblems != null)
 			{
 				ResumeMobebleBlocksAnimations();
-				foreach (GameObject movableProblem in _movableProblems)
+				foreach (ProblemContainer movableProblem in _movableProblems)
 				{
 					SAnimation.SAnimation componentInChildren = movableProblem.GetComponentInChildren<SAnimation.SAnimation>();
 					componentInChildren?.StartAnimation();
@@ -257,17 +261,14 @@ namespace Assets.Script.GamePlay
 		}
 
 		private float _lastSpeed;
-		private bool _isPause;
 		public void Pause()
 		{
-			_isPause = true;
 			_lastSpeed = Speed;
 			UpdateSpeed(0);
 		}
 
 		public void UnPause()
 		{
-			_isPause = false;
 			UpdateSpeed(_lastSpeed);
 		}
 

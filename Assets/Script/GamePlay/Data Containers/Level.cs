@@ -8,7 +8,7 @@ namespace Assets.Script.GamePlay.Data_Containers
     {
         #region  Variables
 
-        public GameObject[] Items;
+        public ProblemContainer[] Items;
 
         #endregion
 
@@ -27,7 +27,7 @@ namespace Assets.Script.GamePlay.Data_Containers
 
         #endregion
 
-        public GameObject this[int index]
+        public ProblemContainer this[int index]
         {
             get { return Items[index]; }
             set { Items[index] = value; }
