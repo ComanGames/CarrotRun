@@ -21,7 +21,6 @@ namespace Assets.Script.GamePlay
         private BlocksManager _managerBlocks;
         private UserInterfaceManager _managerUserInterface;
         private Hero _character;
-        private bool _first = true;
 
         #endregion
 
