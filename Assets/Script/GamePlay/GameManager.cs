@@ -45,7 +45,7 @@ namespace Assets.Script.GamePlay
 
         private void RunStartAnimation()
         {
-            _managerUserInterface.RunAnimation();
+            _managerUserInterface.RunStartAnimation();
             if (SoundController.Instance != null)
                 SoundController.Instance.PauseSound();
         }
@@ -53,7 +53,6 @@ namespace Assets.Script.GamePlay
 
         private void LaunchingGame()
         {
-         
             StartSettings();
             StartCoroutine(SpeedingUp());
             _isPaused = false;

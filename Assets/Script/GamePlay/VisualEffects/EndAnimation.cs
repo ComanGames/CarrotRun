@@ -30,12 +30,13 @@ namespace Assets.Script.GamePlay.VisualEffects
         private Vector3 _doubleButtonPosition;
         private Vector3 _buttonPanelPosition;
         private int _aniamationsDone;
+        private bool _isFirst = true;
 
         #endregion
 
-
         public void RunAnimation()
         {
+
             StartSettings();
             Invoke("StartAnimationGiftButton", FirstAnimationTimeOut);
             Invoke("StartAnimationDoubleButton", SecondAnimationTimeOut);
@@ -46,20 +47,29 @@ namespace Assets.Script.GamePlay.VisualEffects
         private void StartSettings()
         {
             _aniamationsDone = 0;
+            if (_isFirst)
+                SetStartSettings();
+            MoveEveyButtons();
+        }
 
+        private void SetStartSettings()
+        {
+
+            _isFirst = false;
             _infoPanelPosition = InfoPanel.localPosition;
-            InfoPanel.localPosition = new Vector3(InfoPanel.localPosition.x, InfoPanel.localPosition.y + InfoPanel.rect.height);
-
-            var leftBorder = Screen.width/-2;
-
             _giftButtonPosition = GiftButton.localPosition;
-            GiftButton.localPosition = new Vector3(leftBorder - GiftButton.rect.width,GiftButton.localPosition.y);
-
             _doubleButtonPosition = DoubleButton.localPosition;
-            DoubleButton.localPosition = new Vector3(leftBorder - DoubleButton.rect.width,DoubleButton.localPosition.y);
-
             _buttonPanelPosition = ButtonPanel.localPosition;
-            ButtonPanel.localPosition = new Vector3(ButtonPanel.localPosition.x, ButtonPanel.localPosition.y-ButtonPanel.rect.height);
+        }
+
+        private void MoveEveyButtons()
+        {
+            var leftBorder = Screen.width/-2;
+            InfoPanel.localPosition = new Vector3(InfoPanel.localPosition.x, InfoPanel.localPosition.y + InfoPanel.rect.height);
+            GiftButton.localPosition = new Vector3(leftBorder - GiftButton.rect.width, GiftButton.localPosition.y);
+            DoubleButton.localPosition = new Vector3(leftBorder - DoubleButton.rect.width, DoubleButton.localPosition.y);
+            ButtonPanel.localPosition = new Vector3(ButtonPanel.localPosition.x,
+                ButtonPanel.localPosition.y - ButtonPanel.rect.height);
         }
 
         public void StartAnimationInfoPanel()

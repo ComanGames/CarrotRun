@@ -1640,8 +1640,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5319a290dab13144e972cef991a4f348, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CountOfPromelems: 10
-  DistanceProblems: 8
+  CountOfPromelems: 5
+  DistanceProblems: 6
+  StartOffset: -10
   GroundBlocks:
   - {fileID: 1242181332}
   - {fileID: 1381069868}
@@ -1668,7 +1669,7 @@ MonoBehaviour:
   EndPosition: {fileID: 246206955}
   GroundPool: {fileID: 1326079412}
   DistanceBetweenBlocks: {x: 2.65, y: -0.09, z: 0}
-  MovingDirection: {x: 1, y: -0.03395, z: 0}
+  MovingDirection: {x: 1, y: -0.03396226, z: 0}
   Gp:
     GroundPrefab: {fileID: 158612, guid: bb0f545a1a40ce34f9b4a06ff152734e, type: 2}
     CountOfGround: 20
@@ -8777,7 +8778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpPower: 9
-  JumpDistance: 2.5
+  JumpDistance: 1.5
   HighestPoint: -1.5
   SlideTime: 0.03
   SlideDistance: 12

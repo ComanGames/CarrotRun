@@ -11,11 +11,11 @@ namespace Assets.Script.GamePlay
 
         #endregion
 
-        public float GetLastPosition()
+        public float Length()
         {
             if(Last==null)
                 throw new NullReferenceException("Last is equals null");
-           return Last.transform.position.x;
+            return Last.transform.localPosition.x;
         }
     }
 }

@@ -24,6 +24,7 @@ namespace Assets.Script.GamePlay
 		public SpriteAnimationUi JuiceAnimation;
 		public AudioSource JuiceSound;
 		public SAnimation.SAnimation[] Animations;
+	    // ReSharper disable once InconsistentNaming
 	    public SkillBg SkillBG;
 	    public BlurOptimized Blur;
         public StartAnimation StartAnimationGame;
@@ -164,7 +165,7 @@ namespace Assets.Script.GamePlay
 
 		#endregion
 
-	    public  void RunAnimation()
+	    public  void RunStartAnimation()
 	    {
             StartAnimationGame.RunAnimation();
 	    }

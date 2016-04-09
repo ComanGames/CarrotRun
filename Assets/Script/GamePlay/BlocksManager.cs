@@ -12,6 +12,7 @@ namespace Assets.Script.GamePlay
 		#region Variables
 	    public int CountOfPromelems=10;
 	    public float DistanceProblems;
+	    public float StartOffset = 5;
 	    public GameObject[] GroundBlocks;
 	    private LinkedList<ProblemContainer> _movableProblems;
 	    private LinkedList<GameObject> _movableBlocks;
@@ -23,6 +24,7 @@ namespace Assets.Script.GamePlay
 		public Transform GroundPool;
 		public Vector3 DistanceBetweenBlocks;
 		public Vector3 MovingDirection;
+	    private Vector3 _normalizedDirection;
 		private Vector3 _nextPosition = Vector3.zero;
 		public BlockPrefabs Gp; //Prefabs Collection
 		private int _orderOfPlank;
@@ -34,7 +36,6 @@ namespace Assets.Script.GamePlay
 		public class BlockPrefabs
 		{
 			#region  Variables
-
 			public GameObject GroundPrefab;
 			public int CountOfGround;
 			public List<Level> Blocks;
@@ -51,7 +52,9 @@ namespace Assets.Script.GamePlay
 		}
 		public void Creator()
 		{
-			CreateGround();
+		    _normalizedDirection =  new Vector3(1,DistanceBetweenBlocks.y/DistanceBetweenBlocks.x);
+		    Debug.Log(_normalizedDirection.y);
+		    CreateGround();
 		    CreateProblems();
 		    SettingStartVeriables();
 		}
@@ -64,6 +67,10 @@ namespace Assets.Script.GamePlay
 	        _movableProblems.AddFirst(firstProblemContainer);
 	        for (int i = 0; i < CountOfPromelems; i++)
                 CreateProblem();
+//	        foreach (ProblemContainer problem in _movableProblems)
+//	        {
+//	            problem.transform.Translate(StartOffset,0,0);
+//	        }
 	    }
 
 	    private void CreateGround()
@@ -103,17 +110,20 @@ namespace Assets.Script.GamePlay
 		}
 
 
-		private void CreateProblem()
-		{
-			ProblemContainer problem = GetRandomProblem();
-		    float newLastPosition = _movableProblems.Last.Value.GetLastPosition() + DistanceProblems;
-			problem.transform.position = new Vector3(newLastPosition,StartPosition.position.y,0);
-			_movableProblems.AddLast(problem);
-		}
-
 	    private ProblemContainer GetRandomProblem()
 	    {
 	        return Gp.Blocks[Gp.N][_randome.Next(0, Gp.Blocks[Gp.N].Count)].Spawn();
+	    }
+
+	    private void CreateProblem()
+	    {
+	        ProblemContainer problem = GetRandomProblem();
+	        ProblemContainer lastProblem = _movableProblems.Last.Value;
+	        float problemLength = lastProblem.Length();
+	        Vector3 distance = DistanceProblems*_normalizedDirection;
+	        Vector3 newLastPosition = (_normalizedDirection*problemLength) + lastProblem.transform.position + distance;
+	        problem.transform.position =newLastPosition;
+	        _movableProblems.AddLast(problem);
 	    }
 
 	    public void UpdateMovableBlocks()
@@ -203,13 +213,14 @@ namespace Assets.Script.GamePlay
 			StopAllCoroutines();
 			ResortGround();
 			ResumeMobebleBlocksAnimations();
-		}
+            CreateProblems();
+        }
 
-		public void RemoveMovebleProblems()
+        public void RemoveMovebleProblems()
 		{
 			foreach (ProblemContainer movableProblem in _movableProblems)
 				movableProblem.Recycle();
-			_movableProblems = new LinkedList<ProblemContainer>();
+			_movableProblems =null;
 		}
 
 		public void StopAllAnimations()
