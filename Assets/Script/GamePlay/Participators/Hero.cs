@@ -174,16 +174,16 @@ namespace Assets.Script.GamePlay.Participators
 		{
 			if (!_isFrozen)
 			{
-				if (Body.velocity.x > BackSpeed * Time.timeScale && Body.velocity.x < 0.5 && !_isSlide)
+				if (Body.velocity.x > BackSpeed && Body.velocity.x < 0.5 &&_isGrounded)
 				{
-					Body.AddForce(Vector2.left / 10, ForceMode2D.Impulse);
+					Body.AddForce(Vector2.left / 5, ForceMode2D.Impulse);
 					_isMove = false;
 				}
-				//								if (transform.position.y > HighestPoint)
-				//								{
-				//									Body.velocity = Vector2.Lerp(Body.velocity, Vector2.down, 0.1f);
-				//									MyAnimator.DownJump();
-				//								}
+//			    if (transform.position.y > HighestPoint)
+//			    {
+//			        Body.velocity = Vector2.Lerp(Body.velocity, Vector2.down, 0.1f);
+//			        MyAnimator.DownJump();
+//			    }
 				if (!_isGrounded && Mathf.Abs(Body.velocity.y) < 0.01f && _prevVelocity < 0 && !_isSlide)
 				{
 					_isGrounded = true;

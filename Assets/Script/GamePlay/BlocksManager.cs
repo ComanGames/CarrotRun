@@ -39,6 +39,7 @@ namespace Assets.Script.GamePlay
 			public GameObject GroundPrefab;
 			public int CountOfGround;
 			public List<Level> Blocks;
+            [HideInInspector]
 			public int N;
 
 			#endregion
@@ -121,6 +122,7 @@ namespace Assets.Script.GamePlay
 	        ProblemContainer lastProblem = _movableProblems.Last.Value;
 	        float problemLength = lastProblem.Length();
 	        Vector3 distance = DistanceProblems*_normalizedDirection;
+	        Debug.Log(distance);
 	        Vector3 newLastPosition = (_normalizedDirection*problemLength) + lastProblem.transform.position + distance;
 	        problem.transform.position =newLastPosition;
 	        _movableProblems.AddLast(problem);

@@ -1,0 +1,790 @@
+fileFormatVersion: 2
+guid: 7713ab021d04f9d48ba60a29d62131c8
+timeCreated: 1462272426
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Meat_0
+    21300002: Meat_1
+    21300004: Meat_2
+    21300006: Meat_3
+    21300008: Meat_4
+    21300010: Meat_5
+    21300012: Meat_6
+    21300014: Meat_7
+    21300016: Meat_8
+    21300018: Meat_9
+    21300020: Meat_10
+    21300022: Meat_11
+    21300024: Meat_12
+    21300026: Meat_13
+    21300028: Meat_14
+    21300030: Meat_15
+    21300032: Meat_16
+    21300034: Meat_17
+    21300036: Meat_18
+    21300038: Meat_19
+    21300040: Meat_20
+    21300042: Meat_21
+    21300044: Meat_22
+    21300046: Meat_23
+    21300048: Meat_24
+    21300050: Meat_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: Meat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 110, y: 49}
+        - {x: 95, y: 94}
+        - {x: 58, y: 145}
+        - {x: 9, y: 162}
+        - {x: -39, y: 162}
+        - {x: -43, y: 161}
+        - {x: -97, y: 121}
+        - {x: -102, y: 96}
+        - {x: -102, y: 65}
+        - {x: -97, y: 41}
+        - {x: -79, y: 15}
+        - {x: -58, y: -12}
+        - {x: -48, y: -57}
+        - {x: -53, y: -102}
+        - {x: -34, y: -138}
+        - {x: -16, y: -143}
+        - {x: 27, y: -143}
+        - {x: 85, y: -98}
+        - {x: 106, y: -47}
+        - {x: 110, y: -11}
+    - name: Meat_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1920
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: -18}
+        - {x: 119, y: 56}
+        - {x: 108, y: 94}
+        - {x: 86, y: 120}
+        - {x: 53, y: 146}
+        - {x: 13, y: 160}
+        - {x: -39, y: 160}
+        - {x: -76, y: 137}
+        - {x: -102, y: 108}
+        - {x: -113, y: 79}
+        - {x: -113, y: 45}
+        - {x: -108, y: 27}
+        - {x: -52, y: -36}
+        - {x: -56, y: -109}
+        - {x: -39, y: -132}
+        - {x: -15, y: -143}
+        - {x: 13, y: -143}
+        - {x: 23, y: -142}
+        - {x: 56, y: -124}
+        - {x: 103, y: -68}
+    - name: Meat_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1920
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: 20}
+        - {x: 122, y: 63}
+        - {x: 112, y: 94}
+        - {x: 95, y: 119}
+        - {x: 75, y: 138}
+        - {x: 32, y: 158}
+        - {x: 29, y: 159}
+        - {x: -18, y: 159}
+        - {x: -44, y: 155}
+        - {x: -84, y: 132}
+        - {x: -115, y: 86}
+        - {x: -116, y: 77}
+        - {x: -116, y: 38}
+        - {x: -108, y: 16}
+        - {x: -52, y: -39}
+        - {x: -53, y: -115}
+        - {x: -37, y: -137}
+        - {x: -17, y: -145}
+        - {x: 21, y: -145}
+        - {x: 68, y: -114}
+        - {x: 102, y: -70}
+        - {x: 121, y: -4}
+    - name: Meat_3
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1920
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: 14}
+        - {x: 122, y: 67}
+        - {x: 116, y: 96}
+        - {x: 83, y: 137}
+        - {x: 49, y: 157}
+        - {x: 36, y: 158}
+        - {x: -20, y: 158}
+        - {x: -29, y: 156}
+        - {x: -71, y: 134}
+        - {x: -95, y: 110}
+        - {x: -116, y: 71}
+        - {x: -116, y: 40}
+        - {x: -103, y: 4}
+        - {x: -48, y: -45}
+        - {x: -56, y: -108}
+        - {x: -34, y: -143}
+        - {x: -19, y: -147}
+        - {x: 4, y: -147}
+        - {x: 27, y: -142}
+        - {x: 48, y: -128}
+        - {x: 91, y: -81}
+        - {x: 116, y: -29}
+    - name: Meat_4
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1920
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117, y: 75}
+        - {x: 108, y: 110}
+        - {x: 60, y: 153}
+        - {x: 41, y: 159}
+        - {x: -6, y: 159}
+        - {x: -24, y: 154}
+        - {x: -72, y: 125}
+        - {x: -106, y: 80}
+        - {x: -110, y: 62}
+        - {x: -110, y: 15}
+        - {x: -92, y: -12}
+        - {x: -51, y: -40}
+        - {x: -55, y: -113}
+        - {x: -43, y: -129}
+        - {x: -31, y: -148}
+        - {x: 16, y: -148}
+        - {x: 30, y: -147}
+        - {x: 69, y: -101}
+        - {x: 101, y: -48}
+        - {x: 117, y: 10}
+    - name: Meat_5
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1920
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104, y: 18}
+        - {x: 104, y: 92}
+        - {x: 99, y: 124}
+        - {x: 54, y: 160}
+        - {x: -6, y: 160}
+        - {x: -45, y: 141}
+        - {x: -90, y: 77}
+        - {x: -97, y: 43}
+        - {x: -97, y: 11}
+        - {x: -92, y: -8}
+        - {x: -46, y: -49}
+        - {x: -51, y: -120}
+        - {x: -37, y: -139}
+        - {x: -10, y: -149}
+        - {x: 14, y: -149}
+        - {x: 48, y: -121}
+        - {x: 59, y: -103}
+        - {x: 93, y: -37}
+    - name: Meat_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86, y: 134}
+        - {x: 64, y: 162}
+        - {x: -22, y: 162}
+        - {x: -43, y: 130}
+        - {x: -77, y: 56}
+        - {x: -77, y: -12}
+        - {x: -76, y: -18}
+        - {x: -40, y: -52}
+        - {x: -40, y: -125}
+        - {x: -35, y: -145}
+        - {x: -13, y: -148}
+        - {x: 20, y: -148}
+        - {x: 31, y: -136}
+        - {x: 70, y: -61}
+        - {x: 86, y: -14}
+    - name: Meat_7
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1440
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 153}
+        - {x: 44, y: 162}
+        - {x: -14, y: 162}
+        - {x: -51, y: 80}
+        - {x: -51, y: -31}
+        - {x: -28, y: -141}
+        - {x: -24, y: -147}
+        - {x: -6, y: -149}
+        - {x: 19, y: -149}
+        - {x: 30, y: -133}
+        - {x: 54, y: -52}
+        - {x: 61, y: 11}
+    - name: Meat_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1440
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 162}
+        - {x: -25, y: -141}
+        - {x: -17, y: -148}
+        - {x: 25, y: -148}
+        - {x: 37, y: -133}
+        - {x: 37, y: 162}
+    - name: Meat_9
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1440
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 162}
+        - {x: -31, y: -70}
+        - {x: -11, y: -143}
+        - {x: -7, y: -148}
+        - {x: 35, y: -148}
+        - {x: 45, y: -85}
+        - {x: 45, y: 62}
+        - {x: 34, y: 162}
+    - name: Meat_10
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1440
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 139}
+        - {x: 23, y: 155}
+        - {x: 14, y: 162}
+        - {x: -38, y: 162}
+        - {x: -58, y: 125}
+        - {x: -58, y: -48}
+        - {x: -15, y: -149}
+        - {x: 43, y: -149}
+        - {x: 47, y: -148}
+        - {x: 73, y: -26}
+        - {x: 73, y: 49}
+        - {x: 70, y: 85}
+    - name: Meat_11
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1440
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 97, y: 60}
+        - {x: 95, y: 72}
+        - {x: 44, y: 153}
+        - {x: 18, y: 161}
+        - {x: -31, y: 161}
+        - {x: -66, y: 142}
+        - {x: -73, y: 124}
+        - {x: -80, y: 96}
+        - {x: -80, y: 24}
+        - {x: -71, y: -33}
+        - {x: -38, y: -117}
+        - {x: -4, y: -149}
+        - {x: 21, y: -149}
+        - {x: 48, y: -143}
+        - {x: 58, y: -124}
+        - {x: 59, y: -54}
+        - {x: 97, y: -7}
+    - name: Meat_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: -2}
+        - {x: 115, y: 12}
+        - {x: 115, y: 43}
+        - {x: 110, y: 74}
+        - {x: 91, y: 108}
+        - {x: 43, y: 152}
+        - {x: 16, y: 160}
+        - {x: -40, y: 160}
+        - {x: -91, y: 118}
+        - {x: -97, y: 89}
+        - {x: -97, y: -2}
+        - {x: -65, y: -87}
+        - {x: -53, y: -98}
+        - {x: -16, y: -141}
+        - {x: 6, y: -148}
+        - {x: 29, y: -148}
+        - {x: 51, y: -141}
+        - {x: 65, y: -118}
+        - {x: 59, y: -48}
+    - name: Meat_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 960
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: 9}
+        - {x: 125, y: 30}
+        - {x: 125, y: 69}
+        - {x: 88, y: 130}
+        - {x: 57, y: 148}
+        - {x: 15, y: 159}
+        - {x: -32, y: 159}
+        - {x: -67, y: 139}
+        - {x: -94, y: 105}
+        - {x: -106, y: 75}
+        - {x: -106, y: 11}
+        - {x: -104, y: -12}
+        - {x: -82, y: -64}
+        - {x: -60, y: -101}
+        - {x: -10, y: -146}
+        - {x: 5, y: -148}
+        - {x: 20, y: -148}
+        - {x: 41, y: -144}
+        - {x: 63, y: -129}
+        - {x: 72, y: -88}
+        - {x: 61, y: -48}
+    - name: Meat_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 960
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 29}
+        - {x: 128, y: 79}
+        - {x: 117, y: 100}
+        - {x: 83, y: 136}
+        - {x: 58, y: 150}
+        - {x: 26, y: 158}
+        - {x: -33, y: 158}
+        - {x: -82, y: 129}
+        - {x: -93, y: 108}
+        - {x: -109, y: 65}
+        - {x: -109, y: 13}
+        - {x: -108, y: -3}
+        - {x: -99, y: -38}
+        - {x: -74, y: -86}
+        - {x: -51, y: -116}
+        - {x: -9, y: -147}
+        - {x: 51, y: -147}
+        - {x: 73, y: -102}
+        - {x: 60, y: -46}
+        - {x: 114, y: 1}
+    - name: Meat_15
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 960
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72, y: -30}
+        - {x: 126, y: 19}
+        - {x: 128, y: 28}
+        - {x: 128, y: 79}
+        - {x: 115, y: 112}
+        - {x: 80, y: 144}
+        - {x: 37, y: 159}
+        - {x: -10, y: 159}
+        - {x: -52, y: 146}
+        - {x: -95, y: 106}
+        - {x: -109, y: 65}
+        - {x: -109, y: 7}
+        - {x: -108, y: -6}
+        - {x: -90, y: -65}
+        - {x: -72, y: -95}
+        - {x: -30, y: -133}
+        - {x: -3, y: -144}
+        - {x: 11, y: -145}
+        - {x: 27, y: -145}
+        - {x: 52, y: -137}
+        - {x: 68, y: -111}
+        - {x: 63, y: -76}
+    - name: Meat_16
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 960
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 118, y: 28}
+        - {x: 125, y: 50}
+        - {x: 125, y: 83}
+        - {x: 114, y: 107}
+        - {x: 86, y: 139}
+        - {x: 53, y: 160}
+        - {x: -5, y: 160}
+        - {x: -53, y: 142}
+        - {x: -88, y: 105}
+        - {x: -106, y: 58}
+        - {x: -106, y: -8}
+        - {x: -103, y: -37}
+        - {x: -76, y: -86}
+        - {x: -41, y: -126}
+        - {x: -8, y: -143}
+        - {x: 29, y: -143}
+        - {x: 56, y: -128}
+        - {x: 69, y: -107}
+        - {x: 64, y: -39}
+    - name: Meat_17
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 960
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 38}
+        - {x: 116, y: 51}
+        - {x: 116, y: 100}
+        - {x: 103, y: 140}
+        - {x: 40, y: 161}
+        - {x: 8, y: 161}
+        - {x: -1, y: 158}
+        - {x: -14, y: 153}
+        - {x: -19, y: 151}
+        - {x: -63, y: 128}
+        - {x: -97, y: 64}
+        - {x: -97, y: -43}
+        - {x: -61, y: -114}
+        - {x: -15, y: -143}
+        - {x: 33, y: -143}
+        - {x: 52, y: -125}
+        - {x: 65, y: -102}
+        - {x: 60, y: -38}
+    - name: Meat_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 64}
+        - {x: 99, y: 118}
+        - {x: 88, y: 143}
+        - {x: 46, y: 163}
+        - {x: 2, y: 163}
+        - {x: -7, y: 160}
+        - {x: -41, y: 136}
+        - {x: -82, y: 72}
+        - {x: -82, y: -46}
+        - {x: -79, y: -60}
+        - {x: -60, y: -103}
+        - {x: -34, y: -131}
+        - {x: -13, y: -143}
+        - {x: 26, y: -143}
+        - {x: 56, y: -126}
+        - {x: 59, y: -98}
+        - {x: 56, y: -30}
+        - {x: 97, y: 49}
+    - name: Meat_19
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 480
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78, y: 117}
+        - {x: 76, y: 134}
+        - {x: 56, y: 158}
+        - {x: 18, y: 165}
+        - {x: -2, y: 165}
+        - {x: -39, y: 135}
+        - {x: -62, y: 54}
+        - {x: -62, y: -85}
+        - {x: -32, y: -143}
+        - {x: 35, y: -143}
+        - {x: 51, y: -99}
+        - {x: 48, y: -55}
+        - {x: 78, y: 68}
+    - name: Meat_20
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 480
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 79}
+        - {x: -39, y: -107}
+        - {x: -26, y: -142}
+        - {x: 42, y: -142}
+        - {x: 53, y: -95}
+        - {x: 53, y: 165}
+        - {x: -16, y: 165}
+        - {x: -37, y: 94}
+    - name: Meat_21
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 480
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 164}
+        - {x: -23, y: 144}
+        - {x: -23, y: -140}
+        - {x: 31, y: -140}
+        - {x: 36, y: -78}
+        - {x: 36, y: 122}
+        - {x: 26, y: 164}
+    - name: Meat_22
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 480
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 165}
+        - {x: -32, y: 163}
+        - {x: -39, y: 147}
+        - {x: -39, y: 26}
+        - {x: -21, y: -133}
+        - {x: -15, y: -142}
+        - {x: 18, y: -142}
+        - {x: 43, y: -136}
+        - {x: 50, y: -91}
+        - {x: 50, y: 110}
+        - {x: 20, y: 165}
+    - name: Meat_23
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 480
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 165}
+        - {x: -26, y: 165}
+        - {x: -60, y: 152}
+        - {x: -65, y: 128}
+        - {x: -65, y: 66}
+        - {x: -40, y: -23}
+        - {x: -38, y: -117}
+        - {x: -11, y: -143}
+        - {x: 30, y: -143}
+        - {x: 65, y: -112}
+        - {x: 74, y: -74}
+        - {x: 74, y: 75}
+    - name: Meat_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71, y: 111}
+        - {x: 40, y: 147}
+        - {x: 7, y: 163}
+        - {x: -22, y: 163}
+        - {x: -62, y: 152}
+        - {x: -86, y: 115}
+        - {x: -86, y: 57}
+        - {x: -44, y: -34}
+        - {x: -45, y: -98}
+        - {x: -40, y: -122}
+        - {x: -12, y: -143}
+        - {x: 18, y: -143}
+        - {x: 44, y: -133}
+        - {x: 76, y: -104}
+        - {x: 94, y: -48}
+        - {x: 94, y: 51}
+    - name: Meat_25
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 110, y: 49}
+        - {x: 95, y: 94}
+        - {x: 58, y: 145}
+        - {x: 9, y: 162}
+        - {x: -39, y: 162}
+        - {x: -43, y: 161}
+        - {x: -97, y: 121}
+        - {x: -102, y: 96}
+        - {x: -102, y: 65}
+        - {x: -97, y: 41}
+        - {x: -79, y: 15}
+        - {x: -58, y: -12}
+        - {x: -48, y: -57}
+        - {x: -53, y: -102}
+        - {x: -34, y: -138}
+        - {x: -16, y: -143}
+        - {x: 27, y: -143}
+        - {x: 85, y: -98}
+        - {x: 106, y: -47}
+        - {x: 110, y: -11}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
