@@ -12,6 +12,7 @@ namespace Assets.Script.GamePlay
 		#region Variables
 	    public int CountOfPromelems=10;
 	    public float DistanceProblems;
+	    public float ProblemRotationZ=358;
 	    public float StartOffset = 5;
 	    public GameObject[] GroundBlocks;
 	    private LinkedList<ProblemContainer> _movableProblems;
@@ -125,6 +126,7 @@ namespace Assets.Script.GamePlay
 	        Debug.Log(distance);
 	        Vector3 newLastPosition = (_normalizedDirection*problemLength) + lastProblem.transform.position + distance;
 	        problem.transform.position =newLastPosition;
+            problem.transform.Rotate(Vector3.forward,ProblemRotationZ);
 	        _movableProblems.AddLast(problem);
 	    }
 

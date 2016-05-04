@@ -1,5 +1,5 @@
 ********************************************************************************
-*                       Tuesday, May 03, 2016 3:27:33 PM                       *
+*                      Wednesday, May 04, 2016 5:44:45 PM                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.6.1.0
 Platform: Windows
@@ -11,72 +11,9 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-f96b6a9a3b12a3e459c8a321feeaeb02
+Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-07974cc0a23aae849a76fbfade126783
 Exit code: 0
-Elapsed time: 3.65 sec
-
-- Compiler output (2 lines):
-0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
-1: Copyright (C) Microsoft Corporation. All rights reserved.
-
-- Compiler errors (1 line):
-0: Assets\Plugins\Everyplay\Helpers\Scripts\EveryplayHudCamera.cs(26,9): warning CS0618: 'GL.IssuePluginEvent(int)' is obsolete: 'IssuePluginEvent(eventID) is deprecated. Use IssuePluginEvent(callback, eventID) instead.'
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-firstpass.dll
-Exit code: 0
-Elapsed time: 0.14 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                       Tuesday, May 03, 2016 3:27:38 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.6.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\coman\OneDrive\Documents\CarrotRun
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-165210f0c58f2f048a2a0b5bc5cd0521
-Exit code: 0
-Elapsed time: 4.30 sec
-
-- Compiler output (2 lines):
-0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
-1: Copyright (C) Microsoft Corporation. All rights reserved.
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.19 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                       Tuesday, May 03, 2016 3:30:26 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.6.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp-firstpass.dll
-Project directory: C:\Users\coman\OneDrive\Documents\CarrotRun
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-4ed4ffc987cbfa840ba6dbaacc23ae11
-Exit code: 0
-Elapsed time: 3.83 sec
+Elapsed time: 11.69 sec
 
 - Compiler output (2 lines):
 0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
@@ -89,11 +26,11 @@ Elapsed time: 3.83 sec
 Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp-firstpass.dll
 Exit code: 0
-Elapsed time: 0.15 sec
+Elapsed time: 0.42 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                       Tuesday, May 03, 2016 3:30:30 PM                       *
+*                      Wednesday, May 04, 2016 5:44:58 PM                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.6.1.0
 Platform: Windows
@@ -105,9 +42,9 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-4007533e974be57459b4b55006cd4e3b
+Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-d1d7842e10b1cf348a52aa36933cbeda
 Exit code: 0
-Elapsed time: 5.81 sec
+Elapsed time: 12.92 sec
 
 - Compiler output (2 lines):
 0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
@@ -120,11 +57,11 @@ Elapsed time: 5.81 sec
 Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp.dll
 Exit code: 0
-Elapsed time: 0.21 sec
+Elapsed time: 0.62 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                       Tuesday, May 03, 2016 3:30:30 PM                       *
+*                      Wednesday, May 04, 2016 5:44:58 PM                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.6.1.0
 Platform: Windows
@@ -136,9 +73,9 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-5f992b97b68211147a7cee6c7b29c647
+Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-8e6d3b6731b7a3a48b5295e2d10b8662
 Exit code: 0
-Elapsed time: 4.74 sec
+Elapsed time: 10.05 sec
 
 - Compiler output (2 lines):
 0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
@@ -151,11 +88,11 @@ Elapsed time: 4.74 sec
 Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp-Editor-firstpass.dll
 Exit code: 0
-Elapsed time: 0.16 sec
+Elapsed time: 0.38 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                       Tuesday, May 03, 2016 3:30:37 PM                       *
+*                      Wednesday, May 04, 2016 5:45:13 PM                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.6.1.0
 Platform: Windows
@@ -167,9 +104,9 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-fb6fad4596ba05a4fb5f1564da64effd
+Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-f7987a3a8da2d694fbf97f3b70d2770b
 Exit code: 0
-Elapsed time: 3.20 sec
+Elapsed time: 9.29 sec
 
 - Compiler output (2 lines):
 0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
@@ -182,193 +119,6 @@ Elapsed time: 3.20 sec
 Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp-Editor.dll
 Exit code: 0
-Elapsed time: 0.11 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                       Tuesday, May 03, 2016 3:34:40 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.6.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp-firstpass.dll
-Project directory: C:\Users\coman\OneDrive\Documents\CarrotRun
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-08dc301e800271d43a930fda9fdc5d7c
-Exit code: 0
-Elapsed time: 3.67 sec
-
-- Compiler output (2 lines):
-0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
-1: Copyright (C) Microsoft Corporation. All rights reserved.
-
-- Compiler errors (1 line):
-0: Assets\Plugins\Everyplay\Helpers\Scripts\EveryplayHudCamera.cs(26,9): warning CS0618: 'GL.IssuePluginEvent(int)' is obsolete: 'IssuePluginEvent(eventID) is deprecated. Use IssuePluginEvent(callback, eventID) instead.'
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-firstpass.dll
-Exit code: 0
-Elapsed time: 0.14 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                       Tuesday, May 03, 2016 3:34:44 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.6.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\coman\OneDrive\Documents\CarrotRun
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-f7c591b8553926a4a92a3d10e568d750
-Exit code: 0
-Elapsed time: 4.45 sec
-
-- Compiler output (2 lines):
-0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
-1: Copyright (C) Microsoft Corporation. All rights reserved.
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.19 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                       Tuesday, May 03, 2016 3:37:14 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.6.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp-firstpass.dll
-Project directory: C:\Users\coman\OneDrive\Documents\CarrotRun
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-dbfa209655f121a49bb11246318df041
-Exit code: 0
-Elapsed time: 3.84 sec
-
-- Compiler output (2 lines):
-0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
-1: Copyright (C) Microsoft Corporation. All rights reserved.
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-firstpass.dll
-Exit code: 0
-Elapsed time: 0.14 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                       Tuesday, May 03, 2016 3:37:18 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.6.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\coman\OneDrive\Documents\CarrotRun
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-ae8c53a566b9d174baa2b3fb73d7885d
-Exit code: 0
-Elapsed time: 5.81 sec
-
-- Compiler output (2 lines):
-0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
-1: Copyright (C) Microsoft Corporation. All rights reserved.
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.21 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                       Tuesday, May 03, 2016 3:37:18 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.6.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor-firstpass.dll
-Project directory: C:\Users\coman\OneDrive\Documents\CarrotRun
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-601bd08596ebbd04685a825bb4d33b04
-Exit code: 0
-Elapsed time: 4.68 sec
-
-- Compiler output (2 lines):
-0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
-1: Copyright (C) Microsoft Corporation. All rights reserved.
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor-firstpass.dll
-Exit code: 0
-Elapsed time: 0.22 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                       Tuesday, May 03, 2016 3:37:25 PM                       *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.6.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: C:\Users\coman\OneDrive\Documents\CarrotRun
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-c36fb37dd0a9c7344bb8ee26b71a4a05
-Exit code: 0
-Elapsed time: 3.20 sec
-
-- Compiler output (2 lines):
-0: Microsoft (R) Visual C# Compiler version 1.0.0.50618
-1: Copyright (C) Microsoft Corporation. All rights reserved.
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\coman\OneDrive\Documents\CarrotRun\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.13 sec
+Elapsed time: 0.26 sec
 
 - pdb2mdb.exe output (0 lines):

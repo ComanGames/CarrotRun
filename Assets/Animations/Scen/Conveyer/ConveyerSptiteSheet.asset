@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: ConveyerSptiteSheet
   m_EditorClassIdentifier: 
   Sprites:
-  - {fileID: 21300000, guid: aa2e92f8c9c127645b4e39bb2b8ac02d, type: 3}
-  - {fileID: 21300002, guid: aa2e92f8c9c127645b4e39bb2b8ac02d, type: 3}
-  - {fileID: 21300004, guid: aa2e92f8c9c127645b4e39bb2b8ac02d, type: 3}
   - {fileID: 21300006, guid: aa2e92f8c9c127645b4e39bb2b8ac02d, type: 3}
+  - {fileID: 21300004, guid: aa2e92f8c9c127645b4e39bb2b8ac02d, type: 3}
+  - {fileID: 21300002, guid: aa2e92f8c9c127645b4e39bb2b8ac02d, type: 3}
+  - {fileID: 21300000, guid: aa2e92f8c9c127645b4e39bb2b8ac02d, type: 3}

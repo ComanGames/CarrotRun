@@ -26,8 +26,10 @@ namespace Assets.Script.GamePlay.Participators
 		public float SlideTime = 1.5f;
 		public float SlideDistance = 2.1f;
 		//Moving Parameters
-		public float MaxPostionX = 3;
+	    public float BorderPosition = 5;
 		public float BackSpeed = -0.3f;
+	    public float MaxXPosition;
+	    public float BackPowerAcceleration;
 		//System Settings
 		public SHeroAnimator MyAnimator;
 		public HeroSounds HeroSoundsCollection;
@@ -161,9 +163,9 @@ namespace Assets.Script.GamePlay.Participators
 		{
 			if (CanMoveAndGrounded())
 			{
-			    if (!_isMove && transform.position.x < MaxPostionX)
+			    if (!_isMove &&!_isSlide)
 			    {
-			        Body.AddForce(Vector2.right * 3, ForceMode2D.Impulse);
+			        Body.AddForce((Vector2.right * 3)/GetSpeedAcceleration(), ForceMode2D.Impulse);
 			        _isMove = true;
 			    }
 			}
@@ -174,9 +176,11 @@ namespace Assets.Script.GamePlay.Participators
 		{
 			if (!_isFrozen)
 			{
-				if (Body.velocity.x > BackSpeed && Body.velocity.x < 0.5 &&_isGrounded)
+
+			    float speedAcceleartion = GetSpeedAcceleration();
+                if (Body.velocity.x > BackSpeed*(speedAcceleartion) && Body.velocity.x < 0.5 &&_isGrounded&&!_isSlide)
 				{
-					Body.AddForce(Vector2.left / 5, ForceMode2D.Impulse);
+				    Body.AddForce((Vector2.left/5), ForceMode2D.Impulse);
 					_isMove = false;
 				}
 //			    if (transform.position.y > HighestPoint)
@@ -199,8 +203,13 @@ namespace Assets.Script.GamePlay.Participators
 			}
 		}
 
+	    private float GetSpeedAcceleration()
+	    {
+	        return transform.position.x > 0 ? (1 + ((transform.position.x/MaxXPosition)*BackPowerAcceleration)) : 1;
+	    }
 
-		private void MadeStandColider()
+
+	    private void MadeStandColider()
 		{
 			_standCollide.enabled = true;
 			_slideCollide.enabled = false;
