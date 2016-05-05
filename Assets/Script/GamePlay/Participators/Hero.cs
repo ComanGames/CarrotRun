@@ -35,6 +35,7 @@ namespace Assets.Script.GamePlay.Participators
 	    public float RaysCount = 3;
 	    public float RaysLength = 3;
 	    public float RayDistance = 2;
+        public Vector2 RayOffset = new Vector2(2,1);
 		//System Settings
 		public SHeroAnimator MyAnimator;
 		public HeroSounds HeroSoundsCollection;
@@ -111,10 +112,11 @@ namespace Assets.Script.GamePlay.Participators
 	    private bool IsBlockAbove()
 	    {
 	        bool isBlockAbove = false;
-	        Vector2 startPosition =  ((Vector2) transform.position) - new Vector2(((RaysCount-1)*RayDistance/2),0);
+	        Vector2 startPosition =  ((Vector2) transform.position) - new Vector2(((RaysCount-1)*RayDistance/2),0)+ RayOffset;
 	        for (int i = 0; i < RaysCount; i++)
 	        {
 	            RaycastHit2D raycastHit = Physics2D.Raycast(startPosition + new Vector2(RayDistance*i,0), Vector2.up,RayDistance,BlockLayer);
+                Debug.DrawRay(startPosition+new Vector2(RayDistance*i,0),Vector2.up*RayDistance,Color.black,100);
 	            if (raycastHit.collider != null)
 	                isBlockAbove = true;
 	        }
@@ -148,8 +150,10 @@ namespace Assets.Script.GamePlay.Participators
 			}
 		    while (IsBlockAbove())
 		    {
+                Debug.Log("We have block above");
                 yield return 0;
             }
+            Debug.Log("We don't have block above");
             OverSlide();
 
 		}
@@ -170,14 +174,18 @@ namespace Assets.Script.GamePlay.Participators
 		{
 			if (CanMoveAndGrounded())
 			{
-				Body.velocity = Vector2.zero;
-				Vector2 distanceForward = ((Vector2.right * JumpDistance) / Time.timeScale);
-				Body.AddForce(Vector2.up * JumpPower + distanceForward, ForceMode2D.Impulse);
-				PlayJumpSound();
-				MyAnimator.UpJump();
-				_isGrounded = false;
-				if (_isSlide)
-					_isSlide = false;
+                if(_isSlide)
+                {
+                    if (IsBlockAbove())
+                        return;
+                    _isSlide = false;
+                }
+			    Body.velocity = Vector2.zero;
+			    Vector2 distanceForward = ((Vector2.right * JumpDistance) / Time.timeScale);
+			    Body.AddForce(Vector2.up * JumpPower + distanceForward, ForceMode2D.Impulse);
+			    PlayJumpSound();
+			    MyAnimator.UpJump();
+			    _isGrounded = false;
 			}
 		}
 
@@ -200,10 +208,10 @@ namespace Assets.Script.GamePlay.Participators
 			{
 
 			    float speedAcceleartion = GetSpeedAcceleration();
-                if (Body.velocity.x > BackSpeed*(speedAcceleartion) && Body.velocity.x < 0.5 &&_isGrounded&&!_isSlide)
+                if (Body.velocity.x > BackSpeed*(speedAcceleartion) && Body.velocity.x < 1 &&_isGrounded)
 				{
-				    Body.AddForce((Vector2.left/5), ForceMode2D.Impulse);
-					_isMove = false;
+				        Body.AddForce((Vector2.left/5), ForceMode2D.Impulse);
+				        _isMove = false;
 				}
 //			    if (transform.position.y > HighestPoint)
 //			    {
