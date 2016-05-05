@@ -30,6 +30,11 @@ namespace Assets.Script.GamePlay.Participators
 		public float BackSpeed = -0.3f;
 	    public float MaxXPosition;
 	    public float BackPowerAcceleration;
+        //Block Above checking 
+	    public LayerMask BlockLayer = 1<<8;
+	    public float RaysCount = 3;
+	    public float RaysLength = 3;
+	    public float RayDistance = 2;
 		//System Settings
 		public SHeroAnimator MyAnimator;
 		public HeroSounds HeroSoundsCollection;
@@ -98,12 +103,25 @@ namespace Assets.Script.GamePlay.Participators
 				MyAnimator.EndSlide();
 				_isSlide = false;
 				MadeStandColider();
-			}
 			if (_slideAfterGrounded)
 				_slideAfterGrounded = false;
+			}
 		}
 
-		private void DoSlideDown()
+	    private bool IsBlockAbove()
+	    {
+	        bool isBlockAbove = false;
+	        Vector2 startPosition =  ((Vector2) transform.position) - new Vector2(((RaysCount-1)*RayDistance/2),0);
+	        for (int i = 0; i < RaysCount; i++)
+	        {
+	            RaycastHit2D raycastHit = Physics2D.Raycast(startPosition + new Vector2(RayDistance*i,0), Vector2.up,RayDistance,BlockLayer);
+	            if (raycastHit.collider != null)
+	                isBlockAbove = true;
+	        }
+	        return isBlockAbove;
+	    }
+
+	    private void DoSlideDown()
 		{
 			if (CanMove() && !_isSlide)
 			{
@@ -128,7 +146,11 @@ namespace Assets.Script.GamePlay.Participators
 					_slideTime -= Time.deltaTime*Time.timeScale;
 				yield return 0;
 			}
-			OverSlide();
+		    while (IsBlockAbove())
+		    {
+                yield return 0;
+            }
+            OverSlide();
 
 		}
 
