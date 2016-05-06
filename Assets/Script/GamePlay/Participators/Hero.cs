@@ -208,17 +208,29 @@ namespace Assets.Script.GamePlay.Participators
 			{
 
 			    float speedAcceleartion = GetSpeedAcceleration();
-                if (Body.velocity.x > BackSpeed*(speedAcceleartion) && Body.velocity.x < 1 &&_isGrounded)
-				{
-				        Body.AddForce((Vector2.left/5), ForceMode2D.Impulse);
-				        _isMove = false;
-				}
-//			    if (transform.position.y > HighestPoint)
-//			    {
-//			        Body.velocity = Vector2.Lerp(Body.velocity, Vector2.down, 0.1f);
-//			        MyAnimator.DownJump();
-//			    }
-				if (!_isGrounded && Mathf.Abs(Body.velocity.y) < 0.01f && _prevVelocity < 0 && !_isSlide)
+                if(_isGrounded)
+                {
+                    if (Body.velocity.x > BackSpeed*(speedAcceleartion) && Body.velocity.x < 1 )
+                    {
+                        Body.AddForce((Vector2.left/5), ForceMode2D.Impulse);
+                        _isMove = false;
+                    }
+                    
+                }
+                else
+                {
+                    if (Body.velocity.x > BackSpeed * (speedAcceleartion/50) && Body.velocity.x < 1)
+                    {
+                        Body.AddForce((Vector2.left / 50), ForceMode2D.Impulse);
+                        _isMove = false;
+                    }
+                }
+                //			    if (transform.position.y > HighestPoint)
+                //			    {
+                //			        Body.velocity = Vector2.Lerp(Body.velocity, Vector2.down, 0.1f);
+                //			        MyAnimator.DownJump();
+                //			    }
+                if (!_isGrounded && Mathf.Abs(Body.velocity.y) < 0.01f && _prevVelocity < 0 && !_isSlide)
 				{
 					_isGrounded = true;
 					if (_slideAfterGrounded)
