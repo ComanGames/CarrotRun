@@ -1,6 +1,9 @@
 #if UNITY_EDITOR
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using Assets.Script.GamePlay;
+using Assets.Script.GamePlay.PoolUtilities;
 using UnityEditor;
 using UnityEngine;
 
@@ -10,6 +13,23 @@ namespace Assets.Script.SAnimation.Bakers
     {
         private static readonly string BakeFileName = "Bake.asset";
 
+        public static ProblemInfo SerializeProblem(ProblemContainer problem)
+        {
+            ProblemInfo problemInfo = ScriptableObject.CreateInstance<ProblemInfo>();
+            List<BlockInfo> listOfBlockInfos = new List<BlockInfo>();
+            for (int i = 0; i < problem.transform.childCount; i++)
+            {
+                BlockInfo bi = BlockInfo.InfoOfBlock(problem.transform.GetChild(i).gameObject);
+                listOfBlockInfos.Add(bi);
+            }
+            problemInfo.ProblemBlocks = listOfBlockInfos.ToArray();
+            string folderName = @"Assets/Problems/";
+            AssetDatabase.CreateAsset(problemInfo, folderName +problem.gameObject.name+".asset");
+            AssetDatabase.SaveAssets();
+            EditorUtility.FocusProjectWindow();
+            Selection.activeObject = problemInfo;
+            return problemInfo;
+        }
 	    public static CLLContainer SerialazingAnimation(Sprite[] spritesArr)
 	    {
 			if(spritesArr==null||spritesArr.Length<1)

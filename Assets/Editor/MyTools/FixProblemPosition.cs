@@ -2,14 +2,13 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Assets.Script.MyTools
+namespace Assets.Editor.MyTools
 {
     public class FixProblemPosition
     {
-
         public const float TopDistance = -0.03396f;
         public const float CoinPosition = 4.3f;
-        [MenuItem("MyTools/FixCoins")]
+        [MenuItem("MyTools/Fix Coins")]
         public static void FixingCoins()
         {
             Transform[] transforms = Selection.transforms;
@@ -32,7 +31,7 @@ namespace Assets.Script.MyTools
         }
 
 
-        [MenuItem("MyTools/FixProblem")]
+        [MenuItem("MyTools/Fix Problem")]
         public static void FixingPosition()
         {
             Transform[] transforms = Selection.transforms;

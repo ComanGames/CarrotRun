@@ -13,7 +13,6 @@ namespace Assets.Script.GamePlay
 	    public int CountOfPromelems=10;
 	    public float DistanceProblems;
 	    public float ProblemRotationZ=358;
-	    public float StartOffset = 5;
 	    public GameObject[] GroundBlocks;
 	    private LinkedList<ProblemContainer> _movableProblems;
 	    private LinkedList<GameObject> _movableBlocks;
@@ -38,7 +37,6 @@ namespace Assets.Script.GamePlay
 		{
 			#region  Variables
 			public GameObject GroundPrefab;
-			public int CountOfGround;
 			public List<Level> Blocks;
             [HideInInspector]
 			public int N;
@@ -67,12 +65,8 @@ namespace Assets.Script.GamePlay
 	        ProblemContainer firstProblemContainer = GetRandomProblem();
 	        firstProblemContainer.transform.position = new Vector3(StartPosition.position.x, StartPosition.position.y, 0);
 	        _movableProblems.AddFirst(firstProblemContainer);
-	        for (int i = 0; i < CountOfPromelems; i++)
+	        for (int i = 0; i < CountOfPromelems-1; i++)
                 CreateProblem();
-//	        foreach (ProblemContainer problem in _movableProblems)
-//	        {
-//	            problem.transform.Translate(StartOffset,0,0);
-//	        }
 	    }
 
 	    private void CreateGround()
@@ -96,8 +90,8 @@ namespace Assets.Script.GamePlay
 				if (plank != null)
 				{
 					plank.transform.position = position;
-					plank.transform.parent = GroundPool.transform;
-					planks[i] = plank;
+				    if (GroundPool != null) plank.transform.parent = GroundPool.transform;
+				    planks[i] = plank;
 				}
 			}
 			foreach (GameObject t in planks)

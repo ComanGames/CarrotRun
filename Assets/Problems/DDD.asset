@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e39138668f9ebe459cde4a550805540, type: 3}
+  m_Name: DDD
+  m_EditorClassIdentifier: 
+  ProblemBlocks:
+  - TypeOfBlock: 2
+    Position: {x: 0, y: 0}
+  - TypeOfBlock: 2
+    Position: {x: 6, y: -0.20376}
+  - TypeOfBlock: 0
+    Position: {x: 6, y: -0.20376}
+  - TypeOfBlock: 2
+    Position: {x: 12, y: -0.40752}

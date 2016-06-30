@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Ground
   - Border
+  - Coin
+  - Problem
+  - Flying Problem
+  - Flying Ground
   layers:
   - Default
   - TransparentFX
