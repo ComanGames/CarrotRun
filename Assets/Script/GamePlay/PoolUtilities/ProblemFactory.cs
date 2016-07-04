@@ -1,5 +1,5 @@
-﻿
-using System;
+﻿using System;
+using System.Collections.Generic;
 using Assets.Script.ObjectPool.Scripts;
 using UnityEngine;
 
@@ -12,24 +12,45 @@ namespace Assets.Script.GamePlay.PoolUtilities
         public GameObject Problem;
         public GameObject FlyingProblem;
         public GameObject FlyingGround;
+        public GameObject BackGroundProblem;
         public GameObject ProblemContiner;
         //private variables
-        public GameObject CreateProblem(ProblemInfo problemInfo)
+        public ProblemContainer CreateProblem(ProblemInfo problemInfo)
         {
-            GameObject result = ProblemContiner.Spawn(transform);
+            GameObject resultGameObject = ProblemContiner.Spawn(transform);
+            ProblemContainer result  = resultGameObject.GetComponent<ProblemContainer>();
             for (int i = 0; i < problemInfo.ProblemBlocks.Length; i++)
             {
-                GameObject newBlock = CreateBlock(problemInfo.ProblemBlocks[i],result.transform);
+                GameObject newBlock = CreateBlock(problemInfo.ProblemBlocks[i],resultGameObject.transform,i);
                 //Add the last as last
                 if (i == problemInfo.ProblemBlocks.Length - 1)
-                    result.GetComponent<ProblemContainer>().Last = newBlock.transform;
+                    result.Last = newBlock.transform;
             }
             return result;
         }
 
-        public GameObject CreateBlock(BlockInfo problemBlock, Transform parent)
+        public void DestroyProblem(Transform problem)
+        {
+            List<Transform> childrens = new List<Transform>();
+            foreach (Transform child in problem)
+            {
+                childrens.Add(child);
+            }
+            foreach (Transform child in childrens)
+            {
+                child.parent = child.root;
+                child.Recycle();
+            }
+            problem.Recycle();
+        }
+        private GameObject CreateBlock(BlockInfo problemBlock, Transform parent,int index)
         {
            GameObject newBlock  = BlockInstance(problemBlock).Spawn(parent);
+            //fix for ground blocks
+            if (problemBlock.TypeOfBlock == BlockType.FlyingGround)
+            {
+                newBlock.GetComponentInChildren<SpriteRenderer>().sortingOrder = index;
+            }
             newBlock.transform.localPosition = problemBlock.Position;
             return newBlock;
         }
@@ -46,6 +67,8 @@ namespace Assets.Script.GamePlay.PoolUtilities
                     return FlyingProblem;
                     case BlockType.FlyingGround:
                     return FlyingGround;
+                    case BlockType.BackGroundProblem:
+                    return BackGroundProblem;
             }
             throw new ArgumentException();
         }

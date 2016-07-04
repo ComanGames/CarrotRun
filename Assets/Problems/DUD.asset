@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Name: DUD
   m_EditorClassIdentifier: 
   ProblemBlocks:
-  - TypeOfBlock: 0
-    Position: {x: 14, y: -0.47544}
   - TypeOfBlock: 2
     Position: {x: 0, y: -0}
   - TypeOfBlock: 3
     Position: {x: 6.5, y: -0.22073999}
   - TypeOfBlock: 2
+    Position: {x: 14, y: -0.47544}
+  - TypeOfBlock: 0
     Position: {x: 14, y: -0.47544}

@@ -9,6 +9,7 @@ namespace Assets.Script.GamePlay.PoolUtilities
        FlyingCoin,
        Problem,
        FlyingProblem,
+       BackGroundProblem,
        FlyingGround 
     }
 }

@@ -14,9 +14,9 @@ MonoBehaviour:
   ProblemBlocks:
   - TypeOfBlock: 3
     Position: {x: 0, y: 0}
-  - TypeOfBlock: 0
-    Position: {x: 5, y: -0.1698}
   - TypeOfBlock: 2
+    Position: {x: 5, y: -0.1698}
+  - TypeOfBlock: 0
     Position: {x: 5, y: -0.1698}
   - TypeOfBlock: 3
     Position: {x: 12, y: -0.40752}

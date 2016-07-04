@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Name: 3BP3B
   m_EditorClassIdentifier: 
   ProblemBlocks:
+  - TypeOfBlock: 5
+    Position: {x: 0, y: 0}
+  - TypeOfBlock: 5
+    Position: {x: 1.27, y: -0.0431292}
+  - TypeOfBlock: 5
+    Position: {x: 2.54, y: -0.0862584}
   - TypeOfBlock: 0
     Position: {x: 4.52, y: -0.1534992}
-  - TypeOfBlock: 4
-    Position: {x: 0, y: 0}
-  - TypeOfBlock: 4
-    Position: {x: 1.27, y: -0.0431292}
-  - TypeOfBlock: 4
-    Position: {x: 2.54, y: -0.0862584}
-  - TypeOfBlock: 4
-    Position: {x: 7.05, y: -0.239418}
-  - TypeOfBlock: 4
-    Position: {x: 8.32, y: -0.28254718}
-  - TypeOfBlock: 4
-    Position: {x: 9.59, y: -0.3256764}
   - TypeOfBlock: 2
     Position: {x: 4.71, y: -0.1599516}
+  - TypeOfBlock: 5
+    Position: {x: 7.05, y: -0.239418}
+  - TypeOfBlock: 5
+    Position: {x: 8.32, y: -0.28254718}
+  - TypeOfBlock: 5
+    Position: {x: 9.59, y: -0.3256764}

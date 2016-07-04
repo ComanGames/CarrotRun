@@ -12,9 +12,7 @@ namespace Assets.Script.GamePlay
 	{
 		#region Variables
 	    public ProblemFactory ProblemFactoryInstance;
-	    public int CountOfPromelems=10;
 	    public float DistanceProblems;
-	    public float ProblemRotationZ=358;
 	    public GameObject[] GroundBlocks;
 	    private LinkedList<ProblemContainer> _movableProblems;
 	    private LinkedList<GameObject> _movableBlocks;
@@ -32,13 +30,12 @@ namespace Assets.Script.GamePlay
 		private int _orderOfPlank;
 		public int MaxOrderValue = 10000;
 		public float Speed;
+	    public float StartOffsetX;
 		private int _reSpawnCount;
-
 		[Serializable]
 		public class BlockPrefabs
 		{
 			#region  Variables
-			public GameObject GroundPrefab;
 			public List<Level> Blocks;
             [HideInInspector]
 			public int N;
@@ -55,19 +52,26 @@ namespace Assets.Script.GamePlay
 		public void Creator()
 		{
 		    _normalizedDirection =  new Vector3(1,DistanceBetweenBlocks.y/DistanceBetweenBlocks.x);
-		    Debug.Log(_normalizedDirection.y);
 		    CreateGround();
 		    CreateProblems();
 		    SettingStartVeriables();
 		}
-
 	    private void CreateProblems()
 	    {
 	        _movableProblems = new LinkedList<ProblemContainer>();
-	        ProblemContainer firstProblemContainer = GetRandomProblem();
-	        firstProblemContainer.transform.position = new Vector3(StartPosition.position.x, StartPosition.position.y, 0);
+            //Creating first problem
+	        ProblemContainer firstProblemContainer = CreateRandomProblem();
+
+            //Add first problem with offset
+	        firstProblemContainer.transform.position = new Vector3(StartPosition.position.x-StartOffsetX, StartPosition.position.y, 0);
 	        _movableProblems.AddFirst(firstProblemContainer);
-	        for (int i = 0; i < CountOfPromelems-1; i++)
+	        AddProblemsToFeatLenght();
+	    }
+
+	    private void AddProblemsToFeatLenght()
+	    {
+	        ProblemContainer lastProblem = _movableProblems.Last.Value;
+            if((lastProblem.transform.position.x+lastProblem.Length())<StartPosition.position.x)
                 CreateProblem();
 	    }
 
@@ -108,21 +112,22 @@ namespace Assets.Script.GamePlay
 		}
 
 
-	    private ProblemContainer GetRandomProblem()
+	    private ProblemContainer CreateRandomProblem()
 	    {
-	        return Gp.Blocks[Gp.N][_randome.Next(0, Gp.Blocks[Gp.N].Count)].Spawn();
+	        Level currentLevel= Gp.Blocks[Gp.N];
+	        int randomIndex = _randome.Next(0, currentLevel.Count);
+	        ProblemInfo problemInfo = currentLevel[randomIndex];
+	        return ProblemFactoryInstance.CreateProblem(problemInfo);
 	    }
 
 	    private void CreateProblem()
 	    {
-	        ProblemContainer problem = GetRandomProblem();
+	        ProblemContainer problem = CreateRandomProblem();
 	        ProblemContainer lastProblem = _movableProblems.Last.Value;
 	        float problemLength = lastProblem.Length();
 	        Vector3 distance = DistanceProblems*_normalizedDirection;
-	        Debug.Log(distance);
 	        Vector3 newLastPosition = (_normalizedDirection*problemLength) + lastProblem.transform.position + distance;
 	        problem.transform.position =newLastPosition;
-            problem.transform.Rotate(Vector3.forward,ProblemRotationZ);
 	        _movableProblems.AddLast(problem);
 	    }
 
@@ -134,16 +139,16 @@ namespace Assets.Script.GamePlay
 				o.transform.Translate(_nextPosition * Time.deltaTime);
 				if (o.transform.position.x < EndPosition.position.x)
 				{
-					o.Recycle();
+				    ProblemFactoryInstance.DestroyProblem(o.transform);
 					toRemove.Add(o);
 				}
 			}
-		    int toRemoveCount = toRemove.Count;
+            //Removing from the linked list
 			foreach (var o in toRemove)
 			    _movableProblems.Remove(o);
-		    for (int i = 0; i < toRemoveCount; i++)
-                CreateProblem();
 
+            //Add new problems if it's needed
+            AddProblemsToFeatLenght();
         }
 
         private void UpdateGroundBlocks()

@@ -10,6 +10,8 @@ TagManager:
   - Problem
   - Flying Problem
   - Flying Ground
+  - Flying Coin
+  - Back Ground Problem
   layers:
   - Default
   - TransparentFX
@@ -50,8 +52,14 @@ TagManager:
   - name: BackGround
     uniqueID: 1799352945
     locked: 0
-  - name: Middle Ground
+  - name: Ground
     uniqueID: 2009677545
+    locked: 0
+  - name: Low Problem
+    uniqueID: 4279963365
+    locked: 0
+  - name: Flying Block
+    uniqueID: 3696415427
     locked: 0
   - name: PreHeroGround
     uniqueID: 1639082095

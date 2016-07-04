@@ -12,4 +12,22 @@ MonoBehaviour:
   m_Name: Bake
   m_EditorClassIdentifier: 
   Sprites:
-  - {fileID: 21300028, guid: 8b0f022c400d9ad43a7ce367adb03047, type: 3}
+  - {fileID: 21300000, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300002, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300004, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300006, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300008, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300010, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300012, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300014, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300016, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300018, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300020, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300022, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300024, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300026, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300028, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300030, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300032, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300034, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}
+  - {fileID: 21300036, guid: e9a8351ebc802bc48bcadc61bc1bdea9, type: 3}

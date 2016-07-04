@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: Bake
   m_EditorClassIdentifier: 
   Sprites:
-  - {fileID: 21300012, guid: a1182da032426694896cbcc20d273947, type: 3}
+  - {fileID: 21300018, guid: 68a89809c6a43b441b7589ec052462e7, type: 3}

@@ -22,6 +22,7 @@ namespace Assets.Script.SAnimation.Bakers
                 BlockInfo bi = BlockInfo.InfoOfBlock(problem.transform.GetChild(i).gameObject);
                 listOfBlockInfos.Add(bi);
             }
+            listOfBlockInfos.Sort((el1,el2)=>el1.Position.x.CompareTo(el2.Position.x));
             problemInfo.ProblemBlocks = listOfBlockInfos.ToArray();
             string folderName = @"Assets/Problems/";
             AssetDatabase.CreateAsset(problemInfo, folderName +problem.gameObject.name+".asset");

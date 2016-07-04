@@ -1,5 +1,5 @@
 using System;
-using UnityEngine;
+using Assets.Script.GamePlay.PoolUtilities;
 
 namespace Assets.Script.GamePlay.Data_Containers
 {
@@ -8,7 +8,7 @@ namespace Assets.Script.GamePlay.Data_Containers
     {
         #region  Variables
 
-        public ProblemContainer[] Items;
+        public ProblemInfo[] Items;
 
         #endregion
 
@@ -27,7 +27,7 @@ namespace Assets.Script.GamePlay.Data_Containers
 
         #endregion
 
-        public ProblemContainer this[int index]
+        public ProblemInfo this[int index]
         {
             get { return Items[index]; }
             set { Items[index] = value; }

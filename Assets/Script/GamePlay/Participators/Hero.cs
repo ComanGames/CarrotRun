@@ -150,10 +150,8 @@ namespace Assets.Script.GamePlay.Participators
 			}
 		    while (IsBlockAbove())
 		    {
-                Debug.Log("We have block above");
                 yield return 0;
             }
-            Debug.Log("We don't have block above");
             OverSlide();
 
 		}

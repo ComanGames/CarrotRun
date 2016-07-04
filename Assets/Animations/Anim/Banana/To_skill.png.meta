@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: ec020fc9a4fc86243ac1e58d4a3d3ae5
+timeCreated: 1467642489
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: To_skill_0
+    21300002: To_skill_1
+    21300004: To_skill_2
+    21300006: To_skill_3
+    21300008: To_skill_4
+    21300010: To_skill_5
+    21300012: To_skill_6
+    21300014: To_skill_7
+    21300016: To_skill_8
+    21300018: To_skill_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: To_skill_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 252
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 167}
+        - {x: -54, y: 69}
+        - {x: -46, y: 39}
+        - {x: 101, y: 39}
+        - {x: 101, y: 249}
+        - {x: 15, y: 249}
+        - {x: -24, y: 240}
+    - name: To_skill_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 608
+        width: 252
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 248}
+        - {x: -16, y: 239}
+        - {x: -53, y: 149}
+        - {x: -53, y: 139}
+        - {x: -51, y: 134}
+        - {x: -41, y: 48}
+        - {x: 93, y: 48}
+        - {x: 102, y: 60}
+        - {x: 102, y: 228}
+        - {x: 92, y: 248}
+    - name: To_skill_2
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 608
+        width: 252
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103, y: 122}
+        - {x: 96, y: 129}
+        - {x: 80, y: 138}
+        - {x: 57, y: 167}
+        - {x: 79, y: 229}
+        - {x: 64, y: 246}
+        - {x: 46, y: 246}
+        - {x: 5, y: 230}
+        - {x: -16, y: 209}
+        - {x: -52, y: 157}
+        - {x: -52, y: 118}
+        - {x: -34, y: 58}
+        - {x: 21, y: 58}
+        - {x: 58, y: 67}
+        - {x: 104, y: 102}
+        - {x: 104, y: 120}
+    - name: To_skill_3
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 608
+        width: 252
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 242}
+        - {x: -10, y: 239}
+        - {x: -50, y: 171}
+        - {x: -50, y: 113}
+        - {x: -23, y: 66}
+        - {x: 106, y: 66}
+        - {x: 106, y: 242}
+    - name: To_skill_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 252
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 240}
+        - {x: -48, y: 196}
+        - {x: -48, y: 155}
+        - {x: -46, y: 153}
+        - {x: -38, y: 155}
+        - {x: -19, y: 76}
+        - {x: -12, y: 67}
+        - {x: 106, y: 67}
+        - {x: 106, y: 174}
+        - {x: 69, y: 240}
+    - name: To_skill_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 304
+        width: 252
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 244}
+        - {x: -3, y: 237}
+        - {x: -46, y: 186}
+        - {x: -46, y: 156}
+        - {x: -44, y: 155}
+        - {x: -39, y: 154}
+        - {x: -28, y: 99}
+        - {x: -24, y: 86}
+        - {x: -14, y: 71}
+        - {x: -3, y: 69}
+        - {x: -1, y: 73}
+        - {x: 53, y: 55}
+        - {x: 87, y: 55}
+        - {x: 103, y: 60}
+        - {x: 103, y: 116}
+        - {x: 71, y: 244}
+    - name: To_skill_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 304
+        width: 252
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 172}
+        - {x: 38, y: 258}
+        - {x: 4, y: 258}
+        - {x: -44, y: 206}
+        - {x: -44, y: 157}
+        - {x: -42, y: 153}
+        - {x: -33, y: 157}
+        - {x: -33, y: 177}
+        - {x: -27, y: 135}
+        - {x: -40, y: 73}
+        - {x: 42, y: 45}
+        - {x: 64, y: 45}
+        - {x: 94, y: 50}
+        - {x: 95, y: 52}
+        - {x: 95, y: 67}
+        - {x: 86, y: 78}
+    - name: To_skill_7
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 304
+        width: 252
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 275}
+        - {x: -45, y: 201}
+        - {x: -45, y: 162}
+        - {x: -44, y: 156}
+        - {x: -35, y: 152}
+        - {x: -33, y: 157}
+        - {x: -45, y: 97}
+        - {x: -45, y: 63}
+        - {x: 25, y: 37}
+        - {x: 66, y: 37}
+        - {x: 82, y: 40}
+        - {x: 84, y: 44}
+        - {x: 84, y: 89}
+        - {x: 49, y: 275}
+    - name: To_skill_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 252
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 184}
+        - {x: 29, y: 286}
+        - {x: -5, y: 286}
+        - {x: -52, y: 194}
+        - {x: -41, y: 149}
+        - {x: -30, y: 148}
+        - {x: -54, y: 102}
+        - {x: -54, y: 60}
+        - {x: 4, y: 33}
+        - {x: 71, y: 33}
+        - {x: 76, y: 36}
+        - {x: 76, y: 56}
+        - {x: 71, y: 68}
+    - name: To_skill_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 252
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 289}
+        - {x: -57, y: 225}
+        - {x: -57, y: 172}
+        - {x: -39, y: 149}
+        - {x: -34, y: 153}
+        - {x: -30, y: 157}
+        - {x: -57, y: 92}
+        - {x: -57, y: 53}
+        - {x: 15, y: 31}
+        - {x: 73, y: 31}
+        - {x: 73, y: 100}
+        - {x: 34, y: 289}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

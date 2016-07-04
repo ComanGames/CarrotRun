@@ -14,15 +14,15 @@ MonoBehaviour:
   ProblemBlocks:
   - TypeOfBlock: 0
     Position: {x: -0.03, y: 0.0010188}
+  - TypeOfBlock: 5
+    Position: {x: 0, y: 0}
+  - TypeOfBlock: 5
+    Position: {x: 1.27, y: -0.0431292}
+  - TypeOfBlock: 5
+    Position: {x: 2.54, y: -0.0862584}
+  - TypeOfBlock: 5
+    Position: {x: 3.8, y: -0.12904799}
   - TypeOfBlock: 0
     Position: {x: 5.02, y: -0.1704792}
-  - TypeOfBlock: 4
-    Position: {x: 0, y: 0}
-  - TypeOfBlock: 4
-    Position: {x: 1.27, y: -0.0431292}
-  - TypeOfBlock: 4
-    Position: {x: 2.54, y: -0.0862584}
-  - TypeOfBlock: 4
-    Position: {x: 3.8, y: -0.12904799}
-  - TypeOfBlock: 4
+  - TypeOfBlock: 5
     Position: {x: 5.06, y: -0.1718376}
