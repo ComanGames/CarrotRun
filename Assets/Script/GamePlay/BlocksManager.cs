@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Assets.Script.GamePlay.Data_Containers;
+using Assets.Script.GamePlay.PoolUtilities;
 using Assets.Script.ObjectPool;
 using UnityEngine;
 using Random = System.Random;
@@ -10,6 +11,7 @@ namespace Assets.Script.GamePlay
 	public class BlocksManager : MonoBehaviour
 	{
 		#region Variables
+	    public ProblemFactory ProblemFactoryInstance;
 	    public int CountOfPromelems=10;
 	    public float DistanceProblems;
 	    public float ProblemRotationZ=358;
