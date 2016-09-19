@@ -29,6 +29,18 @@ namespace Assets.Script.GamePlay
 
         #region Methods
 
+        public void EnableSkillBlur()
+        {
+                _managerUserInterface.SkillBlur.enabled = true;
+            _managerUserInterface.SkillVignette.enabled = true;
+
+        }
+        public void DisableSkillBlur()
+        {
+                _managerUserInterface.SkillBlur.enabled = false;
+            _managerUserInterface.SkillVignette.enabled = false;
+
+        }
         public void Awake()
         {
             if (Instance == null || Instance != this)

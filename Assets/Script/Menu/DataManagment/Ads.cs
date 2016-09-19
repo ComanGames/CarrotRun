@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Advertisements;
 
 namespace Assets.Script.DataManagment
@@ -38,13 +39,39 @@ namespace Assets.Script.DataManagment
 			}
 		}
 
+	    private Action _onAdEnd;
+		public void ShowAds(Action onEnd)
+		{
+		    _onAdEnd = onEnd;
+            ShowAds();
+		}
 		public void ShowAds()
 		{
 			if (Advertisement.IsReady())
 			{
-				Advertisement.Show();
+                ShowOptions showOptions = new ShowOptions();
+			    showOptions.resultCallback = HandleShowResult;
+				Advertisement.Show(null,showOptions);
 			}
-			
 		}
-	}
+        private void HandleShowResult(ShowResult result)
+        {
+            switch (result)
+            {
+                case ShowResult.Finished:
+                    if (_onAdEnd!=null)
+                    {
+                        _onAdEnd();
+                        _onAdEnd = null;
+                    }
+                    break;
+                case ShowResult.Skipped:
+                    Debug.LogWarning("Video was skipped.");
+                    break;
+                case ShowResult.Failed:
+                    Debug.LogError("Video failed to show.");
+                    break;
+            }
+        }
+    }
 }

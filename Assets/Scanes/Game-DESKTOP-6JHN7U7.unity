@@ -223,7 +223,7 @@ RectTransform:
   - {fileID: 1871332764}
   - {fileID: 783381714}
   m_Father: {fileID: 1093606615}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0.8373095}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 5}
@@ -468,6 +468,8 @@ GameObject:
   - 114: {fileID: 94487023}
   - 114: {fileID: 94487025}
   - 114: {fileID: 94487024}
+  - 114: {fileID: 94487026}
+  - 114: {fileID: 94487027}
   m_Layer: 0
   m_Name: Camer Game Manager
   m_TagString: GameController
@@ -593,8 +595,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   downsample: 1
-  blurSize: 1.2
-  blurIterations: 2
+  blurSize: 3.31
+  blurIterations: 1
   blurType: 0
   blurShader: {fileID: 4800000, guid: f9d5fa183cd6b45eeb1491f74863cd91, type: 3}
 --- !u!114 &94487024
@@ -624,6 +626,43 @@ MonoBehaviour:
   ManagerBlocks: {fileID: 318643330}
   ManagerUserInterface: {fileID: 1093606619}
   Character: {fileID: 2008276202}
+--- !u!114 &94487026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 94487016}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6d4281e5d7cd44d8c6e38bc2c1b8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 0
+  intensity: 0.375
+  chromaticAberration: 17.94
+  axialAberration: 1.53
+  blur: 0.401
+  blurSpread: 1
+  luminanceDependency: 0.25
+  blurDistance: 2.5
+  vignetteShader: {fileID: 4800000, guid: 627943dc7a9a74286b70a4f694a0acd5, type: 3}
+  separableBlurShader: {fileID: 4800000, guid: e97c14fbb5ea04c3a902cc533d7fc5d1, type: 3}
+  chromAberrationShader: {fileID: 4800000, guid: 2b4f29398d9484ccfa9fd220449f5eee,
+    type: 3}
+--- !u!114 &94487027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 94487016}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478a2083ad114a07d000fbfb8d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: e9ba2083ad114a07d000fbfb8d76c639, type: 3}
+  blurAmount: 0.578
+  extraBlur: 1
 --- !u!1 &96679961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1914,6 +1953,7 @@ GameObject:
   - 222: {fileID: 323226563}
   - 114: {fileID: 323226562}
   - 114: {fileID: 323226565}
+  - 114: {fileID: 323226566}
   m_Layer: 5
   m_Name: Skilll Panel
   m_TagString: Untagged
@@ -1968,7 +2008,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1093606615}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.24363643, y: 0}
   m_AnchoredPosition: {x: -0.0000024558, y: 0.0890007}
@@ -1988,6 +2028,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AspectMode: 1
   m_AspectRatio: 2.29
+--- !u!114 &323226566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 323226561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 323226562}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2008276202}
+        m_MethodName: ActivateSkill
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &348959821
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,6 +2206,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435254, guid: 0c6686642bd0543409a20483f26febb5, type: 2}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419592, guid: 0c6686642bd0543409a20483f26febb5, type: 2}
+      propertyPath: AutoStart
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2303,7 +2399,7 @@ GameObject:
   - 114: {fileID: 471488929}
   - 114: {fileID: 471488931}
   - 114: {fileID: 471488932}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2339,7 +2435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.678}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.044}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4758,8 +4854,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 323226564}
   - {fileID: 59458111}
+  - {fileID: 323226564}
   - {fileID: 1354755146}
   - {fileID: 1361474425}
   - {fileID: 634669925}
@@ -4887,6 +4983,8 @@ MonoBehaviour:
   - {fileID: 2028966404}
   SkillBG: {fileID: 471488931}
   Blur: {fileID: 94487023}
+  SkillBlur: {fileID: 94487027}
+  SkillVignette: {fileID: 94487026}
   StartAnimationGame: {fileID: 1361474426}
   EndAnimationGame: {fileID: 2100130181}
   ScoreDoublingAnimaiton: {fileID: 1116226080}
@@ -6630,6 +6728,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11477624, guid: 0abbfa773cc7aa94199e68069e339a80, type: 2}
+      propertyPath: AutoStart
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0abbfa773cc7aa94199e68069e339a80, type: 2}
   m_IsPrefabParent: 0
@@ -6680,12 +6782,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 21201450, guid: c333a48cf6ecbc947aff228b8ec937f0, type: 2}
-      propertyPath: m_SortingLayerID
-      value: -598551869
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 11429014, guid: c333a48cf6ecbc947aff228b8ec937f0, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c333a48cf6ecbc947aff228b8ec937f0, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1427605056 stripped
@@ -7869,6 +7966,10 @@ Prefab:
     - target: {fileID: 432358, guid: 93e7c3f1510b1924db14894aff44297e, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11449056, guid: 93e7c3f1510b1924db14894aff44297e, type: 2}
+      propertyPath: AutoStart
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11432156, guid: 93e7c3f1510b1924db14894aff44297e, type: 2}

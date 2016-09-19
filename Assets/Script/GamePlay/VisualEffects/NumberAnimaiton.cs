@@ -19,7 +19,7 @@ namespace Assets.Script.GamePlay.VisualEffects
 		public void Start()
 		{
 			_text = GetComponent<Text>();
-            RunAnimation(Time,From,To);
+//            RunAnimation(Time,From,To);
 		}
 
 		public void RunAnimation(float time,int from, int to)

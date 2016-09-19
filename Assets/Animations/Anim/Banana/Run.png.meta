@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 24dcbad4b0a36b14ca6b4832276b2ffd
-timeCreated: 1467642413
+timeCreated: 1467718885
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -69,7 +69,7 @@ TextureImporter:
   textureType: 8
   buildTargetSettings:
   - buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     textureFormat: -3
     compressionQuality: 50
     allowsAlphaSplitting: 0
@@ -79,454 +79,437 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 912
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 528
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -85, y: 180}
-        - {x: -85, y: 49}
-        - {x: -79, y: 20}
-        - {x: 102, y: 20}
-        - {x: 102, y: 290}
-        - {x: 34, y: 290}
-        - {x: -22, y: 269}
+      - - {x: 60, y: -60}
+        - {x: 60, y: 4}
+        - {x: 41, y: 14}
+        - {x: 50, y: 72}
+        - {x: 42, y: 81}
+        - {x: 17, y: 81}
+        - {x: -41, y: 55}
+        - {x: -51, y: 14}
+        - {x: -51, y: -9}
+        - {x: -44, y: -8}
+        - {x: -42, y: -5}
+        - {x: -43, y: -73}
+        - {x: -35, y: -78}
+        - {x: -24, y: -78}
+        - {x: -20, y: -75}
+        - {x: -20, y: -71}
+        - {x: 21, y: -73}
+        - {x: 58, y: -70}
     - name: Run_1
       rect:
         serializedVersion: 2
-        x: 252
-        y: 912
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 145
+        y: 528
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 102, y: 151}
-        - {x: 101, y: 158}
-        - {x: 87, y: 278}
-        - {x: 59, y: 290}
-        - {x: 26, y: 290}
-        - {x: -54, y: 225}
-        - {x: -81, y: 170}
-        - {x: -81, y: 139}
-        - {x: -79, y: 135}
-        - {x: -70, y: 139}
-        - {x: -65, y: 152}
-        - {x: -81, y: 47}
-        - {x: -81, y: 34}
-        - {x: -61, y: 23}
-        - {x: -3, y: 23}
-        - {x: 68, y: 35}
-        - {x: 72, y: 48}
-        - {x: 102, y: 135}
+      - - {x: -11, y: -46}
+        - {x: -5, y: -48}
+        - {x: 2, y: -42}
+        - {x: 19, y: -66}
+        - {x: 41, y: -71}
+        - {x: 61, y: -58}
+        - {x: 61, y: 81}
+        - {x: 16, y: 81}
+        - {x: -11, y: 58}
+        - {x: -45, y: 30}
+        - {x: -47, y: 14}
+        - {x: -47, y: -53}
+        - {x: -46, y: -67}
+        - {x: -36, y: -74}
+        - {x: -34, y: -76}
+        - {x: -26, y: -76}
+        - {x: -22, y: -75}
+        - {x: -19, y: -50}
+        - {x: -18, y: -40}
+        - {x: -16, y: -44}
     - name: Run_2
       rect:
         serializedVersion: 2
-        x: 504
-        y: 912
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 290
+        y: 528
+        width: 145.79999
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -1, y: 291}
-        - {x: -84, y: 250}
-        - {x: -84, y: 27}
-        - {x: 53, y: 27}
-        - {x: 64, y: 29}
-        - {x: 100, y: 76}
-        - {x: 100, y: 291}
+      - - {x: -13, y: 82}
+        - {x: -48, y: 54}
+        - {x: -48, y: -73}
+        - {x: 58, y: -73}
+        - {x: 60, y: -64}
+        - {x: 60, y: 68}
+        - {x: 52, y: 82}
     - name: Run_3
       rect:
         serializedVersion: 2
-        x: 756
-        y: 912
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 435
+        y: 528
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 83, y: 293}
-        - {x: -47, y: 293}
-        - {x: -76, y: 252}
-        - {x: -91, y: 199}
-        - {x: -91, y: 23}
-        - {x: 62, y: 23}
-        - {x: 63, y: 32}
-        - {x: 96, y: 109}
-        - {x: 96, y: 277}
+      - - {x: 16, y: 83}
+        - {x: -48, y: 33}
+        - {x: -51, y: 19}
+        - {x: -51, y: -76}
+        - {x: 59, y: -76}
+        - {x: 59, y: 74}
+        - {x: 55, y: 83}
     - name: Run_4
       rect:
         serializedVersion: 2
-        x: 1008
-        y: 912
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 580
+        y: 528
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 62, y: 296}
-        - {x: 23, y: 296}
-        - {x: -69, y: 239}
-        - {x: -74, y: 207}
-        - {x: -97, y: 141}
-        - {x: -97, y: 30}
-        - {x: -52, y: 20}
-        - {x: 79, y: 20}
-        - {x: 92, y: 140}
-        - {x: 92, y: 202}
-        - {x: 79, y: 277}
+      - - {x: 48, y: 85}
+        - {x: -7, y: 85}
+        - {x: -54, y: 44}
+        - {x: -54, y: -68}
+        - {x: -51, y: -77}
+        - {x: 56, y: -77}
+        - {x: 57, y: -75}
+        - {x: 57, y: 71}
+        - {x: 53, y: 79}
     - name: Run_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 608
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 352
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 298}
-        - {x: -76, y: 224}
-        - {x: -76, y: 50}
-        - {x: -75, y: 41}
-        - {x: -30, y: 21}
-        - {x: 87, y: 21}
-        - {x: 87, y: 298}
+      - - {x: 23, y: 86}
+        - {x: 2, y: 86}
+        - {x: -45, y: 67}
+        - {x: -45, y: -77}
+        - {x: 32, y: -77}
+        - {x: 51, y: -43}
+        - {x: 51, y: 45}
+        - {x: 39, y: 82}
     - name: Run_6
       rect:
         serializedVersion: 2
-        x: 252
-        y: 608
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 145
+        y: 352
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 70, y: 289}
-        - {x: 38, y: 300}
-        - {x: 17, y: 300}
-        - {x: -80, y: 237}
-        - {x: -80, y: 160}
-        - {x: -57, y: 37}
-        - {x: -28, y: 26}
-        - {x: -26, y: 26}
-        - {x: -8, y: 55}
-        - {x: -9, y: 60}
-        - {x: -6, y: 70}
-        - {x: -9, y: 41}
-        - {x: -9, y: 33}
-        - {x: -5, y: 27}
-        - {x: -4, y: 26}
-        - {x: 32, y: 26}
-        - {x: 83, y: 143}
-        - {x: 83, y: 170}
-        - {x: 81, y: 172}
+      - - {x: 3, y: 87}
+        - {x: -46, y: 64}
+        - {x: -46, y: -72}
+        - {x: -40, y: -74}
+        - {x: 18, y: -74}
+        - {x: 19, y: -73}
+        - {x: 50, y: -35}
+        - {x: 50, y: 84}
+        - {x: 48, y: 87}
     - name: Run_7
       rect:
         serializedVersion: 2
-        x: 504
-        y: 608
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 290
+        y: 352
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 42, y: 301}
-        - {x: 0, y: 301}
-        - {x: -83, y: 226}
-        - {x: -83, y: 162}
-        - {x: -44, y: 42}
-        - {x: -33, y: 31}
-        - {x: 34, y: 31}
-        - {x: 80, y: 109}
-        - {x: 80, y: 199}
-        - {x: 56, y: 297}
+      - - {x: -2, y: 88}
+        - {x: -47, y: 49}
+        - {x: -47, y: 8}
+        - {x: -19, y: -71}
+        - {x: 43, y: -71}
+        - {x: 49, y: -40}
+        - {x: 49, y: 88}
     - name: Run_8
       rect:
         serializedVersion: 2
-        x: 756
-        y: 608
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 435
+        y: 352
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 47, y: 302}
-        - {x: 2, y: 302}
-        - {x: -76, y: 253}
-        - {x: -84, y: 243}
-        - {x: -84, y: 161}
-        - {x: -45, y: 30}
-        - {x: -41, y: 30}
-        - {x: -14, y: 36}
-        - {x: -12, y: 41}
-        - {x: -11, y: 45}
-        - {x: -15, y: 49}
-        - {x: -9, y: 67}
-        - {x: -11, y: 38}
-        - {x: -8, y: 33}
-        - {x: -4, y: 30}
-        - {x: 23, y: 30}
-        - {x: 31, y: 33}
-        - {x: 77, y: 89}
-        - {x: 77, y: 210}
-        - {x: 54, y: 296}
+      - - {x: -8, y: 88}
+        - {x: -48, y: 55}
+        - {x: -48, y: -1}
+        - {x: -27, y: -63}
+        - {x: -22, y: -70}
+        - {x: -10, y: -72}
+        - {x: 36, y: -72}
+        - {x: 48, y: -34}
+        - {x: 48, y: 45}
+        - {x: 32, y: 88}
     - name: Run_9
       rect:
         serializedVersion: 2
-        x: 1008
-        y: 608
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 580
+        y: 352
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 68, y: 149}
-        - {x: 77, y: 158}
-        - {x: 77, y: 206}
-        - {x: 76, y: 240}
-        - {x: 65, y: 303}
-        - {x: -79, y: 303}
-        - {x: -85, y: 299}
-        - {x: -85, y: 121}
-        - {x: -75, y: 33}
-        - {x: -35, y: 37}
-        - {x: -19, y: 44}
-        - {x: -21, y: 51}
-        - {x: 3, y: 31}
-        - {x: 13, y: 24}
-        - {x: 58, y: 24}
-        - {x: 30, y: 130}
-        - {x: 27, y: 138}
+      - - {x: 36, y: 88}
+        - {x: -9, y: 88}
+        - {x: -41, y: 62}
+        - {x: -47, y: 53}
+        - {x: -47, y: 7}
+        - {x: -31, y: -61}
+        - {x: -17, y: -66}
+        - {x: -11, y: -67}
+        - {x: -7, y: -58}
+        - {x: 4, y: -73}
+        - {x: 11, y: -75}
+        - {x: 24, y: -75}
+        - {x: 29, y: -70}
+        - {x: 48, y: -34}
+        - {x: 48, y: 67}
     - name: Run_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 304
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 176
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 61, y: 302}
-        - {x: -4, y: 302}
-        - {x: -62, y: 269}
-        - {x: -85, y: 250}
-        - {x: -85, y: 138}
-        - {x: -71, y: 64}
-        - {x: -49, y: 37}
-        - {x: -33, y: 43}
-        - {x: -28, y: 53}
-        - {x: 7, y: 24}
-        - {x: 12, y: 20}
-        - {x: 20, y: 20}
-        - {x: 38, y: 22}
-        - {x: 44, y: 34}
-        - {x: 77, y: 115}
-        - {x: 77, y: 230}
+      - - {x: 4, y: 88}
+        - {x: -51, y: 47}
+        - {x: -51, y: -10}
+        - {x: -38, y: -77}
+        - {x: 46, y: -77}
+        - {x: 46, y: 88}
     - name: Run_11
       rect:
         serializedVersion: 2
-        x: 252
-        y: 304
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 145
+        y: 176
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 62, y: 302}
-        - {x: -16, y: 302}
-        - {x: -83, y: 229}
-        - {x: -83, y: 50}
-        - {x: -11, y: 16}
-        - {x: 33, y: 16}
-        - {x: 35, y: 17}
-        - {x: 40, y: 28}
-        - {x: 79, y: 119}
-        - {x: 79, y: 269}
+      - - {x: -20, y: 88}
+        - {x: -48, y: 56}
+        - {x: -48, y: -41}
+        - {x: -37, y: -80}
+        - {x: -32, y: -80}
+        - {x: -22, y: -62}
+        - {x: -20, y: -54}
+        - {x: 3, y: -80}
+        - {x: 32, y: -80}
+        - {x: 47, y: -59}
+        - {x: 47, y: 66}
+        - {x: 31, y: 88}
     - name: Run_12
       rect:
         serializedVersion: 2
-        x: 504
-        y: 304
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 290
+        y: 176
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -12, y: 300}
-        - {x: -81, y: 237}
-        - {x: -81, y: 91}
-        - {x: -78, y: 77}
-        - {x: -25, y: 12}
-        - {x: -23, y: 11}
-        - {x: 82, y: 11}
-        - {x: 82, y: 300}
+      - - {x: 37, y: 87}
+        - {x: -5, y: 87}
+        - {x: -46, y: 40}
+        - {x: -46, y: -61}
+        - {x: -27, y: -72}
+        - {x: 2, y: -82}
+        - {x: 24, y: -82}
+        - {x: 24, y: -75}
+        - {x: 50, y: -27}
+        - {x: 50, y: 52}
     - name: Run_13
       rect:
         serializedVersion: 2
-        x: 756
-        y: 304
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 435
+        y: 176
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 81, y: 171}
-        - {x: 68, y: 287}
-        - {x: 58, y: 299}
-        - {x: 14, y: 299}
-        - {x: -38, y: 263}
-        - {x: -77, y: 227}
-        - {x: -77, y: 26}
-        - {x: -53, y: 6}
-        - {x: 28, y: 6}
-        - {x: 34, y: 17}
-        - {x: 85, y: 119}
-        - {x: 85, y: 166}
+      - - {x: -44, y: 86}
+        - {x: -44, y: -86}
+        - {x: 36, y: -86}
+        - {x: 53, y: -47}
+        - {x: 53, y: 86}
     - name: Run_14
       rect:
         serializedVersion: 2
-        x: 1008
-        y: 304
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 580
+        y: 176
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 4, y: 297}
-        - {x: -74, y: 261}
-        - {x: -74, y: 54}
-        - {x: -27, y: 0}
-        - {x: 25, y: 0}
-        - {x: 89, y: 69}
-        - {x: 89, y: 297}
+      - - {x: -41, y: 0}
+        - {x: -35, y: -42}
+        - {x: -27, y: -57}
+        - {x: -7, y: -85}
+        - {x: 2, y: -88}
+        - {x: 31, y: -88}
+        - {x: 56, y: -74}
+        - {x: 56, y: 85}
+        - {x: 16, y: 85}
+        - {x: -41, y: 62}
     - name: Run_15
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -70, y: 138}
-        - {x: -45, y: 39}
-        - {x: -43, y: 4}
-        - {x: 71, y: 4}
-        - {x: 94, y: 22}
-        - {x: 94, y: 262}
-        - {x: 77, y: 283}
-        - {x: 62, y: 295}
-        - {x: 13, y: 295}
-        - {x: -70, y: 224}
+      - - {x: 48, y: 79}
+        - {x: 33, y: 84}
+        - {x: 16, y: 84}
+        - {x: -42, y: 43}
+        - {x: -42, y: -29}
+        - {x: -38, y: -53}
+        - {x: -16, y: -87}
+        - {x: 8, y: -87}
+        - {x: 11, y: -80}
+        - {x: 55, y: -19}
+        - {x: 55, y: 49}
     - name: Run_16
       rect:
         serializedVersion: 2
-        x: 252
+        x: 145
         y: 0
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 97, y: 141}
-        - {x: 97, y: 270}
-        - {x: 84, y: 293}
-        - {x: -26, y: 293}
-        - {x: -69, y: 217}
-        - {x: -69, y: 125}
-        - {x: -35, y: 8}
-        - {x: 5, y: 8}
-        - {x: 24, y: 78}
-        - {x: 24, y: 85}
-        - {x: 89, y: 133}
+      - - {x: -38, y: 83}
+        - {x: -40, y: 63}
+        - {x: -40, y: -18}
+        - {x: -32, y: -16}
+        - {x: -27, y: -14}
+        - {x: -27, y: -11}
+        - {x: -28, y: -10}
+        - {x: -28, y: -5}
+        - {x: -29, y: 1}
+        - {x: -28, y: 11}
+        - {x: -28, y: -9}
+        - {x: -27, y: -10}
+        - {x: -27, y: -19}
+        - {x: -40, y: -37}
+        - {x: -40, y: -40}
+        - {x: -23, y: -84}
+        - {x: 35, y: -84}
+        - {x: 58, y: -58}
+        - {x: 58, y: 83}
     - name: Run_17
       rect:
         serializedVersion: 2
-        x: 504
+        x: 290
         y: 0
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 92, y: 282}
-        - {x: 59, y: 291}
-        - {x: 34, y: 291}
-        - {x: -15, y: 258}
-        - {x: -64, y: 209}
-        - {x: -74, y: 189}
-        - {x: -74, y: 136}
-        - {x: -73, y: 132}
-        - {x: -65, y: 134}
-        - {x: -62, y: 139}
-        - {x: -47, y: 29}
-        - {x: -42, y: 13}
-        - {x: -39, y: 12}
-        - {x: 2, y: 12}
-        - {x: 39, y: 16}
-        - {x: 100, y: 112}
-        - {x: 100, y: 157}
-        - {x: 95, y: 163}
+      - - {x: 18, y: 82}
+        - {x: -37, y: 52}
+        - {x: -42, y: 26}
+        - {x: -42, y: -33}
+        - {x: -26, y: -78}
+        - {x: -19, y: -82}
+        - {x: 52, y: -82}
+        - {x: 60, y: -81}
+        - {x: 60, y: 82}
     - name: Run_18
       rect:
         serializedVersion: 2
-        x: 756
+        x: 435
         y: 0
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -67, y: 290}
-        - {x: -82, y: 240}
-        - {x: -82, y: 64}
-        - {x: -56, y: 16}
-        - {x: -24, y: 16}
-        - {x: -20, y: 17}
-        - {x: 102, y: 42}
-        - {x: 102, y: 290}
+      - - {x: -13, y: 81}
+        - {x: -46, y: 32}
+        - {x: -46, y: -75}
+        - {x: -43, y: -80}
+        - {x: 15, y: -80}
+        - {x: 40, y: -72}
+        - {x: 62, y: -43}
+        - {x: 62, y: 81}
     - name: Run_19
       rect:
         serializedVersion: 2
-        x: 1008
+        x: 580
         y: 0
-        width: 252
-        height: 304
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 145.8
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -85, y: 180}
-        - {x: -85, y: 49}
-        - {x: -79, y: 20}
-        - {x: 102, y: 20}
-        - {x: 102, y: 290}
-        - {x: 34, y: 290}
-        - {x: -22, y: 269}
+      - - {x: 63, y: -7}
+        - {x: 63, y: -1}
+        - {x: 59, y: 4}
+        - {x: 48, y: 11}
+        - {x: 36, y: 17}
+        - {x: 52, y: 71}
+        - {x: 42, y: 81}
+        - {x: 20, y: 81}
+        - {x: -30, y: 48}
+        - {x: -47, y: 31}
+        - {x: -47, y: -78}
+        - {x: 48, y: -78}
+        - {x: 52, y: -64}
+        - {x: 31, y: -30}
+        - {x: 58, y: -16}
     outline: []
   spritePackingTag: 
   userData: 

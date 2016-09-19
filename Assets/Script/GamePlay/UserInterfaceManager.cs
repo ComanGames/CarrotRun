@@ -29,6 +29,9 @@ namespace Assets.Script.GamePlay
 	    public BlurOptimized Blur;
         public StartAnimation StartAnimationGame;
 	    public EndAnimation EndAnimationGame;
+        //Score and coin animation
+	    public NumberAnimaiton ScoreDoublingAnimaiton;
+	    public NumberAnimaiton CoinDoublingAnimation;
 		#endregion
 
 		#region Methods
@@ -164,11 +167,20 @@ namespace Assets.Script.GamePlay
 		}
 
 		#endregion
-
 	    public  void RunStartAnimation()
 	    {
             StartAnimationGame.RunAnimation();
 	    }
-	}
+
+	    public void AnimateFinalScore(int from, int to)
+	    {
+            ScoreDoublingAnimaiton.RunAnimation(2,from,to);
+	    }
+
+	    public void AnimateFinalCoins(int from, int to)
+	    {
+            CoinDoublingAnimation.RunAnimation(1, from, to);
+        }
+    }
 
 }
