@@ -34,7 +34,7 @@ namespace Assets.Script.Menu
 		public void EnableChangeName()
 		{
 			PlayerFiledName.text = GameData.Instance.CurrentGameinfo.CurrentName;
-			NamePanel.SetActive(true);
+		    NamePanel.SetActive(true);
 		}
 
 		private void SetInfoPannel()

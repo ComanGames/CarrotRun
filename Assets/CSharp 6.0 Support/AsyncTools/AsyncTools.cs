@@ -14,7 +14,6 @@ public static class AsyncTools
 	private static readonly Awaiter fixedAwaiter = new SynchronizationContextAwaiter(UnityScheduler.FixedUpdateScheduler.Context);
 	private static readonly Awaiter lateUpdateAwaiter = new SynchronizationContextAwaiter(UnityScheduler.LateUpdateScheduler.Context);
 	private static readonly Awaiter threadPoolAwaiter = new ThreadPoolContextAwaiter();
-	private static readonly Awaiter doNothingAwaiter = new DoNothingAwaiter();
 
 	public static void WhereAmI(string text)
 	{
@@ -36,56 +35,27 @@ public static class AsyncTools
 
 	/// <summary>
 	/// Switches execution to a background thread.
-	/// <code>
-	/// 
-	/// // stuff to do in the main thread
-	/// await AsyncTools.ToThreadPool();
-	/// // stuff to do in a background thead
-	/// </code>
 	/// </summary>
-	public static Awaiter ToThreadPool()
-	{
-		return IsMainThread() ? threadPoolAwaiter : doNothingAwaiter;
-	}
+	public static Awaiter ToThreadPool() => threadPoolAwaiter;
 
 	/// <summary>
 	/// Switches execution to the Update context of the main thread.
-	/// <code>
-	/// 
-	/// await AsyncTools.ToMainThread();
-	/// // stuff to do in the main thread
-	/// </code>
 	/// </summary>
 	[Obsolete("Use ToUpdate(), ToLateUpdate() or ToFixedUpdate() instead.")]
 	public static Awaiter ToMainThread() => updateAwaiter;
 
 	/// <summary>
 	/// Switches execution to the Update context of the main thread.
-	/// <code>
-	/// 
-	/// await AsyncTools.ToUpdate();
-	/// // stuff to do in the Update context of the main thread
-	/// </code>
 	/// </summary>
 	public static Awaiter ToUpdate() => updateAwaiter;
 
 	/// <summary>
 	/// Switches execution to the LateUpdate context of the main thread.
-	/// <code>
-	/// 
-	/// await AsyncTools.ToLateUpdate();
-	/// // stuff to do in the LateUpdate context of the main thread
-	/// </code>
 	/// </summary>
 	public static Awaiter ToLateUpdate() => lateUpdateAwaiter;
 
 	/// <summary>
 	/// Switches execution to the FixedUpdate context of the main thread.
-	/// <code>
-	/// 
-	/// await AsyncTools.ToFixedUpdate();
-	/// // stuff to do in the FixedUpdate context of the main thread
-	/// </code>
 	/// </summary>
 	public static Awaiter ToFixedUpdate() => fixedAwaiter;
 
@@ -124,24 +94,37 @@ public static class AsyncTools
 	}
 
 	/// <summary>
-	/// <code>
-	/// await 0.5f; // Wait for 0.5 seconds
-	/// await 0f; // If called from the main thread effectively means "wait until the next frame".
-	/// </code>
+	/// Waits for specified number of seconds or until next frame.
+	/// 
+	/// If the argument is zero or negative, and if called from the main thread from Update or LateUpdate context,
+	/// waits until next rendering frame.
+	/// 
+	/// If the argument is zero or negative, and if called from the main thread from FixedUpdate context,
+	/// waits until next physics frame.
 	/// </summary>
-	public static TaskAwaiter GetAwaiter(this float seconds)
+	/// <param name="seconds">If positive, number of seconds to wait</param>
+	public static Awaiter GetAwaiter(this float seconds)
 	{
-		seconds = Math.Max(seconds, .001f); // makes 'await 0f' an equivalent of Unity's 'yield return null'
-		return TaskEx.Delay((int)(seconds * 1000)).GetAwaiter();
+		var context = SynchronizationContext.Current as UnitySynchronizationContext;
+		if (seconds <= 0f && context != null)
+		{
+			return new ContextActivationAwaiter(context);
+		}
+
+		return new DelayAwaiter(seconds);
 	}
 
 	/// <summary>
-	/// <code>
-	/// await 10; // Wait for 10 seconds
-	/// await 0; // If called from the main thread effectively means "wait until the next frame".
-	/// </code>
+	/// Waits for specified number of seconds or until next frame.
+	/// 
+	/// If the argument is zero or negative, and if called from the main thread from Update or LateUpdate context,
+	/// waits until next rendering frame.
+	/// 
+	/// If the argument is zero or negative, and if called from the main thread from FixedUpdate context,
+	/// waits until next physics frame.
 	/// </summary>
-	public static TaskAwaiter GetAwaiter(this int seconds) => GetAwaiter((float)seconds);
+	/// <param name="seconds">If positive, number of seconds to wait</param>
+	public static Awaiter GetAwaiter(this int seconds) => GetAwaiter((float)seconds);
 
 	/// <summary>
 	/// Waits until all the tasks are completed.
@@ -163,20 +146,73 @@ public static class AsyncTools
 		return tcs.Task.GetAwaiter();
 	}
 
-	#region Context switching awaiter classes
+    /// <summary>
+    /// Waits for AsyncOperation completion
+    /// </summary>
+    public static AsyncTools.Awaiter GetAwaiter(this AsyncOperation asyncOp) => new AsyncOperationAwaiter(asyncOp);
 
-	public abstract class Awaiter : INotifyCompletion
+    #region Different awaiters
+
+    public abstract class Awaiter : INotifyCompletion
 	{
 		public abstract bool IsCompleted { get; }
-		public abstract void OnCompleted(Action continuation);
+		public abstract void OnCompleted(Action action);
 		public Awaiter GetAwaiter() => this;
 		public void GetResult() { }
 	}
 
-	private class DoNothingAwaiter : Awaiter
+	private class DelayAwaiter : Awaiter
 	{
-		public override bool IsCompleted => true;
-		public override void OnCompleted(Action action) => action();
+		private readonly SynchronizationContext context;
+		private readonly float seconds;
+
+		public DelayAwaiter(float seconds)
+		{
+			context = SynchronizationContext.Current;
+			this.seconds = seconds;
+		}
+
+		public override bool IsCompleted => (seconds <= 0f);
+
+		public override void OnCompleted(Action action)
+		{
+			TaskEx.Delay((int)(seconds * 1000)).ContinueWith(prevTask =>
+															 {
+																 if (context != null)
+																 {
+																	 context.Post(state => action(), null);
+																 }
+																 else
+																 {
+																	 action();
+																 }
+															 });
+		}
+	}
+
+	private class ContextActivationAwaiter : Awaiter
+	{
+		private readonly UnitySynchronizationContext context;
+		private Action continuation;
+
+		public ContextActivationAwaiter(UnitySynchronizationContext context)
+		{
+			this.context = context;
+		}
+
+		public override bool IsCompleted => false;
+
+		public override void OnCompleted(Action action)
+		{
+			continuation = action;
+			context.Activated += ContextActivationEventHandler;
+		}
+
+		private void ContextActivationEventHandler(object sender, EventArgs eventArgs)
+		{
+			context.Activated -= ContextActivationEventHandler;
+			context.Post(state => continuation(), null);
+		}
 	}
 
 	private class SynchronizationContextAwaiter : Awaiter
@@ -188,7 +224,8 @@ public static class AsyncTools
 			this.context = context;
 		}
 
-		public override bool IsCompleted => false;
+		public override bool IsCompleted => (SynchronizationContext.Current == context);
+
 		public override void OnCompleted(Action action) => context.Post(state => action(), null);
 	}
 
@@ -198,5 +235,30 @@ public static class AsyncTools
 		public override void OnCompleted(Action action) => ThreadPool.QueueUserWorkItem(state => action(), null);
 	}
 
-	#endregion
+    private class AsyncOperationAwaiter : AsyncTools.Awaiter
+    {
+        private readonly AsyncOperation asyncOp;
+        public AsyncOperationAwaiter(AsyncOperation asyncOp)
+        {
+            this.asyncOp = asyncOp;
+        }
+
+        public override bool IsCompleted => asyncOp.isDone;
+        public override void OnCompleted(Action action)
+        {
+            Task.Factory.StartNew(async () =>
+            {
+                while (asyncOp.isDone == false)
+                {
+                    await 0;
+                }
+                action();
+            },
+                CancellationToken.None,
+                TaskCreationOptions.None,
+                UnityScheduler.UpdateScheduler);
+        }
+    }
+
+    #endregion
 }
