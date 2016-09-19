@@ -79,11 +79,12 @@ namespace Assets.Script.GamePlay.Participators
 			heroController.TapEvent += TapPressed;
 			heroController.SwipeUpEvent += SwipeUp;
 			heroController.SwipeDownEvent += SwipeDown;
-			heroController.SwipeRightEvent += ActivateSkill;
+			//heroController.SwipeRightEvent += ActivateSkill;
 		}
 
-		private void ActivateSkill()
+		public  void ActivateSkill()
 		{
+		    Debug.Log($"Activate Skill"); 
 			if (Skill != null && CanMove()) Skill.ActivateSkill(GameManager.Instance.Skill, this, MyAnimator);
 		}
 

@@ -69,6 +69,7 @@ namespace Assets.Script.GamePlay.VisualEffects
             ht.Add("easetype", ITween.EaseType.easeOutCubic);
             ht.Add("oncomplete", "AnimationEnd");
             ITween.ValueTo(gameObject, ht);
+
         }
 
 	    public void ButtonAnimation(float newValue)
@@ -130,7 +131,11 @@ namespace Assets.Script.GamePlay.VisualEffects
         {
             _aniamationsDone++;
             if (_aniamationsDone == 3)
+            { 
                 AnimationDone?.Invoke();
+                gameObject.SetActive(false);
+            }
+
         }
 
 	    public void AnimationStarter()

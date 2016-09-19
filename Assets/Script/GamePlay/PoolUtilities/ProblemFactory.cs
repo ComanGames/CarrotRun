@@ -51,6 +51,15 @@ namespace Assets.Script.GamePlay.PoolUtilities
             {
                 newBlock.GetComponentInChildren<SpriteRenderer>().sortingOrder = index;
             }
+            if (problemBlock.TypeOfBlock == BlockType.FlyingProblem 
+                || problemBlock.TypeOfBlock == BlockType.Problem
+                ||problemBlock.TypeOfBlock == BlockType.Coin)
+            {
+                SAnimation.SAnimation sAnimation = newBlock.GetComponentInChildren<SAnimation.SAnimation>();
+                sAnimation?.StartAnimation();
+
+//                newBlock.GetComponentInChildren<SAnimation.SAnimation>().StartAnimation();
+            }
             newBlock.transform.localPosition = problemBlock.Position;
             return newBlock;
         }

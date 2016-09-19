@@ -19,10 +19,9 @@ namespace Assets.Script.GamePlay.Skills
 		protected override void SkillStart()
 		{
 			GameManager.IsSkillActive = true;
+            GameManager.Instance.EnableSkillBlur();
 			IsSkillActive = false;
 			_timeTimeScaleReal = Time.timeScale;
-			SkillBg.BgImage.enabled = true;
-			SkillBg.BgImage.color = new Color(SkillColor.r,SkillColor.g,SkillColor.b,0);
 			StartCoroutine(Frozing());
 		}
 
@@ -41,7 +40,7 @@ namespace Assets.Script.GamePlay.Skills
 
 		private void DisableSkillSettings()
 		{
-			SkillBg.BgImage.enabled = false;
+            GameManager.Instance.DisableSkillBlur();
 			GameManager.IsSkillActive = IsSkillActive = false;
 			Time.timeScale = _timeTimeScaleReal;
 			GameManager.Instance.UpdateSpeed();
