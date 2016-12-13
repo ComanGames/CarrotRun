@@ -4,6 +4,7 @@ using Assets.Script.GamePlay.Participators;
 using Assets.Script.GamePlay.Skills;
 using Assets.Script.SAnimation;
 using Assets.Script.SAnimation.Bakers;
+using Script.GamePlay.Participators;
 using UnityEngine;
 using UnityEngine.UI;
 

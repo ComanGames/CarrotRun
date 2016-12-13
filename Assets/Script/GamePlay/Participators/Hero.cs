@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections;
+using Assets.Script.GamePlay;
 using Assets.Script.GamePlay.Controller;
 using Assets.Script.GamePlay.Skills;
 using Assets.Script.SAnimation;
 using UnityEngine;
 
-namespace Assets.Script.GamePlay.Participators
+namespace Script.GamePlay.Participators
 {
 	[Serializable]
 	public class HeroSounds
@@ -52,11 +53,9 @@ namespace Assets.Script.GamePlay.Participators
 		private PolygonCollider2D _slideCollide;
 		private Vector2 _lastBodyVelocity;
 		private bool _slideAfterGrounded;
-
 		#endregion
 
 		#region Methods
-
 		public void SetHero()
 		{
 			_isFrozen = false;
@@ -111,16 +110,15 @@ namespace Assets.Script.GamePlay.Participators
 
 	    private bool IsBlockAbove()
 	    {
-	        bool isBlockAbove = false;
 	        Vector2 startPosition =  ((Vector2) transform.position) - new Vector2(((RaysCount-1)*RayDistance/2),0)+ RayOffset;
+	        int trueCount = 0;
 	        for (int i = 0; i < RaysCount; i++)
 	        {
 	            RaycastHit2D raycastHit = Physics2D.Raycast(startPosition + new Vector2(RayDistance*i,0), Vector2.up,RayDistance,BlockLayer);
-                Debug.DrawRay(startPosition+new Vector2(RayDistance*i,0),Vector2.up*RayDistance,Color.black,100);
-	            if (raycastHit.collider != null)
-	                isBlockAbove = true;
+                if(raycastHit.collider!=null)
+	                trueCount++;
 	        }
-	        return isBlockAbove;
+	        return trueCount>0;
 	    }
 
 	    private void DoSlideDown()

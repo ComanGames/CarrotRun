@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using Assets.Script.GamePlay.Participators;
 using Assets.Script.SAnimation;
+using Script.GamePlay.Participators;
 using UnityEngine;
 
 namespace Assets.Script.GamePlay.Skills

@@ -2,6 +2,7 @@
 using Assets.Script.GamePlay.Data_Containers;
 using Assets.Script.GamePlay.Participators;
 using Assets.Script.Menu.DataManagment;
+using Script.GamePlay.Participators;
 using UnityEngine;
 
 namespace Assets.Script.GamePlay
