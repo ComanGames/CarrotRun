@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Advertisements;
 
-namespace Assets.Script.DataManagment
+namespace Script.Menu.DataManagment
 {
     public class Ads : MonoBehaviour
     {
