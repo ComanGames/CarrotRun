@@ -83,7 +83,7 @@ namespace Script.GamePlay.Participators
 
 		private void ActivateSkill()
 		{
-			if (Skill != null && CanMove()) Skill.ActivateSkill(GameManager.Instance.Skill, this, MyAnimator);
+			if (Skill != null && CanMove()) Skill.ActivateSkill((int)GameManager.Instance.Skill+1, this, MyAnimator);
 		}
 
 		private void SwipeDown()

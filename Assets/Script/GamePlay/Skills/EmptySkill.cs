@@ -10,7 +10,7 @@ namespace Assets.Script.GamePlay.Skills
 		public bool IsActive => false;
 		public int SkillValue { get; }
 
-		public bool ActivateSkill(float power, Hero hero, SHeroAnimator heroAnimator)
+		public bool ActivateSkill(int power, Hero hero, SHeroAnimator heroAnimator)
 		{
 			Debug.Log("We ActivateSkill");
 			return false;

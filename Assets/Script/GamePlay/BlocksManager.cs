@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Assets.Script.GamePlay.Data_Containers;
 using Assets.Script.GamePlay.PoolUtilities;
 using Assets.Script.ObjectPool;
+using Script.GamePlay.PoolUtilities;
 using UnityEngine;
 using Random = System.Random;
 
@@ -137,12 +138,24 @@ namespace Assets.Script.GamePlay
 			foreach (ProblemContainer o in _movableProblems)
 			{
 				o.transform.Translate(_nextPosition * Time.deltaTime);
-				if (o.transform.position.x < EndPosition.position.x)
-				{
-				    ProblemFactoryInstance.DestroyProblem(o.transform);
-					toRemove.Add(o);
-				}
-			}
+			    if (o.Last != null)
+			    {
+			        if (o.Last.position.x < EndPosition.position.x)
+			        {
+			            ProblemFactoryInstance.DestroyProblem(o.transform);
+			            toRemove.Add(o);
+			        }
+                }
+			    else
+			    {
+                    if (o.transform.position.x < EndPosition.position.x)
+                    {
+                        ProblemFactoryInstance.DestroyProblem(o.transform);
+                        toRemove.Add(o);
+                    }
+
+                }
+            }
             //Removing from the linked list
 			foreach (var o in toRemove)
 			    _movableProblems.Remove(o);
@@ -209,7 +222,8 @@ namespace Assets.Script.GamePlay
 
 		public void RemoveCoin(GameObject item)
 		{
-			item.SetActive(false);
+//			item.SetActive(false);
+            item.transform.parent.gameObject.Recycle();
 		}
 
 		public void Reset()
