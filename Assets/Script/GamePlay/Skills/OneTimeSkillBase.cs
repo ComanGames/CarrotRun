@@ -19,7 +19,7 @@ namespace Assets.Script.GamePlay.Skills
 		{
 		}
 
-		public bool ActivateSkill(float power, Hero hero, SHeroAnimator heroAnimator)
+		public bool ActivateSkill(int power, Hero hero, SHeroAnimator heroAnimator)
 		{
 			if(power>=SkillValue)
 			{

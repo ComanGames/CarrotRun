@@ -138,12 +138,24 @@ namespace Assets.Script.GamePlay
 			foreach (ProblemContainer o in _movableProblems)
 			{
 				o.transform.Translate(_nextPosition * Time.deltaTime);
-				if (o.transform.position.x < EndPosition.position.x)
-				{
-				    ProblemFactoryInstance.DestroyProblem(o.transform);
-					toRemove.Add(o);
-				}
-			}
+			    if (o.Last != null)
+			    {
+			        if (o.Last.position.x < EndPosition.position.x)
+			        {
+			            ProblemFactoryInstance.DestroyProblem(o.transform);
+			            toRemove.Add(o);
+			        }
+                }
+			    else
+			    {
+                    if (o.transform.position.x < EndPosition.position.x)
+                    {
+                        ProblemFactoryInstance.DestroyProblem(o.transform);
+                        toRemove.Add(o);
+                    }
+
+                }
+            }
             //Removing from the linked list
 			foreach (var o in toRemove)
 			    _movableProblems.Remove(o);

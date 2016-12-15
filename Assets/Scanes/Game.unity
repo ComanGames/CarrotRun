@@ -1906,6 +1906,10 @@ MonoBehaviour:
       - {fileID: 11400000, guid: c2f9839cc228d1447bc74a6b4e397283, type: 2}
     - Items:
       - {fileID: 11400000, guid: 23d4005001a99f442b6d96ba78ac7b0b, type: 2}
+    - Items:
+      - {fileID: 11400000, guid: 135151efefc36754abcc2c8e6c79dd4d, type: 2}
+    - Items:
+      - {fileID: 11400000, guid: eac955bb43d69cc40813298589ac5f01, type: 2}
     N: 0
   MaxOrderValue: 10000
   Speed: 1
@@ -7990,6 +7994,14 @@ Prefab:
     - target: {fileID: 432358, guid: 93e7c3f1510b1924db14894aff44297e, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852006, guid: 93e7c3f1510b1924db14894aff44297e, type: 2}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852006, guid: 93e7c3f1510b1924db14894aff44297e, type: 2}
+      propertyPath: m_Offset.y
+      value: 0.02
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11432156, guid: 93e7c3f1510b1924db14894aff44297e, type: 2}
