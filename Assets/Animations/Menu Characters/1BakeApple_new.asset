@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b3ca217d50014743878c15f768e1462, type: 3}
-  m_Name: 1BakeApple
+  m_Name: 1BakeApple_new
   m_EditorClassIdentifier: 
   Sprites:
   - {fileID: 21300000, guid: 166a1e79cb6aee54ea77411e4511356c, type: 3}
