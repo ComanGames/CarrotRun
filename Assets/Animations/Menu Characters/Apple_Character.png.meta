@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 09f2775099e9dd146887911613a17678
+timeCreated: 1481808536
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Apple_Character_0
+    21300002: Apple_Character_1
+    21300004: Apple_Character_2
+    21300006: Apple_Character_3
+    21300008: Apple_Character_4
+    21300010: Apple_Character_5
+    21300012: Apple_Character_6
+    21300014: Apple_Character_7
+    21300016: Apple_Character_8
+    21300018: Apple_Character_9
+    21300020: Apple_Character_10
+    21300022: Apple_Character_11
+    21300024: Apple_Character_12
+    21300026: Apple_Character_13
+    21300028: Apple_Character_14
+    21300030: Apple_Character_15
+    21300032: Apple_Character_16
+    21300034: Apple_Character_17
+    21300036: Apple_Character_18
+    21300038: Apple_Character_19
+    21300040: Apple_Character_20
+    21300042: Apple_Character_21
+    21300044: Apple_Character_22
+    21300046: Apple_Character_23
+    21300048: Apple_Character_24
+    21300050: Apple_Character_25
+    21300052: Apple_Character_26
+    21300054: Apple_Character_27
+    21300056: Apple_Character_28
+    21300058: Apple_Character_29
+    21300060: Apple_Character_30
+    21300062: Apple_Character_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 75
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Apple_Character_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 900
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 900
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 900
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 900
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 900
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_6
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 900
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 675
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 675
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 675
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 675
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_11
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 675
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_12
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 675
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_13
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 675
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_15
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 450
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_16
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 450
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 450
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_18
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 450
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_19
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 450
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_20
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 450
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_22
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 225
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_23
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 225
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_24
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 225
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_25
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 225
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_26
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 225
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_27
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 225
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_29
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_30
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Apple_Character_31
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

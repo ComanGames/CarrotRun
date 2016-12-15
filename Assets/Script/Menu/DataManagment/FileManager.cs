@@ -5,10 +5,11 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading;
 using Assets.Script.DataManagment;
 using Assets.Script.GamePlay.Data_Containers;
+using Assets.Script.Menu.DataManagment;
 using UniRx;
 using UnityEngine;
 
-namespace Assets.Script.Menu.DataManagment
+namespace Script.Menu.DataManagment
 {
 	[Serializable]
 	public struct SoundSettings
@@ -29,7 +30,8 @@ namespace Assets.Script.Menu.DataManagment
 		{
 			GameSoundSettings = new SoundSettings(0.75f,0.9f);
 			CurrentCharacter = Characters.Carrot;
-			_realCoins = 1500;
+            //todo: fix this on realize
+			_realCoins = 15000;
 			CurrentName = "Player";
 		}
 		public string CurrentName;
@@ -57,7 +59,7 @@ namespace Assets.Script.Menu.DataManagment
 
 	    public static void SaveScore()
 	    {
-		    Observable.Start(SaveScoreProccess);
+		    Observable.Start(SaveScoreProcess);
 		}
 
 	    public static void SaveGameRecord()
@@ -65,7 +67,7 @@ namespace Assets.Script.Menu.DataManagment
 		    Observable.Start(SaveGameRecordProccess);
 	    }
 
-	    private static void SaveScoreProccess()
+	    private static void SaveScoreProcess()
 	    {
 		    string scoreFilePath = _dataPath + "/" + ScoreFile;
 		    //now start saving
@@ -81,7 +83,7 @@ namespace Assets.Script.Menu.DataManagment
 			    catch (Exception)
 			    {
 				    Thread.Sleep(100);
-					SaveScoreProccess();
+					SaveScoreProcess();
 				    return;
 			    }
 		    }
@@ -106,7 +108,7 @@ namespace Assets.Script.Menu.DataManagment
 				catch (Exception)
 				{
 					Thread.Sleep(100);
-					SaveScoreProccess();
+					SaveScoreProcess();
 					return;
 				}
 			}
