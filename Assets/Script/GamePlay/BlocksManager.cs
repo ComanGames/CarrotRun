@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Assets.Script.GamePlay.Data_Containers;
 using Assets.Script.GamePlay.PoolUtilities;
 using Assets.Script.ObjectPool;
+using Script.GamePlay.PoolUtilities;
 using UnityEngine;
 using Random = System.Random;
 
@@ -209,7 +210,8 @@ namespace Assets.Script.GamePlay
 
 		public void RemoveCoin(GameObject item)
 		{
-			item.SetActive(false);
+//			item.SetActive(false);
+            item.transform.parent.gameObject.Recycle();
 		}
 
 		public void Reset()

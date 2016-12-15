@@ -36,6 +36,8 @@ namespace Assets.Script.GamePlay.PoolUtilities
                     return BlockType.FlyingGround;
                 case "Back Ground Problem":
                     return BlockType.BackGroundProblem;
+                default:
+                   return BlockType.Empty;
             } 
             throw new Exception("Undefined Block Type");
         }

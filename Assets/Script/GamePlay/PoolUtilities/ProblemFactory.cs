@@ -1,19 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using Assets.Script.GamePlay;
+using Assets.Script.GamePlay.PoolUtilities;
 using Assets.Script.ObjectPool.Scripts;
 using UnityEngine;
 
-namespace Assets.Script.GamePlay.PoolUtilities
+namespace Script.GamePlay.PoolUtilities
 {
     public class ProblemFactory : MonoBehaviour
     {
-        public ObjectPool.Scripts.ObjectPool Pool;
+        public Assets.Script.ObjectPool.Scripts.ObjectPool Pool;
         public GameObject Coin;
         public GameObject Problem;
         public GameObject FlyingProblem;
         public GameObject FlyingGround;
         public GameObject BackGroundProblem;
         public GameObject ProblemContiner;
+        public GameObject Empty;
+       
         //private variables
         public ProblemContainer CreateProblem(ProblemInfo problemInfo)
         {
@@ -69,6 +73,8 @@ namespace Assets.Script.GamePlay.PoolUtilities
                     return FlyingGround;
                     case BlockType.BackGroundProblem:
                     return BackGroundProblem;
+                    case BlockType.Empty:
+                    return Empty;
             }
             throw new ArgumentException();
         }
